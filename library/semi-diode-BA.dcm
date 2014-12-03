@@ -4,6 +4,10 @@ $CMP BAS16
 D Diode, 200mA, 75V
 $ENDCMP
 #
+$CMP BAS70H
+D Diode, Schottky, 70V, 70mA, 0.41VF
+$ENDCMP
+#
 $CMP BAT54
 D Diode, Schottky, 30V, 200mA
 $ENDCMP

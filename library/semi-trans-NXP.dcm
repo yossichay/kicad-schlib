@@ -4,12 +4,60 @@ $CMP 2N7002PW
 D MOSFET, N-enh, 60V, 310mA
 $ENDCMP
 #
+$CMP BFQ149
+D BJT, PNP 5GHz 15V 100mA 1W
+$ENDCMP
+#
+$CMP BFQ19
+D BJT, NPN 5GHz 15V 100mA 1W hFE > 25
+$ENDCMP
+#
+$CMP BFR540
+D NPN 9 GHz wideband transistor
+$ENDCMP
+#
+$CMP BFR92AW
+D NPN 5 GHz wideband transistor
+$ENDCMP
+#
+$CMP BFS17W
+D BJT, NPN 1GHz 15V 50mA 300mW
+$ENDCMP
+#
+$CMP BFT92W
+D PNP 4 GHz wideband transistor
+$ENDCMP
+#
+$CMP BUK98180-100A
+D MOSFET, N-enh, 100V 4.6A logic level
+$ENDCMP
+#
+$CMP PMP4201G
+D NPN, matched, CE, 45V, 100mA
+$ENDCMP
+#
+$CMP PMP4201Y
+D NPN, matched, 45V, 100mA
+$ENDCMP
+#
+$CMP PMP5201G
+D PNP, matched, CE, -45V, -100mA
+$ENDCMP
+#
+$CMP PMP5201Y
+D PNP, matched, -45V, -100mA
+$ENDCMP
+#
 $CMP PMSS3904
 D NPN amplifier, 100mA, 40V, 200mW
 $ENDCMP
 #
 $CMP PMSS3906
 D PNP amplifier, -100mA, -40V, 200mW
+$ENDCMP
+#
+$CMP PMV160UP
+D MOSFET, P-enh -20V, -1.2A, Rds approx 200m
 $ENDCMP
 #
 #End Doc Library

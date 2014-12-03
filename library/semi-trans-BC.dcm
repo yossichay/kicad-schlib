@@ -108,4 +108,16 @@ $CMP BF545C
 D NJF RF amplifier, 30V, 12-25mA, -0.4--7.8Voff
 $ENDCMP
 #
+$CMP BSS138
+D MOSFET, N-enh 60V, 20Vgs, 360mA, Rds approx 1
+$ENDCMP
+#
+$CMP BSS83
+D MOSFET, four pin N-enh 10V, 50mA, Rds approx 45
+$ENDCMP
+#
+$CMP BSS84
+D MOSFET, P-enh
+$ENDCMP
+#
 #End Doc Library
