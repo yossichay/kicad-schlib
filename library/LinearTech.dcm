@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1013DS8
+D Dual precision op amp, SOIC-8
+$ENDCMP
+#
+$CMP LT1395CS5
+D Single 400MHz CFA
+$ENDCMP
+#
+$CMP LT1931AES5
+D Inverting DC/DC, 2.2 MHz, TSOT-23-5
+$ENDCMP
+#
+$CMP LT1931ES5
+D Inverting DC/DC, 1.2 MHz, TSOT-23-5
+$ENDCMP
+#
+$CMP LT3514EUFD
+D Triple buck regulator, 2A/1A/1A, 0.35-2.2MHz, QFN-29
+$ENDCMP
+#
+$CMP LTC2053CDD
+D Switched-capacitor instrumentation amplifier, DFN-8
+$ENDCMP
+#
+$CMP LTC2053CMS8
+D Switched-capacitor instrumentation amplifier, MSOP-8
+$ENDCMP
+#
+$CMP LTC2492CDE
+D 24-bit 4ch/2diff delta-sigma ADC
+$ENDCMP
+#
+$CMP LTC6652AHLS8
+D Low-drift low-noise reference, ceramic LCC-8
+$ENDCMP
+#
+$CMP LTC6652BHLS8
+D Low-drift low-noise reference, ceramic LCC-8
+$ENDCMP
+#
+#End Doc Library
