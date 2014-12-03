@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PZT2222A
+D NPN switch, 600mA, 40V, 1W
+$ENDCMP
+#
+$CMP PZT2907A
+D PNP switch, -600mA, -40V, 1W
+$ENDCMP
+#
+$CMP PZT3904
+D NPN amplifier, 200mA, 40V, 1W
+$ENDCMP
+#
+$CMP PZT3906
+D PNP amplifier, -200mA, -40V, 1W
+$ENDCMP
+#
+$CMP PZTA42
+D NPN amplifier, 100mA, 300V, 1W
+$ENDCMP
+#
+$CMP PZTA92
+D PNP amplifier, -100mA, -300V, 1W
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMMT3904W
+D NPN, matched, 40V, 200mA, 200mW
+$ENDCMP
+#
+$CMP DMMT3906W
+D PNP, matched, -40V, -200mA, 200mW
+$ENDCMP
+#
+#End Doc Library

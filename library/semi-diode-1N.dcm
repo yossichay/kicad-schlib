@@ -1,0 +1,99 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N4001
+D Diode, 1A, 50V
+$ENDCMP
+#
+$CMP 1N4002
+D Diode, 1A, 100V
+$ENDCMP
+#
+$CMP 1N4003
+D Diode, 1A, 200V
+$ENDCMP
+#
+$CMP 1N4004
+D Diode, 1A, 400V
+$ENDCMP
+#
+$CMP 1N4005
+D Diode, 1A, 600V
+$ENDCMP
+#
+$CMP 1N4006
+D Diode, 1A, 800V
+$ENDCMP
+#
+$CMP 1N4007
+D Diode, 1A, 1kV
+$ENDCMP
+#
+$CMP 1N4148
+D Diode, 150mA, 75V, 4ns
+$ENDCMP
+#
+$CMP 1N4448
+D Diode, 150mA, 75V, 4ns, leakage < 3uA
+$ENDCMP
+#
+$CMP 1N52XXB
+D Diode, Zener, 500mW, 20mA, 1N5221B-1N5263B
+$ENDCMP
+#
+$CMP 1N5400
+D Diode, 3A, 50V
+$ENDCMP
+#
+$CMP 1N5401
+D Diode, 3A, 100V
+$ENDCMP
+#
+$CMP 1N5402
+D Diode, 3A, 200V
+$ENDCMP
+#
+$CMP 1N5404
+D Diode, 3A, 400V
+$ENDCMP
+#
+$CMP 1N5406
+D Diode, 3A, 600V
+$ENDCMP
+#
+$CMP 1N5407
+D Diode, 3A, 800V
+$ENDCMP
+#
+$CMP 1N5408
+D Diode, 3A, 1kV
+$ENDCMP
+#
+$CMP 1N5817
+D Diode, Schottky, 1A, 20V
+$ENDCMP
+#
+$CMP 1N5818
+D Diode, Schottky, 1A, 30V
+$ENDCMP
+#
+$CMP 1N5819
+D Diode, Schottky, 1A, 40V
+$ENDCMP
+#
+$CMP 1N5820
+D Diode, Schottky, 3A, 20V
+$ENDCMP
+#
+$CMP 1N5821
+D Diode, Schottky, 3A, 30V
+$ENDCMP
+#
+$CMP 1N5822
+D Diode, Schottky, 3A, 40V
+$ENDCMP
+#
+$CMP 1N914
+D Diode, 150mA, 75V, 4ns
+$ENDCMP
+#
+#End Doc Library

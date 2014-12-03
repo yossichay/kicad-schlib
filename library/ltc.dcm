@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1013-SOIC
+D Dual precision operational amplifier
+$ENDCMP
+#
+$CMP LT1395
+F mod_pdf/SOT-23-5.pdf
+$ENDCMP
+#
+$CMP LT1931AES5
+F mod_pdf/SOT-23-5.pdf
+$ENDCMP
+#
+$CMP LTC2053
+F mod_pdf/SOT-23-5.pdf
+$ENDCMP
+#
+#End Doc Library

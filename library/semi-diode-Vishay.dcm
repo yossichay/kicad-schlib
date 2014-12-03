@@ -1,0 +1,71 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP S1A
+D Diode, 1A, 50V
+$ENDCMP
+#
+$CMP S1B
+D Diode, 1A, 100V
+$ENDCMP
+#
+$CMP S1D
+D Diode, 1A, 200V
+$ENDCMP
+#
+$CMP S1G
+D Diode, 1A, 400V
+$ENDCMP
+#
+$CMP S1J
+D Diode, 1A, 600V
+$ENDCMP
+#
+$CMP S1K
+D Diode, 1A, 800V
+$ENDCMP
+#
+$CMP S1M
+D Diode, 1A, 1kV
+$ENDCMP
+#
+$CMP SS12
+D Diode, Schottky, 1A, 20V
+$ENDCMP
+#
+$CMP SS13
+D Diode, Schottky, 1A, 30V
+$ENDCMP
+#
+$CMP SS14
+D Diode, Schottky, 1A, 40V
+$ENDCMP
+#
+$CMP SS15
+D Diode, Schottky, 1A, 50V
+$ENDCMP
+#
+$CMP SS16
+D Diode, Schottky, 1A, 60V
+$ENDCMP
+#
+$CMP SS32
+D Diode, Schottky, 3A, 20V
+$ENDCMP
+#
+$CMP SS33
+D Diode, Schottky, 3A, 30V
+$ENDCMP
+#
+$CMP SS34
+D Diode, Schottky, 3A, 40V
+$ENDCMP
+#
+$CMP SS35
+D Diode, Schottky, 3A, 50V
+$ENDCMP
+#
+$CMP SS36
+D Diode, Schottky, 3A, 60V
+$ENDCMP
+#
+#End Doc Library

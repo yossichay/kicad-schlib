@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AO4441
+D MOSFET, P-enh, -4A, -60V, Rds ~130m
+$ENDCMP
+#
+#End Doc Library

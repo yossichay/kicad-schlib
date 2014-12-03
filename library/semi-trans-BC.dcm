@@ -1,0 +1,111 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC546
+D NPN amplifier, 65V, 100mA, 625mW
+$ENDCMP
+#
+$CMP BC547
+D NPN amplifier, 45V, 100mA, 625mW
+$ENDCMP
+#
+$CMP BC548
+D NPN amplifier, 30V, 100mA, 625mW
+$ENDCMP
+#
+$CMP BC549
+D NPN amplifier, 30V, 100mA, 625mW, lower noise
+$ENDCMP
+#
+$CMP BC550
+D NPN amplifier, 45V, 100mA, 625mW, lower noise
+$ENDCMP
+#
+$CMP BC556
+D PNP amplifier, -65V, -100mA, 625mW
+$ENDCMP
+#
+$CMP BC557
+D PNP amplifier, -45V, -100mA, 625mW
+$ENDCMP
+#
+$CMP BC558
+D PNP amplifier, -30V, -100mA, 625mW
+$ENDCMP
+#
+$CMP BC559
+D PNP amplifier, -30V, -100mA, 625mW, lower noise
+$ENDCMP
+#
+$CMP BC560
+D PNP amplifier, -45V, -100mA, 625mW, lower noise
+$ENDCMP
+#
+$CMP BC846
+D NPN amplifier, 65V, 100mA, 310mW
+$ENDCMP
+#
+$CMP BC847
+D NPN amplifier, 45V, 100mA, 310mW
+$ENDCMP
+#
+$CMP BC848
+D NPN amplifier, 30V, 100mA, 310mW
+$ENDCMP
+#
+$CMP BC849
+D NPN amplifier, 30V, 100mA, 310mW, lower noise
+$ENDCMP
+#
+$CMP BC850
+D NPN amplifier, 45V, 100mA, 310mW, lower noise
+$ENDCMP
+#
+$CMP BC856
+D PNP amplifier, -65V, -100mA, 250mW
+$ENDCMP
+#
+$CMP BC857
+D PNP amplifier, -45V, -100mA, 250mW
+$ENDCMP
+#
+$CMP BC858
+D PNP amplifier, -30V, -100mA, 250mW
+$ENDCMP
+#
+$CMP BC859
+D PNP amplifier, -30V, -100mA, 250mW, lower noise
+$ENDCMP
+#
+$CMP BC860
+D PNP amplifier, -45V, -100mA, 250mW, lower noise
+$ENDCMP
+#
+$CMP BD135
+D NPN amplifier, 45V, 1.5A, 1.25W
+$ENDCMP
+#
+$CMP BD136
+D PNP amplifier, -45V, -1.5A, 1.25W
+$ENDCMP
+#
+$CMP BD139
+D NPN amplifier, 80V, 1.5A, 1.25W
+$ENDCMP
+#
+$CMP BD140
+D PNP amplifier, -80V, -1.5A, 1.25W
+$ENDCMP
+#
+$CMP BF545A
+D NJF RF amplifier, 30V, 2-6.5mA, -0.4--7.8Voff
+$ENDCMP
+#
+$CMP BF545B
+D NJF RF amplifier, 30V, 6-15mA, -0.4--7.8Voff
+$ENDCMP
+#
+$CMP BF545C
+D NJF RF amplifier, 30V, 12-25mA, -0.4--7.8Voff
+$ENDCMP
+#
+#End Doc Library

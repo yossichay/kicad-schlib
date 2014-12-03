@@ -1,0 +1,247 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD5024BRUZ
+D 12-bit quad SPI DAC, ±0.5 LSB INL, TSSOP-16
+$ENDCMP
+#
+$CMP AD5044BRUZ
+D 14-bit quad SPI DAC, ±1 LSB INL, TSSOP-16
+$ENDCMP
+#
+$CMP AD5064ARUZ-1
+D 16-bit quad SPI DAC, ±4 LSB INL, TSSOP-14
+$ENDCMP
+#
+$CMP AD5064BRUZ
+D 16-bit quad SPI DAC, ±1 LSB INL, TSSOP-16
+$ENDCMP
+#
+$CMP AD5064BRUZ-1
+D 16-bit quad SPI DAC, ±1 LSB INL, TSSOP-14
+$ENDCMP
+#
+$CMP AD5687RBRUZ
+D Dual 12-bit DAC, ±1 LSB INL, 2(typ)/5(max)ppm/C reference, TSSOP-16
+$ENDCMP
+#
+$CMP AD5689RARUZ
+D Dual 16-bit DAC, ±8 LSB INL, 5ppm/C reference, TSSOP-16
+$ENDCMP
+#
+$CMP AD5689RBRUZ
+D Dual 16-bit DAC, ±2 LSB INL, 2(typ)/5(max)ppm/C reference, TSSOP-16
+$ENDCMP
+#
+$CMP AD8000YRDZ
+D 1.5 GHz ultrahigh speed op amp, SOIC-8
+$ENDCMP
+#
+$CMP AD8429ARZ
+D Low noise instrumentation amplifier, SOIC-8
+$ENDCMP
+#
+$CMP AD8429BRZ
+D Low noise instrumentation amplifier, higher accuracy, SOIC-8
+$ENDCMP
+#
+$CMP AD8552AR
+D Dual AZ, RRIO op amp, SOIC-8
+$ENDCMP
+#
+$CMP AD8552ARU
+D Dual AZ, RRIO op amp, TSSOP-8
+$ENDCMP
+#
+$CMP AD8552ARUZ
+D Dual AZ, RRIO op amp, TSSOP-8
+$ENDCMP
+#
+$CMP AD8552ARZ
+D Dual AZ, RRIO op amp, SOIC-8
+$ENDCMP
+#
+$CMP AD8554ARUZ
+D Quad AZ, RRIO op amp, TSSOP-14
+$ENDCMP
+#
+$CMP AD8554ARZ
+D Quad AZ, RRIO op amp, SOIC-14
+$ENDCMP
+#
+$CMP AD8597ARZ
+D Single ultralow distortion, ultralow noise op amp, SOIC-8
+$ENDCMP
+#
+$CMP AD8599ARZ
+D Dual ultralow distortion, ultralow noise op amp, SOIC-8
+$ENDCMP
+#
+$CMP AD8601ARTZ
+D Single RRIO CMOS 8MHz op amp, lower Vos, SOT-23-5
+$ENDCMP
+#
+$CMP AD8602ARMZ
+D Dual RRIO CMOS 8MHz op amp, lower Vos, MSOP-8
+$ENDCMP
+#
+$CMP AD8602ARZ
+D Dual RRIO CMOS 8MHz op amp, lower Vos, SOIC-8
+K opamp
+$ENDCMP
+#
+$CMP AD8602DRMZ
+D Dual RRIO CMOS 8MHz op amp, MSOP-8
+$ENDCMP
+#
+$CMP AD8602DRZ
+D Dual RRIO CMOS 8MHz op amp, SOIC-8
+K opamp
+$ENDCMP
+#
+$CMP AD8604ARUZ
+D Quad RRIO CMOS 8MHz op amp, lower Vos, TSSOP-14
+K opamp
+$ENDCMP
+#
+$CMP AD8604ARZ
+D Quad RRIO CMOS 8MHz op amp, lower Vos, SOIC-14
+K opamp
+$ENDCMP
+#
+$CMP AD8604DRUZ
+D Quad RRIO CMOS 8MHz op amp, TSSOP-14
+K opamp
+$ENDCMP
+#
+$CMP AD8604DRZ
+D Quad RRIO CMOS 8MHz op amp, SOIC-14
+K opamp
+$ENDCMP
+#
+$CMP AD8663ARZ
+D Single low-noise, low-Vos, 16V CMOS RR op amp, SOIC-8
+$ENDCMP
+#
+$CMP AD8675ARMZ
+D Single 36V 75uVos low noise RRO op amp, MSOP-8
+$ENDCMP
+#
+$CMP AD8675ARZ
+D Single 36V 75uVos low noise RRO op amp, SOIC-8
+$ENDCMP
+#
+$CMP AD8676ARMZ
+D Dual 36V 12-250uVos low noise RRO op amp, MSOP-8
+K opamp
+$ENDCMP
+#
+$CMP AD8676ARZ
+D Dual 36V 12-250uVos low noise RRO op amp, SOIC-8
+K opamp
+$ENDCMP
+#
+$CMP AD8676BRMZ
+D Dual 36V 12-160uVos low noise RRO op amp, MSOP-8
+K opamp
+$ENDCMP
+#
+$CMP AD8676BRZ
+D Dual 36V 12-160uVos low noise RRO op amp, SOIC-8
+K opamp
+$ENDCMP
+#
+$CMP AD9958BCPZ
+D Dual 500MSPS 10-bit DDS
+$ENDCMP
+#
+$CMP ADA4004-1ARJZ
+D Single 36V low noise precision op amp, SOT-23-5
+$ENDCMP
+#
+$CMP ADA4857-2YCPZ
+D Dual low-{dist,power,noise} 750MHz 2800V/µs op amp, LFCSPWQ-16
+$ENDCMP
+#
+$CMP ADCMP604BKSZ
+D Very fast RRI LVDS comparator, SOT-23-6
+$ENDCMP
+#
+$CMP ADCMP605BCPZ
+D Very fast RRI LVDS comparator, LFCSPVQ-12
+$ENDCMP
+#
+$CMP ADP151AUJZ
+D LDO, ultra low-noise, 200mA, TSOT-5
+$ENDCMP
+#
+$CMP ADP170AUJZ
+D LDO, low-IQ, 300mA, TSOT-5
+$ENDCMP
+#
+$CMP ADP171AUJZ
+D LDO, low-IQ, 300mA, adjustable, TSOT-5
+$ENDCMP
+#
+$CMP ADR4520BRZ
+D Voltage reference, 2.048V, 2ppm/C, SOIC-8
+$ENDCMP
+#
+$CMP ADR4525ARZ
+D Voltage reference, 2.5V, 4ppm/C, SOIC-8
+$ENDCMP
+#
+$CMP ADR4525BRZ
+D Voltage reference, 2.5V, 2ppm/C, SOIC-8
+$ENDCMP
+#
+$CMP ADR4530ARZ
+D Voltage reference, 3.0V, 4ppm/C, SOIC-8
+$ENDCMP
+#
+$CMP ADR4530BRZ
+D Voltage reference, 3.0V, 2ppm/C, SOIC-8
+$ENDCMP
+#
+$CMP ADR4533ARZ
+D Voltage reference, 3.3V, 4ppm/C, SOIC-8
+$ENDCMP
+#
+$CMP ADR4533BRZ
+D Voltage reference, 3.3V, 2ppm/C, SOIC-8
+$ENDCMP
+#
+$CMP ADR4540ARZ
+D Voltage reference, 4.096V, 4ppm/C, SOIC-8
+$ENDCMP
+#
+$CMP ADR4540BRZ
+D Voltage reference, 4.096V, 2ppm/C, SOIC-8
+$ENDCMP
+#
+$CMP ADR4550ARZ
+D Voltage reference, 5.0V, 4ppm/C, SOIC-8
+$ENDCMP
+#
+$CMP ADR4550BRZ
+D Voltage reference, 5.0V, 2ppm/C, SOIC-8
+$ENDCMP
+#
+$CMP OP2177ARMZ
+D Dual precision low-{noise,IB} op amp, MSOP-8
+$ENDCMP
+#
+$CMP OP2177ARZ
+D Dual precision low-{noise,IB} op amp, SOIC-8
+$ENDCMP
+#
+$CMP OP4177ARUZ
+D Dual precision low-{noise,IB} op amp, TSSOP-14
+K opamp
+$ENDCMP
+#
+$CMP OP4177ARZ
+D Dual precision low-{noise,IB} op amp, SOIC-14
+K opamp
+$ENDCMP
+#
+#End Doc Library

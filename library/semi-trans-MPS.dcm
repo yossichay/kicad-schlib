@@ -1,0 +1,31 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPSA42
+D NPN amplifier, 500mA, 300V, 625mW
+$ENDCMP
+#
+$CMP MPSA43
+D NPN amplifier, 500mA, 200V, 625mW
+$ENDCMP
+#
+$CMP MPSA92
+D PNP amplifier, -500mA, -300V, 625mW
+$ENDCMP
+#
+$CMP MPSA93
+D PNP amplifier, -500mA, -200V, 625mW
+$ENDCMP
+#
+$CMP MPSH10
+D NPN amplifier, 50mA, 25V, 650MHz
+$ENDCMP
+#
+$CMP MPSH11
+D NPN amplifier, 50mA, 25V, 650MHz
+$ENDCMP
+#
+$CMP MPSH81
+D PNP amplifier, -50mA, -20V, 600MHz
+$ENDCMP
+#
+#End Doc Library

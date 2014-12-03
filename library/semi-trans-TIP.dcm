@@ -1,0 +1,83 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TIP120
+D NPN-D amplifier, 5A, 60V, 2-65W
+$ENDCMP
+#
+$CMP TIP121
+D NPN-D amplifier, 5A, 80V, 2-65W
+$ENDCMP
+#
+$CMP TIP122
+D NPN-D amplifier, 5A, 100V, 2-65W
+$ENDCMP
+#
+$CMP TIP125
+D PNP-D amplifier, -5A, -60V, 2-65W
+$ENDCMP
+#
+$CMP TIP126
+D PNP-D amplifier, -5A, -80V, 2-65W
+$ENDCMP
+#
+$CMP TIP127
+D PNP-D amplifier, -5A, -100V, 2-65W
+$ENDCMP
+#
+$CMP TIP140
+D NPN-D amplifier, 10A, 60V, 125W, with resistors and diode
+$ENDCMP
+#
+$CMP TIP141
+D NPN-D amplifier, 10A, 80V, 125W, with resistors and diode
+$ENDCMP
+#
+$CMP TIP142
+D NPN-D amplifier, 10A, 100V, 125W, with resistors and diode
+$ENDCMP
+#
+$CMP TIP145
+D PNP-D amplifier, -10A, -60V, 125W, with resistors and diode
+$ENDCMP
+#
+$CMP TIP146
+D PNP-D amplifier, -10A, -80V, 125W, with resistors and diode
+$ENDCMP
+#
+$CMP TIP147
+D PNP-D amplifier, -10A, -100V, 125W, with resistors and diode
+$ENDCMP
+#
+$CMP TIP31A
+D NPN amplifier, 3A, 60V, 40W
+$ENDCMP
+#
+$CMP TIP31C
+D NPN amplifier, 3A, 100V, 40W
+$ENDCMP
+#
+$CMP TIP35A
+D NPN amplifier, 25A, 60V, 125W
+$ENDCMP
+#
+$CMP TIP35B
+D NPN amplifier, 25A, 80V, 125W
+$ENDCMP
+#
+$CMP TIP35C
+D NPN amplifier, 25A, 100V, 125W
+$ENDCMP
+#
+$CMP TIP36A
+D PNP amplifier, -25A, -60V, 125mW
+$ENDCMP
+#
+$CMP TIP36B
+D PNP amplifier, -25A, -80V, 125mW
+$ENDCMP
+#
+$CMP TIP36C
+D PNP amplifier, -25A, -100V, 125mW
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MMBD4148
+D Diode, 200mA, 75V
+$ENDCMP
+#
+$CMP MMBD4148CA
+D Diode, dual CA, 200mA, 75V
+$ENDCMP
+#
+$CMP MMBD4148CC
+D Diode, dual CC, 200mA, 75V
+$ENDCMP
+#
+$CMP MMBD4148SE
+D Diode, dual series, 200mA, 75V
+$ENDCMP
+#
+$CMP MMBD914
+D Diode, 200mA, 75V
+$ENDCMP
+#
+$CMP MMSZ52XXB
+D Diode, Zener, 500mW, 20mA, MMSZN5226B-MMSZN5257B
+$ENDCMP
+#
+#End Doc Library

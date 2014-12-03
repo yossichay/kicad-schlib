@@ -1,0 +1,132 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BATTERY-LONG
+D Battery, many cells
+$ENDCMP
+#
+$CMP BATTERY-SHORT
+D Battery, few cells
+$ENDCMP
+#
+$CMP CMCHOKE
+D Inductor
+F mod_pdf/SMCHIP-*
+$ENDCMP
+#
+$CMP CRYSTAL
+D Crystal
+F mod_pdf/XTAL-*
+$ENDCMP
+#
+$CMP CRYSTALG
+D Crystal, grounded
+F mod_pdf/XTAL-G-*
+$ENDCMP
+#
+$CMP DELAY_MATCH
+D Matched delay line
+$ENDCMP
+#
+$CMP FUSE
+D Fuse
+F mod_pdf/F-*
+$ENDCMP
+#
+$CMP LAMP
+D Incandescent lamp
+F mod_pdf/NEON-*
+$ENDCMP
+#
+$CMP NEON
+D Neon lamp
+F mod_pdf/NEON-*
+$ENDCMP
+#
+$CMP POT
+D Resistor
+F mod_pdf/R-*
+$ENDCMP
+#
+$CMP POT-DUAL
+D Resistor
+F mod_pdf/R-*
+$ENDCMP
+#
+$CMP POT-TRIM
+D Resistor
+F mod_pdf/R-*
+$ENDCMP
+#
+$CMP RESNET8
+D Resistor
+F mod_pdf/R-*
+$ENDCMP
+#
+$CMP RESPAK4
+D Resistor network, four isolated
+F mod_pdf/RN-*
+$ENDCMP
+#
+$CMP RESPAK8
+D Resistor network, eight isolated
+F mod_pdf/RN-*
+$ENDCMP
+#
+$CMP RHEO
+D Resistor
+F mod_pdf/R-*
+$ENDCMP
+#
+$CMP THERM
+D Thermistor
+F mod_pdf/R-THERM-*
+$ENDCMP
+#
+$CMP THERMOCOUP
+D Thermocouple
+$ENDCMP
+#
+$CMP TRANS-2
+D Transformer
+F mod_pdf/TRANS-*
+$ENDCMP
+#
+$CMP TRANS-2CT
+D Transformer
+F mod_pdf/TRANS-*
+$ENDCMP
+#
+$CMP TRANS-3
+D Transformer
+F mod_pdf/TRANS-*
+$ENDCMP
+#
+$CMP TRANS-3-1CT
+D Transformer
+F mod_pdf/TRANS-*
+$ENDCMP
+#
+$CMP TRANS-4
+D Transformer
+F mod_pdf/TRANS-*
+$ENDCMP
+#
+$CMP TWISTEDPAIR
+D Twisted pair
+$ENDCMP
+#
+$CMP TWISTEDPAIR_SHIELDED
+D Twisted pair
+$ENDCMP
+#
+$CMP XTAL
+D Crystal
+F mod_pdf/XTAL-*
+$ENDCMP
+#
+$CMP XTALG
+D Crystal, grounded
+F mod_pdf/XTAL-G-*
+$ENDCMP
+#
+#End Doc Library

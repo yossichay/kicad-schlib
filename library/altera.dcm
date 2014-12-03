@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EPM3032A-PLCC
+D 32-512MC CPLD
+F mod_pdf/PLCC127P1752X1752X368-44*
+$ENDCMP
+#
+#End Doc Library

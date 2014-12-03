@@ -1,0 +1,88 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3WSENSOR
+D Three-wire analog sensor
+$ENDCMP
+#
+$CMP COMP_QUAD
+D Quad operational amplifier
+F mod_pdf/DIL-14.pdf
+$ENDCMP
+#
+$CMP OA_DUAL
+D Dual operational amplifier
+F mod_pdf/SO-8.pdf
+$ENDCMP
+#
+$CMP OA_QUAD
+D Quad operational amplifier
+F mod_pdf/DIL-14.pdf
+$ENDCMP
+#
+$CMP OA_SINGLE
+D Single operational amplifier
+F mod_pdf/DIP-8.pdf
+$ENDCMP
+#
+$CMP OA_SINGLE_5P
+D Single five-pin operational amplifier (like SOT23-5)
+$ENDCMP
+#
+$CMP OA_SINGLE_5P_ALT
+D Single five-pin operational amplifier (like SOT23-5)
+$ENDCMP
+#
+$CMP OSC-4PIN
+D 4-pin oscillator module
+F mod_pdf/OSC-4PIN-*
+$ENDCMP
+#
+$CMP VREG_ADJ
+D Positive regulator, adjustable
+F mod_pdf/TO-220.pdf
+$ENDCMP
+#
+$CMP VREG_ADJ-2ADJ
+D Positive regulator, adjustable
+F mod_pdf/TO-220.pdf
+$ENDCMP
+#
+$CMP VREG_ADJ-2IN
+D Positive regulator, adjustable
+F mod_pdf/TO-220.pdf
+$ENDCMP
+#
+$CMP VREG_ADJ-2OUT
+D Positive regulator, adjustable
+F mod_pdf/TO-220.pdf
+$ENDCMP
+#
+$CMP VREG_FIXED
+D Positive regulator, fixed
+F mod_pdf/TO-220.pdf
+$ENDCMP
+#
+$CMP VREG_FIXED-2GND
+D Positive regulator, fixed
+F mod_pdf/TO-220.pdf
+$ENDCMP
+#
+$CMP VREG_FIXED-2IN
+D Positive regulator, fixed
+F mod_pdf/TO-220.pdf
+$ENDCMP
+#
+$CMP VREG_FIXED-2OUT
+D Positive regulator, fixed
+F mod_pdf/TO-220.pdf
+$ENDCMP
+#
+$CMP ZENERISH
+D Zener-like chip
+$ENDCMP
+#
+$CMP ZENERISH_ADJ
+D Zener-like, programmable
+$ENDCMP
+#
+#End Doc Library

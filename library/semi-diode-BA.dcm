@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAS16
+D Diode, 200mA, 75V
+$ENDCMP
+#
+$CMP BAT54
+D Diode, Schottky, 30V, 200mA
+$ENDCMP
+#
+$CMP BAT54A
+D Diode, Schottky, 30V, 200mA, dual common anode
+$ENDCMP
+#
+$CMP BAT54C
+D Diode, Schottky, 30V, 200mA, dual common cathode
+$ENDCMP
+#
+$CMP BAT54S
+D Diode, Schottky, 30V, 200mA, dual series
+$ENDCMP
+#
+$CMP BAT85S
+D Diode, Schottky, 200mA, 30V
+$ENDCMP
+#
+$CMP BAV199
+D Diode, 75V, 140mA, low leakage, dual series
+$ENDCMP
+#
+$CMP BZX79
+D Diode, Zener, 500mW, 5mA, 2.4-56V
+$ENDCMP
+#
+$CMP BZX84
+D Diode, Zener, 250mW, 5mA, 4.7-36V
+$ENDCMP
+#
+$CMP BZX85
+D Diode, Zener, 1.3W, 2.7-100V
+$ENDCMP
+#
+#End Doc Library

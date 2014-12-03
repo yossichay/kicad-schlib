@@ -1,0 +1,239 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BARREL
+D Barrel jack
+$ENDCMP
+#
+$CMP COAX
+D Coaxial connector
+F mod_pdf/COAX-*
+$ENDCMP
+#
+$CMP CONN-IEC-C14
+D IEC C14 mains inlet
+F mod_pdf/CONN-IEC-C14.pdf
+$ENDCMP
+#
+$CMP HEAD-AVR-ICSP
+F mod_pdf/HEAD-3X2.pdf
+$ENDCMP
+#
+$CMP HEAD-F1
+F mod_pdf/HEAD-1.pdf
+$ENDCMP
+#
+$CMP HEAD-F10
+F mod_pdf/HEAD-10.pdf
+$ENDCMP
+#
+$CMP HEAD-F10X2
+F mod_pdf/HEAD-10X2.pdf
+$ENDCMP
+#
+$CMP HEAD-F11X2
+F mod_pdf/HEAD-10X2.pdf
+$ENDCMP
+#
+$CMP HEAD-F12X2
+F mod_pdf/HEAD-10X2.pdf
+$ENDCMP
+#
+$CMP HEAD-F14
+F mod_pdf/HEAD-7.pdf
+$ENDCMP
+#
+$CMP HEAD-F2
+F mod_pdf/HEAD-2.pdf
+$ENDCMP
+#
+$CMP HEAD-F2X2
+F mod_pdf/HEAD-2X2.pdf
+$ENDCMP
+#
+$CMP HEAD-F3
+F mod_pdf/HEAD-3.pdf
+$ENDCMP
+#
+$CMP HEAD-F3X2
+F mod_pdf/HEAD-3X2.pdf
+$ENDCMP
+#
+$CMP HEAD-F4
+F mod_pdf/HEAD-4.pdf
+$ENDCMP
+#
+$CMP HEAD-F4X2
+F mod_pdf/HEAD-4X2.pdf
+$ENDCMP
+#
+$CMP HEAD-F5
+F mod_pdf/HEAD-5.pdf
+$ENDCMP
+#
+$CMP HEAD-F5X2
+F mod_pdf/HEAD-5X2.pdf
+$ENDCMP
+#
+$CMP HEAD-F6
+F mod_pdf/HEAD-6.pdf
+$ENDCMP
+#
+$CMP HEAD-F6X2
+F mod_pdf/HEAD-6X2.pdf
+$ENDCMP
+#
+$CMP HEAD-F7
+F mod_pdf/HEAD-7.pdf
+$ENDCMP
+#
+$CMP HEAD-F7X2
+F mod_pdf/HEAD-7X2.pdf
+$ENDCMP
+#
+$CMP HEAD-F8
+F mod_pdf/HEAD-8.pdf
+$ENDCMP
+#
+$CMP HEAD-F8X2
+F mod_pdf/HEAD-8X2.pdf
+$ENDCMP
+#
+$CMP HEAD-F9
+F mod_pdf/HEAD-9.pdf
+$ENDCMP
+#
+$CMP HEAD-F9X2
+F mod_pdf/HEAD-9X2.pdf
+$ENDCMP
+#
+$CMP HEAD-M1
+F mod_pdf/HEAD-1.pdf
+$ENDCMP
+#
+$CMP HEAD-M10
+F mod_pdf/HEAD-10.pdf
+$ENDCMP
+#
+$CMP HEAD-M10X2
+F mod_pdf/HEAD-M10X2.pdf
+$ENDCMP
+#
+$CMP HEAD-M11X2
+F mod_pdf/HEAD-M10X2.pdf
+$ENDCMP
+#
+$CMP HEAD-M12
+F mod_pdf/HEAD-M10X2.pdf
+$ENDCMP
+#
+$CMP HEAD-M12X2
+F mod_pdf/HEAD-M10X2.pdf
+$ENDCMP
+#
+$CMP HEAD-M13X2
+F mod_pdf/HEAD-M10X2.pdf
+$ENDCMP
+#
+$CMP HEAD-M14X2
+F mod_pdf/HEAD-M10X2.pdf
+$ENDCMP
+#
+$CMP HEAD-M18
+F mod_pdf/HEAD-9.pdf
+$ENDCMP
+#
+$CMP HEAD-M2
+F mod_pdf/HEAD-2.pdf
+$ENDCMP
+#
+$CMP HEAD-M2X2
+F mod_pdf/HEAD-2X2.pdf
+$ENDCMP
+#
+$CMP HEAD-M3
+F mod_pdf/HEAD-3.pdf
+$ENDCMP
+#
+$CMP HEAD-M3X2
+F mod_pdf/HEAD-3X2.pdf
+$ENDCMP
+#
+$CMP HEAD-M4
+F mod_pdf/HEAD-4.pdf
+$ENDCMP
+#
+$CMP HEAD-M4X2
+F mod_pdf/HEAD-4X2.pdf
+$ENDCMP
+#
+$CMP HEAD-M5
+F mod_pdf/HEAD-5.pdf
+$ENDCMP
+#
+$CMP HEAD-M5X2
+F mod_pdf/HEAD-5X2.pdf
+$ENDCMP
+#
+$CMP HEAD-M6
+F mod_pdf/HEAD-6.pdf
+$ENDCMP
+#
+$CMP HEAD-M6X2
+F mod_pdf/HEAD-6X2.pdf
+$ENDCMP
+#
+$CMP HEAD-M7
+F mod_pdf/HEAD-7.pdf
+$ENDCMP
+#
+$CMP HEAD-M7X2
+F mod_pdf/HEAD-7X2.pdf
+$ENDCMP
+#
+$CMP HEAD-M8
+F mod_pdf/HEAD-8.pdf
+$ENDCMP
+#
+$CMP HEAD-M8X2
+F mod_pdf/HEAD-8X2.pdf
+$ENDCMP
+#
+$CMP HEAD-M9
+F mod_pdf/HEAD-9.pdf
+$ENDCMP
+#
+$CMP HEAD-M9X2
+F mod_pdf/HEAD-6X2.pdf
+$ENDCMP
+#
+$CMP HEAD-PIC-ICSP
+F mod_pdf/HEAD-5.pdf
+$ENDCMP
+#
+$CMP PHONE-TRS
+D Tip/ring/sleeve connector
+$ENDCMP
+#
+$CMP PHONE-TRS-SWITCHED
+D Tip/ring/sleeve connector
+$ENDCMP
+#
+$CMP TAGCONNECT-TC2050
+F mod_pdf/HEAD-5X2.pdf
+$ENDCMP
+#
+$CMP TEST
+D Test point
+F mod_pdf/TEST.pdf
+$ENDCMP
+#
+$CMP USB
+D USB jack
+F mod_pdf/USB-*
+$ENDCMP
+#
+$CMP XCONN
+D Cross-connector (for off-PCB connections, etc)
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSR56
+D NJF amplif, low freq, low noise, 40V, 50mA
+$ENDCMP
+#
+$CMP J111
+D JFET, N switch, 35V, >20mA, <-10Voff
+$ENDCMP
+#
+$CMP J112
+D JFET, N switch, 35V, >5mA, <-5Voff
+$ENDCMP
+#
+$CMP J113
+D JFET, N switch, 35V, >2mA, <-3Voff
+$ENDCMP
+#
+#End Doc Library

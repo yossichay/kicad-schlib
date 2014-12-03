@@ -1,0 +1,269 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BRIDGE
+D Rectifier, Bridge
+F mod_pdf/BRIDGE-*
+$ENDCMP
+#
+$CMP BRIDGE-SCH
+D Rectifier, Bridge
+F mod_pdf/BRIDGE-*
+$ENDCMP
+#
+$CMP DIAC
+D DIAC
+$ENDCMP
+#
+$CMP DIODE
+D Diode
+F mod_pdf/DO-*
+$ENDCMP
+#
+$CMP DIODE-CA
+D Diode, dual common anode
+$ENDCMP
+#
+$CMP DIODE-CK
+D Diode, dual common cathode
+$ENDCMP
+#
+$CMP DIODE-SERIES
+D Diode, dual series
+$ENDCMP
+#
+$CMP LED
+D Diode, light-emitting
+$ENDCMP
+#
+$CMP NJF
+D JFET, N-channel
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP NJFC
+D JFET, N-channel with can
+F mod_pdf/TO-18-4.pdf
+$ENDCMP
+#
+$CMP NJFCSYM
+D JFET, symmetric N-channel with can
+F mod_pdf/TO-18-4.pdf
+$ENDCMP
+#
+$CMP NJFSYM
+D JFET, symmetric N-channel
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP NMOS
+D MOSFET, N-channel enhancement
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP NMOS-2D
+D MOSFET, N-channel enhancement, two drain pins
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP NMOS-4D-3S
+D MOSFET, N-channel enhancement, four drain, three source pins
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP NMOS2G
+D MOSFET, N-channel enhancement, dual gate
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP NMOS4
+D MOSFET, N-channel enhancement with body
+$ENDCMP
+#
+$CMP NMOS4SYM
+D MOSFET, N-channel enhancement with body
+$ENDCMP
+#
+$CMP NMOSDEP
+D MOSFET, N-channel depletion
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP NMOSDEP2G
+D MOSFET, N-channel enhancement, dual gate
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP NPN
+D BJT, NPN
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP NPN-2C
+D BJT, NPN, two collector pins
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP NPNDARL
+D BJT, NPN Darlington
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP NPNDARL-2C
+D BJT, NPN Darlington, two collector pins
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP NPNDARL-FULL
+D BJT, PNP Darlington
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP NPNDUAL
+D BJT, NPN dual
+$ENDCMP
+#
+$CMP NPNLTP
+D BJT, NPN long-tailed pair
+$ENDCMP
+#
+$CMP OPTOCOUP
+D Optocoupler
+F mod_pdf/DIP-4.pdf
+$ENDCMP
+#
+$CMP PJF
+D JFET, P-channel
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP PJFC
+D JFET, P-channel with can
+F mod_pdf/TO-18-4.pdf
+$ENDCMP
+#
+$CMP PJFCSYM
+D JFET, symmetric P-channel with can
+F mod_pdf/TO-18-4.pdf
+$ENDCMP
+#
+$CMP PJFSYM
+D JFET, symmetric P-channel
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP PMOS
+D MOSFET, P-channel enhancement
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP PMOS-2D
+D MOSFET, P-channel enhancement, two drains
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP PMOS-4D-3S
+D MOSFET, P-channel enhancement, four drain, three source pins
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP PMOS4
+D MOSFET, P-channel enhancement with body
+$ENDCMP
+#
+$CMP PMOSDEP
+D MOSFET, P-channel depletion
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP PNP
+D BJT, PNP
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP PNP-2C
+D BJT, PNP, two collector pins
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP PNPDARL
+D BJT, PNP Darlington
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP PNPDARL-2C
+D BJT, PNP Darlington, two collector pins
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP PNPDARL-FULL
+D BJT, PNP Darlington
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP PNPDUAL
+D BJT, PNP dual
+$ENDCMP
+#
+$CMP PNPLTP
+D BJT, PNP long-tailed pair
+$ENDCMP
+#
+$CMP PUT
+D Programmable unijunction transistor
+$ENDCMP
+#
+$CMP SCHOTTKY
+D Diode, Schottky
+F mod_pdf/DO-*
+$ENDCMP
+#
+$CMP SCHOTTKY-CA
+D Diode, Schottky, dual common anode
+$ENDCMP
+#
+$CMP SCHOTTKY-CK
+D Diode, Schottky, dual common cathode
+$ENDCMP
+#
+$CMP SCHOTTKY-SERIES
+D Diode, Schottky, dual series
+$ENDCMP
+#
+$CMP SCR
+D Silicon controlled rectifier
+$ENDCMP
+#
+$CMP TRIAC
+D TRIAC
+F mod_pdf/DO-*
+$ENDCMP
+#
+$CMP TUNNEL
+D Diode, Tunnel
+F mod_pdf/DO-*
+$ENDCMP
+#
+$CMP TVS-THYRISTOR
+D TVS thyristor (Trisil, etc)
+$ENDCMP
+#
+$CMP TVS_BI
+D Diode, bidirectional transient suppression
+F mod_pdf/DO-*
+$ENDCMP
+#
+$CMP UJT
+D Unijunction transistor
+$ENDCMP
+#
+$CMP VARICAP
+D Diode, Varicap
+F mod_pdf/DO-*
+$ENDCMP
+#
+$CMP ZENER
+D Diode, Zener
+F mod_pdf/DO-*
+$ENDCMP
+#
+#End Doc Library
