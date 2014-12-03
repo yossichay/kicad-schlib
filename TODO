@@ -1,1 +1,2 @@
-Overhaul connectors lib
+Overhaul conn.lib
+Split out display.lib into manufacturers
