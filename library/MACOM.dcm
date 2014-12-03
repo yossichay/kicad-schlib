@@ -4,4 +4,8 @@ $CMP MAADSS0008
 D 15dB digital attenuator
 $ENDCMP
 #
+$CMP MASWSS0162
+D RF switch, SPST, DC-2.5GHz, GaAs, SOIC-8
+$ENDCMP
+#
 #End Doc Library
