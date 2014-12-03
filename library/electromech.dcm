@@ -14,28 +14,6 @@ D Switch, DPST
 F mod_pdf/SW-DPST-*
 $ENDCMP
 #
-$CMP JUMPER
-D Jumper
-$ENDCMP
-#
-$CMP JUMPER-SOLDER
-D Jumper
-F mod_pdf/JUMPER-SOLDER.pdf
-$ENDCMP
-#
-$CMP JUMPER-SOLDER-3
-D Jumper
-F mod_pdf/JUMPER-SOLDER.pdf
-$ENDCMP
-#
-$CMP JUMPER3
-D Three-pin jumper
-$ENDCMP
-#
-$CMP JUMPER_WIRE
-F mod_pdf/JUMPER-SIL2.pdf
-$ENDCMP
-#
 $CMP MVOLTMETER
 D Millivoltmeter
 $ENDCMP
