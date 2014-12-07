@@ -1,3 +1,2 @@
-Overhaul conn.lib
 Split out display.lib into manufacturers
 Make electromech.lib into a template lib with separate manufacturer libs
