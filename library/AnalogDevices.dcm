@@ -226,6 +226,18 @@ $CMP ADR4550BRZ
 D Voltage reference, 5.0V, 2ppm/C, SOIC-8
 $ENDCMP
 #
+$CMP OP07CPZ
+D Precision op amp, DIP
+$ENDCMP
+#
+$CMP OP07CSZ
+D Precision op amp, SOIC
+$ENDCMP
+#
+$CMP OP07EPZ
+D Precision op amp, DIP
+$ENDCMP
+#
 $CMP OP2177ARMZ
 D Dual precision low-{noise,IB} op amp, MSOP-8
 $ENDCMP

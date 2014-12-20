@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L78vvCD2T
+D Voltage regulator, TO-263
+$ENDCMP
+#
+$CMP L78vvCV
+D Voltage regulator, TO-220
+$ENDCMP
+#
+$CMP L79vvCD2T
+D Voltage regulator, negative, TO-263
+$ENDCMP
+#
+$CMP L79vvCV
+D Voltage regulator, negative, TO-220
+$ENDCMP
+#
+#End Doc Library

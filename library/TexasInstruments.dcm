@@ -1,0 +1,397 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CDCE913LPWR
+D Clock synthesizer, SSOP
+K clock
+$ENDCMP
+#
+$CMP CDCE913PWR
+D Clock synthesizer, SSOP
+K clock
+$ENDCMP
+#
+$CMP DAC1220E
+D 20-bit SPI DAC, SSOP
+$ENDCMP
+#
+$CMP DS90LT012ATMF
+D LVDS receiver, 100R terminated, SOT-23
+$ENDCMP
+#
+$CMP DS90LV012ATMF
+D LVDS receiver, unterminated, SOT-23
+$ENDCMP
+#
+$CMP ISO7220
+D Dual digital isolator, SOIC
+$ENDCMP
+#
+$CMP ISO7221
+D Dual digital isolator, SOIC
+$ENDCMP
+#
+$CMP LF353D
+D Dual JFET op amp, SOIC-8
+$ENDCMP
+#
+$CMP LF353P
+D Dual JFET op amp, DIP-8
+$ENDCMP
+#
+$CMP LF356M
+D JFET op amp, SOIC-8
+$ENDCMP
+#
+$CMP LF356N
+D JFET op amp, DIP-8
+$ENDCMP
+#
+$CMP LF398N
+D Sample-and-hold amplifier, DIP-8
+$ENDCMP
+#
+$CMP LM1117DT-ADJ
+D LDO, 800mA adjustable voltage, TO-252
+$ENDCMP
+#
+$CMP LM1117DT-v.v
+D LDO, 800mA fixed voltage, TO-252
+$ENDCMP
+#
+$CMP LM1117IMP-ADJ
+D LDO, 800mA adjustable voltage, SOT-223
+$ENDCMP
+#
+$CMP LM1117IMP-v.v
+D LDO, 800mA fixed voltage, SOT-223
+$ENDCMP
+#
+$CMP LM1117S-ADJ
+D LDO, 800mA adjustable voltage, TO-263
+$ENDCMP
+#
+$CMP LM1117SX-v.v
+D LDO, 800mA fixed voltage, TO-263
+$ENDCMP
+#
+$CMP LM1117T-ADJ
+D LDO, 800mA adjustable voltage, TO-220
+$ENDCMP
+#
+$CMP LM1117T-v.v
+D LDO, 800mA fixed voltage, TO-220
+K ldo vreg
+$ENDCMP
+#
+$CMP LM20323
+D Buck converter, 36V, 3A, 500 kHz synchronous, SOIC
+$ENDCMP
+#
+$CMP LM22676QTJ-5.0
+D Buck converter, 42V 3A With Features, TO-263
+$ENDCMP
+#
+$CMP LM22676QTJ-ADJ
+D Buck converter, 42V 3A With Features, TO-263
+$ENDCMP
+#
+$CMP LM2575T
+D 1A switching step-down regulator, TO-220-5
+$ENDCMP
+#
+$CMP LM2576T
+D 3A switching step-down regulator, TO-220-5
+$ENDCMP
+#
+$CMP LM311M
+D Comparator, SOIC
+$ENDCMP
+#
+$CMP LM311N
+D Comparator, DIP
+$ENDCMP
+#
+$CMP LM317AEMP
+D Voltage regulator, SOT-223
+$ENDCMP
+#
+$CMP LM317EMP
+D Voltage regulator, SOT-223
+$ENDCMP
+#
+$CMP LM317S
+D Linear regular, 1.5A, adjustable, TO-263
+$ENDCMP
+#
+$CMP LM317T
+D Linear regular, 1.5A, adjustable, TO-220
+$ENDCMP
+#
+$CMP LM319M
+D Dual high speed comparator, SOIC
+$ENDCMP
+#
+$CMP LM319N
+D Dual high speed comparator, DIP
+$ENDCMP
+#
+$CMP LM324M
+D Quad low-power SS op amp, SOIC
+K opamp opamp.single
+$ENDCMP
+#
+$CMP LM324N
+D Quad low-power SS op amp, DIP
+K opamp opamp.single
+$ENDCMP
+#
+$CMP LM324PWR
+D Quad low-power SS op amp, TSSOP
+K opamp opamp.single
+$ENDCMP
+#
+$CMP LM337T
+D Linear regulator, 1.5A, negative, adjustable, TO-220
+K vreg
+$ENDCMP
+#
+$CMP LM339M
+D Quad low-power comparator, SOIC
+K comparator
+$ENDCMP
+#
+$CMP LM339N
+D Quad low-power comparator, DIP
+K comparator
+$ENDCMP
+#
+$CMP LM34DM
+D Fahrenheit temperature sensor, SOIC
+K sensor sensor.temp
+$ENDCMP
+#
+$CMP LM358M
+D Dual low-power SS op amp, SOIC
+K opamp opamp.single
+$ENDCMP
+#
+$CMP LM358N
+D Dual low-power SS op amp, DIP
+K opamp opamp.single
+$ENDCMP
+#
+$CMP LM35DM
+D Celsius temperature sensor, SOIC
+K sensor sensor.temp
+$ENDCMP
+#
+$CMP LM393M
+D Dual low-power comparator, SOIC
+K comparator
+$ENDCMP
+#
+$CMP LM393N
+D Dual low-power comparator, DIP
+K comparator
+$ENDCMP
+#
+$CMP LM4040AvvDBZ
+D Precision micropower shunt, SOT-23
+$ENDCMP
+#
+$CMP LM4040AvvLP
+D Precision micropower reference, TO-92
+K ref reference
+$ENDCMP
+#
+$CMP LM7171AIM
+D 200 MHz op amp, SOIC
+K opamp opamp.hispeed
+$ENDCMP
+#
+$CMP LM7171BIM
+D 200 MHz op amp, SOIC
+K opamp opamp.hispeed
+$ENDCMP
+#
+$CMP LM7171BIN
+D 200 MHz op amp, DIP
+$ENDCMP
+#
+$CMP LM78vvCT
+D Linear regulator, 1.5A, fixed, TO-220
+$ENDCMP
+#
+$CMP LMH6714MF
+D 250 MHz video op amp, SOT-23
+$ENDCMP
+#
+$CMP LMH7220MK
+D Fast LVDS comparator, SOT-23
+$ENDCMP
+#
+$CMP LMR62014XMF
+D Boost converter, 20V 1.4A, SOT-23
+$ENDCMP
+#
+$CMP LMV324IDR
+D Quad low-voltage RRO op amp, SOIC
+$ENDCMP
+#
+$CMP LMV324IPWR
+D Quad RRO low voltage op amp, TSSOP
+$ENDCMP
+#
+$CMP LMV358IDR
+D Dual RRO low voltage op amp, SOIC
+$ENDCMP
+#
+$CMP LMV712MMX
+D Dual RRIO op amp, VSSOP
+$ENDCMP
+#
+$CMP OPA1652AID
+D Audio op amp, RRO, SOIC
+$ENDCMP
+#
+$CMP OPA1652AIDGK
+D Audio op amp, RRO, SOIC
+$ENDCMP
+#
+$CMP PTN78000WAH
+D 1.5A buck converter module, PTH
+$ENDCMP
+#
+$CMP PTN78000WAZ
+D 1.5A buck converter, SMD
+$ENDCMP
+#
+$CMP SN74LVC1G3157DBV
+D Switch, SPDT, SOT-23
+$ENDCMP
+#
+$CMP SN75176BDR
+D Differential bus transceiver, SOIC
+K rs485 rs422
+$ENDCMP
+#
+$CMP SN75176BP
+D Differential bus transceiver, DIP
+K rs485 rs422
+$ENDCMP
+#
+$CMP THS3001IDGN
+D 420 MHz CFA, SSOP-thermal
+$ENDCMP
+#
+$CMP THS4222D
+D Dual high-speed rail to rail op amp, SOIC
+K opamp opamp.rtr opamp.hispeed
+$ENDCMP
+#
+$CMP THS4222DGN
+D Dual high-speed rail to rail op amp, SSOP-thermal
+K opamp opamp.rtr opamp.hispeed
+$ENDCMP
+#
+$CMP TL071CDR
+D Op amp, SOIC
+K opamp
+$ENDCMP
+#
+$CMP TL071CP
+D Op amp, DIP
+K opamp
+$ENDCMP
+#
+$CMP TL072CDR
+D Dual op amp, SOIC
+K opamp
+$ENDCMP
+#
+$CMP TL072CP
+D Dual op amp, DIP
+K opamp
+$ENDCMP
+#
+$CMP TL074CDR
+D Quad op amp, SOIC
+K opamp
+$ENDCMP
+#
+$CMP TL074CP
+D Quad op amp, DIP
+K opamp
+$ENDCMP
+#
+$CMP TL431AIDBZ
+D Shunt reference, SOT-23
+K ref reference
+$ENDCMP
+#
+$CMP TL431AIDR
+D Shunt reference, SOIC
+K ref reference
+$ENDCMP
+#
+$CMP TL431AILP
+D Shunt reference, TO-92
+K ref reference
+$ENDCMP
+#
+$CMP TL431BIDBZ
+D Shunt reference, SOT-23
+K ref reference
+$ENDCMP
+#
+$CMP TL431BIDR
+D Shunt reference, SOIC
+K ref reference
+$ENDCMP
+#
+$CMP TL431BILP
+D Shunt reference, TO-92
+K ref reference
+$ENDCMP
+#
+$CMP TLC5926IDWR
+D 16-channel LED driver, SOIC
+$ENDCMP
+#
+$CMP TLC5926IPWPR
+D 16-channel LED driver, SSOP-thermal
+$ENDCMP
+#
+$CMP TLC5927IDWR
+D 16-channel LED driver, short-to-V+ detect, SOIC
+$ENDCMP
+#
+$CMP TLC5927IPWPR
+D 16-channel LED driver, short-to-V+ detect, SOP-thermal
+$ENDCMP
+#
+$CMP TLV3501AIDBV
+D High speed comparator, SOT-23
+$ENDCMP
+#
+$CMP TPS64200DBV
+D Step-down controller, SOT-23
+$ENDCMP
+#
+$CMP TPS64201DBV
+D Step-down controller, SOT-23
+$ENDCMP
+#
+$CMP TPS64202DBV
+D Step-down controller, SOT-23
+$ENDCMP
+#
+$CMP TPS64203DBV
+D Step-down controller, SOT-23
+$ENDCMP
+#
+$CMP VCA821IDGST
+D Wideband VGA, MSOP
+$ENDCMP
+#
+#End Doc Library
