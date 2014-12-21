@@ -158,6 +158,10 @@ $CMP ADA4004-1ARJZ
 D Single 36V low noise precision op amp, SOT-23-5
 $ENDCMP
 #
+$CMP ADA4004-4ACPZ
+D Quad low-noise precision op amp, LFCSP
+$ENDCMP
+#
 $CMP ADA4857-2YCPZ
 D Dual low-{dist,power,noise} 750MHz 2800V/µs op amp, LFCSPWQ-16
 $ENDCMP
