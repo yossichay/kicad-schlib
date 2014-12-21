@@ -12,6 +12,10 @@ $CMP FQN1N50C
 D MOSFET, N-enh, 500V, 380mA, Rds approx 6
 $ENDCMP
 #
+$CMP FQP13N10L
+D MOSFET, N-enh, 100V, 12A, Rds approx 0.18
+$ENDCMP
+#
 $CMP FQT7N10L
 D MOSFET, N-enh, 100V, 1.7A, Rds approx 0.35
 $ENDCMP
