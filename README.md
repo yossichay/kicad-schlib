@@ -1,6 +1,8 @@
 kicad-schlib
 ============
 
+(Warning: work in progress!)
+
 These are my KiCad schematic libraries, meant to be used with my PCB
 libraries:
 
