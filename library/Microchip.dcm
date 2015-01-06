@@ -45,6 +45,10 @@ $CMP MCP9700T-E/TT
 D Analog temperature sensor, SOT-23
 $ENDCMP
 #
+$CMP MCP9701-E/TO
+D Analog temperature sensor, V+>3.1V, TO-92
+$ENDCMP
+#
 $CMP MCP9701T-E/TT
 D Analog temperature sensor, V+>3.1V, SOT-23
 $ENDCMP
