@@ -32,6 +32,14 @@ $CMP AD5689RBRUZ
 D Dual 16-bit DAC, ±2 LSB INL, 2(typ)/5(max)ppm/C reference, TSSOP-16
 $ENDCMP
 #
+$CMP AD5693RARMZ
+D 16-bit DAC, ±2 LSB INL, 5(typ)/20(max)ppm/C reference, MSOP-10
+$ENDCMP
+#
+$CMP AD5693RBRMZ
+D 16-bit DAC, ±2 LSB INL, 2(typ)/5(max)ppm/C reference, MSOP-10
+$ENDCMP
+#
 $CMP AD8000YRDZ
 D 1.5 GHz ultrahigh speed op amp, SOIC-8
 $ENDCMP
