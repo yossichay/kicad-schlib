@@ -250,6 +250,14 @@ $CMP LMV712MMX
 D Dual RRIO op amp, VSSOP
 $ENDCMP
 #
+$CMP LMV761MF
+D Precision comparator, push-pull, SOT-23-6
+$ENDCMP
+#
+$CMP LT1013DDR
+D Dual precision op amp, SOIC-8
+$ENDCMP
+#
 $CMP OPA1652AID
 D Audio op amp, RRO, SOIC
 $ENDCMP
