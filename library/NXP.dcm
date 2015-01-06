@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LVC1G04GW,125
+D Single 74LVC inverter, SC-70-5
+$ENDCMP
+#
 $CMP LPC11U23FBD48
 D MCU, Cortex-M0, 24K flash, 8K RAM
 $ENDCMP
