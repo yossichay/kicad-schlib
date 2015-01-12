@@ -362,6 +362,11 @@ D Shunt reference, TO-92
 K ref reference
 $ENDCMP
 #
+$CMP TL974ID
+D Quad op amp, R2R, SOIC
+K opamp
+$ENDCMP
+#
 $CMP TLC5926IDWR
 D 16-channel LED driver, SOIC
 $ENDCMP
