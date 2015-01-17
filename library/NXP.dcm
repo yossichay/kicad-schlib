@@ -4,6 +4,10 @@ $CMP 74LVC1G04GW,125
 D Single 74LVC inverter, SC-70-5
 $ENDCMP
 #
+$CMP 74LVC8T245PW,118
+D Octal level-shifting bus transciever
+$ENDCMP
+#
 $CMP LPC11U23FBD48
 D MCU, Cortex-M0, 24K flash, 8K RAM
 $ENDCMP
