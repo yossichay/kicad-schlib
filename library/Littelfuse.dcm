@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SP0503BAHT
+D Triple 5V TVS diode
+F mod_pdf/DO-*
+$ENDCMP
+#
+#End Doc Library
