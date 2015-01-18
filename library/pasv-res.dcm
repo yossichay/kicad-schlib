@@ -60,4 +60,12 @@ $CMP THERM-0603
 D Chip thermistor, EIA 0603, metric 1608
 $ENDCMP
 #
+$CMP THERM-1206
+D Chip thermistor, EIA 0603, metric 1608
+$ENDCMP
+#
+$CMP THERM-1210
+D Chip thermistor, EIA 0603, metric 1608
+$ENDCMP
+#
 #End Doc Library
