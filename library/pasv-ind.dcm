@@ -36,6 +36,10 @@ $CMP L-AISC-1008-ABRACON
 D Chip inductor, proprietary 1008
 $ENDCMP
 #
+$CMP L-MURATA-LQH3NP_J0
+D Inductor, ferrite core
+$ENDCMP
+#
 $CMP LFERR
 D Inductor, ferrite core
 $ENDCMP

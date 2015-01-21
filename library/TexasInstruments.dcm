@@ -387,6 +387,10 @@ $CMP TLV3501AIDBV
 D High speed comparator, SOT-23
 $ENDCMP
 #
+$CMP TPS62080DSGT
+D 1.2A step-down converter, DFN
+$ENDCMP
+#
 $CMP TPS64200DBV
 D Step-down controller, SOT-23
 $ENDCMP
