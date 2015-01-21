@@ -4,4 +4,8 @@ $CMP AP3012
 D Boost converter, 1.5 MHz, 500 mA, SOT-23-5
 $ENDCMP
 #
+$CMP AP3211
+D Buck converter, 1.4 MHz, 1.5A, SOT-23-6
+$ENDCMP
+#
 #End Doc Library
