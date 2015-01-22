@@ -10,6 +10,10 @@ D Clock synthesizer, SSOP
 K clock
 $ENDCMP
 #
+$CMP DAC084S085CISD
+D Quad 8-bit DAC, SON-10
+$ENDCMP
+#
 $CMP DAC1220E
 D 20-bit SPI DAC, SSOP
 $ENDCMP
