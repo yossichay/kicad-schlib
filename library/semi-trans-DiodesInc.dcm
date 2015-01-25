@@ -8,6 +8,11 @@ $CMP DMMT3906W
 D PNP, matched, -40V, -200mA, 200mW
 $ENDCMP
 #
+$CMP DMN63D8LV
+D NMOS-enh, dual, 30V 160mA logic
+F mod_pdf/TO-*
+$ENDCMP
+#
 $CMP DMP3098L
 D MOSFET, P-enh, -30V, -3A, Rds approx 120m
 $ENDCMP

@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MM3ZxxxT1G
+D Diode, Zener, 300mW, 5mA
+$ENDCMP
+#
 $CMP MMBD4148
 D Diode, 200mA, 75V
 $ENDCMP
