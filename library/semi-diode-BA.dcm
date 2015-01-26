@@ -16,12 +16,24 @@ $CMP BAT54A
 D Diode, Schottky, 30V, 200mA, dual common anode
 $ENDCMP
 #
+$CMP BAT54AWT
+D Diode, Schottky, 30V, 200mA, dual common anode SOT-323
+$ENDCMP
+#
 $CMP BAT54C
 D Diode, Schottky, 30V, 200mA, dual common cathode
 $ENDCMP
 #
+$CMP BAT54CWT
+D Diode, Schottky, 30V, 200mA, dual common cathode, SOT-323
+$ENDCMP
+#
 $CMP BAT54S
 D Diode, Schottky, 30V, 200mA, dual series
+$ENDCMP
+#
+$CMP BAT54SWT
+D Diode, Schottky, 30V, 200mA, dual series, SOT-323
 $ENDCMP
 #
 $CMP BAT85S
@@ -34,6 +46,10 @@ $ENDCMP
 #
 $CMP BAV99
 D Diode, 100V, 125mA, dual series
+$ENDCMP
+#
+$CMP BAV99DW
+D Diode, 100V, 125mA, dual-dual series, SOT-363
 $ENDCMP
 #
 $CMP BZX79
