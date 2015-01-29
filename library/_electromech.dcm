@@ -6,12 +6,10 @@ $ENDCMP
 #
 $CMP DPDT
 D Switch, DPDT
-F mod_pdf/SW-DPDT-*
 $ENDCMP
 #
 $CMP DPST
 D Switch, DPST
-F mod_pdf/SW-DPST-*
 $ENDCMP
 #
 $CMP MVOLTMETER
@@ -20,22 +18,18 @@ $ENDCMP
 #
 $CMP PUSH
 D Switch, pushbutton
-F mod_pdf/SW-TACT-*
 $ENDCMP
 #
 $CMP RELAY_DPDT
 D Relay, DPDT
-F mod_pdf/RELAY-DPDT-*
 $ENDCMP
 #
 $CMP RELAY_DPDT_DIODE
 D Relay, DPDT, with diode
-F mod_pdf/RELAY-DPDT-*
 $ENDCMP
 #
 $CMP RELAY_SPDT
 D Relay, SPDT
-F mod_pdf/RELAY-SPDT-*
 $ENDCMP
 #
 $CMP RELAY_SPDT_DIODE
@@ -50,42 +44,34 @@ $ENDCMP
 #
 $CMP RELAY_SPST_DIODE
 D Relay, SPST
-F mod_pdf/RELAY-SPDT-*
 $ENDCMP
 #
 $CMP ROTARY_PUSH
 D Rotary encoder with pushbutton
-F mod_pdf/SW-ROTENC-*
 $ENDCMP
 #
 $CMP SP3T
 D Switch, SP3T
-F mod_pdf/SW-SPDT-*
 $ENDCMP
 #
 $CMP SP4T
 D Switch, SPDT
-F mod_pdf/SW-SPDT-*
 $ENDCMP
 #
 $CMP SPDT
 D Switch, SPDT
-F mod_pdf/SW-SPDT-*
 $ENDCMP
 #
 $CMP SPST
 D Switch, SPST
-F mod_pdf/SW-SPST-*
 $ENDCMP
 #
 $CMP SW-MOM-OFF-MOM
-D Switch, SPDT
-F mod_pdf/SW-SPDT-*
+D Switch, MOM-OFF-MOM
 $ENDCMP
 #
 $CMP TACT
 D Switch, SPST tactile
-F mod_pdf/SW-TACT-*
 $ENDCMP
 #
 $CMP UAMMETER

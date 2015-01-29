@@ -8,9 +8,17 @@ $CMP BATTERY-SHORT
 D Battery, few cells
 $ENDCMP
 #
+$CMP C
+D Capacitor
+$ENDCMP
+#
 $CMP CMCHOKE
 D Inductor
 F mod_pdf/SMCHIP-*
+$ENDCMP
+#
+$CMP CPOL
+D Capacitor, polarized
 $ENDCMP
 #
 $CMP CRYSTAL
@@ -21,6 +29,10 @@ $ENDCMP
 $CMP CRYSTALG
 D Crystal, grounded
 F mod_pdf/XTAL-G-*
+$ENDCMP
+#
+$CMP CVAR
+D Capacitor
 $ENDCMP
 #
 $CMP DELAY_MATCH
@@ -55,6 +67,10 @@ $ENDCMP
 $CMP POT-TRIM
 D Resistor
 F mod_pdf/R-*
+$ENDCMP
+#
+$CMP R
+D Resistor (template)
 $ENDCMP
 #
 $CMP RESNET8

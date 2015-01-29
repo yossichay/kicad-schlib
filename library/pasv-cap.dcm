@@ -1,9 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP C
-D Capacitor
-$ENDCMP
-#
 $CMP C-0402
 D Chip capacitor, EIA 0402, metric 1005
 $ENDCMP
@@ -176,16 +172,8 @@ $CMP C-TANT-7343-43
 D Tantalum capacitor, EIA 7343-43, Kemet X, AVX E
 $ENDCMP
 #
-$CMP CPOL
-D Capacitor, polarized
-$ENDCMP
-#
 $CMP CV-TZC3P-MURATA
 D SMD trim capacitor
-$ENDCMP
-#
-$CMP CVAR
-D Capacitor
 $ENDCMP
 #
 #End Doc Library

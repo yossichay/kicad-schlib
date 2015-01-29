@@ -262,6 +262,14 @@ $CMP LT1013DDR
 D Dual precision op amp, SOIC-8
 $ENDCMP
 #
+$CMP NE555DR
+D Timer, SOIC-8
+$ENDCMP
+#
+$CMP NE555P
+D Timer, DIP-8
+$ENDCMP
+#
 $CMP OPA1652AID
 D Audio op amp, RRO, SOIC
 $ENDCMP

@@ -1,7 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP NE555
-D Timer
-$ENDCMP
-#
 #End Doc Library
