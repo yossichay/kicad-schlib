@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Fri 31 May 2013 11:20:12 AM EDT
+EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
 # FAN4010
@@ -6,10 +6,10 @@ EESchema-LIBRARY Version 2.3  Date: Fri 31 May 2013 11:20:12 AM EDT
 DEF FAN4010 U 0 40 Y Y 1 F N
 F0 "U" 0 -300 50 H V C CNN
 F1 "FAN4010" 0 -400 50 H V C CNN
-F2 "manuf:MLP-6" 0 0 50 H I C CNN
-F3 "~" -50 200 60 H V C CNN
+F2 "manuf:FAIRCHILD-MLP-6" 0 0 50 H I C CNN
+F3 "" -50 200 60 H V C CNN
 $FPLIST
- MLP-6
+ FAIRCHILD-MLP-6
 $ENDFPLIST
 DRAW
 T 0 -50 175 40 0 0 0 +  Normal 0 C C

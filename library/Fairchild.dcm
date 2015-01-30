@@ -1,9 +1,7 @@
-EESchema-DOCLIB  Version 2.0  Date: Fri 31 May 2013 11:20:12 AM EDT
+EESchema-DOCLIB  Version 2.0
 #
 $CMP FAN4010
 D High-side current sensor, 2-5V
-K current
-F mod_pdf/MLP-6.pdf
 $ENDCMP
 #
 #End Doc Library

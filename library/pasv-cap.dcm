@@ -172,6 +172,10 @@ $CMP C-TANT-7343-43
 D Tantalum capacitor, EIA 7343-43, Kemet X, AVX E
 $ENDCMP
 #
+$CMP CV-MURATA-TZC3P
+D SMD trim capacitor
+$ENDCMP
+#
 $CMP CV-TZC3P-MURATA
 D SMD trim capacitor
 $ENDCMP
