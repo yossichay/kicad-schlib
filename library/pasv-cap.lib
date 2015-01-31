@@ -156,7 +156,7 @@ ENDDEF
 DEF C-ALUM-10mm C 0 0 N Y 1 F N
 F0 "C" 350 50 50 H V C CNN
 F1 "C-ALUM-10mm" 350 -50 50 H V C CNN
-F2 "passive:C-ALUM-10mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-ALUM-10mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-ALUM-10mm
@@ -179,7 +179,7 @@ ENDDEF
 DEF C-ALUM-12.5mm C 0 0 N Y 1 F N
 F0 "C" 400 50 50 H V C CNN
 F1 "C-ALUM-12.5mm" 400 -50 50 H V C CNN
-F2 "passive:C-ALUM-12.5mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-ALUM-12.5mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-ALUM-12.5mm
@@ -226,7 +226,7 @@ ENDDEF
 DEF C-ALUM-16mm C 0 0 N Y 1 F N
 F0 "C" 350 50 50 H V C CNN
 F1 "C-ALUM-16mm" 350 -50 50 H V C CNN
-F2 "passive:C-ALUM-16mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-ALUM-16mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-ALUM-16mm
@@ -249,7 +249,7 @@ ENDDEF
 DEF C-ALUM-18mm C 0 0 N Y 1 F N
 F0 "C" 350 50 50 H V C CNN
 F1 "C-ALUM-18mm" 350 -50 50 H V C CNN
-F2 "passive:C-ALUM-18mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-ALUM-18mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-ALUM-18mm
@@ -272,7 +272,7 @@ ENDDEF
 DEF C-ALUM-22mm C 0 0 N Y 1 F N
 F0 "C" 350 50 50 H V C CNN
 F1 "C-ALUM-22mm" 350 -50 50 H V C CNN
-F2 "passive:C-ALUM-22mm-SNAP" 0 0 50 H I C CNN
+F2 "pth-passive:C-ALUM-22mm-SNAP" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-ALUM-22mm-SNAP
@@ -295,7 +295,7 @@ ENDDEF
 DEF C-ALUM-25mm C 0 0 N Y 1 F N
 F0 "C" 350 50 50 H V C CNN
 F1 "C-ALUM-25mm" 350 -50 50 H V C CNN
-F2 "passive:C-ALUM-25mm-SNAP" 0 0 50 H I C CNN
+F2 "pth-passive:C-ALUM-25mm-SNAP" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-ALUM-25mm-SNAP
@@ -390,7 +390,7 @@ ENDDEF
 DEF C-ALUM-5mm C 0 0 N Y 1 F N
 F0 "C" 350 50 50 H V C CNN
 F1 "C-ALUM-5mm" 350 -50 50 H V C CNN
-F2 "passive:C-ALUM-5mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-ALUM-5mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-ALUM-5mm
@@ -413,7 +413,7 @@ ENDDEF
 DEF C-ALUM-6.3mm C 0 0 N Y 1 F N
 F0 "C" 400 50 50 H V C CNN
 F1 "C-ALUM-6.3mm" 400 -50 50 H V C CNN
-F2 "passive:C-ALUM-6.3mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-ALUM-6.3mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-ALUM-6.3mm
@@ -508,7 +508,7 @@ ENDDEF
 DEF C-ALUM-8mm C 0 0 N Y 1 F N
 F0 "C" 350 50 50 H V C CNN
 F1 "C-ALUM-8mm" 350 -50 50 H V C CNN
-F2 "passive:C-ALUM-8mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-ALUM-8mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-ALUM-8mm
@@ -531,7 +531,7 @@ ENDDEF
 DEF C-CER-12mm C 0 0 N Y 1 F N
 F0 "C" 400 50 50 H V C CNN
 F1 "C-CER-12mm" 400 -50 50 H V C CNN
-F2 "passive:C-CER-12mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-CER-12mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-CER-12mm
@@ -552,7 +552,7 @@ ENDDEF
 DEF C-CER-3mm C 0 0 N Y 1 F N
 F0 "C" 400 50 50 H V C CNN
 F1 "C-CER-3mm" 400 -50 50 H V C CNN
-F2 "passive:C-CER-3mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-CER-3mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-CER-3mm
@@ -573,7 +573,7 @@ ENDDEF
 DEF C-CER-6mm C 0 0 N Y 1 F N
 F0 "C" 400 50 50 H V C CNN
 F1 "C-CER-6mm" 400 -50 50 H V C CNN
-F2 "passive:C-CER-6mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-CER-6mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-CER-6mm
@@ -594,7 +594,7 @@ ENDDEF
 DEF C-FILM-2.5mm C 0 0 N Y 1 F N
 F0 "C" 450 50 50 H V C CNN
 F1 "C-FILM-2.5mm" 450 -50 50 H V C CNN
-F2 "passive:C-FILM-2.5mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-FILM-2.5mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-FILM-2.5mm
@@ -615,7 +615,7 @@ ENDDEF
 DEF C-FILM-3.5mm C 0 0 N Y 1 F N
 F0 "C" 450 50 50 H V C CNN
 F1 "C-FILM-3.5mm" 450 -50 50 H V C CNN
-F2 "passive:C-FILM-3.5mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-FILM-3.5mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-FILM-3.5mm
@@ -636,7 +636,7 @@ ENDDEF
 DEF C-FILM-4.5mm C 0 0 N Y 1 F N
 F0 "C" 450 50 50 H V C CNN
 F1 "C-FILM-4.5mm" 450 -50 50 H V C CNN
-F2 "passive:C-FILM-4.5mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-FILM-4.5mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-FILM-4.5mm
@@ -657,7 +657,7 @@ ENDDEF
 DEF C-FILM-5mm C 0 0 N Y 1 F N
 F0 "C" 400 50 50 H V C CNN
 F1 "C-FILM-5mm" 400 -50 50 H V C CNN
-F2 "passive:C-FILM-5mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-FILM-5mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-FILM-5mm
@@ -678,7 +678,7 @@ ENDDEF
 DEF C-FILM-6mm C 0 0 N Y 1 F N
 F0 "C" 400 50 50 H V C CNN
 F1 "C-FILM-6mm" 400 -50 50 H V C CNN
-F2 "passive:C-FILM-6mm" 0 0 50 H I C CNN
+F2 "pth-passive:C-FILM-6mm" 0 0 50 H I C CNN
 F3 "" -10 -25 60 H V C CNN
 $FPLIST
  C-FILM-6mm

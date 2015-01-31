@@ -1,14 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP A-5161BS
-F mod_pdf/DISPLAY-LDS-A324RI.pdf
-$ENDCMP
-#
-$CMP BA56-11GWA
-D 3-digit green LED display
-F mod_pdf/BA56-11GWA.pdf
-$ENDCMP
-#
 $CMP IV-21
 D Tiny USSR 8-digit VFD tube
 F mod_pdf/IV-21.pdf
@@ -19,22 +10,31 @@ D IVLM experimental USSR VFD
 F mod_pdf/VFD-IVLM.pdf
 $ENDCMP
 #
+$CMP KINGBRIGHT-BA56-11GWA
+D 3-digit green LED display
+F mod_pdf/BA56-11GWA.pdf
+$ENDCMP
+#
 $CMP LCD-HJ1602A
 D 16x2 backlit LCD
 F mod_pdf/LCD-HJ1602A.pdf
 $ENDCMP
 #
-$CMP LDS-A324RI
-F mod_pdf/DISPLAY-LDS-A324RI.pdf
+$CMP LITEON-LTC-4627JR
+D Four 7-segment multiplexed-cathode display
 $ENDCMP
 #
-$CMP LTC-4627JR
-F mod_pdf/DISPLAY-LTC-4627JR.pdf
+$CMP LUMEX-LDS-A324RI
+D Single 7-segment display
 $ENDCMP
 #
 $CMP NHD-C0220BIZ-FSW-FBW-3V3M
 D COG I2C backlit 2x20 dot matrix LCD
 F mod_pdf/NHD-C0220BIZ-FSW-FBW-3V3M.pdf
+$ENDCMP
+#
+$CMP TOPLITE-A-5161BS
+D Single 7-segment display, common anode
 $ENDCMP
 #
 #End Doc Library
