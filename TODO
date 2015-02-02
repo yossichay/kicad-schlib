@@ -1,10 +1,3 @@
-New style.
-    - Draw package outline on F.Fab
-    - value on F.fab
-    - reference placeholder in reference
-    - courtyards - when in doubt, 0.1mm least, 0.25mm nom, 0.5mm most
-IPC library - square center pads
-Add DIP-20, DIP-24-W, DIP-24
 Add Bourns 3296W, TC33X-2
 Add Bourns HM78D-{1210,128}
 Add Bourns PM3604
