@@ -99,6 +99,14 @@ $CMP LM22676QTJ-ADJ
 D Buck converter, 42V 3A With Features, TO-263
 $ENDCMP
 #
+$CMP LM25088MH
+D Buck controller
+$ENDCMP
+#
+$CMP LM25116MHX
+D Synchronous buck controller
+$ENDCMP
+#
 $CMP LM2575T
 D 1A switching step-down regulator, TO-220-5
 $ENDCMP

@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LED-0603
+D LED, standard 3mm
+$ENDCMP
+#
 $CMP LED-3MM
 D LED, standard 3mm
 $ENDCMP

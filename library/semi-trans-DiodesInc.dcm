@@ -8,6 +8,11 @@ $CMP DMMT3906W
 D PNP, matched, -40V, -200mA, 200mW
 $ENDCMP
 #
+$CMP DMN3018SSS
+D MOSFET, N-channel enhancement, four drain, three source pins
+F mod_pdf/TO-*
+$ENDCMP
+#
 $CMP DMN63D8LV
 D NMOS-enh, dual, 30V 160mA logic
 F mod_pdf/TO-*

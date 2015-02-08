@@ -25,6 +25,14 @@ $CMP LT3514EUFD
 D Triple buck regulator, 2A/1A/1A, 0.35-2.2MHz, QFN-29
 $ENDCMP
 #
+$CMP LT6101AIS5
+D Current sense amplifier
+$ENDCMP
+#
+$CMP LT6101BIS5
+D Current sense amplifier
+$ENDCMP
+#
 $CMP LTC2053CDD
 D Switched-capacitor instrumentation amplifier, DFN-8
 $ENDCMP

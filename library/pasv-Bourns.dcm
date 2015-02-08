@@ -1,0 +1,37 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IND-BOURNS-PM3604
+D SMD coupled inductor
+$ENDCMP
+#
+$CMP L-BOURNS-RLB0914
+D Inductor, power (to 5.4A), semi-shielded
+$ENDCMP
+#
+$CMP L-BOURNS-SRN1060
+D Inductor, power (to 5.4A), semi-shielded
+$ENDCMP
+#
+$CMP L-BOURNS-SRN3015
+D Inductor, power (to 2.35A), semi-shielded
+$ENDCMP
+#
+$CMP L-BOURNS-SRP1238A
+D Inductor, power (to 11A), shielded
+$ENDCMP
+#
+$CMP L-BOURNS-SRR1210
+D Inductor, power (to 11A), shielded
+$ENDCMP
+#
+$CMP POT-BOURNS-3296W
+D Resistor
+F mod_pdf/R-*
+$ENDCMP
+#
+$CMP POT-BOURNS-TC33X-2
+D Resistor
+F mod_pdf/R-*
+$ENDCMP
+#
+#End Doc Library

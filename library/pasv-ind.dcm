@@ -16,6 +16,10 @@ $CMP BEAD-1210
 D Chip ferrite, EIA 1210, metric 3225
 $ENDCMP
 #
+$CMP BEAD-EMC-MCZ1210
+D Common-mode filter
+$ENDCMP
+#
 $CMP L-0402
 D Chip inductor, EIA 0402, metric 1005
 $ENDCMP
@@ -41,10 +45,6 @@ D Chip inductor, proprietary 1008
 $ENDCMP
 #
 $CMP L-MURATA-LQH3NP_J0
-D Inductor, ferrite core
-$ENDCMP
-#
-$CMP LFERR
 D Inductor, ferrite core
 $ENDCMP
 #

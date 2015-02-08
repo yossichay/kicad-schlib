@@ -49,6 +49,10 @@ D Incandescent lamp
 F mod_pdf/NEON-*
 $ENDCMP
 #
+$CMP LFERR
+D Inductor, ferrite core
+$ENDCMP
+#
 $CMP NEON
 D Neon lamp
 F mod_pdf/NEON-*

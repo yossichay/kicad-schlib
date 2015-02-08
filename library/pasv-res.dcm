@@ -8,6 +8,10 @@ $CMP R-0603
 D Chip resistor, EIA 0603, metric 1608
 $ENDCMP
 #
+$CMP R-0612
+D Chip resistor, EIA 0805, metric 2012
+$ENDCMP
+#
 $CMP R-0805
 D Chip resistor, EIA 0805, metric 2012
 $ENDCMP

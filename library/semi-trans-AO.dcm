@@ -4,4 +4,9 @@ $CMP AO4441
 D MOSFET, P-enh, -4A, -60V, Rds ~130m
 $ENDCMP
 #
+$CMP AOD4189
+D PMOS, -40V, -40A
+F mod_pdf/TO-*
+$ENDCMP
+#
 #End Doc Library

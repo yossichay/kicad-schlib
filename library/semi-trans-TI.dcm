@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CSD18503Q5A
+D MOSFET, N-channel enhancement, four drain, three source pins
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP CSD18504Q5A
+D MOSFET, N-channel enhancement, four drain, three source pins
+F mod_pdf/TO-*
+$ENDCMP
+#
+#End Doc Library

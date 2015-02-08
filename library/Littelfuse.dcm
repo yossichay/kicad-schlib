@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP POLYFUSE-30R500
+D 5A polyfuse
+$ENDCMP
+#
 $CMP SP0503BAHT
 D Triple 5V TVS diode
 F mod_pdf/DO-*
