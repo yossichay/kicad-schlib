@@ -44,6 +44,10 @@ D Fuse
 F mod_pdf/F-*
 $ENDCMP
 #
+$CMP GDT
+D Gas discharge tube
+$ENDCMP
+#
 $CMP LAMP
 D Incandescent lamp
 F mod_pdf/NEON-*

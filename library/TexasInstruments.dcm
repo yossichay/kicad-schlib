@@ -234,6 +234,11 @@ $CMP LM78vvCT
 D Linear regulator, 1.5A, fixed, TO-220
 $ENDCMP
 #
+$CMP LMH6552SD
+D Fully differential op-amp
+K opamp
+$ENDCMP
+#
 $CMP LMH6714MF
 D 250 MHz video op amp, SOT-23
 $ENDCMP
