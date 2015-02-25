@@ -13,6 +13,16 @@ D Dual op amp, 100 MHz, SOIC
 K opamp
 $ENDCMP
 #
+$CMP LT1819CMS8
+D Dual op amp, 400 MHz, MSOP
+K opamp
+$ENDCMP
+#
+$CMP LT1819CS8
+D Dual op amp, 400 MHz, SOIC
+K opamp
+$ENDCMP
+#
 $CMP LT1931AES5
 D Inverting DC/DC, 2.2 MHz, TSOT-23-5
 $ENDCMP
