@@ -4,4 +4,8 @@ $CMP CONN-BNC-1-1337543-0
 D BNC, female, right angle, panel mount, through hole
 $ENDCMP
 #
+$CMP CONN-SMA-5-1814400-1
+D BNC, female, right angle, panel mount, through hole
+$ENDCMP
+#
 #End Doc Library

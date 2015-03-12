@@ -8,6 +8,10 @@ $CMP ESD9L
 D Low capacitance ESD protection diode
 $ENDCMP
 #
+$CMP L78MvvCDT
+D Voltage regulator, TO-252
+$ENDCMP
+#
 $CMP MC1496D
 D Gilbert cell modulator/demodulator, SOIC-14
 $ENDCMP
@@ -42,6 +46,10 @@ $ENDCMP
 #
 $CMP MC34063-SOIC
 D Step-up/down/inverting switching regulator
+$ENDCMP
+#
+$CMP MC79MvvCDT
+D Voltage regulator, negative, TO-252
 $ENDCMP
 #
 $CMP MMUN2231L

@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP L78MvvCDT
+D Voltage regulator, TO-252
+$ENDCMP
+#
 $CMP L78vvCD2T
 D Voltage regulator, TO-263
 $ENDCMP

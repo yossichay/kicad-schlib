@@ -8,6 +8,10 @@ $CMP MBR0520
 D Diode, Schottky, 0.5A, 20V
 $ENDCMP
 #
+$CMP MBR0540
+D Diode, Schottky, 0.5A, 40V
+$ENDCMP
+#
 $CMP MBR1635G
 D Diode, Schottky, 16A, 35V
 $ENDCMP
