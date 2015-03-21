@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1SMA59xxBT3G
+D Diode, Zener, 1.5W
+$ENDCMP
+#
 $CMP MBR0520
 D Diode, Schottky, 0.5A, 20V
 $ENDCMP
