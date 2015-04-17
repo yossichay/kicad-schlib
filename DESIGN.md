@@ -15,6 +15,7 @@
 - One part per footprint; specify footprint in Footprint field
 - For parts with a large number of variants (e.g. fixed-voltage regulators), a placeholder in the name is acceptable: LM1117DT-v.v
 - Prefer logical schematic to blank parts with names - e.g., use buffer symbol in buffers, not just pins named IN and OUT.
+- Include [bomtool](https://github.com/cpavlina/bomtool) BOM lines whenever possible.
 
 ## Power supply naming
 
