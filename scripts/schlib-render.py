@@ -13,7 +13,7 @@ COLOR_BG = (1.0, 1.0, 0.76078)
 COLOR_PN = (0.0, 0.51765, 0.51765)
 MIN_WIDTH = 5
 TEXT_OFFS = 10
-MILS_PER_PIXEL = 3
+MILS_PER_PIXEL = 5
 
 def draw_text(ctx, text, posx, posy, size, hjust, vjust, theta=0):
     ctx.save()
@@ -696,7 +696,7 @@ if __name__ == "__main__":
         print("## " + item.name)
         for unit in range(1, 1+item.n_units):
             filename = "images/%s__%s__%d.png" % (libname, item.name, unit)
-            print("![%s](%s) " % (item.name + "__%d" % unit, "/images/%s__%s__%d.png" % (libname, item.name, unit)), end='')
+            print("![%s](%s) " % (item.name + "__%d" % unit, "/images/%s__%s__%d.png?raw=true" % (libname, item.name, unit)), end='')
 
             itemcopy = copy.deepcopy(item)
             itemcopy.filter_unit(unit)
