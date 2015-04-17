@@ -4,17 +4,20 @@
 
 - Description should end in (FOOTPRINT)
 - Seperate power units: orient vertically, pins at +/- 0.4in with 0.15in length
+- Text should be 50 mil in general
 - Pin length, numbering, general naming:
 
     - ICs: at least 0.15in
     - Discretes: when omitting pin numbers is practical, keep short for maximum wiring flexibility
     - Omitting pin numbers is allowed on discrete devices, but consider leaving the numbers for devices with nonstandard pinouts
     - Name all pins. Hide names when the symbol graphic labels the pin instead (transistor BCE, etc)
+    - Prefer overbar for inverted pins with names, inversion circle for inverted pins without names. Don't combine the two!
 
 - In manufacturer libraries, name parts according to manufacturer naming scheme.
 - One part per footprint; specify footprint in Footprint field
 - For parts with a large number of variants (e.g. fixed-voltage regulators), a placeholder in the name is acceptable: LM1117DT-v.v
 - Prefer logical schematic to blank parts with names - e.g., use buffer symbol in buffers, not just pins named IN and OUT.
+- Include Manuf and PN lines.
 - Include [bomtool](https://github.com/cpavlina/bomtool) BOM lines whenever possible.
 
 ## Power supply naming
