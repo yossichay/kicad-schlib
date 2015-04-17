@@ -66,6 +66,7 @@ class SchSymbol(object):
         self.fields = []
         self.fplist = []
         self.objects = []
+        self.description = ""
 
         if stack is not None:
              self.parse_kicad(stack)
@@ -302,7 +303,7 @@ class Pin(object):
             numx = (sx + ex) / 2
             numy = sy - self.num_size/2 - TEXT_OFFS
             numth = 0
-            namex = ex + TEXT_OFFS
+            namex = ex + TEXT_OFFS + self.parent.text_offset
             namey = sy
             namej = ("R", "C")
             nameth = 0
@@ -312,7 +313,7 @@ class Pin(object):
             numx = (sx + ex) / 2
             numy = sy - self.num_size/2 - TEXT_OFFS
             numth = 0
-            namex = ex - TEXT_OFFS
+            namex = ex - TEXT_OFFS - self.parent.text_offset
             namey = sy
             namej = ("L", "C")
             nameth = 0
@@ -323,7 +324,7 @@ class Pin(object):
             numy = (sy + ey) / 2
             numth = math.pi/2
             namex = sx
-            namey = ey + TEXT_OFFS
+            namey = ey + TEXT_OFFS + self.parent.text_offset
             namej = ("R", "C")
             nameth = math.pi/2
         elif self.dir == "U":
@@ -333,7 +334,7 @@ class Pin(object):
             numy = (sy + ey) / 2
             numth = math.pi/2
             namex = sx
-            namey = ey - TEXT_OFFS
+            namey = ey - TEXT_OFFS - self.parent.text_offset
             namej = ("L", "C")
             nameth = math.pi/2
 
@@ -342,8 +343,14 @@ class Pin(object):
         ctx.set_source_rgb(*COLOR_FG)
         ctx.stroke()
 
-        ctx.arc(sx, sy, 10, 0, 2*math.pi)
-        ctx.stroke()
+        # "Inverted" bubble?
+        if self.pin_type == "I":
+            ctx.arc(ex, ey, 12.5, 0, 2*math.pi)
+
+        # Endpoint
+        if self.elec_type != "N":
+            ctx.arc(sx, sy, 10, 0, 2*math.pi)
+            ctx.stroke()
 
         if self.num_size:
             draw_text(ctx, self.num, numx, numy, self.num_size, "C", "C", numth)
@@ -681,11 +688,41 @@ def parse_file(f):
 
     return items
 
+def get_item(items, name):
+    for item in items:
+        if item.name == name:
+            return item
+
+def load_dcm(items, f):
+    item = None
+
+    for line in f:
+        if line.startswith("$CMP "):
+            name = line.partition(" ")[2].strip()
+            item = get_item(items, name)
+        elif line.startswith("D ") and item is not None:
+            item.description = line.partition(" ")[2].strip()
+        elif line.startswith("$ENDCMP"):
+            item = None
+
 if __name__ == "__main__":
-    with open(sys.argv[1]) as f:
+
+    # usage: schlib-render.py outdir abs_outdir libfile [dcmfile]
+
+    outdir = sys.argv[1]
+    abs_outdir = sys.argv[2]
+    libfile = sys.argv[3]
+
+    with open(libfile) as f:
         items = parse_file(f)
 
-    libname = os.path.basename(sys.argv[1])
+    # Load DCM file?
+    if len(sys.argv) > 4:
+        dcmfile = sys.argv[4]
+        with open(dcmfile) as fdcm:
+            load_dcm(items, fdcm)
+
+    libname = os.path.basename(libfile)
     assert libname.endswith(".lib")
     libname = libname[:-4]
     print("# " + libname)
@@ -694,9 +731,13 @@ if __name__ == "__main__":
     for item in items:
 
         print("## " + item.name)
+        if item.description:
+            print(item.description)
+            print()
+
         for unit in range(1, 1+item.n_units):
-            filename = "images/%s__%s__%d.png" % (libname, item.name, unit)
-            print("![%s](%s) " % (item.name + "__%d" % unit, "/images/%s__%s__%d.png?raw=true" % (libname, item.name, unit)), end='')
+            filename = "%s/%s__%s__%d.png" % (outdir, libname, item.name, unit)
+            print("![%s](%s) " % (item.name + "__%d" % unit, "%s/%s__%s__%d.png?raw=true" % (abs_outdir, libname, item.name, unit)), end='')
 
             itemcopy = copy.deepcopy(item)
             itemcopy.filter_unit(unit)
