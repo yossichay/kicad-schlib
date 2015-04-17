@@ -412,6 +412,10 @@ $CMP TLV3501AIDBV
 D High speed comparator, SOT-23
 $ENDCMP
 #
+$CMP TPS61045DRB
+D Digitally programmable boost converter
+$ENDCMP
+#
 $CMP TPS62080DSGT
 D 1.2A step-down converter, DFN
 $ENDCMP
@@ -430,6 +434,19 @@ $ENDCMP
 #
 $CMP TPS64203DBV
 D Step-down controller, SOT-23
+$ENDCMP
+#
+$CMP TXB0104RGY
+D IC VOLT-LEVEL TRANSLATOR 14-QFN
+$ENDCMP
+#
+$CMP UC3843D8
+D SMPS controller (SOIC-8)
+$ENDCMP
+#
+$CMP ULN2003AD
+D Darlington array, 7x 50V 500mA, with base resistors
+F mod_pdf/TO-*
 $ENDCMP
 #
 $CMP VCA821IDGST

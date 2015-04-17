@@ -43,6 +43,11 @@ $CMP LT6101BIS5
 D Current sense amplifier
 $ENDCMP
 #
+$CMP LTC1844ES5-v.v
+D Positive regulator, fixed
+F mod_pdf/TO-220.pdf
+$ENDCMP
+#
 $CMP LTC2053CDD
 D Switched-capacitor instrumentation amplifier, DFN-8
 $ENDCMP

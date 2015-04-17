@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Tue 17 Sep 2013 04:58:15 PM EDT
+EESchema-DOCLIB  Version 2.0
 #
 $CMP DG419-DIP
 D Analog switch, SPDT
@@ -12,34 +12,20 @@ K anaswitch
 F mod_pdf/SOIC127P600X175-8.pdf
 $ENDCMP
 #
+$CMP DG449DS
+D Analog switch, SPDT
+K anaswitch
+F mod_pdf/SOIC127P600X175-8.pdf
+$ENDCMP
+#
 $CMP DS18B20
 D 1-Wire temperature sensor
 K temp
 F mod_pdf/TO-92.pdf
 $ENDCMP
 #
-$CMP MAX48X-DIP
-D RS-485 transceiver
-K rs485
-F mod_pdf/DIP-8.pdf
-$ENDCMP
-#
-$CMP MAX48X-SOIC
-D RS-485 transceiver
-K rs485
-F mod_pdf/SOIC127P600X175-8.pdf
-$ENDCMP
-#
-$CMP MAX48X-UMAX
-D RS-485 transceiver (uMAX footprint)
-K rs485
-F mod_pdf/SOP65P490X94-8.pdf
-$ENDCMP
-#
-$CMP MAX5481
-D 10-bit NV SPI digital potentiometer
-K digipot dac.10 dac
-F mod_pdf/SOP65P640X120-14.pdf
+$CMP MAX232-DIP
+F mod_pdf/DIP-16.pdf
 $ENDCMP
 #
 $CMP MAX48x-DIP
@@ -50,12 +36,14 @@ $CMP MAX48x-SOIC
 F mod_pdf/SOIC127P600X175-8.pdf
 $ENDCMP
 #
-$CMP MAX232-DIP
-F mod_pdf/DIP-16.pdf
-$ENDCMP
-#
 $CMP MAX48x-uMAX
 F mod_pdf/SOP65P490X94-8.pdf
+$ENDCMP
+#
+$CMP MAX5481
+D 10-bit NV SPI digital potentiometer
+K digipot dac.10 dac
+F mod_pdf/SOP65P640X120-14.pdf
 $ENDCMP
 #
 #End Doc Library

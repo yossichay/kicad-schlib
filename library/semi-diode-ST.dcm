@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STPS10L25G
+D Diode, Schottky, 25V, 10A
+F mod_pdf/DO-*
+$ENDCMP
+#
+#End Doc Library

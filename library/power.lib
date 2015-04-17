@@ -1,6 +1,95 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# (+1.8)
+#
+DEF (+1.8) #PWR 0 0 Y Y 1 L P
+F0 "#PWR" 0 50 30 H I C CNN
+F1 "(+1.8)" 0 100 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0  0 30  0 0 N
+P 2 0 1 0  0 50  0 30 N
+P 5 0 1 0  -50 60  50 60  50 50  -50 50  -50 60 F
+X (+1.8) 1 0 0 0 U 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# (+2.5)
+#
+DEF (+2.5) #PWR 0 0 Y Y 1 L P
+F0 "#PWR" 0 50 30 H I C CNN
+F1 "(+2.5)" 0 100 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0  0 30  0 0 N
+P 2 0 1 0  0 50  0 30 N
+P 5 0 1 0  -50 60  50 60  50 50  -50 50  -50 60 F
+X (+2.5) 1 0 0 0 U 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# (+3.3)
+#
+DEF (+3.3) #PWR 0 0 Y Y 1 L P
+F0 "#PWR" 0 50 30 H I C CNN
+F1 "(+3.3)" 0 100 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0  0 30  0 0 N
+P 2 0 1 0  0 50  0 30 N
+P 5 0 1 0  -50 60  50 60  50 50  -50 50  -50 60 F
+X (+3.3) 1 0 0 0 U 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# (+5)
+#
+DEF (+5) #PWR 0 0 Y Y 1 L P
+F0 "#PWR" 0 50 30 H I C CNN
+F1 "(+5)" 0 100 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0  0 30  0 0 N
+P 2 0 1 0  0 50  0 30 N
+P 5 0 1 0  -50 60  50 60  50 50  -50 50  -50 60 F
+X (+5) 1 0 0 0 U 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# (+VTGT)
+#
+DEF (+VTGT) #PWR 0 0 Y Y 1 L P
+F0 "#PWR" 0 50 30 H I C CNN
+F1 "(+VTGT)" 0 100 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0  0 30  0 0 N
+P 2 0 1 0  0 50  0 30 N
+P 5 0 1 0  -50 60  50 60  50 50  -50 50  -50 60 F
+X (+VTGT) 1 0 0 0 U 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# (GND)
+#
+DEF ~(GND) #PWR 0 0 Y Y 1 L P
+F0 "#PWR" 0 0 30 H I C CNN
+F1 "(GND)" 0 0 30 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+T 0 0 -75 30 0 0 0 (GND)  Normal 0 C C
+P 4 0 1 0  -50 0  0 -50  50 0  -50 0 N
+X (GND) 1 0 0 0 U 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # +1
 #
 DEF +1 #PWR 0 0 Y Y 1 L P
@@ -328,6 +417,21 @@ P 2 0 1 0  0 30  0 0 N
 P 2 0 1 0  0 50  0 30 N
 P 5 0 1 0  -50 60  50 60  50 50  -50 50  -50 60 F
 X +9 1 0 0 0 U 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +VTGT
+#
+DEF +VTGT #PWR 0 0 Y Y 1 L P
+F0 "#PWR" 0 50 30 H I C CNN
+F1 "+VTGT" 0 100 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0  0 30  0 0 N
+P 2 0 1 0  0 50  0 30 N
+P 5 0 1 0  -50 60  50 60  50 50  -50 50  -50 60 F
+X +VTGT 1 0 0 0 U 30 30 1 1 W N
 ENDDRAW
 ENDDEF
 #

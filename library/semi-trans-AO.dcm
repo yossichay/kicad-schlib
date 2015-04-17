@@ -14,4 +14,8 @@ D PMOS, -40V, -40A
 F mod_pdf/TO-*
 $ENDCMP
 #
+$CMP AOD5T40P
+D NMOS, 500V, 15A
+$ENDCMP
+#
 #End Doc Library
