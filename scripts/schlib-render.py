@@ -696,7 +696,7 @@ if __name__ == "__main__":
         print("## " + item.name)
         for unit in range(1, 1+item.n_units):
             filename = "images/%s__%s__%d.png" % (libname, item.name, unit)
-            print("![%s](%s) " % (item.name + "__%d" % unit, "/images/%s__%s__%d" % (libname, item.name, unit)), end='')
+            print("![%s](%s) " % (item.name + "__%d" % unit, "/images/%s__%s__%d.png" % (libname, item.name, unit)), end='')
 
             itemcopy = copy.deepcopy(item)
             itemcopy.filter_unit(unit)
