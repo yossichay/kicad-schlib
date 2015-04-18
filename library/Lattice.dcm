@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP ICE40LP384-SG32
-D FPGA, 384 LE, 21 IO
+D IC FPGA 21 I/O (QFN-32)
 $ENDCMP
 #
 #End Doc Library

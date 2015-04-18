@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP FAN4010
-D High-side current sensor, 2-5V
+D IC CURRENT SENSE 0%2 (MLP-6)
 $ENDCMP
 #
 #End Doc Library

@@ -1,6 +1,6 @@
 # Intersil
 
 ## ISL21070
-Micropower voltage reference
+IC VREF SERIES FIXED (SOT-23-3)
 
 ![ISL21070__1__1](/images/Intersil__ISL21070__1__1.png?raw=true) 
