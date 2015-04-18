@@ -66,12 +66,12 @@ JFET, symmetric N-channel
 ## NMOS
 MOSFET, N-channel enhancement
 
-![NMOS__1__1](/images/_semi__NMOS__1__1.png?raw=true) 
+![NMOS__1__1](/images/semi-trans-NXP__2N7002PW__1__1.png?raw=true) 
 
 ## NMOS-2D
 MOSFET, N-channel enhancement, two drain pins
 
-![NMOS-2D__1__1](/images/_semi__NMOS-2D__1__1.png?raw=true) 
+![NMOS-2D__1__1](/images/semi-trans-NXP__BUK98180-100A__1__1.png?raw=true) 
 
 ## NMOS-4D-3S
 MOSFET, N-channel enhancement, four drain, three source pins
@@ -106,12 +106,12 @@ MOSFET, N-channel enhancement, dual gate
 ## NPN
 BJT, NPN
 
-![NPN__1__1](/images/_semi__NPN__1__1.png?raw=true) 
+![NPN__1__1](/images/semi-trans-NXP__BFR540__1__1.png?raw=true) 
 
 ## NPN-2C
 BJT, NPN, two collector pins
 
-![NPN-2C__1__1](/images/_semi__NPN-2C__1__1.png?raw=true) 
+![NPN-2C__1__1](/images/semi-trans-NXP__BFQ19__1__1.png?raw=true) 
 
 ## NPNDARL
 BJT, NPN Darlington
@@ -132,12 +132,12 @@ BJT, PNP Darlington
 BJT, NPN dual
 
 ![NPNDUAL__1__1](/images/_semi__NPNDUAL__1__1.png?raw=true) 
-![NPNDUAL__2__1](/images/_semi__NPNDUAL__2__1.png?raw=true) 
+![NPNDUAL__2__1](/images/_semi__NPNDUAL__1__1.png?raw=true) 
 
 ## NPNLTP
 BJT, NPN long-tailed pair
 
-![NPNLTP__1__1](/images/_semi__NPNLTP__1__1.png?raw=true) 
+![NPNLTP__1__1](/images/semi-trans-NXP__PMP4201G__1__1.png?raw=true) 
 
 ## OPTOCOUP
 Optocoupler
@@ -168,7 +168,7 @@ JFET, symmetric P-channel
 ## PMOS
 MOSFET, P-channel enhancement
 
-![PMOS__1__1](/images/_semi__PMOS__1__1.png?raw=true) 
+![PMOS__1__1](/images/semi-trans-NXP__PMV160UP__1__1.png?raw=true) 
 
 ## PMOS-2D
 MOSFET, P-channel enhancement, two drains
@@ -193,12 +193,12 @@ MOSFET, P-channel depletion
 ## PNP
 BJT, PNP
 
-![PNP__1__1](/images/_semi__PNP__1__1.png?raw=true) 
+![PNP__1__1](/images/semi-trans-NXP__BFT92W__1__1.png?raw=true) 
 
 ## PNP-2C
 BJT, PNP, two collector pins
 
-![PNP-2C__1__1](/images/_semi__PNP-2C__1__1.png?raw=true) 
+![PNP-2C__1__1](/images/semi-trans-NXP__BFQ149__1__1.png?raw=true) 
 
 ## PNPDARL
 BJT, PNP Darlington
@@ -219,12 +219,12 @@ BJT, PNP Darlington
 BJT, PNP dual
 
 ![PNPDUAL__1__1](/images/_semi__PNPDUAL__1__1.png?raw=true) 
-![PNPDUAL__2__1](/images/_semi__PNPDUAL__2__1.png?raw=true) 
+![PNPDUAL__2__1](/images/_semi__PNPDUAL__1__1.png?raw=true) 
 
 ## PNPLTP
 BJT, PNP long-tailed pair
 
-![PNPLTP__1__1](/images/_semi__PNPLTP__1__1.png?raw=true) 
+![PNPLTP__1__1](/images/semi-trans-NXP__PMP5201G__1__1.png?raw=true) 
 
 ## PUT
 Programmable unijunction transistor

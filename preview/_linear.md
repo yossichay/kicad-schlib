@@ -12,29 +12,29 @@ Quad operational amplifier
 ![COMP_QUAD__2__1](/images/_linear__COMP_QUAD__2__1.png?raw=true) 
 ![COMP_QUAD__3__1](/images/_linear__COMP_QUAD__3__1.png?raw=true) 
 ![COMP_QUAD__4__1](/images/_linear__COMP_QUAD__4__1.png?raw=true) 
-![COMP_QUAD__5__1](/images/_linear__COMP_QUAD__5__1.png?raw=true) 
+![COMP_QUAD__5__1](/images/TexasInstruments__LM339M__5__1.png?raw=true) 
 
 ## OA_DUAL
 Dual operational amplifier
 
-![OA_DUAL__1__1](/images/_linear__OA_DUAL__1__1.png?raw=true) 
-![OA_DUAL__2__1](/images/_linear__OA_DUAL__2__1.png?raw=true) 
-![OA_DUAL__3__1](/images/_linear__OA_DUAL__3__1.png?raw=true) 
+![OA_DUAL__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
+![OA_DUAL__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
+![OA_DUAL__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
 ## OA_QUAD
 Quad operational amplifier
 
-![OA_QUAD__1__1](/images/_linear__OA_QUAD__1__1.png?raw=true) 
-![OA_QUAD__2__1](/images/_linear__OA_QUAD__2__1.png?raw=true) 
-![OA_QUAD__3__1](/images/_linear__OA_QUAD__3__1.png?raw=true) 
-![OA_QUAD__4__1](/images/_linear__OA_QUAD__4__1.png?raw=true) 
-![OA_QUAD__5__1](/images/_linear__OA_QUAD__5__1.png?raw=true) 
+![OA_QUAD__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
+![OA_QUAD__2__1](/images/TexasInstruments__LM324M__2__1.png?raw=true) 
+![OA_QUAD__3__1](/images/TexasInstruments__LM324M__3__1.png?raw=true) 
+![OA_QUAD__4__1](/images/TexasInstruments__LM324M__4__1.png?raw=true) 
+![OA_QUAD__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
 ## OA_SINGLE
 Single operational amplifier
 
-![OA_SINGLE__1__1](/images/_linear__OA_SINGLE__1__1.png?raw=true) 
-![OA_SINGLE__2__1](/images/_linear__OA_SINGLE__2__1.png?raw=true) 
+![OA_SINGLE__1__1](/images/TexasInstruments__LF356M__1__1.png?raw=true) 
+![OA_SINGLE__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
 
 ## OSC-4PIN
 4-pin oscillator module
@@ -89,5 +89,5 @@ Zener-like chip
 ## ZENERISH_ADJ
 Zener-like, programmable
 
-![ZENERISH_ADJ__1__1](/images/_linear__ZENERISH_ADJ__1__1.png?raw=true) 
+![ZENERISH_ADJ__1__1](/images/TexasInstruments__TL431AIDBZ__1__1.png?raw=true) 
 

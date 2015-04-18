@@ -51,6 +51,6 @@ IC CPLD 32MC (TQFP-44)
 ## EPM3064ATC44
 IC CPLD 64MC (TQFP-44)
 
-![EPM3064ATC44__1__1](/images/Altera__EPM3064ATC44__1__1.png?raw=true) 
-![EPM3064ATC44__2__1](/images/Altera__EPM3064ATC44__2__1.png?raw=true) 
+![EPM3064ATC44__1__1](/images/Altera__EPM3032ATC44__1__1.png?raw=true) 
+![EPM3064ATC44__2__1](/images/Altera__EPM3032ATC44__2__1.png?raw=true) 
 

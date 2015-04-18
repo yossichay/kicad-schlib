@@ -10,8 +10,8 @@ USB-SPI master
 ![SI8431-SOIC__2__1](/images/silabs__SI8431-SOIC__2__1.png?raw=true) 
 
 ## SI8431-SOIC-W
-![SI8431-SOIC-W__1__1](/images/silabs__SI8431-SOIC-W__1__1.png?raw=true) 
-![SI8431-SOIC-W__2__1](/images/silabs__SI8431-SOIC-W__2__1.png?raw=true) 
+![SI8431-SOIC-W__1__1](/images/silabs__SI8431-SOIC__1__1.png?raw=true) 
+![SI8431-SOIC-W__2__1](/images/silabs__SI8431-SOIC__2__1.png?raw=true) 
 
 ## SI8640-QSOP
 ![SI8640-QSOP__1__1](/images/silabs__SI8640-QSOP__1__1.png?raw=true) 
@@ -22,20 +22,20 @@ USB-SPI master
 ![SI8641-SOIC__2__1](/images/silabs__SI8641-SOIC__2__1.png?raw=true) 
 
 ## SI8641-SOIC-W
-![SI8641-SOIC-W__1__1](/images/silabs__SI8641-SOIC-W__1__1.png?raw=true) 
-![SI8641-SOIC-W__2__1](/images/silabs__SI8641-SOIC-W__2__1.png?raw=true) 
+![SI8641-SOIC-W__1__1](/images/silabs__SI8641-SOIC__1__1.png?raw=true) 
+![SI8641-SOIC-W__2__1](/images/silabs__SI8641-SOIC__2__1.png?raw=true) 
 
 ## SI8642-QSOP
 ![SI8642-QSOP__1__1](/images/silabs__SI8642-QSOP__1__1.png?raw=true) 
-![SI8642-QSOP__2__1](/images/silabs__SI8642-QSOP__2__1.png?raw=true) 
+![SI8642-QSOP__2__1](/images/silabs__SI8640-QSOP__2__1.png?raw=true) 
 
 ## SI8642-SOIC
-![SI8642-SOIC__1__1](/images/silabs__SI8642-SOIC__1__1.png?raw=true) 
-![SI8642-SOIC__2__1](/images/silabs__SI8642-SOIC__2__1.png?raw=true) 
+![SI8642-SOIC__1__1](/images/silabs__SI8642-QSOP__1__1.png?raw=true) 
+![SI8642-SOIC__2__1](/images/silabs__SI8640-QSOP__2__1.png?raw=true) 
 
 ## SI8642-SOIC-W
-![SI8642-SOIC-W__1__1](/images/silabs__SI8642-SOIC-W__1__1.png?raw=true) 
-![SI8642-SOIC-W__2__1](/images/silabs__SI8642-SOIC-W__2__1.png?raw=true) 
+![SI8642-SOIC-W__1__1](/images/silabs__SI8642-QSOP__1__1.png?raw=true) 
+![SI8642-SOIC-W__2__1](/images/silabs__SI8640-QSOP__2__1.png?raw=true) 
 
 ## SI8661-SOIC
 Five-in, one-out digital isolator

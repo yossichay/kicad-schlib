@@ -8,7 +8,7 @@ Voltage regulator, TO-252
 ## L78vvCD2T
 Voltage regulator, TO-263
 
-![L78vvCD2T__1__1](/images/ST__L78vvCD2T__1__1.png?raw=true) 
+![L78vvCD2T__1__1](/images/ST__L78MvvCDT__1__1.png?raw=true) 
 
 ## L78vvCV
 Voltage regulator, TO-220

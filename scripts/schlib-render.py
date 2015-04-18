@@ -3,10 +3,13 @@
 import cairo
 import math
 import shlex
+import subprocess
 from decimal import Decimal
 import sys
 import os
 import copy
+import subprocess
+import pickle
 
 COLOR_FG = (0.51765, 0.0, 0.0)
 COLOR_BG = (1.0, 1.0, 0.76078)
@@ -716,28 +719,43 @@ def load_dcm(items, f):
         elif line.startswith("$ENDCMP"):
             item = None
 
+def md5sum(fn):
+    return subprocess.check_output(['md5sum', fn]).decode('ascii').partition(' ')[0].strip()
+
 if __name__ == "__main__":
 
     if len(sys.argv) < 4:
-        print("usage: %s outdir html_dir_path libfile [dcmfile]" % sys.argv[0], file=sys.stderr)
+        print("usage: %s outdir html_dir_path cachefile libfile [dcmfile]" % sys.argv[0], file=sys.stderr)
         sys.exit(1)
 
     outdir = sys.argv[1]
     abs_outdir = sys.argv[2]
-    libfile = sys.argv[3]
+    cachefile = sys.argv[3]
+    libfile = sys.argv[4]
 
     with open(libfile) as f:
         items = parse_file(f)
 
     # Load DCM file?
-    if len(sys.argv) > 4:
-        dcmfile = sys.argv[4]
+    if len(sys.argv) > 5:
+        dcmfile = sys.argv[5]
         with open(dcmfile) as fdcm:
             load_dcm(items, fdcm)
 
     # Create a dummy Cairo context for determining bounding boxes
     dummy_surf = cairo.ImageSurface(cairo.FORMAT_ARGB32, 10, 10)
     dummy_ctx = cairo.Context(dummy_surf)
+
+    # Load the image cache
+    print(cachefile, file=sys.stderr)
+    if os.path.isfile(cachefile):
+        try:
+            with open(cachefile, "rb") as f:
+                cache = pickle.load(f)
+        except EOFError:
+            cache = {}
+    else:
+        cache = {}
 
     libname = os.path.basename(libfile)
     assert libname.endswith(".lib")
@@ -758,7 +776,6 @@ if __name__ == "__main__":
                 filename = "%s__%s__%d__%d.png" % (libname, san_name, unit, convert)
                 relpath = os.path.join(outdir, filename)
                 htmlpath = abs_outdir + "/" + filename
-                print("![%s__%d__%d](%s) " % (item.name, unit, convert, htmlpath + "?raw=true"))
 
                 itemcopy = copy.deepcopy(item)
                 itemcopy.filter_unit(unit)
@@ -784,4 +801,19 @@ if __name__ == "__main__":
                 except OSError:
                     print(relpath, file=sys.stderr)
                     raise
+
+                # Test if the file already exists in the cache. If it does,
+                # remove the one we just wrote and substitute in the cached file
+                checksum = md5sum(relpath)
+                if checksum in cache:
+                    os.unlink(relpath)
+                    htmlpath = cache[checksum]
+                else:
+                    cache[checksum] = htmlpath
+
+                print("![%s__%d__%d](%s) " % (item.name, unit, convert, htmlpath + "?raw=true"))
         print()
+
+    # Write out the cache
+    with open(cachefile, "wb") as f:
+        pickle.dump(cache, f)

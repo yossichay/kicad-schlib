@@ -23,12 +23,12 @@ NPN 9 GHz wideband transistor
 ## BFR92AW
 NPN 5 GHz wideband transistor
 
-![BFR92AW__1__1](/images/semi-trans-NXP__BFR92AW__1__1.png?raw=true) 
+![BFR92AW__1__1](/images/semi-trans-NXP__BFR540__1__1.png?raw=true) 
 
 ## BFS17W
 BJT, NPN 1GHz 15V 50mA 300mW
 
-![BFS17W__1__1](/images/semi-trans-NXP__BFS17W__1__1.png?raw=true) 
+![BFS17W__1__1](/images/semi-trans-NXP__BFR540__1__1.png?raw=true) 
 
 ## BFT92W
 PNP 4 GHz wideband transistor
@@ -49,7 +49,7 @@ NPN, matched, CE, 45V, 100mA
 NPN, matched, 45V, 100mA
 
 ![PMP4201Y__1__1](/images/semi-trans-NXP__PMP4201Y__1__1.png?raw=true) 
-![PMP4201Y__2__1](/images/semi-trans-NXP__PMP4201Y__2__1.png?raw=true) 
+![PMP4201Y__2__1](/images/semi-trans-NXP__PMP4201Y__1__1.png?raw=true) 
 
 ## PMP5201G
 PNP, matched, CE, -45V, -100mA
@@ -60,17 +60,17 @@ PNP, matched, CE, -45V, -100mA
 PNP, matched, -45V, -100mA
 
 ![PMP5201Y__1__1](/images/semi-trans-NXP__PMP5201Y__1__1.png?raw=true) 
-![PMP5201Y__2__1](/images/semi-trans-NXP__PMP5201Y__2__1.png?raw=true) 
+![PMP5201Y__2__1](/images/semi-trans-NXP__PMP5201Y__1__1.png?raw=true) 
 
 ## PMSS3904
 NPN amplifier, 100mA, 40V, 200mW
 
-![PMSS3904__1__1](/images/semi-trans-NXP__PMSS3904__1__1.png?raw=true) 
+![PMSS3904__1__1](/images/semi-trans-NXP__BFR540__1__1.png?raw=true) 
 
 ## PMSS3906
 PNP amplifier, -100mA, -40V, 200mW
 
-![PMSS3906__1__1](/images/semi-trans-NXP__PMSS3906__1__1.png?raw=true) 
+![PMSS3906__1__1](/images/semi-trans-NXP__BFT92W__1__1.png?raw=true) 
 
 ## PMV160UP
 MOSFET, P-enh -20V, -1.2A, Rds approx 200m
