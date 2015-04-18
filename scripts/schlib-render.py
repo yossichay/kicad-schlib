@@ -755,8 +755,10 @@ if __name__ == "__main__":
         for unit in range(1, 1+item.n_units):
             for convert in range(1, 3 if item.has_convert() else 2):
                 san_name = item.name.replace("/", "-")
-                filename = "%s/%s__%s__%d__%d.png" % (outdir, libname, san_name, unit, convert)
-                print("![%s__%d__%d](%s) " % (item.name, unit, convert, filename + "?raw=true"))
+                filename = "%s__%s__%d__%d.png" % (libname, san_name, unit, convert)
+                relpath = os.path.join(outdir, filename)
+                htmlpath = abs_outdir + "/" + filename
+                print("![%s__%d__%d](%s) " % (item.name, unit, convert, htmlpath + "?raw=true"))
 
                 itemcopy = copy.deepcopy(item)
                 itemcopy.filter_unit(unit)
@@ -778,8 +780,8 @@ if __name__ == "__main__":
                 itemcopy.render_cairo(ctx, origx, origy)
 
                 try:
-                    surface.write_to_png(filename)
+                    surface.write_to_png(relpath)
                 except OSError:
-                    print(filename, file=sys.stderr)
+                    print(relpath, file=sys.stderr)
                     raise
         print()
