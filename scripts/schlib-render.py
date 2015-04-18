@@ -15,7 +15,29 @@ MIN_WIDTH = 5
 TEXT_OFFS = 10
 MILS_PER_PIXEL = 5
 
+def merge_bounding_boxes(bbs):
+    minx = min(i[0] for i in bbs)
+    maxx = max(i[1] for i in bbs)
+    miny = min(i[2] for i in bbs)
+    maxy = max(i[3] for i in bbs)
+    return minx, maxx, miny, maxy
+
+def rotate_point(x, y, theta):
+    x2 = x * math.cos(theta) + y * math.sin(theta)
+    y2 = x * math.sin(theta) + y * math.cos(theta)
+    return x2, y2
+
+def decideg2rad(d):
+    return (d/3600) * 2*math.pi
+
+def rad2decideg(r):
+    return r / 2*math.pi * 3600
+
 def draw_text(ctx, text, posx, posy, size, hjust, vjust, theta=0):
+    """
+    Returns minx, maxx, miny, maxy bounding box
+    """
+
     ctx.save()
 
     ctx.select_font_face("Inconsolata", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
@@ -30,28 +52,45 @@ def draw_text(ctx, text, posx, posy, size, hjust, vjust, theta=0):
 
     if hjust == "R":
         sx = -width/2
+        minx = -width - size
+        maxx = size
     elif hjust == "C":
         sx = 0
+        minx = -width/2 - size
+        maxx = width/2 + size
     elif hjust == "L":
         sx = width/2
+        minx = -size
+        maxx = width + size
 
     if vjust == "T":
         sy = -height/2
+        miny = -height/2
+        maxy = 0
     elif vjust == "C":
         sy = 0
+        miny = -height/2
+        maxy = height/2
     elif vjust == "B":
         sy = height/2
+        miny = 0
+        maxy = height/2
 
     ctx.move_to(sx, sy - height/2)
     ctx.show_text(text)
     ctx.restore()
 
-def bounding_box(items):
-    boxes = [i.bounding_box() for i in items]
-    minx = min(i[0] for i in boxes)
-    maxx = max(i[1] for i in boxes)
-    miny = min(i[2] for i in boxes)
-    maxy = max(i[3] for i in boxes)
+    # Rotate the bounding box
+    c1 = rotate_point (minx, miny, theta)
+    c2 = rotate_point (minx, maxy, theta)
+    c3 = rotate_point (maxx, miny, theta)
+    c4 = rotate_point (maxx, maxy, theta)
+    cs = [c1, c2, c3, c4]
+
+    minx = min(i[0] for i in cs) + posx
+    maxx = max(i[0] for i in cs) + posx
+    miny = min(i[1] for i in cs) + posy
+    maxy = max(i[1] for i in cs) + posy
 
     return minx, maxx, miny, maxy
 
@@ -174,8 +213,11 @@ class SchSymbol(object):
         return '\n'.join(lines)
 
     def render_cairo(self, ctx, origx, origy):
+        bbs = []
         for i in self.objects:
-            i.render_cairo(ctx, origx, origy)
+            bb = i.render_cairo(ctx, origx, origy)
+            bbs.append (bb)
+        return merge_bounding_boxes(bbs)
 
     def filter_unit(self, unit):
         self.objects = [i for i in self.objects if (i.unit == unit or i.unit == 0)]
@@ -205,17 +247,6 @@ class SchSymbol(object):
                 return 1
 
         self.objects.sort(key=sortkey)
-
-    def bounding_box(self):
-        """Returns minx, maxx, miny, maxy"""
-
-        boxes = [i.bounding_box() for i in self.objects]
-        minx = min(i[0] for i in boxes)
-        maxx = max(i[1] for i in boxes)
-        miny = min(i[2] for i in boxes)
-        maxy = max(i[3] for i in boxes)
-
-        return minx, maxx, miny, maxy
 
 class Field(object):
     def __init__(self, parent, stack=None):
@@ -316,6 +347,8 @@ class Pin(object):
             ey = sy
             numx = (sx + ex) / 2
             numy = sy - self.num_size/2 - TEXT_OFFS
+            altnumx = (sx + ex) / 2
+            altnumy = sy + self.num_size/2 + TEXT_OFFS
             numth = 0
             namex = ex + TEXT_OFFS + self.parent.text_offset
             namey = sy
@@ -326,6 +359,8 @@ class Pin(object):
             ey = sy
             numx = (sx + ex) / 2
             numy = sy - self.num_size/2 - TEXT_OFFS
+            altnumx = (sx + ex) / 2
+            altnumy = sy + self.num_size/2 + TEXT_OFFS
             numth = 0
             namex = ex - TEXT_OFFS - self.parent.text_offset
             namey = sy
@@ -336,6 +371,8 @@ class Pin(object):
             ey = sy + self.length
             numx = sx - self.num_size/2 - TEXT_OFFS
             numy = (sy + ey) / 2
+            altnumx = sx + self.num_size/2 + TEXT_OFFS
+            altnumy = (sy + ey) / 2
             numth = -math.pi/2
             namex = sx
             namey = ey + TEXT_OFFS + self.parent.text_offset
@@ -346,11 +383,21 @@ class Pin(object):
             ey = sy - self.length
             numx = sx - self.num_size/2 - TEXT_OFFS
             numy = (sy + ey) / 2
+            altnumx = sx + self.num_size/2 + TEXT_OFFS
+            altnumy = (sy + ey) / 2
             numth = -math.pi/2
             namex = sx
             namey = ey - TEXT_OFFS - self.parent.text_offset
             namej = ("L", "C")
             nameth = -math.pi/2
+
+        if self.parent.text_offset == 0:
+            # Pin names are on pins, not inside
+            numx, altnumx = altnumx, numx
+            numy, altnumy = altnumy, numy
+            namex = altnumx
+            namey = altnumy
+            namej = ("C", "C")
 
         ctx.move_to(sx, sy)
         ctx.line_to(ex, ey)
@@ -366,33 +413,18 @@ class Pin(object):
             ctx.arc(sx, sy, 10, 0, 2*math.pi)
             ctx.stroke()
 
+        bbs = []
+
         if self.num_size and self.parent.draw_pinnums:
-            draw_text(ctx, self.num, numx, numy, self.num_size, "C", "C", numth)
+            bbs.append(draw_text(ctx, self.num, numx, numy, self.num_size, "C", "C", numth))
 
         if self.name_size and self.name != "~" and self.parent.draw_pinnames:
             ctx.set_source_rgb(*COLOR_PN)
-            draw_text(ctx, self.name, namex, namey, self.name_size, namej[0], namej[1], nameth)
+            bbs.append(draw_text(ctx, self.name, namex, namey, self.name_size, namej[0], namej[1], nameth))
 
-    def bounding_box(self):
-        """Returns minx, maxx, miny, maxy"""
-
-        sx = self.posx
-        sy = -self.posy
-
-        if self.dir == "L":
-            ex = sx - self.length
-            ey = sy
-        elif self.dir == "R":
-            ex = sx + self.length
-            ey = sy
-        elif self.dir == "D":
-            ex = sx
-            ey = sy + self.length
-        elif self.dir == "U":
-            ex = sx
-            ey = sy - self.length
-
-        return min(sx,ex), max(sx,ex), min(sy,ey), max(sy,ey)
+        # Bounding box
+        bbs.append([min(sx,ex), max(sx,ex), min(sy, ey), max(sy,ey)]) # Pin stick bounding box
+        return merge_bounding_boxes(bbs)
 
 class Arc(object):
     def __init__(self, parent, stack=None):
@@ -439,15 +471,38 @@ class Arc(object):
 
     def render_cairo(self, ctx, origx, origy):
 
-        eth = (-self.start_angle / 3600) * 2 * math.pi
-        sth = (-self.end_angle / 3600) * 2 * math.pi
+        sth = -decideg2rad(self.start_angle)
+        eth = -decideg2rad(self.end_angle)
+        length = -eth + sth
+        sth, eth = eth, sth
+        if abs(length) > math.pi * 1.05:
+            sth, eth = eth, sth
+
+        posx = self.posx + origx
+        posy = -self.posy + origy
 
         ctx.set_line_width(max(self.thickness, MIN_WIDTH))
-        ctx.arc(self.posx + origx, -self.posy + origy, self.radius, sth, eth)
+        ctx.arc(posx, posy, self.radius, sth, eth)
 
-    def bounding_box(self):
-        """Returns minx, maxx, miny, maxy"""
-        return 0, 0, 0, 0
+        if self.fill == "F":
+            ctx.set_source_rgb(*COLOR_FG)
+            ctx.stroke_preserve()
+            ctx.fill()
+        elif self.fill == "f":
+            ctx.set_source_rgb(*COLOR_FG)
+            ctx.stroke_preserve()
+            ctx.set_source_rgb(*COLOR_BG)
+            ctx.fill()
+        else:
+            ctx.set_source_rgb(*COLOR_FG)
+            ctx.stroke()
+
+
+        minx = posx - self.radius
+        maxx = posx + self.radius
+        miny = posy - self.radius
+        maxy = posy + self.radius
+        return minx, maxx, miny, maxy
 
 class Circle(object):
     def __init__(self, parent, stack=None):
@@ -484,7 +539,10 @@ class Circle(object):
     def render_cairo(self, ctx, origx, origy):
         ctx.set_line_width(max(self.thickness, MIN_WIDTH))
 
-        ctx.arc(self.posx + origx, -self.posy + origy, self.radius, 0, 2*math.pi)
+        posx = self.posx + origx
+        posy = -self.posy + origy
+
+        ctx.arc(posx, posy, self.radius, 0, 2*math.pi)
 
         if self.fill == "f":
             ctx.set_source_rgb(*COLOR_FG)
@@ -500,12 +558,10 @@ class Circle(object):
             ctx.set_source_rgb(*COLOR_FG)
             ctx.stroke()
 
-    def bounding_box(self):
-        """Returns minx, maxx, miny, maxy"""
-        minx = self.posx - self.radius
-        maxx = self.posx + self.radius
-        miny = -self.posy - self.radius
-        maxy = -self.posy + self.radius
+        minx = posx - self.radius
+        maxx = posx + self.radius
+        miny = posy - self.radius
+        maxy = posy + self.radius
         return minx, maxx, miny, maxy
 
 
@@ -560,12 +616,10 @@ class Polyline(object):
             ctx.set_source_rgb(*COLOR_FG)
             ctx.stroke()
 
-    def bounding_box(self):
-        """Returns minx, maxx, miny, maxy"""
-        minx = min(i[0] for i in self.points)
-        maxx = max(i[0] for i in self.points)
-        miny = min(-i[1] for i in self.points)
-        maxy = max(-i[1] for i in self.points)
+        minx = min(i[0] for i in self.points) + origx
+        maxx = max(i[0] for i in self.points) + origx
+        miny = min(-i[1] for i in self.points) + origy
+        maxy = max(-i[1] for i in self.points) + origy
         return minx, maxx, miny, maxy
 
 class Rectangle(object):
@@ -630,13 +684,10 @@ class Rectangle(object):
             ctx.set_source_rgb(*COLOR_FG)
             ctx.stroke()
 
-    def bounding_box(self):
-        """Returns minx, maxx, miny, maxy"""
-
-        minx = min(self.startx, self.endx)
-        maxx = max(self.startx, self.endx)
-        miny = min(-self.starty, -self.endy)
-        maxy = max(-self.starty, -self.endy)
+        minx = min(self.startx, self.endx) + origx
+        maxx = max(self.startx, self.endx) + origx
+        miny = min(-self.starty, -self.endy) + origy
+        maxy = max(-self.starty, -self.endy) + origy
         return minx, maxx, miny, maxy
 
 
@@ -682,12 +733,8 @@ class Text(object):
     def render_cairo(self, ctx, origx, origy):
         theta = (-self.direction / 10 / 360) * 2 * math.pi
         ctx.set_source_rgb(*COLOR_FG)
-        draw_text(ctx, self.text, self.posx + origx, -self.posy + origy, self.size,
+        return draw_text(ctx, self.text, self.posx + origx, -self.posy + origy, self.size,
                 self.hjust, self.vjust, theta)
-
-    def bounding_box(self):
-        """Returns minx, maxx, miny, maxy"""
-        return 0, 0, 0, 0
 
 def parse_file(f):
     stack = []
@@ -742,6 +789,10 @@ if __name__ == "__main__":
         with open(dcmfile) as fdcm:
             load_dcm(items, fdcm)
 
+    # Create a dummy Cairo context for determining bounding boxes
+    dummy_surf = cairo.ImageSurface(cairo.FORMAT_ARGB32, 10, 10)
+    dummy_ctx = cairo.Context(dummy_surf)
+
     libname = os.path.basename(libfile)
     assert libname.endswith(".lib")
     libname = libname[:-4]
@@ -765,14 +816,14 @@ if __name__ == "__main__":
                 itemcopy.filter_unit(unit)
                 itemcopy.filter_convert(convert)
 
-                minx, maxx, miny, maxy = itemcopy.bounding_box()
+                minx, maxx, miny, maxy = itemcopy.render_cairo(dummy_ctx, 0, 0)
 
                 width = maxx - minx + 25
                 height = maxy - miny + 25
                 origx = width/2 - (maxx+minx)/2
                 origy = height/2 - (maxy+miny)/2
 
-                surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, width//MILS_PER_PIXEL, height//MILS_PER_PIXEL)
+                surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, int(width//MILS_PER_PIXEL), int(height//MILS_PER_PIXEL))
                 ctx = cairo.Context(surface)
                 ctx.scale(1/MILS_PER_PIXEL, 1/MILS_PER_PIXEL)
 
