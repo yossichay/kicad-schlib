@@ -15,12 +15,41 @@ MIN_WIDTH = 5
 TEXT_OFFS = 10
 MILS_PER_PIXEL = 5
 
-def merge_bounding_boxes(bbs):
-    minx = min(i[0] for i in bbs)
-    maxx = max(i[1] for i in bbs)
-    miny = min(i[2] for i in bbs)
-    maxy = max(i[3] for i in bbs)
-    return minx, maxx, miny, maxy
+class BoundingBox(object):
+    def __init__(self, minx, maxx, miny, maxy):
+        self.minx = minx
+        self.maxx = maxx
+        self.miny = miny
+        self.maxy = maxy
+
+    def __add__(self, other):
+        if other == 0:
+            return BoundingBox(self.minx, self.maxx, self.miny, self.maxy)
+        return BoundingBox(
+                min(self.minx, other.minx),
+                max(self.maxx, other.maxx),
+                min(self.miny, other.miny),
+                max(self.maxy, other.maxy))
+    __radd__ = __add__
+
+    def __repr__(self):
+        return "BoundingBox(%r, %r, %r, %r)" % (
+                self.minx, self.maxx, self.miny, self.maxy)
+
+    __str__ = __repr__
+
+    @property
+    def width(self):
+        return self.maxx - self.minx
+    @property
+    def height(self):
+        return self.maxy - self.miny
+    @property
+    def centerx(self):
+        return (self.maxx + self.minx) / 2
+    @property
+    def centery(self):
+        return (self.maxy + self.miny) / 2
 
 def rotate_point(x, y, theta):
     x2 = x * math.cos(theta) + y * math.sin(theta)
@@ -34,8 +63,15 @@ def rad2decideg(r):
     return r / 2*math.pi * 3600
 
 def draw_text(ctx, text, posx, posy, size, hjust, vjust, theta=0):
-    """
-    Returns minx, maxx, miny, maxy bounding box
+    """Draw text onto a Cairo context.
+    @param ctx - Cairo context
+    @param text - string containing text to write
+    @param posx - x coordinate of text origin
+    @param posy - y coordinate of text origin
+    @param hjust - horizontal justification relative to origin: R, C, L
+    @param vjust - vertical justification relative to origin: T, C, B
+    @param theta - rotation around origin
+    @return BoundingBox of text
     """
 
     ctx.save()
@@ -62,6 +98,8 @@ def draw_text(ctx, text, posx, posy, size, hjust, vjust, theta=0):
         sx = width/2
         minx = -size
         maxx = width + size
+    else:
+        raise ValueError("Expected R, C, or L for hjust; got %r" % hjust)
 
     if vjust == "T":
         sy = -height/2
@@ -75,6 +113,8 @@ def draw_text(ctx, text, posx, posy, size, hjust, vjust, theta=0):
         sy = height/2
         miny = 0
         maxy = height/2
+    else:
+        raise ValueError("Expected T, C, or B for vjust; got %r" % vjust)
 
     ctx.move_to(sx, sy - height/2)
     ctx.show_text(text)
@@ -92,21 +132,14 @@ def draw_text(ctx, text, posx, posy, size, hjust, vjust, theta=0):
     miny = min(i[1] for i in cs) + posy
     maxy = max(i[1] for i in cs) + posy
 
-    return minx, maxx, miny, maxy
+    return BoundingBox(minx, maxx, miny, maxy)
 
 class SchSymbol(object):
     def __init__(self, stack=None):
-        self.text_offset = 40
-        self.draw_pinnums = True
-        self.draw_pinnames = True
-        self.n_units = 1
-        self.units_locked = False
-        self.flag = "N"
         self.fields = []
         self.fplist = []
         self.objects = []
         self.description = ""
-
         if stack is not None:
              self.parse_kicad(stack)
 
@@ -125,23 +158,19 @@ class SchSymbol(object):
             (so we can pop() them)
         """
 
-        states = ["root", "fplist", "draw"]
         state = "root"
 
         while stack:
-            assert state in states
             raw_line = stack.pop()
             line = raw_line.strip()
-            if not line:
+            if not line or line.startswith("#"):
                 continue
-            if line.startswith("#"):
-                continue
+
             try:
                 parts = shlex.split(line)
             except ValueError:
                 print(line, file=sys.stderr)
                 raise
-
 
             if state == "root":
                 if parts[0] == "EESchema-LIBRARY":
@@ -205,6 +234,8 @@ class SchSymbol(object):
                     state = "root"
                 else:
                     raise Exception("Unrecognized graphic item %s" % parts[0])
+            else:
+                assert False, "invalid state %r" % state
 
     def __str__(self):
         lines = []
@@ -217,7 +248,7 @@ class SchSymbol(object):
         for i in self.objects:
             bb = i.render_cairo(ctx, origx, origy)
             bbs.append (bb)
-        return merge_bounding_boxes(bbs)
+        return sum(bbs)
 
     def filter_unit(self, unit):
         self.objects = [i for i in self.objects if (i.unit == unit or i.unit == 0)]
@@ -287,9 +318,6 @@ class Field(object):
 
     def __str__(self):
         return self.fieldname + ": " + self.value
-
-    def render_cairo(self, ctx, origx, origy):
-        pass
 
 class Pin(object):
     def __init__(self, parent, stack=None):
@@ -423,8 +451,8 @@ class Pin(object):
             bbs.append(draw_text(ctx, self.name, namex, namey, self.name_size, namej[0], namej[1], nameth))
 
         # Bounding box
-        bbs.append([min(sx,ex), max(sx,ex), min(sy, ey), max(sy,ey)]) # Pin stick bounding box
-        return merge_bounding_boxes(bbs)
+        bbs.append(BoundingBox(min(sx,ex), max(sx,ex), min(sy, ey), max(sy,ey))) # Pin stick bounding box
+        return sum(bbs)
 
 class Arc(object):
     def __init__(self, parent, stack=None):
@@ -502,7 +530,7 @@ class Arc(object):
         maxx = posx + self.radius
         miny = posy - self.radius
         maxy = posy + self.radius
-        return minx, maxx, miny, maxy
+        return BoundingBox(minx, maxx, miny, maxy)
 
 class Circle(object):
     def __init__(self, parent, stack=None):
@@ -562,7 +590,7 @@ class Circle(object):
         maxx = posx + self.radius
         miny = posy - self.radius
         maxy = posy + self.radius
-        return minx, maxx, miny, maxy
+        return BoundingBox(minx, maxx, miny, maxy)
 
 
 class Polyline(object):
@@ -620,7 +648,7 @@ class Polyline(object):
         maxx = max(i[0] for i in self.points) + origx
         miny = min(-i[1] for i in self.points) + origy
         maxy = max(-i[1] for i in self.points) + origy
-        return minx, maxx, miny, maxy
+        return BoundingBox(minx, maxx, miny, maxy)
 
 class Rectangle(object):
     def __init__(self, parent, stack=None):
@@ -688,7 +716,7 @@ class Rectangle(object):
         maxx = max(self.startx, self.endx) + origx
         miny = min(-self.starty, -self.endy) + origy
         maxy = max(-self.starty, -self.endy) + origy
-        return minx, maxx, miny, maxy
+        return BoundingBox(minx, maxx, miny, maxy)
 
 
 class Text(object):
@@ -816,14 +844,15 @@ if __name__ == "__main__":
                 itemcopy.filter_unit(unit)
                 itemcopy.filter_convert(convert)
 
-                minx, maxx, miny, maxy = itemcopy.render_cairo(dummy_ctx, 0, 0)
+                boundingbox = itemcopy.render_cairo(dummy_ctx, 0, 0)
 
-                width = maxx - minx + 25
-                height = maxy - miny + 25
-                origx = width/2 - (maxx+minx)/2
-                origy = height/2 - (maxy+miny)/2
+                surf_width = boundingbox.width + 25
+                surf_height = boundingbox.height + 25
+                origx = surf_width/2 - boundingbox.centerx
+                origy = surf_height/2 - boundingbox.centery
 
-                surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, int(width//MILS_PER_PIXEL), int(height//MILS_PER_PIXEL))
+                surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, int(surf_width//MILS_PER_PIXEL),
+                        int(surf_height//MILS_PER_PIXEL))
                 ctx = cairo.Context(surface)
                 ctx.scale(1/MILS_PER_PIXEL, 1/MILS_PER_PIXEL)
 
