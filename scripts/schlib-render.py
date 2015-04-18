@@ -365,53 +365,39 @@ class Pin(KicadObject):
         sx = self.posx + origx
         sy = -self.posy + origy
 
-        if self.dir == "R":
-            ex = sx + self.length
+        if self.dir in "RL":
+            if self.dir == "R":
+                ex = sx + self.length
+                namex = ex + TEXT_OFFS + self.parent.text_offset
+                namej = ("L", "C")
+            else:
+                ex = sx - self.length
+                namex = ex - TEXT_OFFS - self.parent.text_offset
+                namej = ("R", "C")
             ey = sy
             numx = (sx + ex) / 2
             numy = sy - self.num_size/2 - TEXT_OFFS
             altnumx = (sx + ex) / 2
             altnumy = sy + self.num_size/2 + TEXT_OFFS
             numth = 0
-            namex = ex + TEXT_OFFS + self.parent.text_offset
             namey = sy
-            namej = ("L", "C")
             nameth = 0
-        elif self.dir == "L":
-            ex = sx - self.length
-            ey = sy
-            numx = (sx + ex) / 2
-            numy = sy - self.num_size/2 - TEXT_OFFS
-            altnumx = (sx + ex) / 2
-            altnumy = sy + self.num_size/2 + TEXT_OFFS
-            numth = 0
-            namex = ex - TEXT_OFFS - self.parent.text_offset
-            namey = sy
-            namej = ("R", "C")
-            nameth = 0
-        elif self.dir == "D":
+        elif self.dir in "UD":
+            if self.dir == "D":
+                ey = sy + self.length
+                namey = ey + TEXT_OFFS + self.parent.text_offset
+                namej = ("R", "C")
+            else:
+                ey = sy - self.length
+                namey = ey - TEXT_OFFS - self.parent.text_offset
+                namej = ("L", "C")
             ex = sx
-            ey = sy + self.length
             numx = sx - self.num_size/2 - TEXT_OFFS
             numy = (sy + ey) / 2
             altnumx = sx + self.num_size/2 + TEXT_OFFS
             altnumy = (sy + ey) / 2
             numth = -math.pi/2
             namex = sx
-            namey = ey + TEXT_OFFS + self.parent.text_offset
-            namej = ("R", "C")
-            nameth = -math.pi/2
-        elif self.dir == "U":
-            ex = sx
-            ey = sy - self.length
-            numx = sx - self.num_size/2 - TEXT_OFFS
-            numy = (sy + ey) / 2
-            altnumx = sx + self.num_size/2 + TEXT_OFFS
-            altnumy = (sy + ey) / 2
-            numth = -math.pi/2
-            namex = sx
-            namey = ey - TEXT_OFFS - self.parent.text_offset
-            namej = ("L", "C")
             nameth = -math.pi/2
 
         if self.parent.text_offset == 0:
@@ -422,6 +408,7 @@ class Pin(KicadObject):
             namey = altnumy
             namej = ("C", "C")
 
+        # Draw the actual pin
         ctx.move_to(sx, sy)
         ctx.line_to(ex, ey)
         ctx.set_source_rgb(*COLOR_FG)
