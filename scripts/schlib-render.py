@@ -18,7 +18,7 @@ MILS_PER_PIXEL = 5
 def draw_text(ctx, text, posx, posy, size, hjust, vjust, theta=0):
     ctx.save()
 
-    ctx.select_font_face("Courier", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
+    ctx.select_font_face("Inconsolata", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
     ctx.set_font_size(size*1.5)
 
     fascent, fdescent, fheight, fxadvance, fyadvance = ctx.font_extents()
@@ -28,11 +28,11 @@ def draw_text(ctx, text, posx, posy, size, hjust, vjust, theta=0):
     ctx.rotate(theta)
     ctx.translate(-width/2, fheight/2)
 
-    if hjust == "L":
+    if hjust == "R":
         sx = -width/2
     elif hjust == "C":
         sx = 0
-    elif hjust == "R":
+    elif hjust == "L":
         sx = width/2
 
     if vjust == "T":
@@ -93,12 +93,16 @@ class SchSymbol(object):
             assert state in states
             raw_line = stack.pop()
             line = raw_line.strip()
-            parts = shlex.split(line)
-
             if not line:
                 continue
             if line.startswith("#"):
                 continue
+            try:
+                parts = shlex.split(line)
+            except ValueError:
+                print(line, file=sys.stderr)
+                raise
+
 
             if state == "root":
                 if parts[0] == "EESchema-LIBRARY":
@@ -143,6 +147,7 @@ class SchSymbol(object):
                     stack.append(raw_line)
                     self.objects.append(Pin(self, stack))
                 elif parts[0] == "A":
+                    pass
                     stack.append(raw_line)
                     self.objects.append(Arc(self, stack))
                 elif parts[0] == "C":
@@ -174,6 +179,15 @@ class SchSymbol(object):
 
     def filter_unit(self, unit):
         self.objects = [i for i in self.objects if (i.unit == unit or i.unit == 0)]
+
+    def filter_convert(self, convert):
+        self.objects = [i for i in self.objects if (i.convert == convert or i.convert == 0)]
+
+    def has_convert(self):
+        for i in self.objects:
+            if i.convert > 1:
+                return True
+        return False
 
     def sort_objects(self):
         """Sort the objects into a good drawing order"""
@@ -305,7 +319,7 @@ class Pin(object):
             numth = 0
             namex = ex + TEXT_OFFS + self.parent.text_offset
             namey = sy
-            namej = ("R", "C")
+            namej = ("L", "C")
             nameth = 0
         elif self.dir == "L":
             ex = sx - self.length
@@ -315,28 +329,28 @@ class Pin(object):
             numth = 0
             namex = ex - TEXT_OFFS - self.parent.text_offset
             namey = sy
-            namej = ("L", "C")
+            namej = ("R", "C")
             nameth = 0
         elif self.dir == "D":
             ex = sx
             ey = sy + self.length
             numx = sx - self.num_size/2 - TEXT_OFFS
             numy = (sy + ey) / 2
-            numth = math.pi/2
+            numth = -math.pi/2
             namex = sx
             namey = ey + TEXT_OFFS + self.parent.text_offset
             namej = ("R", "C")
-            nameth = math.pi/2
+            nameth = -math.pi/2
         elif self.dir == "U":
             ex = sx
             ey = sy - self.length
             numx = sx - self.num_size/2 - TEXT_OFFS
             numy = (sy + ey) / 2
-            numth = math.pi/2
+            numth = -math.pi/2
             namex = sx
             namey = ey - TEXT_OFFS - self.parent.text_offset
             namej = ("L", "C")
-            nameth = math.pi/2
+            nameth = -math.pi/2
 
         ctx.move_to(sx, sy)
         ctx.line_to(ex, ey)
@@ -352,10 +366,10 @@ class Pin(object):
             ctx.arc(sx, sy, 10, 0, 2*math.pi)
             ctx.stroke()
 
-        if self.num_size:
+        if self.num_size and self.parent.draw_pinnums:
             draw_text(ctx, self.num, numx, numy, self.num_size, "C", "C", numth)
 
-        if self.name_size and self.name != "~":
+        if self.name_size and self.name != "~" and self.parent.draw_pinnames:
             ctx.set_source_rgb(*COLOR_PN)
             draw_text(ctx, self.name, namex, namey, self.name_size, namej[0], namej[1], nameth)
 
@@ -380,7 +394,7 @@ class Pin(object):
 
         return min(sx,ex), max(sx,ex), min(sy,ey), max(sy,ey)
 
-def Arc(object):
+class Arc(object):
     def __init__(self, parent, stack=None):
         self.parent = parent
         self.posx = 0
@@ -404,7 +418,7 @@ def Arc(object):
         line = raw_line.strip()
         parts = shlex.split(line)
 
-        head, posx, posy, radius, start_angle, end_engle, unit, convert, thickness, fill, startx, starty, endx, endy = parts
+        head, posx, posy, radius, start_angle, end_angle, unit, convert, thickness, fill, startx, starty, endx, endy = parts
 
         self.posx = int(posx)
         self.posy = int(posy)
@@ -417,13 +431,19 @@ def Arc(object):
         self.endy = int(endy)
         self.unit = int(unit)
         self.convert = int(convert)
+        self.thickness = int(thickness)
         self.fill = fill
 
     def __str__(self):
         return "ARC"
 
     def render_cairo(self, ctx, origx, origy):
-        pass
+
+        eth = (-self.start_angle / 3600) * 2 * math.pi
+        sth = (-self.end_angle / 3600) * 2 * math.pi
+
+        ctx.set_line_width(max(self.thickness, MIN_WIDTH))
+        ctx.arc(self.posx + origx, -self.posy + origy, self.radius, sth, eth)
 
     def bounding_box(self):
         """Returns minx, maxx, miny, maxy"""
@@ -660,7 +680,7 @@ class Text(object):
         return "TEXT"
 
     def render_cairo(self, ctx, origx, origy):
-        theta = (self.direction / 10 / 360) * 2 * math.pi
+        theta = (-self.direction / 10 / 360) * 2 * math.pi
         ctx.set_source_rgb(*COLOR_FG)
         draw_text(ctx, self.text, self.posx + origx, -self.posy + origy, self.size,
                 self.hjust, self.vjust, theta)
@@ -736,25 +756,31 @@ if __name__ == "__main__":
             print()
 
         for unit in range(1, 1+item.n_units):
-            filename = "%s/%s__%s__%d.png" % (outdir, libname, item.name, unit)
-            print("![%s](%s) " % (item.name + "__%d" % unit, "%s/%s__%s__%d.png?raw=true" % (abs_outdir, libname, item.name, unit)), end='')
+            for convert in range(1, 3 if item.has_convert() else 2):
+                san_name = item.name.replace("/", "-")
+                filename = "%s/%s__%s__%d__%d.png" % (outdir, libname, san_name, unit, convert)
+                print("![%s](%s) " % (item.name + "__%d__%d" % (unit, convert), "%s/%s__%s__%d__%d.png?raw=true" % (abs_outdir, libname, item.name, unit, convert)), end='')
 
-            itemcopy = copy.deepcopy(item)
-            itemcopy.filter_unit(unit)
+                itemcopy = copy.deepcopy(item)
+                itemcopy.filter_unit(unit)
+                itemcopy.filter_convert(convert)
 
-            minx, maxx, miny, maxy = itemcopy.bounding_box()
+                minx, maxx, miny, maxy = itemcopy.bounding_box()
 
-            width = maxx - minx + 25
-            height = maxy - miny + 25
-            origx = width/2 - (maxx+minx)/2
-            origy = height/2 - (maxy+miny)/2
+                width = maxx - minx + 25
+                height = maxy - miny + 25
+                origx = width/2 - (maxx+minx)/2
+                origy = height/2 - (maxy+miny)/2
 
-            surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, width//MILS_PER_PIXEL, height//MILS_PER_PIXEL)
-            ctx = cairo.Context(surface)
-            ctx.scale(1/MILS_PER_PIXEL, 1/MILS_PER_PIXEL)
+                surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, width//MILS_PER_PIXEL, height//MILS_PER_PIXEL)
+                ctx = cairo.Context(surface)
+                ctx.scale(1/MILS_PER_PIXEL, 1/MILS_PER_PIXEL)
 
-            itemcopy.sort_objects()
-            itemcopy.render_cairo(ctx, origx, origy)
+                itemcopy.sort_objects()
+                itemcopy.render_cairo(ctx, origx, origy)
 
-            surface.write_to_png(filename)
+                try:
+                    surface.write_to_png(filename)
+                except OSError:
+                    print(filename, file=sys.stderr)
         print()
