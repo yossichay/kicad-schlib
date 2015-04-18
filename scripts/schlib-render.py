@@ -51,6 +51,30 @@ class BoundingBox(object):
     def centery(self):
         return (self.maxy + self.miny) / 2
 
+class LineParser(object):
+    def __init__(self, f):
+        """Initialize a LineParser from a file"""
+        self.f = f
+        self.stack = []
+        self.raw = None
+        self.lineno = 0
+    def pop(self):
+        self.lineno += 1
+        if self.stack:
+            self.raw = self.stack.pop()
+        else:
+            self.raw = self.f.readline()
+        self.stripped = self.raw.strip()
+        try:
+            self.parts = shlex.split(self.stripped)
+        except ValueError:
+            self.parts = []
+    def push(self):
+        self.lineno -= 1
+        self.stack.append(self.raw)
+    def __bool__(self):
+        return self.raw is None or bool(self.raw)
+
 def rotate_point(x, y, theta):
     x2 = x * math.cos(theta) + y * math.sin(theta)
     y2 = x * math.sin(theta) + y * math.cos(theta)
@@ -76,7 +100,7 @@ def draw_text(ctx, text, posx, posy, size, hjust, vjust, theta=0):
 
     ctx.save()
 
-    ctx.select_font_face("Inconsolata", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
+    ctx.select_font_face("Courier", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
     ctx.set_font_size(size*1.5)
 
     fascent, fdescent, fheight, fxadvance, fyadvance = ctx.font_extents()
@@ -134,7 +158,26 @@ def draw_text(ctx, text, posx, posy, size, hjust, vjust, theta=0):
 
     return BoundingBox(minx, maxx, miny, maxy)
 
-class SchSymbol(object):
+class KicadObject(object):
+    def parse_line_into(self, parser, *values):
+        """Parse a shlex-split line into this object's instance variables.
+        @param parser - a LineParser positioned at the current line
+        @param values - a list of tuples (name, converter); if name is None the
+            field will be ignored.
+        @return unparsed values
+        """
+        for field, (name, converter) in zip(parser.parts, values):
+            if converter is None:
+                value = field
+            else:
+                try:
+                    value = converter(field)
+                except (ValueError, TypeError):
+                    raise ValueError("could not parse field %r with %s" % (field, converter))
+            self.__dict__[name] = value
+        return parser.parts[len(values):]
+
+class SchSymbol(KicadObject):
     def __init__(self, stack=None):
         self.fields = []
         self.fplist = []
@@ -151,89 +194,76 @@ class SchSymbol(object):
     def ref(self):
         return self.fields[0].value
 
-    def parse_kicad(self, stack):
+    def parse_kicad(self, parser):
         """Parse a KiCad library file into this object.
 
-        @param stack - a stack of lines, with the first line at the end
-            (so we can pop() them)
+        @param parser - a LineParser loaded with the file
         """
 
         state = "root"
 
-        while stack:
-            raw_line = stack.pop()
-            line = raw_line.strip()
-            if not line or line.startswith("#"):
+        while parser:
+            parser.pop()
+            if not parser.raw or parser.raw.startswith("#"):
                 continue
-
-            try:
-                parts = shlex.split(line)
-            except ValueError:
-                print(line, file=sys.stderr)
-                raise
+            if not parser.parts:
+                raise ValueError("shlex could not parse line %d" % parser.lineno)
 
             if state == "root":
-                if parts[0] == "EESchema-LIBRARY":
-                    assert parts[1] == "Version"
-                    assert Decimal(parts[2]) <= Decimal("2.3")
+                if parser.parts[0] == "EESchema-LIBRARY":
+                    assert parser.parts[1] == "Version"
+                    assert Decimal(parser.parts[2]) <= Decimal("2.3")
 
-                elif parts[0] == "DEF":
-                    head, name, ref, unused, text_offset, draw_pinnums, draw_pinnames, n_units, units_locked, flag = parts
-                    self.text_offset = int(text_offset)
-                    self.draw_pinnums = (draw_pinnums == "Y")
-                    self.draw_pinnames = (draw_pinnames == "Y")
-                    self.n_units = int(n_units)
-                    self.units_locked = (units_locked == "L")
-                    self.flag = flag
+                elif parser.parts[0] == "DEF":
+                    self.parse_line_into(parser,
+                            (None, None), # head
+                            (None, None), # name
+                            (None, None), # ref
+                            (None, None), # unused
+                            ("text_offset",     int),
+                            ("draw_pinnums",    lambda x: x == "Y"),
+                            ("draw_pinnames",   lambda x: x == "Y"),
+                            ("n_units",         int),
+                            ("units_locked",    lambda x: x == "L"),
+                            ("flag",            None))
 
-                elif parts[0].startswith("F"):
-                    fieldnum = int(parts[0][1:])
+                elif parser.parts[0].startswith("F"):
+                    fieldnum = int(parser.parts[0][1:])
                     assert fieldnum == len(self.fields)
-                    stack.append(raw_line)
-                    self.fields.append(Field(self, stack))
+                    self.fields.append(Field(self, parser))
 
-                elif parts[0] == "$FPLIST":
+                elif parser.parts[0] == "$FPLIST":
                     state = "fplist"
 
-                elif parts[0] == "DRAW":
+                elif parser.parts[0] == "DRAW":
                     state = "draw"
 
-                elif parts[0] == "ENDDEF":
+                elif parser.parts[0] == "ENDDEF":
                     return
 
                 else:
-                    print("Unrecognized line %s" % parts[0])
+                    print("Unrecognized line %s" % parser.parts[0], file=sys.stderr)
 
             elif state == "fplist":
-                if parts[0] == "$ENDFPLIST":
+                if parser.parts[0] == "$ENDFPLIST":
                     state = "root"
                 else:
-                    self.fplist.append (line)
+                    self.fplist.append (parser.stripped)
 
             elif state == "draw":
-                if parts[0] == "X":
-                    stack.append(raw_line)
-                    self.objects.append(Pin(self, stack))
-                elif parts[0] == "A":
-                    pass
-                    stack.append(raw_line)
-                    self.objects.append(Arc(self, stack))
-                elif parts[0] == "C":
-                    stack.append(raw_line)
-                    self.objects.append(Circle(self, stack))
-                elif parts[0] == "P":
-                    stack.append(raw_line)
-                    self.objects.append(Polyline(self, stack))
-                elif parts[0] == "S":
-                    stack.append(raw_line)
-                    self.objects.append(Rectangle(self, stack))
-                elif parts[0] == "T":
-                    stack.append(raw_line)
-                    self.objects.append(Text(self, stack))
-                elif parts[0] == "ENDDRAW":
+                if parser.parts[0] == "ENDDRAW":
                     state = "root"
                 else:
-                    raise Exception("Unrecognized graphic item %s" % parts[0])
+                    objtype = {
+                            "X": Pin,
+                            "A": Arc,
+                            "C": Circle,
+                            "P": Polyline,
+                            "S": Rectangle,
+                            "T": Text }.get(parser.parts[0])
+                    if objtype is None:
+                        raise ValueError("Unrecognized graphic item %s on line %d" % (parser.parts[0], parser.lineno))
+                    self.objects.append(objtype(self, parser))
             else:
                 assert False, "invalid state %r" % state
 
@@ -279,86 +309,51 @@ class SchSymbol(object):
 
         self.objects.sort(key=sortkey)
 
-class Field(object):
+class Field(KicadObject):
     def __init__(self, parent, stack=None):
         self.parent = parent
-        self.value = ""
-        self.posx = 0
-        self.posy = 0
-        self.size = 0
-        self.orient = "H"
-        self.visible = True
-        self.hjust = "C"
-        self.vjust = "C"
-        self.fieldname = ""
-
         if stack is not None:
             self.parse_kicad(stack)
 
-    def parse_kicad(self, stack):
-        raw_line = stack.pop()
-        line = raw_line.strip()
-        parts = shlex.split(line)
-
-        head, value, posx, posy, size, orient, visible, hjust, vjust, *rest = parts
-        assert head.startswith("F")
-        self.value = value
-        self.posx = int(posx)
-        self.posy = int(posy)
-        self.size = int(size)
-        self.orient = orient
-        self.visible = (visible == "V")
-        self.hjust = hjust
-        self.vjust = vjust[0]  # CNN -> C
-        assert vjust[1:] == "NN"
-        if rest:
-            self.fieldname = rest[0]
-        else:
-            self.fieldname = ""
+    def parse_kicad(self, parser):
+        self.fieldname = "" # Default value
+        self.parse_line_into(parser,
+                (None, None), # head
+                ("value",   None),
+                ("posx",    int),
+                ("posy",    int),
+                ("size",    int),
+                ("orient",  None),
+                ("visible", lambda x: x == "V"),
+                ("hjust",   None),
+                ("vjust",   lambda x: x[0]), # CNN -> C
+                ("fieldname",   None)) # Optional
 
     def __str__(self):
         return self.fieldname + ": " + self.value
 
-class Pin(object):
-    def __init__(self, parent, stack=None):
+class Pin(KicadObject):
+    def __init__(self, parent, parser=None):
         self.parent = parent
-        self.name = ""
-        self.num = ""
-        self.posx = 0
-        self.posy = 0
-        self.length = 0
-        self.dir = "L"
-        self.name_size = 0
-        self.num_size = 0
-        self.elec_type = "U"
-        self.pin_type = ""
-        self.unit = 1
-        self.convert = 1
+        if parser is not None:
+            self.parse_kicad(parser)
 
-        if stack is not None:
-            self.parse_kicad(stack)
-
-    def parse_kicad(self, stack):
-        raw_line = stack.pop()
-        line = raw_line.strip()
-        parts = shlex.split(line)
-
-        head, name, num, posx, posy, length, direction, num_size, name_size, unit, convert, elec_type, *rest = parts
-        self.name = name
-        self.num = num
-        self.posx = int(posx)
-        self.posy = int(posy)
-        self.length = int(length)
-        self.dir = direction
-        self.name_size = int(name_size)
-        self.num_size = int(num_size)
-        self.unit = int(unit)
-        self.convert = int(convert)
-        self.elec_type = elec_type
-        if rest:
-            self.pin_type = rest[0]
-        else:
-            self.pin_type = ""
+    def parse_kicad(self, parser):
+        self.pin_type = "" # default value
+        self.parse_line_into(parser,
+                (None, None),   # head
+                ("name",    None),
+                ("num",     None),
+                ("posx",    int),
+                ("posy",    int),
+                ("length",  int),
+                ("dir",     None),
+                ("num_size", int),
+                ("name_size", int),
+                ("unit",    int),
+                ("convert", int),
+                ("elec_type", None),
+                ("pin_type", None))
 
     def __str__(self):
         return "PIN: %s (%s)" % (self.name, self.num)
@@ -454,45 +449,28 @@ class Pin(object):
         bbs.append(BoundingBox(min(sx,ex), max(sx,ex), min(sy, ey), max(sy,ey))) # Pin stick bounding box
         return sum(bbs)
 
-class Arc(object):
-    def __init__(self, parent, stack=None):
+class Arc(KicadObject):
+    def __init__(self, parent, parser=None):
         self.parent = parent
-        self.posx = 0
-        self.posy = 0
-        self.radius = 0
-        self.start_angle = 0
-        self.end_angle = 0
-        self.startx = 0
-        self.starty = 0
-        self.endx = 0
-        self.endy = 0
-        self.fill = "N"
-        self.unit = 1
-        self.convert = 1
+        if parser is not None:
+            self.parse_kicad(parser)
 
-        if stack is not None:
-            self.parse_kicad(stack)
-
-    def parse_kicad(self, stack):
-        raw_line = stack.pop()
-        line = raw_line.strip()
-        parts = shlex.split(line)
-
-        head, posx, posy, radius, start_angle, end_angle, unit, convert, thickness, fill, startx, starty, endx, endy = parts
-
-        self.posx = int(posx)
-        self.posy = int(posy)
-        self.radius = int(radius)
-        self.start_angle = int(start_angle)
-        self.end_angle = int(end_angle)
-        self.startx = int(startx)
-        self.starty = int(starty)
-        self.endx = int(endx)
-        self.endy = int(endy)
-        self.unit = int(unit)
-        self.convert = int(convert)
-        self.thickness = int(thickness)
-        self.fill = fill
+    def parse_kicad(self, parser):
+        self.parse_line_into(parser,
+                (None, None), # head
+                ("posx",    int),
+                ("posy",    int),
+                ("radius",  int),
+                ("start_angle", int),
+                ("end_angle", int),
+                ("unit",    int),
+                ("convert", int),
+                ("thickness", int),
+                ("fill",    None),
+                ("startx",  int),
+                ("starty",  int),
+                ("endx",    int),
+                ("endy",    int))
 
     def __str__(self):
         return "ARC"
@@ -532,34 +510,22 @@ class Arc(object):
         maxy = posy + self.radius
         return BoundingBox(minx, maxx, miny, maxy)
 
-class Circle(object):
-    def __init__(self, parent, stack=None):
+class Circle(KicadObject):
+    def __init__(self, parent, parser=None):
         self.parent = parent
-        self.posx = 0
-        self.posy = 0
-        self.radius = 0
-        self.unit = 1
-        self.convert = 1
-        self.thickness = 0
-        self.fill = "N"
+        if parser is not None:
+            self.parse_kicad(parser)
 
-        if stack is not None:
-            self.parse_kicad(stack)
-
-    def parse_kicad(self, stack):
-        raw_line = stack.pop()
-        line = raw_line.strip()
-        parts = shlex.split(line)
-
-        head, posx, posy, radius, unit, convert, thickness, fill = parts
-
-        self.posx = int(posx)
-        self.posy = int(posy)
-        self.radius = int(radius)
-        self.unit = int(unit)
-        self.convert = int(convert)
-        self.thickness = int(thickness)
-        self.fill = fill
+    def parse_kicad(self, parser):
+        self.parse_line_into(parser,
+                (None, None),   # head
+                ("posx",    int),
+                ("posy",    int),
+                ("radius",  int),
+                ("unit",    int),
+                ("convert", int),
+                ("thickness", int),
+                ("fill",    None))
 
     def __str__(self):
         return "CIRCLE"
@@ -593,29 +559,22 @@ class Circle(object):
         return BoundingBox(minx, maxx, miny, maxy)
 
 
-class Polyline(object):
-    def __init__(self, parent, stack=None):
-        self.unit = 1
-        self.convert = 1
-        self.thickness = 0
-        self.points = []
-        self.fill = "N"
+class Polyline(KicadObject):
+    def __init__(self, parent, parser=None):
+        self.parent = parent
+        if parser is not None:
+            self.parse_kicad(parser)
 
-        if stack is not None:
-            self.parse_kicad(stack)
+    def parse_kicad(self, parser):
+        rest = self.parse_line_into(parser,
+                (None, None),   # head
+                (None, None),   # npoints
+                ("unit",    int),
+                ("convert", int),
+                ("thickness", int))
 
-    def parse_kicad(self, stack):
-        raw_line = stack.pop()
-        line = raw_line.strip()
-        parts = shlex.split(line)
-
-        head, npoints, unit, convert, thickness, *points, fill = parts
-
-        self.unit = int(unit)
-        self.convert = int(convert)
-        self.thickness = int(thickness)
-        self.points = [(int(points[i]), int(points[i+1])) for i in range(0, len(points), 2)]
-        self.fill = fill
+        self.points = [(int(rest[i]), int(rest[i+1])) for i in range(0, len(rest)-1, 2)]
+        self.fill = rest[-1]
 
     def __str__(self):
         return "POLYLINE"
@@ -650,35 +609,23 @@ class Polyline(object):
         maxy = max(-i[1] for i in self.points) + origy
         return BoundingBox(minx, maxx, miny, maxy)
 
-class Rectangle(object):
-    def __init__(self, parent, stack=None):
+class Rectangle(KicadObject):
+    def __init__(self, parent, parser=None):
         self.parent = parent
-        self.startx = 0
-        self.starty = 0
-        self.endx = 0
-        self.endy = 0
-        self.unit = 0
-        self.convert = 0
-        self.thickness = 0
-        self.fill = "N"
+        if parser is not None:
+            self.parse_kicad(parser)
 
-        if stack is not None:
-            self.parse_kicad(stack)
-
-    def parse_kicad(self, stack):
-        raw_line = stack.pop()
-        line = raw_line.strip()
-        parts=shlex.split(line)
-
-        head, startx, starty, endx, endy, unit, convert, thickness, fill = parts
-        self.startx = int(startx)
-        self.starty = int(starty)
-        self.endx = int(endx)
-        self.endy = int(endy)
-        self.unit = int(unit)
-        self.convert = int(convert)
-        self.thickness = int(thickness)
-        self.fill = fill
+    def parse_kicad(self, parser):
+        self.parse_line_into(parser,
+                (None, None),   # head
+                ("startx",  int),
+                ("starty",  int),
+                ("endx",    int),
+                ("endy",    int),
+                ("unit",    int),
+                ("convert", int),
+                ("thickness",   int),
+                ("fill",    None))
 
     def __str__(self):
         return "RECTANGLE"
@@ -719,41 +666,27 @@ class Rectangle(object):
         return BoundingBox(minx, maxx, miny, maxy)
 
 
-class Text(object):
-    def __init__(self, parent, stack=None):
+class Text(KicadObject):
+    def __init__(self, parent, parser=None):
         self.parent = parent
-        self.direction = 0
-        self.posx = 0
-        self.posy = 0
-        self.size = 0
-        self.unit = 1
-        self.convert = 1
-        self.text = ""
-        self.italic = False
-        self.bold = False
-        self.hjust = "C"
-        self.vjust = "C"
+        if parser is not None:
+            self.parse_kicad(parser)
 
-        if stack is not None:
-            self.parse_kicad(stack)
-
-    def parse_kicad(self, stack):
-        raw_line = stack.pop()
-        line = raw_line.strip()
-        parts=shlex.split(line)
-
-        head, direction, posx, posy, size, unused, unit, convert, text, italic, bold, hjust, vjust = parts
-        self.direction = int(direction)
-        self.posx = int(posx)
-        self.posy = int(posy)
-        self.size = int(size)
-        self.unit = int(unit)
-        self.convert = int(convert)
-        self.text = text.replace("~", " ")
-        self.italic = (italic == "Italic")
-        self.bold = bool(int(bold))
-        self.hjust = hjust
-        self.vjust = vjust
+    def parse_kicad(self, parser):
+        self.parse_line_into(parser,
+                (None, None),   # head
+                ("direction",   int),
+                ("posx",    int),
+                ("posy",    int),
+                ("size",    int),
+                (None, None),   # unused
+                ("unit",    int),
+                ("convert", int),
+                ("text",    lambda x: x.replace("~", " ")),
+                ("italic",  lambda x: x == "Italic"),
+                ("bold",    lambda x: bool(int(x))),
+                ("hjust",   None),
+                ("vjust",   None))
 
     def __str__(self):
         return "TEXT"
@@ -765,15 +698,11 @@ class Text(object):
                 self.hjust, self.vjust, theta)
 
 def parse_file(f):
-    stack = []
-    for line in f:
-        stack.append (line)
-
-    stack.reverse()
+    parser = LineParser(f)
     items = []
 
-    while stack:
-        obj = SchSymbol(stack)
+    while parser:
+        obj = SchSymbol(parser)
         try:
             obj.name
         except IndexError:
@@ -802,7 +731,9 @@ def load_dcm(items, f):
 
 if __name__ == "__main__":
 
-    # usage: schlib-render.py outdir abs_outdir libfile [dcmfile]
+    if len(sys.argv) < 4:
+        print("usage: %s outdir html_dir_path libfile [dcmfile]" % sys.argv[0], file=sys.stderr)
+        sys.exit(1)
 
     outdir = sys.argv[1]
     abs_outdir = sys.argv[2]
@@ -838,7 +769,7 @@ if __name__ == "__main__":
             for convert in range(1, 3 if item.has_convert() else 2):
                 san_name = item.name.replace("/", "-")
                 filename = "%s/%s__%s__%d__%d.png" % (outdir, libname, san_name, unit, convert)
-                print("![%s](%s) " % (item.name + "__%d__%d" % (unit, convert), "%s/%s__%s__%d__%d.png?raw=true" % (abs_outdir, libname, item.name, unit, convert)), end='')
+                print("![%s__%d__%d](%s) " % (item.name, unit, convert, filename + "?raw=true"))
 
                 itemcopy = copy.deepcopy(item)
                 itemcopy.filter_unit(unit)
@@ -863,4 +794,5 @@ if __name__ == "__main__":
                     surface.write_to_png(filename)
                 except OSError:
                     print(filename, file=sys.stderr)
+                    raise
         print()
