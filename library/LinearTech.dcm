@@ -1,71 +1,78 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP LT1013DS8
-D Dual precision op amp, SOIC-8
+D IC OPAMP GP (SOIC-8)
 $ENDCMP
 #
 $CMP LT1395CS5
-D Single 400MHz CFA
+D IC OPAMP CFA 400MHz (TSOT-23-5)
 $ENDCMP
 #
 $CMP LT1813CS8
-D Dual op amp, 100 MHz, SOIC
+D IC OPAMP VFB 100MHz (SOIC-8)
 K opamp
 $ENDCMP
 #
 $CMP LT1819CMS8
-D Dual op amp, 400 MHz, MSOP
+D IC OPAMP VFB 400MHz (MSOP-8)
 K opamp
 $ENDCMP
 #
 $CMP LT1819CS8
-D Dual op amp, 400 MHz, SOIC
+D IC OPAMP VFB 400MHz (SOIC-8)
 K opamp
 $ENDCMP
 #
 $CMP LT1931AES5
-D Inverting DC/DC, 2.2 MHz, TSOT-23-5
+D IC REG INV 1A (TSOT-23-5)
 $ENDCMP
 #
 $CMP LT1931ES5
-D Inverting DC/DC, 1.2 MHz, TSOT-23-5
+D IC REG INV 1A (TSOT-23-5)
 $ENDCMP
 #
 $CMP LT3514EUFD
-D Triple buck regulator, 2A/1A/1A, 0.35-2.2MHz, QFN-29
+D IC REG BUCK ADJ (QFN-28)
 $ENDCMP
 #
-$CMP LT6101AIS5
-D Current sense amplifier
+$CMP LTC1844ES5-BYP
+D IC REG LDO ADJ 150mA (TSOT-23-5)
 $ENDCMP
 #
-$CMP LT6101BIS5
-D Current sense amplifier
+$CMP LTC1844ES5-SD
+D IC REG LDO ADJ 150mA (TSOT-23-5)
 $ENDCMP
 #
 $CMP LTC1844ES5-v.v
-D Positive regulator, fixed
-F mod_pdf/TO-220.pdf
+D IC REG LDO fixed 150mA (TSOT-23-5)
 $ENDCMP
 #
 $CMP LTC2053CDD
-D Switched-capacitor instrumentation amplifier, DFN-8
+D IC OPAMP CHOPPER 200KHz RRO (DFN-8)
 $ENDCMP
 #
 $CMP LTC2053CMS8
-D Switched-capacitor instrumentation amplifier, MSOP-8
+D IC OPAMP CHOPPER 200KHz (MSOP-8)
 $ENDCMP
 #
 $CMP LTC2492CDE
-D 24-bit 4ch/2diff delta-sigma ADC
+D IC ADC 24BIT DELTA SIG (DFN-14)
+$ENDCMP
+#
+$CMP LTC6101AIS5
+D IC OPAMP CURR SENSE (TSOT-23-5)
+$ENDCMP
+#
+$CMP LTC6101BIS5
+D IC OPAMP CURR SENSE (TSOT-23-5)
 $ENDCMP
 #
 $CMP LTC6652AHLS8
-D Low-drift low-noise reference, ceramic LCC-8
+D IC VREF SERIES 2V5 (CLCC-8)
 $ENDCMP
 #
 $CMP LTC6652BHLS8
-D Low-drift low-noise reference, ceramic LCC-8
+D IC VREF SERIES 2V5 (CLCC-8)
 $ENDCMP
 #
 #End Doc Library

@@ -1,12 +1,12 @@
 # Littelfuse
 
 ## POLYFUSE-30R500
-5A polyfuse
+PTC RESETTABLE 5A 30V
 
 ![POLYFUSE-30R500__1__1](/images/passive__THERM__1__1.png?raw=true) 
 
 ## SP0503BAHT
-Triple 5V TVS diode
+TVS TRIPLE 5V5-8V5 (SOT-143)
 
 ![SP0503BAHT__1__1](/images/Littelfuse__SP0503BAHT__1__1.png?raw=true) 
 

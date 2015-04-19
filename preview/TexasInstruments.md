@@ -293,19 +293,19 @@ Precision micropower reference, TO-92
 ## LM7171AIM
 200 MHz op amp, SOIC
 
-![LM7171AIM__1__1](/images/Microchip__MCP6V06-E-SN__1__1.png?raw=true) 
+![LM7171AIM__1__1](/images/TexasInstruments__LM7171AIM__1__1.png?raw=true) 
 ![LM7171AIM__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
 
 ## LM7171BIM
 200 MHz op amp, SOIC
 
-![LM7171BIM__1__1](/images/Microchip__MCP6V06-E-SN__1__1.png?raw=true) 
+![LM7171BIM__1__1](/images/TexasInstruments__LM7171AIM__1__1.png?raw=true) 
 ![LM7171BIM__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
 
 ## LM7171BIN
 200 MHz op amp, DIP
 
-![LM7171BIN__1__1](/images/Microchip__MCP6V06-E-SN__1__1.png?raw=true) 
+![LM7171BIN__1__1](/images/TexasInstruments__LM7171AIM__1__1.png?raw=true) 
 ![LM7171BIN__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
 
 ## LM78vvCT
@@ -434,7 +434,7 @@ Differential bus transceiver, DIP
 ## THS3001IDGN
 420 MHz CFA, SSOP-thermal
 
-![THS3001IDGN__1__1](/images/Microchip__MCP6V06-E-SN__1__1.png?raw=true) 
+![THS3001IDGN__1__1](/images/TexasInstruments__LM7171AIM__1__1.png?raw=true) 
 ![THS3001IDGN__2__1](/images/TexasInstruments__THS3001IDGN__2__1.png?raw=true) 
 
 ## THS4222D
