@@ -3,8 +3,8 @@
 ## LT1013DS8
 IC OPAMP GP (SOIC-8)
 
-![LT1013DS8__1__1](/images/LinearTech__LT1013DS8__1__1.png?raw=true) 
-![LT1013DS8__2__1](/images/LinearTech__LT1013DS8__2__1.png?raw=true) 
+![LT1013DS8__1__1](/images/TexasInstruments__LT1013DDR__1__1.png?raw=true) 
+![LT1013DS8__2__1](/images/TexasInstruments__LT1013DDR__2__1.png?raw=true) 
 ![LT1013DS8__3__1](/images/TexasInstruments__LT1013DDR__3__1.png?raw=true) 
 
 ## LT1395CS5

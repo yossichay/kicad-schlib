@@ -29,40 +29,40 @@ Gilbert cell modulator/demodulator, DIP-14
 ## MC33078-DIP
 Dual low-noise op amp
 
-![MC33078-DIP__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![MC33078-DIP__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
+![MC33078-DIP__1__1](/images/_linear__OA_DUAL__1__1.png?raw=true) 
+![MC33078-DIP__2__1](/images/_linear__OA_DUAL__2__1.png?raw=true) 
 ![MC33078-DIP__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
 ## MC33078-MSOP
 Dual low-noise op amp
 
-![MC33078-MSOP__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![MC33078-MSOP__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
+![MC33078-MSOP__1__1](/images/_linear__OA_DUAL__1__1.png?raw=true) 
+![MC33078-MSOP__2__1](/images/_linear__OA_DUAL__2__1.png?raw=true) 
 ![MC33078-MSOP__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
 ## MC33078-SOIC
 Dual low-noise op amp
 
-![MC33078-SOIC__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![MC33078-SOIC__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
+![MC33078-SOIC__1__1](/images/_linear__OA_DUAL__1__1.png?raw=true) 
+![MC33078-SOIC__2__1](/images/_linear__OA_DUAL__2__1.png?raw=true) 
 ![MC33078-SOIC__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
 ## MC33079-DIP
 Quad low-noise op amp
 
-![MC33079-DIP__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![MC33079-DIP__2__1](/images/TexasInstruments__LM324M__2__1.png?raw=true) 
-![MC33079-DIP__3__1](/images/TexasInstruments__LM324M__3__1.png?raw=true) 
-![MC33079-DIP__4__1](/images/TexasInstruments__LM324M__4__1.png?raw=true) 
+![MC33079-DIP__1__1](/images/_linear__OA_DUAL__1__1.png?raw=true) 
+![MC33079-DIP__2__1](/images/_linear__OA_QUAD__2__1.png?raw=true) 
+![MC33079-DIP__3__1](/images/_linear__OA_QUAD__3__1.png?raw=true) 
+![MC33079-DIP__4__1](/images/_linear__OA_QUAD__4__1.png?raw=true) 
 ![MC33079-DIP__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
 ## MC33079-SOIC
 Quad low-noise op amp
 
-![MC33079-SOIC__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![MC33079-SOIC__2__1](/images/TexasInstruments__LM324M__2__1.png?raw=true) 
-![MC33079-SOIC__3__1](/images/TexasInstruments__LM324M__3__1.png?raw=true) 
-![MC33079-SOIC__4__1](/images/TexasInstruments__LM324M__4__1.png?raw=true) 
+![MC33079-SOIC__1__1](/images/_linear__OA_DUAL__1__1.png?raw=true) 
+![MC33079-SOIC__2__1](/images/_linear__OA_QUAD__2__1.png?raw=true) 
+![MC33079-SOIC__3__1](/images/_linear__OA_QUAD__3__1.png?raw=true) 
+![MC33079-SOIC__4__1](/images/_linear__OA_QUAD__4__1.png?raw=true) 
 ![MC33079-SOIC__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
 ## MC34063-DIP
