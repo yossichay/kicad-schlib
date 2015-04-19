@@ -31,7 +31,7 @@ IC OPAMP VFB 400MHz (MSOP-8)
 IC OPAMP VFB 400MHz (SOIC-8)
 
 ![LT1819CS8__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
-![LT1819CS8__2__1](/images/LinearTech__LT1819CS8__2__1.png?raw=true) 
+![LT1819CS8__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
 ![LT1819CS8__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
 ## LT1931AES5
