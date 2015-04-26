@@ -1,24 +1,20 @@
 # NXP
 
-## 74LVC1G04GW,125
-Single 74LVC inverter, SC-70-5
-
-![74LVC1G04GW,125__1__1](/images/NXP__74LVC1G04GW,125__1__1.png?raw=true) 
-![74LVC1G04GW,125__2__1](/images/NXP__74LVC1G04GW,125__2__1.png?raw=true) 
-
 ## 74LVC8T245PW,118
-Octal level-shifting bus transciever
+TXRX 8BIT TRANSLATING (TSSOP-24)
 
-![74LVC8T245PW,118__1__1](/images/logic-7400__SN74LVCC3245A-SOIC__1__1.png?raw=true) 
+![74LVC8T245PW,118__1__1](/images/NXP__74LVC8T245PW,118__1__1.png?raw=true) 
 ![74LVC8T245PW,118__2__1](/images/NXP__74LVC8T245PW,118__2__1.png?raw=true) 
 
 ## LPC11U23FBD48
-MCU, Cortex-M0, 24K flash, 8K RAM
+IC MCU 32BIT/ARM-M0 24KB FLASH (LQFP-48)
 
 ![LPC11U23FBD48__1__1](/images/NXP__LPC11U23FBD48__1__1.png?raw=true) 
+![LPC11U23FBD48__2__1](/images/NXP__LPC11U23FBD48__2__1.png?raw=true) 
 
 ## LPC11U24FBD48
-MCU, Cortex-M0, 32K flash, 8K RAM
+IC MCU 32BIT/ARM-M0 32KB FLASH (LQFP-48)
 
 ![LPC11U24FBD48__1__1](/images/NXP__LPC11U23FBD48__1__1.png?raw=true) 
+![LPC11U24FBD48__2__1](/images/NXP__LPC11U23FBD48__2__1.png?raw=true) 
 

@@ -1,439 +1,413 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP CDCE913LPWR
-D Clock synthesizer, SSOP
+$CMP CDCE913PW
+D IC 1-PLL VCXO CLK SYNTH [TSSOP-14]
 K clock
 $ENDCMP
 #
-$CMP CDCE913PWR
-D Clock synthesizer, SSOP
+$CMP CDCEL913PW
+D IC 1-PLL VCXO CLK SYNTH [TSSOP-14]
 K clock
 $ENDCMP
 #
 $CMP DAC084S085CISD
-D Quad 8-bit DAC, SON-10
+D IC DAC 8BIT QUAD R-R [WSON-10]
 $ENDCMP
 #
 $CMP DAC1220E
-D 20-bit SPI DAC, SSOP
+D IC 20-BIT MONOLITHIC D/A [TSSOP-16]
 $ENDCMP
 #
 $CMP DS90LT012ATMF
-D LVDS receiver, 100R terminated, SOT-23
+D IC RCVR LVDS DIFF RTERM [SOT-23-5]
 $ENDCMP
 #
 $CMP DS90LV012ATMF
-D LVDS receiver, unterminated, SOT-23
+D IC RCVR LVDS DIFF NOTERM [SOT-23-5]
 $ENDCMP
 #
 $CMP ISO7220
-D Dual digital isolator, SOIC
+D DGTL ISO 2500V GEN PURP [SOIC-8]
 $ENDCMP
 #
 $CMP ISO7221
-D Dual digital isolator, SOIC
+D DGTL ISO 2500V GEN PURP [SOIC-8]
 $ENDCMP
 #
 $CMP LF353D
-D Dual JFET op amp, SOIC-8
+D IC OPAMP JFET 3MHz [SOIC-8]
 $ENDCMP
 #
 $CMP LF353P
-D Dual JFET op amp, DIP-8
+D IC OPAMP JFET 3MHz [DIP-8]
 $ENDCMP
 #
 $CMP LF356M
-D JFET op amp, SOIC-8
+D IC OPAMP JFET 5MHz [SOIC-8]
 $ENDCMP
 #
 $CMP LF356N
-D JFET op amp, DIP-8
+D IC OPAMP JFET 5MHz [DIP-8]
 $ENDCMP
 #
 $CMP LF398N
-D Sample-and-hold amplifier, DIP-8
+D IC AMP PREC SAMPLE HOLD [DIP-8]
 $ENDCMP
 #
 $CMP LM1117DT-ADJ
-D LDO, 800mA adjustable voltage, TO-252
+D IC REG LDO ADJ 800mA [TO-252-3]
 $ENDCMP
 #
 $CMP LM1117DT-v.v
-D LDO, 800mA fixed voltage, TO-252
+D IC REG LDO fixed 800mA [TO-252-3]
 $ENDCMP
 #
 $CMP LM1117IMP-ADJ
-D LDO, 800mA adjustable voltage, SOT-223
+D IC REG LDO ADJ 800mA [SOT-223]
 $ENDCMP
 #
 $CMP LM1117IMP-v.v
-D LDO, 800mA fixed voltage, SOT-223
+D IC REG LDO fixed 800mA [SOT-223]
 $ENDCMP
 #
 $CMP LM1117S-ADJ
-D LDO, 800mA adjustable voltage, TO-263
+D IC REG LDO ADJ 800mA [TO-263]
 $ENDCMP
 #
 $CMP LM1117SX-v.v
-D LDO, 800mA fixed voltage, TO-263
+D IC REG LDO fixed 800mA [TO-263]
 $ENDCMP
 #
 $CMP LM1117T-ADJ
-D LDO, 800mA adjustable voltage, TO-220
+D IC REG LDO ADJ 800mA [TO-220]
 $ENDCMP
 #
 $CMP LM1117T-v.v
-D LDO, 800mA fixed voltage, TO-220
+D IC REG LDO fixed 800mA [TO-220]
 K ldo vreg
 $ENDCMP
 #
-$CMP LM20323
-D Buck converter, 36V, 3A, 500 kHz synchronous, SOIC
+$CMP LM20323MH
+D IC REG BUCK SYNC ADJ 3A [TSSOP-20]
 $ENDCMP
 #
 $CMP LM22676QTJ-5.0
-D Buck converter, 42V 3A With Features, TO-263
+D IC REG BUCK ADJ 3A W/FEATURES [TO-263-7]
 $ENDCMP
 #
 $CMP LM22676QTJ-ADJ
-D Buck converter, 42V 3A With Features, TO-263
+D IC REG BUCK ADJ 3A W/FEATURES [TO-263-7]
 $ENDCMP
 #
 $CMP LM25088MH
-D Buck controller
+D IC REG CTRLR BUCK PWM CM [TSSOP-16]
 $ENDCMP
 #
-$CMP LM25116MHX
-D Synchronous buck controller
+$CMP LM25116MH
+D IC REG CTRLR BUCK PWM CM [TSSOP-20]
 $ENDCMP
 #
-$CMP LM2575T
-D 1A switching step-down regulator, TO-220-5
+$CMP LM2575T-ADJ
+D IC REG BUCK ADJ 1A [TO-220-5]
 $ENDCMP
 #
-$CMP LM2576T
-D 3A switching step-down regulator, TO-220-5
+$CMP LM2576T-ADJ
+D IC REG BUCK ADJ 3A [TO-220-5]
 $ENDCMP
 #
 $CMP LM311M
-D Comparator, SOIC
+D IC VOLTAGE COMPARATOR [SOIC-8]
 $ENDCMP
 #
 $CMP LM311N
-D Comparator, DIP
+D IC VOLTAGE COMPARATOR [DIP-8]
 $ENDCMP
 #
 $CMP LM317AEMP
-D Voltage regulator, SOT-223
+D IC REG LINEAR ADJ 1A [SOT-223]
 $ENDCMP
 #
 $CMP LM317EMP
-D Voltage regulator, SOT-223
+D IC REG LINEAR ADJ 1A [SOT-223]
 $ENDCMP
 #
 $CMP LM317S
-D Linear regular, 1.5A, adjustable, TO-263
+D IC REG LINEAR ADJ 1A5 [TO-263]
 $ENDCMP
 #
 $CMP LM317T
-D Linear regular, 1.5A, adjustable, TO-220
+D IC REG LINEAR ADJ 1A5 [TO-220]
 $ENDCMP
 #
 $CMP LM319M
-D Dual high speed comparator, SOIC
+D IC COMPARATOR DUAL HI SPD [SOIC-14]
 $ENDCMP
 #
 $CMP LM319N
-D Dual high speed comparator, DIP
+D IC COMPARATOR DUAL HI SPD [DIP-14]
 $ENDCMP
 #
 $CMP LM324M
-D Quad low-power SS op amp, SOIC
-K opamp opamp.single
+D IC OPAMP GP 1MHz [SOIC-14]
 $ENDCMP
 #
 $CMP LM324N
-D Quad low-power SS op amp, DIP
-K opamp opamp.single
+D IC OPAMP GP 1MHz [DIP-14]
 $ENDCMP
 #
-$CMP LM324PWR
-D Quad low-power SS op amp, TSSOP
-K opamp opamp.single
+$CMP LM324PW
+D IC OPAMP GP 1MHz [TSSOP-14]
 $ENDCMP
 #
 $CMP LM337T
-D Linear regulator, 1.5A, negative, adjustable, TO-220
+D IC REG LDO NEG ADJ 1A5 [TO-220]
 K vreg
 $ENDCMP
 #
 $CMP LM339M
-D Quad low-power comparator, SOIC
+D IC COMPARATOR QUAD LO PWR [SOIC-14]
 K comparator
 $ENDCMP
 #
 $CMP LM339N
-D Quad low-power comparator, DIP
+D IC COMPARATOR QUAD LO PWR [DIP-14]
+K comparator
+$ENDCMP
+#
+$CMP LM339PW
+D IC COMPARATOR QUAD LO PWR [TSSOP-14]
 K comparator
 $ENDCMP
 #
 $CMP LM34DM
-D Fahrenheit temperature sensor, SOIC
+D IC SENSOR TEMP PREC FAHR [SOIC-8]
 K sensor sensor.temp
 $ENDCMP
 #
 $CMP LM358M
-D Dual low-power SS op amp, SOIC
+D IC OPAMP GP [SOIC-8]
 K opamp opamp.single
 $ENDCMP
 #
 $CMP LM358N
-D Dual low-power SS op amp, DIP
+D IC OPAMP GP [DIP-8]
+K opamp opamp.single
+$ENDCMP
+#
+$CMP LM358PW
+D IC OPAMP GP [TSSOP-8]
 K opamp opamp.single
 $ENDCMP
 #
 $CMP LM35DM
-D Celsius temperature sensor, SOIC
+D IC SENSOR PREC CENT TEMP [SOIC-8]
 K sensor sensor.temp
 $ENDCMP
 #
 $CMP LM393M
-D Dual low-power comparator, SOIC
+D IC COMPARATOR DUAL 0.4MA [SOIC-8]
 K comparator
 $ENDCMP
 #
 $CMP LM393N
-D Dual low-power comparator, DIP
+D IC COMPARATOR DUAL 0.4MA [DIP-8]
+K comparator
+$ENDCMP
+#
+$CMP LM393PW
+D IC COMPARATOR DUAL 0.4MA [TSSOP-8]
 K comparator
 $ENDCMP
 #
 $CMP LM4040AvvDBZ
-D Precision micropower shunt, SOT-23
-$ENDCMP
-#
-$CMP LM4040AvvLP
-D Precision micropower reference, TO-92
-K ref reference
+D IC VREF SHUNT fixed [SOT-23]
 $ENDCMP
 #
 $CMP LM7171AIM
-D 200 MHz op amp, SOIC
+D IC OPAMP VFB 200MHz [SOIC-8]
 K opamp opamp.hispeed
 $ENDCMP
 #
 $CMP LM7171BIM
-D 200 MHz op amp, SOIC
+D IC OPAMP VFB 200MHz [SOIC-8]
 K opamp opamp.hispeed
 $ENDCMP
 #
 $CMP LM7171BIN
-D 200 MHz op amp, DIP
-$ENDCMP
-#
-$CMP LM78vvCT
-D Linear regulator, 1.5A, fixed, TO-220
+D IC OPAMP VFB 200MHz [DIP-8]
+K opamp opamp.hispeed
 $ENDCMP
 #
 $CMP LMH6552SD
-D Fully differential op-amp
+D IC OPAMP CFA 1500MHz [WSON-8]
 K opamp
 $ENDCMP
 #
 $CMP LMH6714MF
-D 250 MHz video op amp, SOT-23
+D IC OPAMP VIDEO SINGLE [SOT-23-5]
 $ENDCMP
 #
 $CMP LMH7220MK
-D Fast LVDS comparator, SOT-23
+D IC COMPARATOR HS LVDS [TSOT-23-6]
 $ENDCMP
 #
 $CMP LMR62014XMF
-D Boost converter, 20V 1.4A, SOT-23
+D IC REG BOOST ADJ 1A4 [SOT-23-5]
 $ENDCMP
 #
-$CMP LMV324IDR
-D Quad low-voltage RRO op amp, SOIC
+$CMP LMV324ID
+D IC OPAMP GP 1MHz RRO [SOIC-14]
 $ENDCMP
 #
-$CMP LMV324IPWR
-D Quad RRO low voltage op amp, TSSOP
+$CMP LMV324IPW
+D IC OPAMP GP 1MHz RRO [TSSOP-14]
 $ENDCMP
 #
-$CMP LMV358IDR
-D Dual RRO low voltage op amp, SOIC
+$CMP LMV358ID
+D IC OPAMP GP 1MHz RRO [SOIC-8]
+$ENDCMP
+#
+$CMP LMV358IPW
+D IC OPAMP GP 1MHz RRO [TSSOP-8]
 $ENDCMP
 #
 $CMP LMV712MMX
-D Dual RRIO op amp, VSSOP
+D IC OPAMP GP 5MHz RRO [MSOP-10]
 $ENDCMP
 #
 $CMP LMV761MF
-D Precision comparator, push-pull, SOT-23-6
+D IC COMP PREC W/P-POP LV [SOT-23-6]
 $ENDCMP
 #
 $CMP LT1013DDR
-D Dual precision op amp, SOIC-8
+D IC OPAMP GP 1MHz [SOIC-8]
 $ENDCMP
 #
 $CMP NE555DR
-D Timer, SOIC-8
+D IC OSC SGL TIMER 100kHz [SOIC-8]
 $ENDCMP
 #
 $CMP NE555P
-D Timer, DIP-8
+D IC OSC SINGLE TIMER 100kHz [DIP-8]
 $ENDCMP
 #
 $CMP OPA1652AID
-D Audio op amp, RRO, SOIC
+D IC OPAMP AUDIO 18MHz RRO [SOIC-8]
 $ENDCMP
 #
 $CMP OPA1652AIDGK
-D Audio op amp, RRO, SOIC
+D IC OPAMP AUDIO 18MHz RRO [VSSOP-8]
 $ENDCMP
 #
 $CMP PTN78000WAH
-D 1.5A buck converter module, PTH
+D REG SW 2V5-12V6 1A5 HORZ TH
 $ENDCMP
 #
 $CMP PTN78000WAZ
-D 1.5A buck converter, SMD
+D REG SW 2V5-12V6 1A5 SMD
 $ENDCMP
 #
 $CMP SN74LVC1G3157DBV
-D Switch, SPDT, SOT-23
+D IC SWITCH SPDT [SOT-23-6]
 $ENDCMP
 #
 $CMP SN75176BDR
-D Differential bus transceiver, SOIC
-K rs485 rs422
-$ENDCMP
-#
-$CMP SN75176BP
-D Differential bus transceiver, DIP
+D IC DIFF BUS TXCVR [SOIC-8]
 K rs485 rs422
 $ENDCMP
 #
 $CMP THS3001IDGN
-D 420 MHz CFA, SSOP-thermal
+D IC OPAMP CFA 1750MHz [MSOP-8]
 $ENDCMP
 #
 $CMP THS4222D
-D Dual high-speed rail to rail op amp, SOIC
+D IC OPAMP VFB 120MHz RRO [SOIC-8]
 K opamp opamp.rtr opamp.hispeed
 $ENDCMP
 #
 $CMP THS4222DGN
-D Dual high-speed rail to rail op amp, SSOP-thermal
+D IC OPAMP VFB 120MHz RRO [MSOP-8]
 K opamp opamp.rtr opamp.hispeed
 $ENDCMP
 #
-$CMP TL071CDR
-D Op amp, SOIC
-K opamp
-$ENDCMP
-#
-$CMP TL071CP
-D Op amp, DIP
-K opamp
-$ENDCMP
-#
-$CMP TL072CDR
-D Dual op amp, SOIC
+$CMP TL072CD
+D IC OPAMP JFET 3MHz [SOIC-8]
 K opamp
 $ENDCMP
 #
 $CMP TL072CP
-D Dual op amp, DIP
+D IC OPAMP JFET 3MHz [DIP-8]
 K opamp
 $ENDCMP
 #
-$CMP TL074CDR
-D Quad op amp, SOIC
+$CMP TL074CD
+D IC OPAMP JFET 3MHz [SOIC-14]
 K opamp
 $ENDCMP
 #
-$CMP TL074CP
-D Quad op amp, DIP
+$CMP TL074CN
+D IC OPAMP JFET 3MHz [DIP-14]
 K opamp
 $ENDCMP
 #
-$CMP TL431AIDBZ
-D Shunt reference, SOT-23
+$CMP TL431AID
+D IC VREF SHUNT ADJ [SOIC-8]
 K ref reference
 $ENDCMP
 #
-$CMP TL431AIDR
-D Shunt reference, SOIC
+$CMP TL431AIDBZ
+D IC VREF SHUNT ADJ [SOT-23]
 K ref reference
 $ENDCMP
 #
 $CMP TL431AILP
-D Shunt reference, TO-92
-K ref reference
-$ENDCMP
-#
-$CMP TL431BIDBZ
-D Shunt reference, SOT-23
-K ref reference
-$ENDCMP
-#
-$CMP TL431BIDR
-D Shunt reference, SOIC
-K ref reference
-$ENDCMP
-#
-$CMP TL431BILP
-D Shunt reference, TO-92
+D IC VREF SHUNT ADJ [TO-92]
 K ref reference
 $ENDCMP
 #
 $CMP TL974ID
-D Quad op amp, R2R, SOIC
+D IC OPAMP GP 12MHz RRO [SOIC-14]
 K opamp
 $ENDCMP
 #
-$CMP TLC5926IDWR
-D 16-channel LED driver, SOIC
+$CMP TLC5926IDW
+D IC LED DRIVER LIN 120mA [SOIC-24]
 $ENDCMP
 #
-$CMP TLC5926IPWPR
-D 16-channel LED driver, SSOP-thermal
+$CMP TLC5926IPWP
+D IC LED DRIVER LIN 120mA [HTSSOP-24]
 $ENDCMP
 #
-$CMP TLC5927IDWR
-D 16-channel LED driver, short-to-V+ detect, SOIC
+$CMP TLC5927IDW
+D IC LED DRIVER LIN 120mA [SOIC-24]
 $ENDCMP
 #
-$CMP TLC5927IPWPR
-D 16-channel LED driver, short-to-V+ detect, SOP-thermal
+$CMP TLC5927IPWP
+D IC TI TLC5927IPWP
 $ENDCMP
 #
 $CMP TLV3501AIDBV
-D High speed comparator, SOT-23
+D IC COMP 4n5s RR HS [SOT-23-6]
 $ENDCMP
 #
 $CMP TPS61045DRB
-D Digitally programmable boost converter
+D IC REG BOOST ADJ 20mA [SON-8]
 $ENDCMP
 #
 $CMP TPS62080DSGT
-D 1.2A step-down converter, DFN
+D IC REG BUCK SYNC ADJ 1A2 [WSON-8]
 $ENDCMP
 #
 $CMP TPS64200DBV
-D Step-down controller, SOT-23
-$ENDCMP
-#
-$CMP TPS64201DBV
-D Step-down controller, SOT-23
+D IC REG CTRLR BUCK PWM CM [SOT-23-6]
 $ENDCMP
 #
 $CMP TPS64202DBV
-D Step-down controller, SOT-23
+D IC REG CTRLR BUCK PWM CM [SOT-23-6]
 $ENDCMP
 #
 $CMP TPS64203DBV
-D Step-down controller, SOT-23
+D IC REG CTRLR BUCK PWM CM [SOT-23-6]
 $ENDCMP
 #
 $CMP TXB0104RGY
@@ -441,16 +415,16 @@ D IC VOLT-LEVEL TRANSLATOR 14-QFN
 $ENDCMP
 #
 $CMP UC3843D8
-D SMPS controller (SOIC-8)
+D IC REG CTRLR PWM CM [SOIC-8]
 $ENDCMP
 #
 $CMP ULN2003AD
-D Darlington array, 7x 50V 500mA, with base resistors
+D TRANS 7NPN DARL 50V 500mA [SOIC-16]
 F mod_pdf/TO-*
 $ENDCMP
 #
-$CMP VCA821IDGST
-D Wideband VGA, MSOP
+$CMP VCA821IDGS
+D IC OPAMP VCA 710MHz [VSSOP-10]
 $ENDCMP
 #
 #End Doc Library

@@ -1,231 +1,235 @@
 # TexasInstruments
 
-## CDCE913LPWR
-Clock synthesizer, SSOP
+## CDCE913PW
+IC 1-PLL VCXO CLK SYNTH [TSSOP-14]
 
-![CDCE913LPWR__1__1](/images/TexasInstruments__CDCE913LPWR__1__1.png?raw=true) 
+![CDCE913PW__1__1](/images/TexasInstruments__CDCE913PW__1__1.png?raw=true) 
 
-## CDCE913PWR
-Clock synthesizer, SSOP
+## CDCEL913PW
+IC 1-PLL VCXO CLK SYNTH [TSSOP-14]
 
-![CDCE913PWR__1__1](/images/TexasInstruments__CDCE913LPWR__1__1.png?raw=true) 
+![CDCEL913PW__1__1](/images/TexasInstruments__CDCE913PW__1__1.png?raw=true) 
 
 ## DAC084S085CISD
-Quad 8-bit DAC, SON-10
+IC DAC 8BIT QUAD R-R [WSON-10]
 
 ![DAC084S085CISD__1__1](/images/TexasInstruments__DAC084S085CISD__1__1.png?raw=true) 
 
 ## DAC1220E
-20-bit SPI DAC, SSOP
+IC 20-BIT MONOLITHIC D/A [TSSOP-16]
 
 ![DAC1220E__1__1](/images/TexasInstruments__DAC1220E__1__1.png?raw=true) 
 
 ## DS90LT012ATMF
-LVDS receiver, 100R terminated, SOT-23
+IC RCVR LVDS DIFF RTERM [SOT-23-5]
 
 ![DS90LT012ATMF__1__1](/images/TexasInstruments__DS90LT012ATMF__1__1.png?raw=true) 
+![DS90LT012ATMF__2__1](/images/TexasInstruments__DS90LT012ATMF__2__1.png?raw=true) 
 
 ## DS90LV012ATMF
-LVDS receiver, unterminated, SOT-23
+IC RCVR LVDS DIFF NOTERM [SOT-23-5]
 
-![DS90LV012ATMF__1__1](/images/TexasInstruments__DS90LT012ATMF__1__1.png?raw=true) 
+![DS90LV012ATMF__1__1](/images/TexasInstruments__DS90LV012ATMF__1__1.png?raw=true) 
+![DS90LV012ATMF__2__1](/images/TexasInstruments__DS90LT012ATMF__2__1.png?raw=true) 
 
 ## ISO7220
-Dual digital isolator, SOIC
+DGTL ISO 2500V GEN PURP [SOIC-8]
 
 ![ISO7220__1__1](/images/TexasInstruments__ISO7220__1__1.png?raw=true) 
+![ISO7220__2__1](/images/TexasInstruments__ISO7220__2__1.png?raw=true) 
 
 ## ISO7221
-Dual digital isolator, SOIC
+DGTL ISO 2500V GEN PURP [SOIC-8]
 
 ![ISO7221__1__1](/images/TexasInstruments__ISO7221__1__1.png?raw=true) 
+![ISO7221__2__1](/images/TexasInstruments__ISO7220__2__1.png?raw=true) 
 
 ## LF353D
-Dual JFET op amp, SOIC-8
+IC OPAMP JFET 3MHz [SOIC-8]
 
-![LF353D__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![LF353D__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
+![LF353D__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![LF353D__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
 ![LF353D__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
 ## LF353P
-Dual JFET op amp, DIP-8
+IC OPAMP JFET 3MHz [DIP-8]
 
-![LF353P__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![LF353P__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
+![LF353P__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![LF353P__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
 ![LF353P__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
 ## LF356M
-JFET op amp, SOIC-8
+IC OPAMP JFET 5MHz [SOIC-8]
 
 ![LF356M__1__1](/images/TexasInstruments__LF356M__1__1.png?raw=true) 
 ![LF356M__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
 
 ## LF356N
-JFET op amp, DIP-8
+IC OPAMP JFET 5MHz [DIP-8]
 
 ![LF356N__1__1](/images/TexasInstruments__LF356M__1__1.png?raw=true) 
 ![LF356N__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
 
 ## LF398N
-Sample-and-hold amplifier, DIP-8
+IC AMP PREC SAMPLE HOLD [DIP-8]
 
 ![LF398N__1__1](/images/TexasInstruments__LF398N__1__1.png?raw=true) 
 
 ## LM1117DT-ADJ
-LDO, 800mA adjustable voltage, TO-252
+IC REG LDO ADJ 800mA [TO-252-3]
 
 ![LM1117DT-ADJ__1__1](/images/TexasInstruments__LM1117DT-ADJ__1__1.png?raw=true) 
 
 ## LM1117DT-v.v
-LDO, 800mA fixed voltage, TO-252
+IC REG LDO fixed 800mA [TO-252-3]
 
 ![LM1117DT-v.v__1__1](/images/ST__L79vvCV__1__1.png?raw=true) 
 
 ## LM1117IMP-ADJ
-LDO, 800mA adjustable voltage, SOT-223
+IC REG LDO ADJ 800mA [SOT-223]
 
 ![LM1117IMP-ADJ__1__1](/images/TexasInstruments__LM1117IMP-ADJ__1__1.png?raw=true) 
 
 ## LM1117IMP-v.v
-LDO, 800mA fixed voltage, SOT-223
+IC REG LDO fixed 800mA [SOT-223]
 
 ![LM1117IMP-v.v__1__1](/images/TexasInstruments__LM1117IMP-v.v__1__1.png?raw=true) 
 
 ## LM1117S-ADJ
-LDO, 800mA adjustable voltage, TO-263
+IC REG LDO ADJ 800mA [TO-263]
 
 ![LM1117S-ADJ__1__1](/images/TexasInstruments__LM1117DT-ADJ__1__1.png?raw=true) 
 
 ## LM1117SX-v.v
-LDO, 800mA fixed voltage, TO-263
+IC REG LDO fixed 800mA [TO-263]
 
 ![LM1117SX-v.v__1__1](/images/ST__L79vvCV__1__1.png?raw=true) 
 
 ## LM1117T-ADJ
-LDO, 800mA adjustable voltage, TO-220
+IC REG LDO ADJ 800mA [TO-220]
 
 ![LM1117T-ADJ__1__1](/images/TexasInstruments__LM1117T-ADJ__1__1.png?raw=true) 
 
 ## LM1117T-v.v
-LDO, 800mA fixed voltage, TO-220
+IC REG LDO fixed 800mA [TO-220]
 
 ![LM1117T-v.v__1__1](/images/ST__L79vvCD2T__1__1.png?raw=true) 
 
-## LM20323
-Buck converter, 36V, 3A, 500 kHz synchronous, SOIC
+## LM20323MH
+IC REG BUCK SYNC ADJ 3A [TSSOP-20]
 
-![LM20323__1__1](/images/TexasInstruments__LM20323__1__1.png?raw=true) 
+![LM20323MH__1__1](/images/TexasInstruments__LM20323MH__1__1.png?raw=true) 
 
 ## LM22676QTJ-5.0
-Buck converter, 42V 3A With Features, TO-263
+IC REG BUCK ADJ 3A W/FEATURES [TO-263-7]
 
 ![LM22676QTJ-5.0__1__1](/images/TexasInstruments__LM22676QTJ-5.0__1__1.png?raw=true) 
 
 ## LM22676QTJ-ADJ
-Buck converter, 42V 3A With Features, TO-263
+IC REG BUCK ADJ 3A W/FEATURES [TO-263-7]
 
 ![LM22676QTJ-ADJ__1__1](/images/TexasInstruments__LM22676QTJ-5.0__1__1.png?raw=true) 
 
 ## LM25088MH
-Buck controller
+IC REG CTRLR BUCK PWM CM [TSSOP-16]
 
 ![LM25088MH__1__1](/images/TexasInstruments__LM25088MH__1__1.png?raw=true) 
 
-## LM25116MHX
-Synchronous buck controller
+## LM25116MH
+IC REG CTRLR BUCK PWM CM [TSSOP-20]
 
-![LM25116MHX__1__1](/images/TexasInstruments__LM25116MHX__1__1.png?raw=true) 
+![LM25116MH__1__1](/images/TexasInstruments__LM25116MH__1__1.png?raw=true) 
 
-## LM2575T
-1A switching step-down regulator, TO-220-5
+## LM2575T-ADJ
+IC REG BUCK ADJ 1A [TO-220-5]
 
-![LM2575T__1__1](/images/TexasInstruments__LM2575T__1__1.png?raw=true) 
+![LM2575T-ADJ__1__1](/images/TexasInstruments__LM2575T-ADJ__1__1.png?raw=true) 
 
-## LM2576T
-3A switching step-down regulator, TO-220-5
+## LM2576T-ADJ
+IC REG BUCK ADJ 3A [TO-220-5]
 
-![LM2576T__1__1](/images/TexasInstruments__LM2575T__1__1.png?raw=true) 
+![LM2576T-ADJ__1__1](/images/TexasInstruments__LM2575T-ADJ__1__1.png?raw=true) 
 
 ## LM311M
-Comparator, SOIC
+IC VOLTAGE COMPARATOR [SOIC-8]
 
 ![LM311M__1__1](/images/TexasInstruments__LM311M__1__1.png?raw=true) 
 ![LM311M__2__1](/images/TexasInstruments__LM311M__2__1.png?raw=true) 
 
 ## LM311N
-Comparator, DIP
+IC VOLTAGE COMPARATOR [DIP-8]
 
 ![LM311N__1__1](/images/TexasInstruments__LM311M__1__1.png?raw=true) 
 ![LM311N__2__1](/images/TexasInstruments__LM311M__2__1.png?raw=true) 
 
 ## LM317AEMP
-Voltage regulator, SOT-223
+IC REG LINEAR ADJ 1A [SOT-223]
 
 ![LM317AEMP__1__1](/images/TexasInstruments__LM1117IMP-ADJ__1__1.png?raw=true) 
 
 ## LM317EMP
-Voltage regulator, SOT-223
+IC REG LINEAR ADJ 1A [SOT-223]
 
 ![LM317EMP__1__1](/images/TexasInstruments__LM1117IMP-ADJ__1__1.png?raw=true) 
 
 ## LM317S
-Linear regular, 1.5A, adjustable, TO-263
+IC REG LINEAR ADJ 1A5 [TO-263]
 
 ![LM317S__1__1](/images/TexasInstruments__LM1117DT-ADJ__1__1.png?raw=true) 
 
 ## LM317T
-Linear regular, 1.5A, adjustable, TO-220
+IC REG LINEAR ADJ 1A5 [TO-220]
 
 ![LM317T__1__1](/images/TexasInstruments__LM1117T-ADJ__1__1.png?raw=true) 
 
 ## LM319M
-Dual high speed comparator, SOIC
+IC COMPARATOR DUAL HI SPD [SOIC-14]
 
 ![LM319M__1__1](/images/TexasInstruments__LM319M__1__1.png?raw=true) 
 ![LM319M__2__1](/images/TexasInstruments__LM319M__2__1.png?raw=true) 
 ![LM319M__3__1](/images/TexasInstruments__LM319M__3__1.png?raw=true) 
 
 ## LM319N
-Dual high speed comparator, DIP
+IC COMPARATOR DUAL HI SPD [DIP-14]
 
 ![LM319N__1__1](/images/TexasInstruments__LM319M__1__1.png?raw=true) 
 ![LM319N__2__1](/images/TexasInstruments__LM319M__2__1.png?raw=true) 
 ![LM319N__3__1](/images/TexasInstruments__LM319M__3__1.png?raw=true) 
 
 ## LM324M
-Quad low-power SS op amp, SOIC
+IC OPAMP GP 1MHz [SOIC-14]
 
-![LM324M__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![LM324M__2__1](/images/TexasInstruments__LM324M__2__1.png?raw=true) 
-![LM324M__3__1](/images/TexasInstruments__LM324M__3__1.png?raw=true) 
-![LM324M__4__1](/images/TexasInstruments__LM324M__4__1.png?raw=true) 
+![LM324M__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![LM324M__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
+![LM324M__3__1](/images/AnalogDevices__AD8554ARUZ__3__1.png?raw=true) 
+![LM324M__4__1](/images/AnalogDevices__AD8554ARUZ__4__1.png?raw=true) 
 ![LM324M__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
 ## LM324N
-Quad low-power SS op amp, DIP
+IC OPAMP GP 1MHz [DIP-14]
 
-![LM324N__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![LM324N__2__1](/images/TexasInstruments__LM324M__2__1.png?raw=true) 
-![LM324N__3__1](/images/TexasInstruments__LM324M__3__1.png?raw=true) 
-![LM324N__4__1](/images/TexasInstruments__LM324M__4__1.png?raw=true) 
+![LM324N__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![LM324N__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
+![LM324N__3__1](/images/AnalogDevices__AD8554ARUZ__3__1.png?raw=true) 
+![LM324N__4__1](/images/AnalogDevices__AD8554ARUZ__4__1.png?raw=true) 
 ![LM324N__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
-## LM324PWR
-Quad low-power SS op amp, TSSOP
+## LM324PW
+IC OPAMP GP 1MHz [TSSOP-14]
 
-![LM324PWR__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![LM324PWR__2__1](/images/TexasInstruments__LM324M__2__1.png?raw=true) 
-![LM324PWR__3__1](/images/TexasInstruments__LM324M__3__1.png?raw=true) 
-![LM324PWR__4__1](/images/TexasInstruments__LM324M__4__1.png?raw=true) 
-![LM324PWR__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
+![LM324PW__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![LM324PW__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
+![LM324PW__3__1](/images/AnalogDevices__AD8554ARUZ__3__1.png?raw=true) 
+![LM324PW__4__1](/images/AnalogDevices__AD8554ARUZ__4__1.png?raw=true) 
+![LM324PW__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
 ## LM337T
-Linear regulator, 1.5A, negative, adjustable, TO-220
+IC REG LDO NEG ADJ 1A5 [TO-220]
 
 ![LM337T__1__1](/images/TexasInstruments__LM1117DT-ADJ__1__1.png?raw=true) 
 
 ## LM339M
-Quad low-power comparator, SOIC
+IC COMPARATOR QUAD LO PWR [SOIC-14]
 
 ![LM339M__1__1](/images/TexasInstruments__LM339M__1__1.png?raw=true) 
 ![LM339M__2__1](/images/TexasInstruments__LM339M__2__1.png?raw=true) 
@@ -234,7 +238,7 @@ Quad low-power comparator, SOIC
 ![LM339M__5__1](/images/TexasInstruments__LM339M__5__1.png?raw=true) 
 
 ## LM339N
-Quad low-power comparator, DIP
+IC COMPARATOR QUAD LO PWR [DIP-14]
 
 ![LM339N__1__1](/images/TexasInstruments__LM339M__1__1.png?raw=true) 
 ![LM339N__2__1](/images/TexasInstruments__LM339M__2__1.png?raw=true) 
@@ -242,351 +246,334 @@ Quad low-power comparator, DIP
 ![LM339N__4__1](/images/TexasInstruments__LM339M__4__1.png?raw=true) 
 ![LM339N__5__1](/images/TexasInstruments__LM339M__5__1.png?raw=true) 
 
+## LM339PW
+IC COMPARATOR QUAD LO PWR [TSSOP-14]
+
+![LM339PW__1__1](/images/TexasInstruments__LM339M__1__1.png?raw=true) 
+![LM339PW__2__1](/images/TexasInstruments__LM339M__2__1.png?raw=true) 
+![LM339PW__3__1](/images/TexasInstruments__LM339M__3__1.png?raw=true) 
+![LM339PW__4__1](/images/TexasInstruments__LM339M__4__1.png?raw=true) 
+![LM339PW__5__1](/images/TexasInstruments__LM339M__5__1.png?raw=true) 
+
 ## LM34DM
-Fahrenheit temperature sensor, SOIC
+IC SENSOR TEMP PREC FAHR [SOIC-8]
 
 ![LM34DM__1__1](/images/TexasInstruments__LM34DM__1__1.png?raw=true) 
 
 ## LM358M
-Dual low-power SS op amp, SOIC
+IC OPAMP GP [SOIC-8]
 
-![LM358M__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![LM358M__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
+![LM358M__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![LM358M__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
 ![LM358M__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
 ## LM358N
-Dual low-power SS op amp, DIP
+IC OPAMP GP [DIP-8]
 
-![LM358N__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![LM358N__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
+![LM358N__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![LM358N__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
 ![LM358N__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
+## LM358PW
+IC OPAMP GP [TSSOP-8]
+
+![LM358PW__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![LM358PW__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
+![LM358PW__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
+
 ## LM35DM
-Celsius temperature sensor, SOIC
+IC SENSOR PREC CENT TEMP [SOIC-8]
 
 ![LM35DM__1__1](/images/TexasInstruments__LM34DM__1__1.png?raw=true) 
 
 ## LM393M
-Dual low-power comparator, SOIC
+IC COMPARATOR DUAL 0.4MA [SOIC-8]
 
 ![LM393M__1__1](/images/TexasInstruments__LM393M__1__1.png?raw=true) 
 ![LM393M__2__1](/images/TexasInstruments__LM393M__2__1.png?raw=true) 
 ![LM393M__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
 ## LM393N
-Dual low-power comparator, DIP
+IC COMPARATOR DUAL 0.4MA [DIP-8]
 
 ![LM393N__1__1](/images/TexasInstruments__LM393M__1__1.png?raw=true) 
 ![LM393N__2__1](/images/TexasInstruments__LM393M__2__1.png?raw=true) 
 ![LM393N__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
+## LM393PW
+IC COMPARATOR DUAL 0.4MA [TSSOP-8]
+
+![LM393PW__1__1](/images/TexasInstruments__LM393M__1__1.png?raw=true) 
+![LM393PW__2__1](/images/TexasInstruments__LM393M__2__1.png?raw=true) 
+![LM393PW__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
+
 ## LM4040AvvDBZ
-Precision micropower shunt, SOT-23
+IC VREF SHUNT fixed [SOT-23]
 
 ![LM4040AvvDBZ__1__1](/images/TexasInstruments__LM4040AvvDBZ__1__1.png?raw=true) 
 
-## LM4040AvvLP
-Precision micropower reference, TO-92
-
-![LM4040AvvLP__1__1](/images/TexasInstruments__LM4040AvvDBZ__1__1.png?raw=true) 
-
 ## LM7171AIM
-200 MHz op amp, SOIC
+IC OPAMP VFB 200MHz [SOIC-8]
 
-![LM7171AIM__1__1](/images/TexasInstruments__LM7171AIM__1__1.png?raw=true) 
+![LM7171AIM__1__1](/images/AnalogDevices__AD8597ARZ__1__1.png?raw=true) 
 ![LM7171AIM__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
 
 ## LM7171BIM
-200 MHz op amp, SOIC
+IC OPAMP VFB 200MHz [SOIC-8]
 
-![LM7171BIM__1__1](/images/TexasInstruments__LM7171AIM__1__1.png?raw=true) 
+![LM7171BIM__1__1](/images/AnalogDevices__AD8597ARZ__1__1.png?raw=true) 
 ![LM7171BIM__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
 
 ## LM7171BIN
-200 MHz op amp, DIP
+IC OPAMP VFB 200MHz [DIP-8]
 
-![LM7171BIN__1__1](/images/TexasInstruments__LM7171AIM__1__1.png?raw=true) 
+![LM7171BIN__1__1](/images/AnalogDevices__AD8597ARZ__1__1.png?raw=true) 
 ![LM7171BIN__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
 
-## LM78vvCT
-Linear regulator, 1.5A, fixed, TO-220
-
-![LM78vvCT__1__1](/images/ST__L78vvCV__1__1.png?raw=true) 
-
 ## LMH6552SD
-Fully differential op-amp
+IC OPAMP CFA 1500MHz [WSON-8]
 
 ![LMH6552SD__1__1](/images/TexasInstruments__LMH6552SD__1__1.png?raw=true) 
 ![LMH6552SD__2__1](/images/TexasInstruments__LMH6552SD__2__1.png?raw=true) 
 
 ## LMH6714MF
-250 MHz video op amp, SOT-23
+IC OPAMP VIDEO SINGLE [SOT-23-5]
 
-![LMH6714MF__1__1](/images/TexasInstruments__LMH6714MF__1__1.png?raw=true) 
+![LMH6714MF__1__1](/images/AnalogDevices__AD8601ARTZ__1__1.png?raw=true) 
 ![LMH6714MF__2__1](/images/AnalogDevices__AD8601ARTZ__2__1.png?raw=true) 
 
 ## LMH7220MK
-Fast LVDS comparator, SOT-23
+IC COMPARATOR HS LVDS [TSOT-23-6]
 
 ![LMH7220MK__1__1](/images/TexasInstruments__LMH7220MK__1__1.png?raw=true) 
 ![LMH7220MK__2__1](/images/AnalogDevices__ADCMP604BKSZ__2__1.png?raw=true) 
 
 ## LMR62014XMF
-Boost converter, 20V 1.4A, SOT-23
+IC REG BOOST ADJ 1A4 [SOT-23-5]
 
 ![LMR62014XMF__1__1](/images/TexasInstruments__LMR62014XMF__1__1.png?raw=true) 
 
-## LMV324IDR
-Quad low-voltage RRO op amp, SOIC
+## LMV324ID
+IC OPAMP GP 1MHz RRO [SOIC-14]
 
-![LMV324IDR__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![LMV324IDR__2__1](/images/TexasInstruments__LM324M__2__1.png?raw=true) 
-![LMV324IDR__3__1](/images/TexasInstruments__LM324M__3__1.png?raw=true) 
-![LMV324IDR__4__1](/images/TexasInstruments__LM324M__4__1.png?raw=true) 
-![LMV324IDR__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
+![LMV324ID__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![LMV324ID__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
+![LMV324ID__3__1](/images/AnalogDevices__AD8554ARUZ__3__1.png?raw=true) 
+![LMV324ID__4__1](/images/AnalogDevices__AD8554ARUZ__4__1.png?raw=true) 
+![LMV324ID__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
-## LMV324IPWR
-Quad RRO low voltage op amp, TSSOP
+## LMV324IPW
+IC OPAMP GP 1MHz RRO [TSSOP-14]
 
-![LMV324IPWR__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![LMV324IPWR__2__1](/images/TexasInstruments__LM324M__2__1.png?raw=true) 
-![LMV324IPWR__3__1](/images/TexasInstruments__LM324M__3__1.png?raw=true) 
-![LMV324IPWR__4__1](/images/TexasInstruments__LM324M__4__1.png?raw=true) 
-![LMV324IPWR__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
+![LMV324IPW__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![LMV324IPW__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
+![LMV324IPW__3__1](/images/AnalogDevices__AD8554ARUZ__3__1.png?raw=true) 
+![LMV324IPW__4__1](/images/AnalogDevices__AD8554ARUZ__4__1.png?raw=true) 
+![LMV324IPW__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
-## LMV358IDR
-Dual RRO low voltage op amp, SOIC
+## LMV358ID
+IC OPAMP GP 1MHz RRO [SOIC-8]
 
-![LMV358IDR__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![LMV358IDR__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
-![LMV358IDR__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
+![LMV358ID__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![LMV358ID__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
+![LMV358ID__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
+
+## LMV358IPW
+IC OPAMP GP 1MHz RRO [TSSOP-8]
+
+![LMV358IPW__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![LMV358IPW__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
+![LMV358IPW__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
 ## LMV712MMX
-Dual RRIO op amp, VSSOP
+IC OPAMP GP 5MHz RRO [MSOP-10]
 
-![LMV712MMX__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
+![LMV712MMX__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
 ![LMV712MMX__2__1](/images/TexasInstruments__LMV712MMX__2__1.png?raw=true) 
 ![LMV712MMX__3__1](/images/TexasInstruments__LMV712MMX__3__1.png?raw=true) 
 
 ## LMV761MF
-Precision comparator, push-pull, SOT-23-6
+IC COMP PREC W/P-POP LV [SOT-23-6]
 
 ![LMV761MF__1__1](/images/TexasInstruments__LMV761MF__1__1.png?raw=true) 
 ![LMV761MF__2__1](/images/TexasInstruments__LMV761MF__2__1.png?raw=true) 
 
 ## LT1013DDR
-Dual precision op amp, SOIC-8
+IC OPAMP GP 1MHz [SOIC-8]
 
 ![LT1013DDR__1__1](/images/TexasInstruments__LT1013DDR__1__1.png?raw=true) 
 ![LT1013DDR__2__1](/images/TexasInstruments__LT1013DDR__2__1.png?raw=true) 
 ![LT1013DDR__3__1](/images/TexasInstruments__LT1013DDR__3__1.png?raw=true) 
 
 ## NE555DR
-Timer, SOIC-8
+IC OSC SGL TIMER 100kHz [SOIC-8]
 
 ![NE555DR__1__1](/images/TexasInstruments__NE555DR__1__1.png?raw=true) 
 
 ## NE555P
-Timer, DIP-8
+IC OSC SINGLE TIMER 100kHz [DIP-8]
 
 ![NE555P__1__1](/images/TexasInstruments__NE555DR__1__1.png?raw=true) 
 
 ## OPA1652AID
-Audio op amp, RRO, SOIC
+IC OPAMP AUDIO 18MHz RRO [SOIC-8]
 
-![OPA1652AID__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![OPA1652AID__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
+![OPA1652AID__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![OPA1652AID__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
 ![OPA1652AID__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
 ## OPA1652AIDGK
-Audio op amp, RRO, SOIC
+IC OPAMP AUDIO 18MHz RRO [VSSOP-8]
 
-![OPA1652AIDGK__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![OPA1652AIDGK__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
+![OPA1652AIDGK__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![OPA1652AIDGK__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
 ![OPA1652AIDGK__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
 ## PTN78000WAH
-1.5A buck converter module, PTH
+REG SW 2V5-12V6 1A5 HORZ TH
 
 ![PTN78000WAH__1__1](/images/TexasInstruments__PTN78000WAH__1__1.png?raw=true) 
 
 ## PTN78000WAZ
-1.5A buck converter, SMD
+REG SW 2V5-12V6 1A5 SMD
 
 ![PTN78000WAZ__1__1](/images/TexasInstruments__PTN78000WAH__1__1.png?raw=true) 
 
 ## SN74LVC1G3157DBV
-Switch, SPDT, SOT-23
+IC SWITCH SPDT [SOT-23-6]
 
 ![SN74LVC1G3157DBV__1__1](/images/TexasInstruments__SN74LVC1G3157DBV__1__1.png?raw=true) 
-![SN74LVC1G3157DBV__2__1](/images/TexasInstruments__SN74LVC1G3157DBV__2__1.png?raw=true) 
+![SN74LVC1G3157DBV__2__1](/images/AnalogDevices__ADCMP604BKSZ__2__1.png?raw=true) 
 
 ## SN75176BDR
-Differential bus transceiver, SOIC
+IC DIFF BUS TXCVR [SOIC-8]
 
 ![SN75176BDR__1__1](/images/TexasInstruments__SN75176BDR__1__1.png?raw=true) 
 
-## SN75176BP
-Differential bus transceiver, DIP
-
-![SN75176BP__1__1](/images/TexasInstruments__SN75176BDR__1__1.png?raw=true) 
-
 ## THS3001IDGN
-420 MHz CFA, SSOP-thermal
+IC OPAMP CFA 1750MHz [MSOP-8]
 
-![THS3001IDGN__1__1](/images/TexasInstruments__LM7171AIM__1__1.png?raw=true) 
+![THS3001IDGN__1__1](/images/AnalogDevices__AD8597ARZ__1__1.png?raw=true) 
 ![THS3001IDGN__2__1](/images/TexasInstruments__THS3001IDGN__2__1.png?raw=true) 
 
 ## THS4222D
-Dual high-speed rail to rail op amp, SOIC
+IC OPAMP VFB 120MHz RRO [SOIC-8]
 
-![THS4222D__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![THS4222D__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
+![THS4222D__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![THS4222D__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
 ![THS4222D__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
 ## THS4222DGN
-Dual high-speed rail to rail op amp, SSOP-thermal
+IC OPAMP VFB 120MHz RRO [MSOP-8]
 
-![THS4222DGN__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![THS4222DGN__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
+![THS4222DGN__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![THS4222DGN__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
 ![THS4222DGN__3__1](/images/TexasInstruments__THS4222DGN__3__1.png?raw=true) 
 
-## TL071CDR
-Op amp, SOIC
+## TL072CD
+IC OPAMP JFET 3MHz [SOIC-8]
 
-![TL071CDR__1__1](/images/TexasInstruments__LF356M__1__1.png?raw=true) 
-![TL071CDR__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
-
-## TL071CP
-Op amp, DIP
-
-![TL071CP__1__1](/images/TexasInstruments__LF356M__1__1.png?raw=true) 
-![TL071CP__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
-
-## TL072CDR
-Dual op amp, SOIC
-
-![TL072CDR__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![TL072CDR__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
-![TL072CDR__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
+![TL072CD__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![TL072CD__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
+![TL072CD__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
 ## TL072CP
-Dual op amp, DIP
+IC OPAMP JFET 3MHz [DIP-8]
 
-![TL072CP__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![TL072CP__2__1](/images/TexasInstruments__LF353D__2__1.png?raw=true) 
+![TL072CP__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![TL072CP__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
 ![TL072CP__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
 
-## TL074CDR
-Quad op amp, SOIC
+## TL074CD
+IC OPAMP JFET 3MHz [SOIC-14]
 
-![TL074CDR__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![TL074CDR__2__1](/images/TexasInstruments__LM324M__2__1.png?raw=true) 
-![TL074CDR__3__1](/images/TexasInstruments__LM324M__3__1.png?raw=true) 
-![TL074CDR__4__1](/images/TexasInstruments__LM324M__4__1.png?raw=true) 
-![TL074CDR__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
+![TL074CD__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![TL074CD__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
+![TL074CD__3__1](/images/AnalogDevices__AD8554ARUZ__3__1.png?raw=true) 
+![TL074CD__4__1](/images/AnalogDevices__AD8554ARUZ__4__1.png?raw=true) 
+![TL074CD__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
-## TL074CP
-Quad op amp, DIP
+## TL074CN
+IC OPAMP JFET 3MHz [DIP-14]
 
-![TL074CP__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![TL074CP__2__1](/images/TexasInstruments__LM324M__2__1.png?raw=true) 
-![TL074CP__3__1](/images/TexasInstruments__LM324M__3__1.png?raw=true) 
-![TL074CP__4__1](/images/TexasInstruments__LM324M__4__1.png?raw=true) 
-![TL074CP__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
+![TL074CN__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![TL074CN__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
+![TL074CN__3__1](/images/AnalogDevices__AD8554ARUZ__3__1.png?raw=true) 
+![TL074CN__4__1](/images/AnalogDevices__AD8554ARUZ__4__1.png?raw=true) 
+![TL074CN__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
+
+## TL431AID
+IC VREF SHUNT ADJ [SOIC-8]
+
+![TL431AID__1__1](/images/TexasInstruments__TL431AID__1__1.png?raw=true) 
 
 ## TL431AIDBZ
-Shunt reference, SOT-23
+IC VREF SHUNT ADJ [SOT-23]
 
 ![TL431AIDBZ__1__1](/images/TexasInstruments__TL431AIDBZ__1__1.png?raw=true) 
 
-## TL431AIDR
-Shunt reference, SOIC
-
-![TL431AIDR__1__1](/images/TexasInstruments__TL431AIDR__1__1.png?raw=true) 
-
 ## TL431AILP
-Shunt reference, TO-92
+IC VREF SHUNT ADJ [TO-92]
 
 ![TL431AILP__1__1](/images/TexasInstruments__TL431AIDBZ__1__1.png?raw=true) 
 
-## TL431BIDBZ
-Shunt reference, SOT-23
-
-![TL431BIDBZ__1__1](/images/TexasInstruments__TL431AIDBZ__1__1.png?raw=true) 
-
-## TL431BIDR
-Shunt reference, SOIC
-
-![TL431BIDR__1__1](/images/TexasInstruments__TL431AIDR__1__1.png?raw=true) 
-
-## TL431BILP
-Shunt reference, TO-92
-
-![TL431BILP__1__1](/images/TexasInstruments__TL431AIDBZ__1__1.png?raw=true) 
-
 ## TL974ID
-Quad op amp, R2R, SOIC
+IC OPAMP GP 12MHz RRO [SOIC-14]
 
-![TL974ID__1__1](/images/TexasInstruments__LF353D__1__1.png?raw=true) 
-![TL974ID__2__1](/images/TexasInstruments__LM324M__2__1.png?raw=true) 
-![TL974ID__3__1](/images/TexasInstruments__LM324M__3__1.png?raw=true) 
-![TL974ID__4__1](/images/TexasInstruments__LM324M__4__1.png?raw=true) 
+![TL974ID__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
+![TL974ID__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
+![TL974ID__3__1](/images/AnalogDevices__AD8554ARUZ__3__1.png?raw=true) 
+![TL974ID__4__1](/images/AnalogDevices__AD8554ARUZ__4__1.png?raw=true) 
 ![TL974ID__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
-## TLC5926IDWR
-16-channel LED driver, SOIC
+## TLC5926IDW
+IC LED DRIVER LIN 120mA [SOIC-24]
 
-![TLC5926IDWR__1__1](/images/TexasInstruments__TLC5926IDWR__1__1.png?raw=true) 
+![TLC5926IDW__1__1](/images/TexasInstruments__TLC5926IDW__1__1.png?raw=true) 
 
-## TLC5926IPWPR
-16-channel LED driver, SSOP-thermal
+## TLC5926IPWP
+IC LED DRIVER LIN 120mA [HTSSOP-24]
 
-![TLC5926IPWPR__1__1](/images/TexasInstruments__TLC5926IPWPR__1__1.png?raw=true) 
+![TLC5926IPWP__1__1](/images/TexasInstruments__TLC5926IPWP__1__1.png?raw=true) 
 
-## TLC5927IDWR
-16-channel LED driver, short-to-V+ detect, SOIC
+## TLC5927IDW
+IC LED DRIVER LIN 120mA [SOIC-24]
 
-![TLC5927IDWR__1__1](/images/TexasInstruments__TLC5926IDWR__1__1.png?raw=true) 
+![TLC5927IDW__1__1](/images/TexasInstruments__TLC5926IDW__1__1.png?raw=true) 
 
-## TLC5927IPWPR
-16-channel LED driver, short-to-V+ detect, SOP-thermal
+## TLC5927IPWP
+IC TI TLC5927IPWP
 
-![TLC5927IPWPR__1__1](/images/TexasInstruments__TLC5926IPWPR__1__1.png?raw=true) 
+![TLC5927IPWP__1__1](/images/TexasInstruments__TLC5926IPWP__1__1.png?raw=true) 
 
 ## TLV3501AIDBV
-High speed comparator, SOT-23
+IC COMP 4n5s RR HS [SOT-23-6]
 
 ![TLV3501AIDBV__1__1](/images/TexasInstruments__TLV3501AIDBV__1__1.png?raw=true) 
 ![TLV3501AIDBV__2__1](/images/TexasInstruments__TLV3501AIDBV__2__1.png?raw=true) 
 
 ## TPS61045DRB
-Digitally programmable boost converter
+IC REG BOOST ADJ 20mA [SON-8]
 
 ![TPS61045DRB__1__1](/images/TexasInstruments__TPS61045DRB__1__1.png?raw=true) 
 
 ## TPS62080DSGT
-1.2A step-down converter, DFN
+IC REG BUCK SYNC ADJ 1A2 [WSON-8]
 
 ![TPS62080DSGT__1__1](/images/TexasInstruments__TPS62080DSGT__1__1.png?raw=true) 
 
 ## TPS64200DBV
-Step-down controller, SOT-23
+IC REG CTRLR BUCK PWM CM [SOT-23-6]
 
 ![TPS64200DBV__1__1](/images/TexasInstruments__TPS64200DBV__1__1.png?raw=true) 
 
-## TPS64201DBV
-Step-down controller, SOT-23
-
-![TPS64201DBV__1__1](/images/TexasInstruments__TPS64200DBV__1__1.png?raw=true) 
-
 ## TPS64202DBV
-Step-down controller, SOT-23
+IC REG CTRLR BUCK PWM CM [SOT-23-6]
 
 ![TPS64202DBV__1__1](/images/TexasInstruments__TPS64200DBV__1__1.png?raw=true) 
 
 ## TPS64203DBV
-Step-down controller, SOT-23
+IC REG CTRLR BUCK PWM CM [SOT-23-6]
 
 ![TPS64203DBV__1__1](/images/TexasInstruments__TPS64200DBV__1__1.png?raw=true) 
 
@@ -596,17 +583,17 @@ IC VOLT-LEVEL TRANSLATOR 14-QFN
 ![TXB0104RGY__1__1](/images/TexasInstruments__TXB0104RGY__1__1.png?raw=true) 
 
 ## UC3843D8
-SMPS controller (SOIC-8)
+IC REG CTRLR PWM CM [SOIC-8]
 
 ![UC3843D8__1__1](/images/TexasInstruments__UC3843D8__1__1.png?raw=true) 
 
 ## ULN2003AD
-Darlington array, 7x 50V 500mA, with base resistors
+TRANS 7NPN DARL 50V 500mA [SOIC-16]
 
 ![ULN2003AD__1__1](/images/TexasInstruments__ULN2003AD__1__1.png?raw=true) 
 
-## VCA821IDGST
-Wideband VGA, MSOP
+## VCA821IDGS
+IC OPAMP VCA 710MHz [VSSOP-10]
 
-![VCA821IDGST__1__1](/images/TexasInstruments__VCA821IDGST__1__1.png?raw=true) 
+![VCA821IDGS__1__1](/images/TexasInstruments__VCA821IDGS__1__1.png?raw=true) 
 
