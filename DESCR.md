@@ -42,6 +42,8 @@ These chips can differ significantly from each other, so just use common sense.
 
 `Reg Boost in:vin vout current freq [footprint]`
 
+Also RegCtrlr.
+
 - voltage: output voltage or AdjV
 - current: maximum output current or AdjI
 
@@ -115,11 +117,11 @@ high RF comes out as a DC power level.
 
 ## Discrete diodes
 
-`DIODE xV xA [footprint]`
+`Diode xV xA [footprint]`
 
-`SCHOTTKY xV xA [footprint]`
+`Schottky xV xA [footprint]`
 
-`ZENER xV xW Iz:xA [footprint]`
+`Zener xV xW Iz:xA [footprint]`
 
 `TVS xV _pulse_ _Cj_ [footprint]`
 
@@ -149,3 +151,47 @@ high RF comes out as a DC power level.
 ## Analog switch
 
 `AnSwitch nPnT _tech_ _extras_ [footprint]`
+
+## Memories
+
+`Mem type size interface _speed_ [footprint]`
+
+- type: EEPROM, Flash, SRAM, DRAM, DDR2-SDRAM, etc
+- size: use B for byte, bit for bit
+- speed: either interface clock or access time
+
+## Temperature sensors
+
+`Sensor Temp range accuracy interface [footprint]`
+
+- range: only specified range (not absolute max): `0-70C`
+- accuracy: `±2C`
+- interface: can be `Analog`
+
+## Digital drivers, level shifters, translators
+
+`Logic BusTXRX width supplyrange/techs speed features [footprint]`
+
+`Logic LevelShift width supplyrange/techs speed features [footprint]`
+
+`Logic TXRX supplyrange/techs speed features [footprint]`
+
+`Logic TX supplyrange/techs speed features [footprint]`
+
+`Logic RX supplyrange/techs speed features [footprint]`
+
+`Logic Isolator supplyrange speed isolation features [footprint]`
+
+## Oscillators, PLL
+
+`Osc freq _tech_ outtype extras [footprint]`
+
+`PLL freqmax outtype extras [footprint]`
+
+`OscPLL freqmax outtype extras [footprint]`
+
+- tech: oscillator technology (Crystal, CMEMS, etc)
+
+## Power drivers
+
+`Driver type nchannels tech powerlevel interface [footprint]`
