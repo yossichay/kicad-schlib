@@ -1,293 +1,300 @@
 # _semi
 
 ## BRIDGE
-Rectifier, Bridge
+Diode.4 Bridge voltage current [footprint]
 
 ![BRIDGE__1__1](/images/_semi__BRIDGE__1__1.png?raw=true) 
 
 ## BRIDGE-SCH
-Rectifier, Bridge
+Schottky.4 Bridge voltage current [footprint]
 
 ![BRIDGE-SCH__1__1](/images/_semi__BRIDGE-SCH__1__1.png?raw=true) 
 
 ## BRIDGE2
+Diode.4 Bridge voltage current [footprint]
+
 ![BRIDGE2__1__1](/images/_semi__BRIDGE2__1__1.png?raw=true) 
 
 ## DIAC
-DIAC
+DIAC [footprint]
 
 ![DIAC__1__1](/images/_semi__DIAC__1__1.png?raw=true) 
 
 ## DIODE
-Diode
+Diode voltage current [footprint]
 
-![DIODE__1__1](/images/_semi__DIODE__1__1.png?raw=true) 
+![DIODE__1__1](/images/semi-diode-Vishay__S1A__1__1.png?raw=true) 
 
 ## DIODE-CA
-Diode, dual common anode
+Diode.2 CA voltage current [footprint]
 
 ![DIODE-CA__1__1](/images/_semi__DIODE-CA__1__1.png?raw=true) 
 
 ## DIODE-CK
-Diode, dual common cathode
+Diode.2 CK voltage current [footprint]
 
 ![DIODE-CK__1__1](/images/_semi__DIODE-CK__1__1.png?raw=true) 
 
 ## DIODE-SERIES
-Diode, dual series
+Diode.2 Series voltage current [footprint]
 
 ![DIODE-SERIES__1__1](/images/_semi__DIODE-SERIES__1__1.png?raw=true) 
 
-## LED
-Diode, light-emitting
+## DPIN
+Diode PIN voltage current [footprint]
 
-![LED__1__1](/images/_semi__LED__1__1.png?raw=true) 
+![DPIN__1__1](/images/_semi__DPIN__1__1.png?raw=true) 
+
+## LED
+LED color wavelength voltage current [footprint]
+
+![LED__1__1](/images/semi-opto-misc__LED-0603__1__1.png?raw=true) 
 
 ## NJF
-JFET, N-channel
+NJF (semi) voltage Idss [footprint]
 
-![NJF__1__1](/images/_semi__NJF__1__1.png?raw=true) 
+![NJF__1__1](/images/semi-trans-MMB__MMBF4416__1__1.png?raw=true) 
 
 ## NJFC
-JFET, N-channel with can
+NJF (semi) voltage Idss [footprint]
 
 ![NJFC__1__1](/images/_semi__NJFC__1__1.png?raw=true) 
 
 ## NJFCSYM
-JFET, symmetric N-channel with can
+NJF (semi) voltage Idss [footprint]
 
 ![NJFCSYM__1__1](/images/_semi__NJFCSYM__1__1.png?raw=true) 
 
 ## NJFSYM
-JFET, symmetric N-channel
+NJF (semi) voltage Idss [footprint]
 
-![NJFSYM__1__1](/images/_semi__NJFSYM__1__1.png?raw=true) 
+![NJFSYM__1__1](/images/semi-trans-MMB__MMBFJ111__1__1.png?raw=true) 
 
 ## NMOS
-MOSFET, N-channel enhancement
+NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 
-![NMOS__1__1](/images/semi-trans-NXP__2N7002PW__1__1.png?raw=true) 
+![NMOS__1__1](/images/_semi__NMOS__1__1.png?raw=true) 
 
 ## NMOS-2D
-MOSFET, N-channel enhancement, two drain pins
+NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 
-![NMOS-2D__1__1](/images/semi-trans-NXP__BUK98180-100A__1__1.png?raw=true) 
+![NMOS-2D__1__1](/images/_semi__NMOS-2D__1__1.png?raw=true) 
 
 ## NMOS-4D-3S
-MOSFET, N-channel enhancement, four drain, three source pins
+NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 
 ![NMOS-4D-3S__1__1](/images/_semi__NMOS-4D-3S__1__1.png?raw=true) 
 
 ## NMOS2G
-MOSFET, N-channel enhancement, dual gate
+NMOS DG (semi) voltage current (Rdson) (Vgsth) [footprint]
 
 ![NMOS2G__1__1](/images/_semi__NMOS2G__1__1.png?raw=true) 
 
 ## NMOS4
-MOSFET, N-channel enhancement with body
+NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 
 ![NMOS4__1__1](/images/_semi__NMOS4__1__1.png?raw=true) 
 
 ## NMOS4SYM
-MOSFET, N-channel enhancement with body
+NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 
 ![NMOS4SYM__1__1](/images/_semi__NMOS4SYM__1__1.png?raw=true) 
 
 ## NMOSDEP
-MOSFET, N-channel depletion
+NMOS DEP (semi) voltage current (Rdson) (Vgsth) [footprint]
 
 ![NMOSDEP__1__1](/images/_semi__NMOSDEP__1__1.png?raw=true) 
 
 ## NMOSDEP2G
-MOSFET, N-channel enhancement, dual gate
+NMOS DEP (semi) voltage current (Rdson) (Vgsth) [footprint]
 
 ![NMOSDEP2G__1__1](/images/_semi__NMOSDEP2G__1__1.png?raw=true) 
 
 ## NPN
-BJT, NPN
+NPN (semi) voltage current (power) (ft) [footprint]
 
 ![NPN__1__1](/images/semi-trans-NXP__BFR540__1__1.png?raw=true) 
 
 ## NPN-2C
-BJT, NPN, two collector pins
+NPN (semi) voltage current (power) (ft) [footprint]
 
 ![NPN-2C__1__1](/images/semi-trans-NXP__BFQ19__1__1.png?raw=true) 
 
 ## NPNDARL
-BJT, NPN Darlington
+NPN Darl (semi) voltage current (power) (ft) [footprint]
 
-![NPNDARL__1__1](/images/_semi__NPNDARL__1__1.png?raw=true) 
+![NPNDARL__1__1](/images/semi-trans-TIP__TIP120__1__1.png?raw=true) 
 
 ## NPNDARL-2C
-BJT, NPN Darlington, two collector pins
+NPN Darl (semi) voltage current (power) (ft) [footprint]
 
 ![NPNDARL-2C__1__1](/images/_semi__NPNDARL-2C__1__1.png?raw=true) 
 
 ## NPNDARL-FULL
-BJT, PNP Darlington
+NPN Darl (semi) voltage current (power) (ft) [footprint]
 
 ![NPNDARL-FULL__1__1](/images/_semi__NPNDARL-FULL__1__1.png?raw=true) 
 
 ## NPNDUAL
-BJT, NPN dual
+NPN.2 (semi) voltage current (power) (ft) [footprint]
 
-![NPNDUAL__1__1](/images/_semi__NPNDUAL__1__1.png?raw=true) 
-![NPNDUAL__2__1](/images/_semi__NPNDUAL__1__1.png?raw=true) 
+![NPNDUAL__1__1](/images/semi-trans-DiodesInc__DMMT3904W__1__1.png?raw=true) 
+![NPNDUAL__2__1](/images/semi-trans-DiodesInc__DMMT3904W__1__1.png?raw=true) 
 
 ## NPNLTP
-BJT, NPN long-tailed pair
+NPN.2 CE (semi) voltage current (power) (ft) [footprint]
 
 ![NPNLTP__1__1](/images/semi-trans-NXP__PMP4201G__1__1.png?raw=true) 
 
-## OPTOCOUP
-Optocoupler
+## OPTONPN
+OPTONPN voltage current [footprint]
 
-![OPTOCOUP__1__1](/images/_semi__OPTOCOUP__1__1.png?raw=true) 
-![OPTOCOUP__2__1](/images/_semi__OPTOCOUP__2__1.png?raw=true) 
+![OPTONPN__1__1](/images/_semi__OPTONPN__1__1.png?raw=true) 
+![OPTONPN__2__1](/images/_semi__OPTONPN__2__1.png?raw=true) 
 
 ## PJF
-JFET, P-channel
+PJF (semi) voltage Idss [footprint]
 
 ![PJF__1__1](/images/_semi__PJF__1__1.png?raw=true) 
 
 ## PJFC
-JFET, P-channel with can
+PJF (semi) voltage Idss [footprint]
 
 ![PJFC__1__1](/images/_semi__PJFC__1__1.png?raw=true) 
 
 ## PJFCSYM
-JFET, symmetric P-channel with can
+PJF (semi) voltage Idss [footprint]
 
 ![PJFCSYM__1__1](/images/_semi__PJFCSYM__1__1.png?raw=true) 
 
 ## PJFSYM
-JFET, symmetric P-channel
+PJF (semi) voltage Idss [footprint]
 
 ![PJFSYM__1__1](/images/_semi__PJFSYM__1__1.png?raw=true) 
 
 ## PMOS
-MOSFET, P-channel enhancement
+PMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 
-![PMOS__1__1](/images/semi-trans-NXP__PMV160UP__1__1.png?raw=true) 
+![PMOS__1__1](/images/_semi__PMOS__1__1.png?raw=true) 
 
 ## PMOS-2D
-MOSFET, P-channel enhancement, two drains
+PMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 
 ![PMOS-2D__1__1](/images/_semi__PMOS-2D__1__1.png?raw=true) 
 
 ## PMOS-4D-3S
-MOSFET, P-channel enhancement, four drain, three source pins
+PMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 
 ![PMOS-4D-3S__1__1](/images/_semi__PMOS-4D-3S__1__1.png?raw=true) 
 
 ## PMOS4
-MOSFET, P-channel enhancement with body
+PMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 
 ![PMOS4__1__1](/images/_semi__PMOS4__1__1.png?raw=true) 
 
 ## PMOSDEP
-MOSFET, P-channel depletion
+PMOS DEP (semi) voltage current (Rdson) (Vgsth) [footprint]
 
 ![PMOSDEP__1__1](/images/_semi__PMOSDEP__1__1.png?raw=true) 
 
 ## PNP
-BJT, PNP
+PNP (semi) voltage current (power) (ft) [footprint]
 
 ![PNP__1__1](/images/semi-trans-NXP__BFT92W__1__1.png?raw=true) 
 
 ## PNP-2C
-BJT, PNP, two collector pins
+PNP (semi) voltage current (power) (ft) [footprint]
 
 ![PNP-2C__1__1](/images/semi-trans-NXP__BFQ149__1__1.png?raw=true) 
 
 ## PNPDARL
-BJT, PNP Darlington
+PNP Darl (semi) voltage current (power) (ft) [footprint]
 
-![PNPDARL__1__1](/images/_semi__PNPDARL__1__1.png?raw=true) 
+![PNPDARL__1__1](/images/semi-trans-TIP__TIP125__1__1.png?raw=true) 
 
 ## PNPDARL-2C
-BJT, PNP Darlington, two collector pins
+PNP (semi) voltage current (power) (ft) [footprint]
 
 ![PNPDARL-2C__1__1](/images/_semi__PNPDARL-2C__1__1.png?raw=true) 
 
 ## PNPDARL-FULL
-BJT, PNP Darlington
+PNP Darl (semi) voltage current (power) (ft) [footprint]
 
 ![PNPDARL-FULL__1__1](/images/_semi__PNPDARL-FULL__1__1.png?raw=true) 
 
 ## PNPDUAL
-BJT, PNP dual
+PNP.2 (semi) voltage current (power) (ft) [footprint]
 
-![PNPDUAL__1__1](/images/_semi__PNPDUAL__1__1.png?raw=true) 
-![PNPDUAL__2__1](/images/_semi__PNPDUAL__1__1.png?raw=true) 
+![PNPDUAL__1__1](/images/semi-trans-DiodesInc__DMMT3906W__1__1.png?raw=true) 
+![PNPDUAL__2__1](/images/semi-trans-DiodesInc__DMMT3906W__1__1.png?raw=true) 
 
 ## PNPLTP
-BJT, PNP long-tailed pair
+PNP.2 CE (semi) voltage current (power) (ft) [footprint]
 
 ![PNPLTP__1__1](/images/semi-trans-NXP__PMP5201G__1__1.png?raw=true) 
 
 ## PUT
-Programmable unijunction transistor
+PUT voltage power (I_TRM) [footprint]
 
-![PUT__1__1](/images/_semi__PUT__1__1.png?raw=true) 
+![PUT__1__1](/images/semi-thyristor-2N__2N6028__1__1.png?raw=true) 
 
 ## SCHOTTKY
-Diode, Schottky
+Schottky voltage current [footprint]
 
-![SCHOTTKY__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
+![SCHOTTKY__1__1](/images/semi-diode-OnSemi__MBR0520__1__1.png?raw=true) 
 
 ## SCHOTTKY-CA
-Diode, Schottky, dual common anode
+Schottky.2 CA voltage current [footprint]
 
-![SCHOTTKY-CA__1__1](/images/_semi__SCHOTTKY-CA__1__1.png?raw=true) 
+![SCHOTTKY-CA__1__1](/images/semi-diode-BA__BAT54A__1__1.png?raw=true) 
 
 ## SCHOTTKY-CK
-Diode, Schottky, dual common cathode
+Schottky.2 CK voltage current [footprint]
 
-![SCHOTTKY-CK__1__1](/images/_semi__SCHOTTKY-CK__1__1.png?raw=true) 
+![SCHOTTKY-CK__1__1](/images/semi-diode-BA__BAT54C__1__1.png?raw=true) 
 
 ## SCHOTTKY-SERIES
-Diode, Schottky, dual series
+Schottky.2 Series voltage current [footprint]
 
-![SCHOTTKY-SERIES__1__1](/images/_semi__SCHOTTKY-SERIES__1__1.png?raw=true) 
+![SCHOTTKY-SERIES__1__1](/images/semi-diode-BA__BAT54S__1__1.png?raw=true) 
 
 ## SCR
-Silicon controlled rectifier
+SCR voltage current (I_TSM) [footprint]
 
-![SCR__1__1](/images/_semi__SCR__1__1.png?raw=true) 
+![SCR__1__1](/images/semi-thyristor-2N__2N5060__1__1.png?raw=true) 
 
 ## TRIAC
-TRIAC
+TRIAC [footprint]
 
 ![TRIAC__1__1](/images/_semi__TRIAC__1__1.png?raw=true) 
 
 ## TUNNEL
-Diode, Tunnel
+DTunnel [footprint]
 
 ![TUNNEL__1__1](/images/_semi__TUNNEL__1__1.png?raw=true) 
 
 ## TVS-THYRISTOR
-TVS thyristor (Trisil, etc)
+TVS Thy voltage (pulse) [footprint]
 
 ![TVS-THYRISTOR__1__1](/images/_semi__TVS-THYRISTOR__1__1.png?raw=true) 
 
 ## TVS_BI
-Diode, bidirectional transient suppression
+TVS Bidi voltage (pulse) (Cj) [footprint]
 
 ![TVS_BI__1__1](/images/_semi__TVS_BI__1__1.png?raw=true) 
 
 ## UJT
-Unijunction transistor
+UJT voltage power [footprint]
 
 ![UJT__1__1](/images/_semi__UJT__1__1.png?raw=true) 
 
 ## VARICAP
-Diode, Varicap
+Varicap voltage Cjrange [footprint]
 
 ![VARICAP__1__1](/images/_semi__VARICAP__1__1.png?raw=true) 
 
 ## ZENER
-Diode, Zener
+Zener voltage power Iz:zenertestcurrent [footprint]
 
-![ZENER__1__1](/images/_semi__ZENER__1__1.png?raw=true) 
+![ZENER__1__1](/images/semi-diode-OnSemi__1SMA59xxBT3G__1__1.png?raw=true) 
 

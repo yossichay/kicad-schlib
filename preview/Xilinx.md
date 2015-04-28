@@ -4,6 +4,15 @@
 IC FPGA 68 I/O 100VQFP
 
 ![XC3S50-VQ100__1__1](/images/Xilinx__XC3S50-VQ100__1__1.png?raw=true) 
+![XC3S50-VQ100__2__1](/images/Xilinx__XC3S50-VQ100__2__1.png?raw=true) 
+![XC3S50-VQ100__3__1](/images/Xilinx__XC3S50-VQ100__3__1.png?raw=true) 
+![XC3S50-VQ100__4__1](/images/Xilinx__XC3S50-VQ100__4__1.png?raw=true) 
+![XC3S50-VQ100__5__1](/images/Xilinx__XC3S50-VQ100__5__1.png?raw=true) 
+![XC3S50-VQ100__6__1](/images/Xilinx__XC3S50-VQ100__6__1.png?raw=true) 
+![XC3S50-VQ100__7__1](/images/Xilinx__XC3S50-VQ100__7__1.png?raw=true) 
+![XC3S50-VQ100__8__1](/images/Xilinx__XC3S50-VQ100__8__1.png?raw=true) 
+![XC3S50-VQ100__9__1](/images/Xilinx__XC3S50-VQ100__9__1.png?raw=true) 
+![XC3S50-VQ100__10__1](/images/Xilinx__XC3S50-VQ100__10__1.png?raw=true) 
 
 ## XC6SLX16-2FTG256C
 Spartan 6 FPGA

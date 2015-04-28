@@ -53,7 +53,7 @@ PNP switch, -600mA, -60V, 400mW
 ## 2N3819
 JFET, N RF amplifier, 2-20mA, 25V
 
-![2N3819__1__1](/images/_semi__NJF__1__1.png?raw=true) 
+![2N3819__1__1](/images/semi-trans-MMB__MMBF4416__1__1.png?raw=true) 
 
 ## 2N3904
 NPN amplifier, 200mA, 40V, 625mW
@@ -88,17 +88,17 @@ NPN amplifier, 50mA, 25V, higher gain
 ## 2N5950
 JFET, N RF amplifier, 10-15mA, 30V
 
-![2N5950__1__1](/images/_semi__NJF__1__1.png?raw=true) 
+![2N5950__1__1](/images/semi-trans-MMB__MMBF4416__1__1.png?raw=true) 
 
 ## 2N7000
 MOSFET, N-enh, 60V, 200mA, 400mW
 
-![2N7000__1__1](/images/semi-trans-NXP__2N7002PW__1__1.png?raw=true) 
+![2N7000__1__1](/images/semi-trans-AO__AOD5T40P__1__1.png?raw=true) 
 
 ## 2N7002
 MOSFET, N-enh, 60V, 115mA
 
-![2N7002__1__1](/images/semi-trans-NXP__2N7002PW__1__1.png?raw=true) 
+![2N7002__1__1](/images/semi-trans-AO__AOD5T40P__1__1.png?raw=true) 
 
 ## PN2222
 NPN switch, 600mA, 30V, 625mW

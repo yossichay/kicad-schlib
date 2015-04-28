@@ -58,5 +58,5 @@ Chip inductor, proprietary 1008
 ## L-MURATA-LQH3NP_J0
 Inductor, ferrite core
 
-![L-MURATA-LQH3NP_J0__1__1](/images/pasv-ind__L-MURATA-LQH3NP_J0__1__1.png?raw=true) 
+![L-MURATA-LQH3NP_J0__1__1](/images/pasv-Bourns__L-BOURNS-RLB0914__1__1.png?raw=true) 
 

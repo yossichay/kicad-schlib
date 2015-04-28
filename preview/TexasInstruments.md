@@ -62,13 +62,13 @@ IC OPAMP JFET 3MHz [DIP-8]
 IC OPAMP JFET 5MHz [SOIC-8]
 
 ![LF356M__1__1](/images/TexasInstruments__LF356M__1__1.png?raw=true) 
-![LF356M__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
+![LF356M__2__1](/images/Microchip__MCP6V06-E-SN__2__1.png?raw=true) 
 
 ## LF356N
 IC OPAMP JFET 5MHz [DIP-8]
 
 ![LF356N__1__1](/images/TexasInstruments__LF356M__1__1.png?raw=true) 
-![LF356N__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
+![LF356N__2__1](/images/Microchip__MCP6V06-E-SN__2__1.png?raw=true) 
 
 ## LF398N
 IC AMP PREC SAMPLE HOLD [DIP-8]
@@ -83,7 +83,7 @@ IC REG LDO ADJ 800mA [TO-252-3]
 ## LM1117DT-v.v
 IC REG LDO fixed 800mA [TO-252-3]
 
-![LM1117DT-v.v__1__1](/images/ST__L79vvCV__1__1.png?raw=true) 
+![LM1117DT-v.v__1__1](/images/TexasInstruments__LM1117DT-v.v__1__1.png?raw=true) 
 
 ## LM1117IMP-ADJ
 IC REG LDO ADJ 800mA [SOT-223]
@@ -103,7 +103,7 @@ IC REG LDO ADJ 800mA [TO-263]
 ## LM1117SX-v.v
 IC REG LDO fixed 800mA [TO-263]
 
-![LM1117SX-v.v__1__1](/images/ST__L79vvCV__1__1.png?raw=true) 
+![LM1117SX-v.v__1__1](/images/TexasInstruments__LM1117DT-v.v__1__1.png?raw=true) 
 
 ## LM1117T-ADJ
 IC REG LDO ADJ 800mA [TO-220]
@@ -113,7 +113,7 @@ IC REG LDO ADJ 800mA [TO-220]
 ## LM1117T-v.v
 IC REG LDO fixed 800mA [TO-220]
 
-![LM1117T-v.v__1__1](/images/ST__L79vvCD2T__1__1.png?raw=true) 
+![LM1117T-v.v__1__1](/images/Microchip__MCP1700T-vv02E-TT__1__1.png?raw=true) 
 
 ## LM20323MH
 IC REG BUCK SYNC ADJ 3A [TSSOP-20]
@@ -315,20 +315,20 @@ IC VREF SHUNT fixed [SOT-23]
 ## LM7171AIM
 IC OPAMP VFB 200MHz [SOIC-8]
 
-![LM7171AIM__1__1](/images/AnalogDevices__AD8597ARZ__1__1.png?raw=true) 
-![LM7171AIM__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
+![LM7171AIM__1__1](/images/Microchip__MCP6V06-E-SN__1__1.png?raw=true) 
+![LM7171AIM__2__1](/images/Microchip__MCP6V06-E-SN__2__1.png?raw=true) 
 
 ## LM7171BIM
 IC OPAMP VFB 200MHz [SOIC-8]
 
-![LM7171BIM__1__1](/images/AnalogDevices__AD8597ARZ__1__1.png?raw=true) 
-![LM7171BIM__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
+![LM7171BIM__1__1](/images/Microchip__MCP6V06-E-SN__1__1.png?raw=true) 
+![LM7171BIM__2__1](/images/Microchip__MCP6V06-E-SN__2__1.png?raw=true) 
 
 ## LM7171BIN
 IC OPAMP VFB 200MHz [DIP-8]
 
-![LM7171BIN__1__1](/images/AnalogDevices__AD8597ARZ__1__1.png?raw=true) 
-![LM7171BIN__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
+![LM7171BIN__1__1](/images/Microchip__MCP6V06-E-SN__1__1.png?raw=true) 
+![LM7171BIN__2__1](/images/Microchip__MCP6V06-E-SN__2__1.png?raw=true) 
 
 ## LMH6552SD
 IC OPAMP CFA 1500MHz [WSON-8]
@@ -453,7 +453,7 @@ IC DIFF BUS TXCVR [SOIC-8]
 ## THS3001IDGN
 IC OPAMP CFA 1750MHz [MSOP-8]
 
-![THS3001IDGN__1__1](/images/AnalogDevices__AD8597ARZ__1__1.png?raw=true) 
+![THS3001IDGN__1__1](/images/Microchip__MCP6V06-E-SN__1__1.png?raw=true) 
 ![THS3001IDGN__2__1](/images/TexasInstruments__THS3001IDGN__2__1.png?raw=true) 
 
 ## THS4222D

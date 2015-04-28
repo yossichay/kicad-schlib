@@ -59,7 +59,7 @@ Incandescent lamp
 ## LFERR
 Inductor, ferrite core
 
-![LFERR__1__1](/images/pasv-ind__L-MURATA-LQH3NP_J0__1__1.png?raw=true) 
+![LFERR__1__1](/images/pasv-Bourns__L-BOURNS-RLB0914__1__1.png?raw=true) 
 
 ## NEON
 Neon lamp
@@ -80,12 +80,12 @@ Resistor
 ## POT-TRIM
 Resistor
 
-![POT-TRIM__1__1](/images/passive__POT-TRIM__1__1.png?raw=true) 
+![POT-TRIM__1__1](/images/pasv-Bourns__POT-BOURNS-3296W__1__1.png?raw=true) 
 
 ## R
 Resistor (template)
 
-![R__1__1](/images/passive__R__1__1.png?raw=true) 
+![R__1__1](/images/pasv-res__R-0402__1__1.png?raw=true) 
 
 ## RESNET8
 Resistor
@@ -120,7 +120,7 @@ Resistor
 ## THERM
 Thermistor
 
-![THERM__1__1](/images/passive__THERM__1__1.png?raw=true) 
+![THERM__1__1](/images/Littelfuse__POLYFUSE-30R500__1__1.png?raw=true) 
 
 ## THERMOCOUP
 Thermocouple
@@ -130,8 +130,8 @@ Thermocouple
 ## TRANS-2
 Transformer
 
-![TRANS-2__1__1](/images/passive__TRANS-2__1__1.png?raw=true) 
-![TRANS-2__2__1](/images/passive__TRANS-2__1__1.png?raw=true) 
+![TRANS-2__1__1](/images/pasv-BiTech__IND-BITECH-HM78D-1210__1__1.png?raw=true) 
+![TRANS-2__2__1](/images/pasv-BiTech__IND-BITECH-HM78D-1210__1__1.png?raw=true) 
 
 ## TRANS-2CT
 Transformer
@@ -142,24 +142,24 @@ Transformer
 ## TRANS-3
 Transformer
 
-![TRANS-3__1__1](/images/passive__TRANS-2__1__1.png?raw=true) 
-![TRANS-3__2__1](/images/passive__TRANS-2__1__1.png?raw=true) 
-![TRANS-3__3__1](/images/passive__TRANS-2__1__1.png?raw=true) 
+![TRANS-3__1__1](/images/pasv-BiTech__IND-BITECH-HM78D-1210__1__1.png?raw=true) 
+![TRANS-3__2__1](/images/pasv-BiTech__IND-BITECH-HM78D-1210__1__1.png?raw=true) 
+![TRANS-3__3__1](/images/pasv-BiTech__IND-BITECH-HM78D-1210__1__1.png?raw=true) 
 
 ## TRANS-3-1CT
 Transformer
 
-![TRANS-3-1CT__1__1](/images/passive__TRANS-2__1__1.png?raw=true) 
+![TRANS-3-1CT__1__1](/images/pasv-BiTech__IND-BITECH-HM78D-1210__1__1.png?raw=true) 
 ![TRANS-3-1CT__2__1](/images/passive__TRANS-3-1CT__2__1.png?raw=true) 
-![TRANS-3-1CT__3__1](/images/passive__TRANS-2__1__1.png?raw=true) 
+![TRANS-3-1CT__3__1](/images/pasv-BiTech__IND-BITECH-HM78D-1210__1__1.png?raw=true) 
 
 ## TRANS-4
 Transformer
 
-![TRANS-4__1__1](/images/passive__TRANS-2__1__1.png?raw=true) 
-![TRANS-4__2__1](/images/passive__TRANS-2__1__1.png?raw=true) 
-![TRANS-4__3__1](/images/passive__TRANS-2__1__1.png?raw=true) 
-![TRANS-4__4__1](/images/passive__TRANS-2__1__1.png?raw=true) 
+![TRANS-4__1__1](/images/pasv-BiTech__IND-BITECH-HM78D-1210__1__1.png?raw=true) 
+![TRANS-4__2__1](/images/pasv-BiTech__IND-BITECH-HM78D-1210__1__1.png?raw=true) 
+![TRANS-4__3__1](/images/pasv-BiTech__IND-BITECH-HM78D-1210__1__1.png?raw=true) 
+![TRANS-4__4__1](/images/pasv-BiTech__IND-BITECH-HM78D-1210__1__1.png?raw=true) 
 
 ## TWISTEDPAIR
 Twisted pair
@@ -174,7 +174,7 @@ Twisted pair
 ## XTAL
 Crystal
 
-![XTAL__1__1](/images/passive__XTAL__1__1.png?raw=true) 
+![XTAL__1__1](/images/pasv-xtal__XTAL-HC49US-SMD__1__1.png?raw=true) 
 
 ## XTALG
 Crystal, grounded

@@ -13,12 +13,12 @@ IC REG LDO fixed 250mA (SOT-89)
 ## MCP1700T-vv02E/TT
 IC REG LDO fixed 250mA (SOT-23)
 
-![MCP1700T-vv02E/TT__1__1](/images/ST__L79vvCD2T__1__1.png?raw=true) 
+![MCP1700T-vv02E/TT__1__1](/images/Microchip__MCP1700T-vv02E-TT__1__1.png?raw=true) 
 
 ## MCP1754ST-vv02E/CB
 IC REG LDO fixed 150mA (SOT-23)
 
-![MCP1754ST-vv02E/CB__1__1](/images/ST__L79vvCD2T__1__1.png?raw=true) 
+![MCP1754ST-vv02E/CB__1__1](/images/Microchip__MCP1700T-vv02E-TT__1__1.png?raw=true) 
 
 ## MCP2210-I/SS
 IC CONVERTER USB-SPI (SSOP-20)
@@ -48,8 +48,8 @@ IC DAC 12BIT SNGL W/SPI (SOIC-8)
 ## MCP6V06-E/SN
 IC OPAMP CHOPPER 1300kHz (SOIC-8)
 
-![MCP6V06-E/SN__1__1](/images/AnalogDevices__AD8597ARZ__1__1.png?raw=true) 
-![MCP6V06-E/SN__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
+![MCP6V06-E/SN__1__1](/images/Microchip__MCP6V06-E-SN__1__1.png?raw=true) 
+![MCP6V06-E/SN__2__1](/images/Microchip__MCP6V06-E-SN__2__1.png?raw=true) 
 
 ## MCP9700T-E/TT
 IC SENSOR THERMAL 2V3 (SOT-23)

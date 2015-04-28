@@ -110,6 +110,16 @@ high RF comes out as a DC power level.
 
 `NPN.n _semi_ xV xA _Pd_ _ft_ [footprint]`
 
+`NJF.n _semi_ xV Idss [footprint]`
+
+`PJF.n _semi_ xV Idss [footprint]`
+
+`SCR xV xA _Itsm_ [footprint]`
+
+`PUT xV xW _Itrm_ [footprint]`
+
+`UJT xV xW [footprint]`
+
 - semi: specify semiconductor material for exotic devices
 - Use negative voltage, current for P-type devices
 - Rdson: on-resistance of MOSFET. `34mR`
@@ -124,6 +134,10 @@ high RF comes out as a DC power level.
 `Zener xV xW Iz:xA [footprint]`
 
 `TVS xV _pulse_ _Cj_ [footprint]`
+
+`Varicap xV Cjrange [footprint]`
+
+`LED color wavelength xV xA [footprint]`
 
 - pulse: 8/20µs peak pulse
 

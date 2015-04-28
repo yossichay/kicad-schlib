@@ -3,22 +3,22 @@
 ## MMBF4416
 NJF, RF, 30V, 5-15mA, -2.5--6Voff
 
-![MMBF4416__1__1](/images/_semi__NJF__1__1.png?raw=true) 
+![MMBF4416__1__1](/images/semi-trans-MMB__MMBF4416__1__1.png?raw=true) 
 
 ## MMBFJ111
 NJF, switch, 35V, >20mA, <-10Voff
 
-![MMBFJ111__1__1](/images/_semi__NJFSYM__1__1.png?raw=true) 
+![MMBFJ111__1__1](/images/semi-trans-MMB__MMBFJ111__1__1.png?raw=true) 
 
 ## MMBFJ112
 NJF, switch, 35V, >5mA, <-5Voff
 
-![MMBFJ112__1__1](/images/_semi__NJFSYM__1__1.png?raw=true) 
+![MMBFJ112__1__1](/images/semi-trans-MMB__MMBFJ111__1__1.png?raw=true) 
 
 ## MMBFJ113
 NJF, switch, 35V, >2mA, <-3Voff
 
-![MMBFJ113__1__1](/images/_semi__NJFSYM__1__1.png?raw=true) 
+![MMBFJ113__1__1](/images/semi-trans-MMB__MMBFJ111__1__1.png?raw=true) 
 
 ## MMBT2222A
 NPN switch, 40V, 600mA, 225mW

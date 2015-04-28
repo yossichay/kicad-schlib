@@ -128,22 +128,22 @@ PNP amplifier, -80V, -1.5A, 1.25W
 ## BF545A
 NJF RF amplifier, 30V, 2-6.5mA, -0.4--7.8Voff
 
-![BF545A__1__1](/images/_semi__NJFSYM__1__1.png?raw=true) 
+![BF545A__1__1](/images/semi-trans-MMB__MMBFJ111__1__1.png?raw=true) 
 
 ## BF545B
 NJF RF amplifier, 30V, 6-15mA, -0.4--7.8Voff
 
-![BF545B__1__1](/images/_semi__NJFSYM__1__1.png?raw=true) 
+![BF545B__1__1](/images/semi-trans-MMB__MMBFJ111__1__1.png?raw=true) 
 
 ## BF545C
 NJF RF amplifier, 30V, 12-25mA, -0.4--7.8Voff
 
-![BF545C__1__1](/images/_semi__NJFSYM__1__1.png?raw=true) 
+![BF545C__1__1](/images/semi-trans-MMB__MMBFJ111__1__1.png?raw=true) 
 
 ## BSS138
 MOSFET, N-enh 60V, 20Vgs, 360mA, Rds approx 1
 
-![BSS138__1__1](/images/semi-trans-NXP__2N7002PW__1__1.png?raw=true) 
+![BSS138__1__1](/images/semi-trans-AO__AOD5T40P__1__1.png?raw=true) 
 
 ## BSS83
 MOSFET, four pin N-enh 10V, 50mA, Rds approx 45
@@ -153,5 +153,5 @@ MOSFET, four pin N-enh 10V, 50mA, Rds approx 45
 ## BSS84
 MOSFET, P-enh
 
-![BSS84__1__1](/images/semi-trans-NXP__PMV160UP__1__1.png?raw=true) 
+![BSS84__1__1](/images/semi-trans-AO__AOD417__1__1.png?raw=true) 
 

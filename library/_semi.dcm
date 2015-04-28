@@ -1,269 +1,240 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP BRIDGE
-D Rectifier, Bridge
-F mod_pdf/BRIDGE-*
+D Diode.4 Bridge voltage current [footprint]
 $ENDCMP
 #
 $CMP BRIDGE-SCH
-D Rectifier, Bridge
-F mod_pdf/BRIDGE-*
+D Schottky.4 Bridge voltage current [footprint]
+$ENDCMP
+#
+$CMP BRIDGE2
+D Diode.4 Bridge voltage current [footprint]
 $ENDCMP
 #
 $CMP DIAC
-D DIAC
+D DIAC [footprint]
 $ENDCMP
 #
 $CMP DIODE
-D Diode
-F mod_pdf/DO-*
+D Diode voltage current [footprint]
 $ENDCMP
 #
 $CMP DIODE-CA
-D Diode, dual common anode
+D Diode.2 CA voltage current [footprint]
 $ENDCMP
 #
 $CMP DIODE-CK
-D Diode, dual common cathode
+D Diode.2 CK voltage current [footprint]
 $ENDCMP
 #
 $CMP DIODE-SERIES
-D Diode, dual series
+D Diode.2 Series voltage current [footprint]
+$ENDCMP
+#
+$CMP DPIN
+D Diode PIN voltage current [footprint]
 $ENDCMP
 #
 $CMP LED
-D Diode, light-emitting
+D LED color wavelength voltage current [footprint]
 $ENDCMP
 #
 $CMP NJF
-D JFET, N-channel
-F mod_pdf/TO-*
+D NJF (semi) voltage Idss [footprint]
 $ENDCMP
 #
 $CMP NJFC
-D JFET, N-channel with can
-F mod_pdf/TO-18-4.pdf
+D NJF (semi) voltage Idss [footprint]
 $ENDCMP
 #
 $CMP NJFCSYM
-D JFET, symmetric N-channel with can
-F mod_pdf/TO-18-4.pdf
+D NJF (semi) voltage Idss [footprint]
 $ENDCMP
 #
 $CMP NJFSYM
-D JFET, symmetric N-channel
-F mod_pdf/TO-*
+D NJF (semi) voltage Idss [footprint]
 $ENDCMP
 #
 $CMP NMOS
-D MOSFET, N-channel enhancement
-F mod_pdf/TO-*
+D NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 $ENDCMP
 #
 $CMP NMOS-2D
-D MOSFET, N-channel enhancement, two drain pins
-F mod_pdf/TO-*
+D NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 $ENDCMP
 #
 $CMP NMOS-4D-3S
-D MOSFET, N-channel enhancement, four drain, three source pins
-F mod_pdf/TO-*
+D NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 $ENDCMP
 #
 $CMP NMOS2G
-D MOSFET, N-channel enhancement, dual gate
-F mod_pdf/TO-*
+D NMOS DG (semi) voltage current (Rdson) (Vgsth) [footprint]
 $ENDCMP
 #
 $CMP NMOS4
-D MOSFET, N-channel enhancement with body
+D NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 $ENDCMP
 #
 $CMP NMOS4SYM
-D MOSFET, N-channel enhancement with body
+D NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 $ENDCMP
 #
 $CMP NMOSDEP
-D MOSFET, N-channel depletion
-F mod_pdf/TO-*
+D NMOS DEP (semi) voltage current (Rdson) (Vgsth) [footprint]
 $ENDCMP
 #
 $CMP NMOSDEP2G
-D MOSFET, N-channel enhancement, dual gate
-F mod_pdf/TO-*
+D NMOS DEP (semi) voltage current (Rdson) (Vgsth) [footprint]
 $ENDCMP
 #
 $CMP NPN
-D BJT, NPN
-F mod_pdf/TO-*
+D NPN (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP NPN-2C
-D BJT, NPN, two collector pins
-F mod_pdf/TO-*
+D NPN (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP NPNDARL
-D BJT, NPN Darlington
-F mod_pdf/TO-*
+D NPN Darl (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP NPNDARL-2C
-D BJT, NPN Darlington, two collector pins
-F mod_pdf/TO-*
+D NPN Darl (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP NPNDARL-FULL
-D BJT, PNP Darlington
-F mod_pdf/TO-*
+D NPN Darl (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP NPNDUAL
-D BJT, NPN dual
+D NPN.2 (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP NPNLTP
-D BJT, NPN long-tailed pair
+D NPN.2 CE (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
-$CMP OPTOCOUP
-D Optocoupler
-F mod_pdf/DIP-4.pdf
+$CMP OPTONPN
+D OPTONPN voltage current [footprint]
 $ENDCMP
 #
 $CMP PJF
-D JFET, P-channel
-F mod_pdf/TO-*
+D PJF (semi) voltage Idss [footprint]
 $ENDCMP
 #
 $CMP PJFC
-D JFET, P-channel with can
-F mod_pdf/TO-18-4.pdf
+D PJF (semi) voltage Idss [footprint]
 $ENDCMP
 #
 $CMP PJFCSYM
-D JFET, symmetric P-channel with can
-F mod_pdf/TO-18-4.pdf
+D PJF (semi) voltage Idss [footprint]
 $ENDCMP
 #
 $CMP PJFSYM
-D JFET, symmetric P-channel
-F mod_pdf/TO-*
+D PJF (semi) voltage Idss [footprint]
 $ENDCMP
 #
 $CMP PMOS
-D MOSFET, P-channel enhancement
-F mod_pdf/TO-*
+D PMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 $ENDCMP
 #
 $CMP PMOS-2D
-D MOSFET, P-channel enhancement, two drains
-F mod_pdf/TO-*
+D PMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 $ENDCMP
 #
 $CMP PMOS-4D-3S
-D MOSFET, P-channel enhancement, four drain, three source pins
-F mod_pdf/TO-*
+D PMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 $ENDCMP
 #
 $CMP PMOS4
-D MOSFET, P-channel enhancement with body
+D PMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 $ENDCMP
 #
 $CMP PMOSDEP
-D MOSFET, P-channel depletion
+D PMOS DEP (semi) voltage current (Rdson) (Vgsth) [footprint]
 F mod_pdf/TO-*
 $ENDCMP
 #
 $CMP PNP
-D BJT, PNP
-F mod_pdf/TO-*
+D PNP (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP PNP-2C
-D BJT, PNP, two collector pins
-F mod_pdf/TO-*
+D PNP (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP PNPDARL
-D BJT, PNP Darlington
-F mod_pdf/TO-*
+D PNP Darl (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP PNPDARL-2C
-D BJT, PNP Darlington, two collector pins
-F mod_pdf/TO-*
+D PNP (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP PNPDARL-FULL
-D BJT, PNP Darlington
-F mod_pdf/TO-*
+D PNP Darl (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP PNPDUAL
-D BJT, PNP dual
+D PNP.2 (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP PNPLTP
-D BJT, PNP long-tailed pair
+D PNP.2 CE (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP PUT
-D Programmable unijunction transistor
+D PUT voltage power (I_TRM) [footprint]
 $ENDCMP
 #
 $CMP SCHOTTKY
-D Diode, Schottky
-F mod_pdf/DO-*
+D Schottky voltage current [footprint]
 $ENDCMP
 #
 $CMP SCHOTTKY-CA
-D Diode, Schottky, dual common anode
+D Schottky.2 CA voltage current [footprint]
 $ENDCMP
 #
 $CMP SCHOTTKY-CK
-D Diode, Schottky, dual common cathode
+D Schottky.2 CK voltage current [footprint]
 $ENDCMP
 #
 $CMP SCHOTTKY-SERIES
-D Diode, Schottky, dual series
+D Schottky.2 Series voltage current [footprint]
 $ENDCMP
 #
 $CMP SCR
-D Silicon controlled rectifier
+D SCR voltage current (I_TSM) [footprint]
 $ENDCMP
 #
 $CMP TRIAC
-D TRIAC
-F mod_pdf/DO-*
+D TRIAC [footprint]
 $ENDCMP
 #
 $CMP TUNNEL
-D Diode, Tunnel
-F mod_pdf/DO-*
+D DTunnel [footprint]
 $ENDCMP
 #
 $CMP TVS-THYRISTOR
-D TVS thyristor (Trisil, etc)
+D TVS Thy voltage (pulse) [footprint]
 $ENDCMP
 #
 $CMP TVS_BI
-D Diode, bidirectional transient suppression
-F mod_pdf/DO-*
+D TVS Bidi voltage (pulse) (Cj) [footprint]
 $ENDCMP
 #
 $CMP UJT
-D Unijunction transistor
+D UJT voltage power [footprint]
 $ENDCMP
 #
 $CMP VARICAP
-D Diode, Varicap
-F mod_pdf/DO-*
+D Varicap voltage Cjrange [footprint]
 $ENDCMP
 #
 $CMP ZENER
-D Diode, Zener
-F mod_pdf/DO-*
+D Zener voltage power Iz:zenertestcurrent [footprint]
 $ENDCMP
 #
 #End Doc Library

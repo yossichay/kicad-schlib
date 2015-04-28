@@ -51,19 +51,19 @@ Relay, DPDT, with diode
 Relay, SPDT
 
 ![RELAY_SPDT__1__1](/images/_electromech__DPDT__1__1.png?raw=true) 
-![RELAY_SPDT__2__1](/images/_electromech__RELAY_DPDT__3__1.png?raw=true) 
+![RELAY_SPDT__2__1](/images/_electromech__RELAY_SPDT__2__1.png?raw=true) 
 
 ## RELAY_SPDT_DIODE
 Relay, SPDT, with diode
 
 ![RELAY_SPDT_DIODE__1__1](/images/_electromech__DPDT__1__1.png?raw=true) 
-![RELAY_SPDT_DIODE__2__1](/images/_electromech__RELAY_DPDT_DIODE__3__1.png?raw=true) 
+![RELAY_SPDT_DIODE__2__1](/images/_electromech__RELAY_SPDT_DIODE__2__1.png?raw=true) 
 
 ## RELAY_SPST
 Relay, SPST
 
 ![RELAY_SPST__1__1](/images/_electromech__RELAY_SPST__1__1.png?raw=true) 
-![RELAY_SPST__2__1](/images/_electromech__RELAY_DPDT__3__1.png?raw=true) 
+![RELAY_SPST__2__1](/images/_electromech__RELAY_SPDT__2__1.png?raw=true) 
 
 ## RELAY_SPST_DIODE
 Relay, SPST
