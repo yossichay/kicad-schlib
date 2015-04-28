@@ -1,31 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP DG419-DIP
-D Analog switch, SPDT
-K anaswitch
-F mod_pdf/DIP-8.pdf
+$CMP DG419CJ
+D AnSwitch SPDT CMOS 30V 0-70degC [DIP-8]
 $ENDCMP
 #
-$CMP DG419-SOIC
-D Analog switch, SPDT
-K anaswitch
-F mod_pdf/SOIC127P600X175-8.pdf
+$CMP DG419CY
+D AnSwitch SPDT CMOS 30V 0-70degC [SOIC-8]
 $ENDCMP
 #
-$CMP DG449DS
-D Analog switch, SPDT
-K anaswitch
-F mod_pdf/SOIC127P600X175-8.pdf
+$CMP DG419DJ
+D AnSwitch SPDT CMOS 30V -40-85degC [DIP-8]
 $ENDCMP
 #
-$CMP DS18B20
-D 1-Wire temperature sensor
-K temp
-F mod_pdf/TO-92.pdf
+$CMP DG419DY
+D AnSwitch SPDT CMOS 30V -40-85degC [SOIC-8]
 $ENDCMP
 #
-$CMP MAX232-DIP
-F mod_pdf/DIP-16.pdf
+$CMP DG419LEUA
+D AnSwitch SPDT CMOS 20V -40-85degC [MSOP-8]
 $ENDCMP
 #
 $CMP MAX48x-DIP
@@ -42,7 +34,6 @@ $ENDCMP
 #
 $CMP MAX5481
 D 10-bit NV SPI digital potentiometer
-K digipot dac.10 dac
 F mod_pdf/SOP65P640X120-14.pdf
 $ENDCMP
 #

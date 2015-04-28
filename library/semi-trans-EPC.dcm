@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP EPC2014
-D NMOS GAN 40V 10A [DIE]
+D NMOS GaN 40V 10A 16mR 2.5Vth [DIE]
 $ENDCMP
 #
 #End Doc Library

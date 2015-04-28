@@ -5,7 +5,7 @@ D MOSFET, P-enh, -4A, -60V, Rds ~130m
 $ENDCMP
 #
 $CMP AO7801
-D TRANS 2 PMOS -20V -600mA [SOT-363]
+D PMOS.2 -20V -600mA 520mR -900mVth [SOT-363]
 F mod_pdf/TO-*
 $ENDCMP
 #

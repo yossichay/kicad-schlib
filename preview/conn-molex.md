@@ -1,5 +1,10 @@
 # conn-molex
 
+## CONN-MOLEX-0734120110
+CONN UMC RCPT STR 50 OHM SMD
+
+![CONN-MOLEX-0734120110__1__1](/images/conn-te__CONN-BNC-1-1337543-0__1__1.png?raw=true) 
+
 ## CONN-MOLEX-52808-0471
 1mm FFC
 

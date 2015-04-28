@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP FAN4010
-D IC CURRENT SENSE 0%2 (MLP-6)
+D InAmp CurrentSense 600kHz 0.2% [MLP-6]
 $ENDCMP
 #
 #End Doc Library

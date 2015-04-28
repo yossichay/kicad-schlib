@@ -3,17 +3,17 @@
 ## D44H11
 NPN power transistor, 10A, 80V
 
-![D44H11__1__1](/images/semi-trans-NXP__BFR540__1__1.png?raw=true) 
+![D44H11__1__1](/images/_semi__NPN__1__1.png?raw=true) 
 
 ## D45H11
 PNP power transistor, 10A, 80V
 
-![D45H11__1__1](/images/semi-trans-NXP__BFT92W__1__1.png?raw=true) 
+![D45H11__1__1](/images/_semi__PNP__1__1.png?raw=true) 
 
 ## MJD31C
 NPN GP amplifier, 3A, 100V
 
-![MJD31C__1__1](/images/semi-trans-NXP__BFR540__1__1.png?raw=true) 
+![MJD31C__1__1](/images/_semi__NPN__1__1.png?raw=true) 
 
 ## P0102XN
 SCR, 400V, 800mA / 8A surge, SOT-223

@@ -1,42 +1,42 @@
 # display
 
 ## IV-21
-Tiny USSR 8-digit VFD tube
+Display VFD 7seg Digits:8 Muxed
 
 ![IV-21__1__1](/images/display__IV-21__1__1.png?raw=true) 
 
 ## IVLM-16
-IVLM experimental USSR VFD
+Display VFD 7x5 Chars:16 Muxed
 
 ![IVLM-16__1__1](/images/display__IVLM-16__1__1.png?raw=true) 
 
 ## KINGBRIGHT-BA56-11GWA
-3-digit green LED display
+Display LED 7seg Digits:3 Muxed CA Green
 
 ![KINGBRIGHT-BA56-11GWA__1__1](/images/display__KINGBRIGHT-BA56-11GWA__1__1.png?raw=true) 
 
 ## LCD-HJ1602A
-16x2 backlit LCD
+Display LCD Alphanum Chars:16x2 Parallel
 
 ![LCD-HJ1602A__1__1](/images/display__LCD-HJ1602A__1__1.png?raw=true) 
 
 ## LITEON-LTC-4627JR
-Four 7-segment multiplexed-cathode display
+Display LED 7seg Digits:4 Muxed CA
 
 ![LITEON-LTC-4627JR__1__1](/images/display__LITEON-LTC-4627JR__1__1.png?raw=true) 
 
 ## LUMEX-LDS-A324RI
-Single 7-segment display
+Display LED 7seg Single CA
 
 ![LUMEX-LDS-A324RI__1__1](/images/display__LUMEX-LDS-A324RI__1__1.png?raw=true) 
 
 ## NHD-C0220BIZ-FSW-FBW-3V3M
-COG I2C backlit 2x20 dot matrix LCD
+Display LCD Alphanum Chars:20x2 I2C
 
 ![NHD-C0220BIZ-FSW-FBW-3V3M__1__1](/images/display__NHD-C0220BIZ-FSW-FBW-3V3M__1__1.png?raw=true) 
 
 ## TOPLITE-A-5161BS
-Single 7-segment display, common anode
+Display LED 7seg Single CA
 
 ![TOPLITE-A-5161BS__1__1](/images/display__TOPLITE-A-5161BS__1__1.png?raw=true) 
 

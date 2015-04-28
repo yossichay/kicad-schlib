@@ -2,107 +2,86 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP 7400-DIP
 D Quad NAND gate
-K nand
 $ENDCMP
 #
 $CMP 7400-SO
 D Quad NAND gate
-K nand
 $ENDCMP
 #
 $CMP 7400-SSOP
 D Quad NAND gate
-K nand
 $ENDCMP
 #
 $CMP 7400-TSSOP
 D Quad NAND gate
-K nand
 $ENDCMP
 #
 $CMP 7404-DIP
 D Hex inverting Schmitt trigger
-K not schmitt
 $ENDCMP
 #
 $CMP 7404-SO
 D Hex inverting Schmitt trigger
-K not schmitt
 $ENDCMP
 #
 $CMP 7404-SSOP
 D Hex inverting Schmitt trigger
-K not schmitt
 $ENDCMP
 #
 $CMP 7404-TSSOP
 D Hex inverting Schmitt trigger
-K not schmitt
 $ENDCMP
 #
 $CMP 7414-DIP
 D Hex inverting Schmitt trigger
-K not schmitt
 $ENDCMP
 #
 $CMP 7414-SO
 D Hex inverting Schmitt trigger
-K not schmitt
 $ENDCMP
 #
 $CMP 7414-SSOP
 D Hex inverting Schmitt trigger
-K not schmitt
 $ENDCMP
 #
 $CMP 7414-TSSOP
 D Hex inverting Schmitt trigger
-K not schmitt
 $ENDCMP
 #
 $CMP 74141-DIP
 D TTL Nixie tube driver
-K nixie
 $ENDCMP
 #
 $CMP 74165-DIP
 D PI, SO 8-bit latching shift register
-K shift
 $ENDCMP
 #
 $CMP 74165-SO
 D PI, SO 8-bit latching shift register
-K shift
 $ENDCMP
 #
 $CMP 74165-SSOP
 D PI, SO 8-bit latching shift register
-K shift
 $ENDCMP
 #
 $CMP 74165-TSSOP
 D PI, SO 8-bit latching shift register
-K shift
 $ENDCMP
 #
 $CMP 741G04-SC70
 D Single inverter
-K not
 $ENDCMP
 #
 $CMP 741G04-SOT23
 D Single inverter
-K not
 $ENDCMP
 #
 $CMP 741G08-SC70
 D Quad NAND gate
-K nand
 $ENDCMP
 #
 $CMP 741G08-SOT23
 D Quad NAND gate
-K nand
 $ENDCMP
 #
 $CMP 74245-DIP
@@ -123,72 +102,58 @@ $ENDCMP
 #
 $CMP 742G14-SOT363
 D Hex inverting Schmitt trigger
-K not schmitt
 $ENDCMP
 #
 $CMP 7430-TSSOP
 D Eight-input NAND gate
-K nand
 $ENDCMP
 #
 $CMP 74595-DIP
 D SI, S/PO 8-bit latching shift register
-K shift
 $ENDCMP
 #
 $CMP 74595-SO
 D SI, S/PO 8-bit latching shift register
-K shift
 $ENDCMP
 #
 $CMP 74595-SSOP
 D SI, S/PO 8-bit latching shift register
-K shift
 $ENDCMP
 #
 $CMP 74595-TSSOP
 D SI, S/PO 8-bit latching shift register
-K shift
 $ENDCMP
 #
 $CMP 7474-DIP
 D Dual pos-edge D flip flop
-K flipflop
 $ENDCMP
 #
 $CMP 7474-SO
 D Dual pos-edge D flip flop
-K flipflop
 $ENDCMP
 #
 $CMP 7474-SSOP
 D Dual pos-edge D flip flop
-K flipflop
 $ENDCMP
 #
 $CMP 7474-TSSOP
 D Dual pos-edge D flip flop
-K flipflop
 $ENDCMP
 #
 $CMP 7493-DIP
 D 4-bit binary ripple counter
-K counter
 $ENDCMP
 #
 $CMP 7493-SO
 D 4-bit binary ripple counter
-K counter
 $ENDCMP
 #
 $CMP 7493-SSOP
 D 4-bit binary ripple counter
-K counter
 $ENDCMP
 #
 $CMP 7493-TSSOP
 D 4-bit binary ripple counter
-K counter
 $ENDCMP
 #
 $CMP SN74LVCC3245A-SOIC

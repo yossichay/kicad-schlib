@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DG449DS
+D AnSwitch SPDT CMOS 20V [SOT-23-8]
+$ENDCMP
+#
+#End Doc Library

@@ -5,17 +5,14 @@ EESchema-DOCLIB  Version 2.0  Date: Sun Nov 16 10:40:55 2014
 #
 $CMP SI2309CDS
 D MOSFET, P-enh, -60V, 20Vgs, -1A, Rds ~ 345m
-K 
 $ENDCMP
 #
 $CMP SI2333DDS
 D MOSFET, P-enh, -12V, 8Vgs, -6A, Rds ~ 28m
-K 
 $ENDCMP
 #
 $CMP SI3433CDV
 D MOSFET, P-enh -20V 8Vgs -4.2A Rds approx 60m
-K 
 $ENDCMP
 #
 #End Doc Library

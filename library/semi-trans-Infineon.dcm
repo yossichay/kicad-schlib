@@ -5,17 +5,14 @@ EESchema-DOCLIB  Version 2.0  Date: Sun Nov 16 10:40:55 2014
 #
 $CMP IPW50R250CP
 D MOSFET, N-enh, 550V 13A 114W
-K 
 $ENDCMP
 #
 $CMP IPP230N06L3
 D MOSFET, N-enh, 60V, 30A, Rds ~ 23m
-K 
 $ENDCMP
 #
 $CMP BSD314SPE
 D MOSFET, P-enh, -30V, -1.5A, Rds ~ 140m
-K 
 $ENDCMP
 #
 #End Doc Library

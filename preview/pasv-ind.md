@@ -15,6 +15,11 @@ Chip ferrite, EIA 0805, metric 2012
 
 ![BEAD-0805__1__1](/images/pasv-ind__BEAD-0402__1__1.png?raw=true) 
 
+## BEAD-1206
+Chip ferrite, EIA 1206, metric 3216
+
+![BEAD-1206__1__1](/images/pasv-ind__BEAD-0402__1__1.png?raw=true) 
+
 ## BEAD-1210
 Chip ferrite, EIA 1210, metric 3225
 
@@ -58,5 +63,5 @@ Chip inductor, proprietary 1008
 ## L-MURATA-LQH3NP_J0
 Inductor, ferrite core
 
-![L-MURATA-LQH3NP_J0__1__1](/images/pasv-Bourns__L-BOURNS-RLB0914__1__1.png?raw=true) 
+![L-MURATA-LQH3NP_J0__1__1](/images/pasv-ind__L-MURATA-LQH3NP_J0__1__1.png?raw=true) 
 
