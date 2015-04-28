@@ -16,6 +16,10 @@ $CMP L-BOURNS-SRN3015
 D Inductor, power (to 2.35A), semi-shielded
 $ENDCMP
 #
+$CMP L-BOURNS-SRN5040
+D Inductor, power (to 3.6A), semi-shielded
+$ENDCMP
+#
 $CMP L-BOURNS-SRP1238A
 D Inductor, power (to 11A), shielded
 $ENDCMP

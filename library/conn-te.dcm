@@ -8,4 +8,8 @@ $CMP CONN-SMA-5-1814400-1
 D BNC, female, right angle, panel mount, through hole
 $ENDCMP
 #
+$CMP CONN-TE-1-1337543-0
+D CONN BNC JACK R/A 50 OHM
+$ENDCMP
+#
 #End Doc Library

@@ -12,6 +12,10 @@ $CMP BEAD-0805
 D Chip ferrite, EIA 0805, metric 2012
 $ENDCMP
 #
+$CMP BEAD-1206
+D Chip ferrite, EIA 1206, metric 3216
+$ENDCMP
+#
 $CMP BEAD-1210
 D Chip ferrite, EIA 1210, metric 3225
 $ENDCMP
