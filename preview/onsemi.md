@@ -1,92 +1,54 @@
 # onsemi
 
-## BC846BPDW1
-BJT, NPN dual
-
-![BC846BPDW1__1__1](/images/_semi__NPNDUAL__1__1.png?raw=true) 
-![BC846BPDW1__2__1](/images/onsemi__BC846BPDW1__2__1.png?raw=true) 
-
-## ESD9L
-Low capacitance ESD protection diode
-
-![ESD9L__1__1](/images/_semi__ZENER__1__1.png?raw=true) 
-
-## L78MvvCDT
-Voltage regulator, TO-252
-
-![L78MvvCDT__1__1](/images/Intersil__ISL21070__1__1.png?raw=true) 
-
 ## MC1496D
 Gilbert cell modulator/demodulator, SOIC-14
 
 ![MC1496D__1__1](/images/onsemi__MC1496D__1__1.png?raw=true) 
 
-## MC1496P
-Gilbert cell modulator/demodulator, DIP-14
-
-![MC1496P__1__1](/images/onsemi__MC1496D__1__1.png?raw=true) 
-
-## MC33078-DIP
+## MC33078D
 Dual low-noise op amp
 
-![MC33078-DIP__1__1](/images/onsemi__MC33078-DIP__1__1.png?raw=true) 
-![MC33078-DIP__2__1](/images/onsemi__MC33078-DIP__2__1.png?raw=true) 
-![MC33078-DIP__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
+![MC33078D__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
+![MC33078D__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
+![MC33078D__3__1](/images/LinearTech__LT1813CS8__3__1.png?raw=true) 
 
-## MC33078-MSOP
+## MC33078P
 Dual low-noise op amp
 
-![MC33078-MSOP__1__1](/images/onsemi__MC33078-DIP__1__1.png?raw=true) 
-![MC33078-MSOP__2__1](/images/onsemi__MC33078-DIP__2__1.png?raw=true) 
-![MC33078-MSOP__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
+![MC33078P__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
+![MC33078P__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
+![MC33078P__3__1](/images/LinearTech__LT1813CS8__3__1.png?raw=true) 
 
-## MC33078-SOIC
-Dual low-noise op amp
-
-![MC33078-SOIC__1__1](/images/onsemi__MC33078-DIP__1__1.png?raw=true) 
-![MC33078-SOIC__2__1](/images/onsemi__MC33078-DIP__2__1.png?raw=true) 
-![MC33078-SOIC__3__1](/images/AnalogDevices__AD8552ARUZ__3__1.png?raw=true) 
-
-## MC33079-DIP
+## MC33079D
 Quad low-noise op amp
 
-![MC33079-DIP__1__1](/images/onsemi__MC33078-DIP__1__1.png?raw=true) 
-![MC33079-DIP__2__1](/images/onsemi__MC33079-DIP__2__1.png?raw=true) 
-![MC33079-DIP__3__1](/images/onsemi__MC33079-DIP__3__1.png?raw=true) 
-![MC33079-DIP__4__1](/images/onsemi__MC33079-DIP__4__1.png?raw=true) 
-![MC33079-DIP__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
+![MC33079D__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
+![MC33079D__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
+![MC33079D__3__1](/images/AnalogDevices__AD8554ARUZ__3__1.png?raw=true) 
+![MC33079D__4__1](/images/AnalogDevices__AD8554ARUZ__4__1.png?raw=true) 
+![MC33079D__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
-## MC33079-SOIC
+## MC33079P
 Quad low-noise op amp
 
-![MC33079-SOIC__1__1](/images/onsemi__MC33078-DIP__1__1.png?raw=true) 
-![MC33079-SOIC__2__1](/images/onsemi__MC33079-DIP__2__1.png?raw=true) 
-![MC33079-SOIC__3__1](/images/onsemi__MC33079-DIP__3__1.png?raw=true) 
-![MC33079-SOIC__4__1](/images/onsemi__MC33079-DIP__4__1.png?raw=true) 
-![MC33079-SOIC__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
+![MC33079P__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
+![MC33079P__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
+![MC33079P__3__1](/images/AnalogDevices__AD8554ARUZ__3__1.png?raw=true) 
+![MC33079P__4__1](/images/AnalogDevices__AD8554ARUZ__4__1.png?raw=true) 
+![MC33079P__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
-## MC34063-DIP
+## MC34063D
 Step-up/down/inverting switching regulator
 
-![MC34063-DIP__1__1](/images/onsemi__MC34063-DIP__1__1.png?raw=true) 
+![MC34063D__1__1](/images/onsemi__MC34063D__1__1.png?raw=true) 
 
-## MC34063-SOIC
+## MC34063P
 Step-up/down/inverting switching regulator
 
-![MC34063-SOIC__1__1](/images/onsemi__MC34063-DIP__1__1.png?raw=true) 
+![MC34063P__1__1](/images/onsemi__MC34063D__1__1.png?raw=true) 
 
 ## MC79MvvCDT
 Voltage regulator, negative, TO-252
 
 ![MC79MvvCDT__1__1](/images/ST__L79vvCD2T__1__1.png?raw=true) 
-
-## MMUN2231L
-BJT, NPN, pre-biased 2.2k/2.2k
-
-![MMUN2231L__1__1](/images/onsemi__MMUN2231L__1__1.png?raw=true) 
-
-## MUN2111T1
-BJT, PNP, pre-biased
-
-![MUN2111T1__1__1](/images/onsemi__MUN2111T1__1__1.png?raw=true) 
 

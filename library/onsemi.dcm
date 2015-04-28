@@ -1,63 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP BC846BPDW1
-D BJT, NPN dual
-$ENDCMP
-#
-$CMP ESD9L
-D Low capacitance ESD protection diode
-$ENDCMP
-#
-$CMP L78MvvCDT
-D Voltage regulator, TO-252
-$ENDCMP
-#
 $CMP MC1496D
-D Gilbert cell modulator/demodulator, SOIC-14
+D ModDemod 300MHz Gilbert [SOIC-14]
 $ENDCMP
 #
-$CMP MC1496P
-D Gilbert cell modulator/demodulator, DIP-14
+$CMP MC33078D
+D OpAmp.2 16MHz LowVos LowIB LowNoise [DIP-8]
 $ENDCMP
 #
-$CMP MC33078-DIP
-D Dual low-noise op amp
+$CMP MC33078P
+D OpAmp.2 16MHz LowVos LowIB LowNoise [DIP-8]
 $ENDCMP
 #
-$CMP MC33078-MSOP
-D Dual low-noise op amp
+$CMP MC33079D
+D OpAmp.4 16MHz LowVos LowIB LowNoise [SOIC-14]
 $ENDCMP
 #
-$CMP MC33078-SOIC
-D Dual low-noise op amp
+$CMP MC33079P
+D OpAmp.4 16MHz LowVos LowIB LowNoise [DIP-14]
 $ENDCMP
 #
-$CMP MC33079-DIP
-D Quad low-noise op amp
+$CMP MC34063D
+D Reg Multi in:40V AdjV 1.5A 100kHz [SOIC-8]
 $ENDCMP
 #
-$CMP MC33079-SOIC
-D Quad low-noise op amp
-$ENDCMP
-#
-$CMP MC34063-DIP
-D Step-up/down/inverting switching regulator
-$ENDCMP
-#
-$CMP MC34063-SOIC
-D Step-up/down/inverting switching regulator
+$CMP MC34063P
+D Reg Multi in:40V AdjV 1.5A 100kHz [DIP-8]
 $ENDCMP
 #
 $CMP MC79MvvCDT
-D Voltage regulator, negative, TO-252
-$ENDCMP
-#
-$CMP MMUN2231L
-D BJT, NPN, pre-biased 2.2k/2.2k
-$ENDCMP
-#
-$CMP MUN2111T1
-D BJT, PNP, pre-biased
+D Reg Lin -500mA [TO-252]
 $ENDCMP
 #
 #End Doc Library

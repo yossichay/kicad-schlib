@@ -215,3 +215,8 @@ high RF comes out as a DC power level.
 `Display VFD 7seg Digits:8 Muxed`
 
 `Display LED 7seg Digits:3 Muxed Green`
+
+## Modulators, Demodulators
+
+`ModDemod freq (type) [footprint]`
+

@@ -5,6 +5,11 @@ Diode, Zener, 1.5W
 
 ![1SMA59xxBT3G__1__1](/images/_semi__ZENER__1__1.png?raw=true) 
 
+## ESD9L5.0ST5G
+Low capacitance ESD protection diode
+
+![ESD9L5.0ST5G__1__1](/images/_semi__ZENER__1__1.png?raw=true) 
+
 ## MBR0520
 Diode, Schottky, 0.5A, 20V
 

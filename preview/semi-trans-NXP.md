@@ -3,7 +3,7 @@
 ## 2N7002PW
 MOSFET, N-enh, 60V, 310mA
 
-![2N7002PW__1__1](/images/semi-trans-IntRect__IRF510__1__1.png?raw=true) 
+![2N7002PW__1__1](/images/semi-trans-Infineon__IPW50R250CP__1__1.png?raw=true) 
 
 ## BFQ149
 BJT, PNP 5GHz 15V 100mA 1W
@@ -75,5 +75,5 @@ PNP amplifier, -100mA, -40V, 200mW
 ## PMV160UP
 MOSFET, P-enh -20V, -1.2A, Rds approx 200m
 
-![PMV160UP__1__1](/images/semi-trans-IntRect__IRF9540__1__1.png?raw=true) 
+![PMV160UP__1__1](/images/semi-trans-IXYS__IXTH24P20__1__1.png?raw=true) 
 
