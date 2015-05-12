@@ -3,7 +3,7 @@
 ## 2N7002PW
 MOSFET, N-enh, 60V, 310mA
 
-![2N7002PW__1__1](/images/semi-trans-Infineon__IPW50R250CP__1__1.png?raw=true) 
+![2N7002PW__1__1](/images/semi-trans-2N__2N7000__1__1.png?raw=true) 
 
 ## BFQ149
 BJT, PNP 5GHz 15V 100mA 1W

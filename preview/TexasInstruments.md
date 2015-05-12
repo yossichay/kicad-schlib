@@ -406,7 +406,7 @@ OpAmp.2 LowVos LowIB [SOIC-8]
 ![LT1013DDR__3__1](/images/LinearTech__LT1013DS8__3__1.png?raw=true) 
 
 ## MC33078DGK
-Dual low-noise op amp
+OpAmp.2 16MHz LowVos LowIB LowNoise [MSOP-8]
 
 ![MC33078DGK__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
 ![MC33078DGK__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 

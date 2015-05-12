@@ -5,6 +5,11 @@ Chip capacitor, EIA 0402, metric 1005
 
 ![C-0402__1__1](/images/pasv-cap__C-0402__1__1.png?raw=true) 
 
+## C-0508
+Chip capacitor, EIA 0508, metric 1220
+
+![C-0508__1__1](/images/pasv-cap__C-0402__1__1.png?raw=true) 
+
 ## C-0603
 Chip capacitor, EIA 0603, metric 1608
 

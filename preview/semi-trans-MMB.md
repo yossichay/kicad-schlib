@@ -20,6 +20,16 @@ NJF, switch, 35V, >2mA, <-3Voff
 
 ![MMBFJ113__1__1](/images/_semi__NJFSYM__1__1.png?raw=true) 
 
+## MMBFJ309
+NJF 25V Idss:12-30mA 450MHz [SOT-23]
+
+![MMBFJ309__1__1](/images/_semi__NJFSYM__1__1.png?raw=true) 
+
+## MMBFJ310
+NJF 25V Idss:24-60mA 450MHz [SOT-23]
+
+![MMBFJ310__1__1](/images/_semi__NJFSYM__1__1.png?raw=true) 
+
 ## MMBT2222A
 NPN switch, 40V, 600mA, 225mW
 

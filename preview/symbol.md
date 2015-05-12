@@ -39,6 +39,9 @@ Op amp symbol
 ## GUARD
 ![GUARD__1__1](/images/symbol__GUARD__1__1.png?raw=true) 
 
+## GUARD-CONN
+![GUARD-CONN__1__1](/images/symbol__GUARD-CONN__1__1.png?raw=true) 
+
 ## HV
 ![HV__1__1](/images/symbol__HV__1__1.png?raw=true) 
 

@@ -52,6 +52,10 @@ $CMP BAV99DW
 D Diode, 100V, 125mA, dual-dual series, SOT-363
 $ENDCMP
 #
+$CMP BAV99W
+D Diode.2 70V 150mA [SC-70]
+$ENDCMP
+#
 $CMP BZX79
 D Diode, Zener, 500mW, 5mA, 2.4-56V
 $ENDCMP

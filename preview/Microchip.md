@@ -1,5 +1,10 @@
 # Microchip
 
+## 24LC08BT-I/OT
+Mem EEPROM 1Kbit Microwire 2MHz [SOT-23-6]
+
+![24LC08BT-I/OT__1__1](/images/Microchip__24LC08BT-I-OT__1__1.png?raw=true) 
+
 ## 93LC46BT-I/OT
 Mem EEPROM 1Kbit Microwire 2MHz [SOT-23-6]
 

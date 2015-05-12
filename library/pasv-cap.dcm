@@ -4,6 +4,10 @@ $CMP C-0402
 D Chip capacitor, EIA 0402, metric 1005
 $ENDCMP
 #
+$CMP C-0508
+D Chip capacitor, EIA 0508, metric 1220
+$ENDCMP
+#
 $CMP C-0603
 D Chip capacitor, EIA 0603, metric 1608
 $ENDCMP

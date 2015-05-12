@@ -1,5 +1,8 @@
 # mechanical
 
+## HEATSINK-CONN
+![HEATSINK-CONN__1__1](/images/mechanical__HEATSINK-CONN__1__1.png?raw=true) 
+
 ## HEATSINK-NO-CONN
 ![HEATSINK-NO-CONN__1__1](/images/mechanical__HEATSINK-NO-CONN__1__1.png?raw=true) 
 

@@ -6,7 +6,7 @@ Diode, Zener, 1.5W
 ![1SMA59xxBT3G__1__1](/images/_semi__ZENER__1__1.png?raw=true) 
 
 ## ESD9L5.0ST5G
-Low capacitance ESD protection diode
+TVS 5V 1A <500fF [SOD-923]
 
 ![ESD9L5.0ST5G__1__1](/images/_semi__ZENER__1__1.png?raw=true) 
 

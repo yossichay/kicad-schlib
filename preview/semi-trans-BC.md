@@ -143,7 +143,7 @@ NJF RF amplifier, 30V, 12-25mA, -0.4--7.8Voff
 ## BSS138
 MOSFET, N-enh 60V, 20Vgs, 360mA, Rds approx 1
 
-![BSS138__1__1](/images/semi-trans-Infineon__IPW50R250CP__1__1.png?raw=true) 
+![BSS138__1__1](/images/semi-trans-2N__2N7000__1__1.png?raw=true) 
 
 ## BSS83
 MOSFET, four pin N-enh 10V, 50mA, Rds approx 45

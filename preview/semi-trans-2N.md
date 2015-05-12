@@ -93,12 +93,12 @@ JFET, N RF amplifier, 10-15mA, 30V
 ## 2N7000
 MOSFET, N-enh, 60V, 200mA, 400mW
 
-![2N7000__1__1](/images/semi-trans-Infineon__IPW50R250CP__1__1.png?raw=true) 
+![2N7000__1__1](/images/semi-trans-2N__2N7000__1__1.png?raw=true) 
 
 ## 2N7002
 MOSFET, N-enh, 60V, 115mA
 
-![2N7002__1__1](/images/semi-trans-Infineon__IPW50R250CP__1__1.png?raw=true) 
+![2N7002__1__1](/images/semi-trans-2N__2N7000__1__1.png?raw=true) 
 
 ## PN2222
 NPN switch, 600mA, 30V, 625mW

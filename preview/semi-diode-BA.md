@@ -66,6 +66,11 @@ Diode, 100V, 125mA, dual-dual series, SOT-363
 ![BAV99DW__1__1](/images/semi-diode-NXP__BAP50-04W__1__1.png?raw=true) 
 ![BAV99DW__2__1](/images/semi-diode-NXP__BAP50-04W__1__1.png?raw=true) 
 
+## BAV99W
+Diode.2 70V 150mA [SC-70]
+
+![BAV99W__1__1](/images/semi-diode-NXP__BAP50-04W__1__1.png?raw=true) 
+
 ## BZX79
 Diode, Zener, 500mW, 5mA, 2.4-56V
 

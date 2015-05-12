@@ -24,5 +24,5 @@ PMOS, -40V, -40A
 ## AOD5T40P
 NMOS, 500V, 15A
 
-![AOD5T40P__1__1](/images/semi-trans-Infineon__IPW50R250CP__1__1.png?raw=true) 
+![AOD5T40P__1__1](/images/semi-trans-2N__2N7000__1__1.png?raw=true) 
 
