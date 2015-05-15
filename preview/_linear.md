@@ -75,10 +75,10 @@ Reg Lin/LDO voltage current [footprint]
 ## ZENERISH
 VRef Shunt voltage tolerance ppm/K [footprint]
 
-![ZENERISH__1__1](/images/TexasInstruments__LM4040AvvDBZ__1__1.png?raw=true) 
+![ZENERISH__1__1](/images/_linear__ZENERISH__1__1.png?raw=true) 
 
 ## ZENERISH_ADJ
 VRef Shunt AdjV tolerance ppm/K [footprint]
 
-![ZENERISH_ADJ__1__1](/images/TexasInstruments__TL431AIDBZ__1__1.png?raw=true) 
+![ZENERISH_ADJ__1__1](/images/_linear__ZENERISH_ADJ__1__1.png?raw=true) 
 
