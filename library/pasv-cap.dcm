@@ -24,6 +24,10 @@ $CMP C-1210
 D Chip capacitor, EIA 1210, metric 3225
 $ENDCMP
 #
+$CMP C-1808
+D Chip capacitor, EIA 1808, metric 4520
+$ENDCMP
+#
 $CMP C-1812
 D Chip capacitor, EIA 1812, metric 4532
 $ENDCMP
