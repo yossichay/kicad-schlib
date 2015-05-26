@@ -73,7 +73,7 @@ NJF (semi) voltage Idss [footprint]
 ## NMOS
 NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 
-![NMOS__1__1](/images/_semi__NMOS__1__1.png?raw=true) 
+![NMOS__1__1](/images/semi-trans-IntRect__IRF510__1__1.png?raw=true) 
 
 ## NMOS-2D
 NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
@@ -175,7 +175,7 @@ PJF (semi) voltage Idss [footprint]
 ## PMOS
 PMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
 
-![PMOS__1__1](/images/_semi__PMOS__1__1.png?raw=true) 
+![PMOS__1__1](/images/semi-trans-IntRect__IRF9540__1__1.png?raw=true) 
 
 ## PMOS-2D
 PMOS (semi) voltage current (Rdson) (Vgsth) [footprint]

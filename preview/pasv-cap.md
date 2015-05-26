@@ -30,6 +30,11 @@ Chip capacitor, EIA 1210, metric 3225
 
 ![C-1210__1__1](/images/pasv-cap__C-0402__1__1.png?raw=true) 
 
+## C-1808
+Chip capacitor, EIA 1808, metric 4520
+
+![C-1808__1__1](/images/pasv-cap__C-0402__1__1.png?raw=true) 
+
 ## C-1812
 Chip capacitor, EIA 1812, metric 4532
 

@@ -573,6 +573,16 @@ Comp 4.5ns RRI CMOS [SOT-23-6]
 ![TLV3501AIDBV__1__1](/images/TexasInstruments__TLV3501AIDBV__1__1.png?raw=true) 
 ![TLV3501AIDBV__2__1](/images/TexasInstruments__TLV3501AIDBV__2__1.png?raw=true) 
 
+## TLV702vvDBV
+Reg LDO 300mA [SOT-23-5]
+
+![TLV702vvDBV__1__1](/images/TexasInstruments__TLV702vvDBV__1__1.png?raw=true) 
+
+## TLV702vvDSE
+Reg LDO 300mA [WSON-6]
+
+![TLV702vvDSE__1__1](/images/TexasInstruments__TLV702vvDSE__1__1.png?raw=true) 
+
 ## TPS61045DRB
 Reg Boost in:6V AdjV 20mA 1MHz DigitalAdj [SON-8]
 

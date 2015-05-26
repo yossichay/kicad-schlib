@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AO4441
-D MOSFET, P-enh, -4A, -60V, Rds ~130m
+D PMOS -60V -3.1A 130mR -2.1Vth [SOIC-8]
 $ENDCMP
 #
 $CMP AO7801
@@ -10,17 +10,17 @@ F mod_pdf/TO-*
 $ENDCMP
 #
 $CMP AOD417
-D PMOS, -30V, -25A
+D PMOS -30V -25A 34mR -3Vth [TO-252]
 F mod_pdf/TO-*
 $ENDCMP
 #
 $CMP AOD4189
-D PMOS, -40V, -40A
+D PMOS -40V -28A 29mR -1.9Vth [TO-252]
 F mod_pdf/TO-*
 $ENDCMP
 #
 $CMP AOD5T40P
-D NMOS, 500V, 15A
+D NMOS 400V 2.5A 1.45R 4.2Vth [TO-252]
 $ENDCMP
 #
 #End Doc Library

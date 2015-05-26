@@ -3,7 +3,7 @@
 ## 2N7002PW
 MOSFET, N-enh, 60V, 310mA
 
-![2N7002PW__1__1](/images/semi-trans-2N__2N7000__1__1.png?raw=true) 
+![2N7002PW__1__1](/images/semi-trans-IntRect__IRF510__1__1.png?raw=true) 
 
 ## BFQ149
 BJT, PNP 5GHz 15V 100mA 1W
@@ -38,7 +38,7 @@ PNP 4 GHz wideband transistor
 ## BUK98180-100A
 MOSFET, N-enh, 100V 4.6A logic level
 
-![BUK98180-100A__1__1](/images/semi-trans-Fairchild__FQT7N10L__1__1.png?raw=true) 
+![BUK98180-100A__1__1](/images/_semi__NMOS-2D__1__1.png?raw=true) 
 
 ## PMP4201G
 NPN, matched, CE, 45V, 100mA
@@ -75,5 +75,5 @@ PNP amplifier, -100mA, -40V, 200mW
 ## PMV160UP
 MOSFET, P-enh -20V, -1.2A, Rds approx 200m
 
-![PMV160UP__1__1](/images/semi-trans-IXYS__IXTH24P20__1__1.png?raw=true) 
+![PMV160UP__1__1](/images/semi-trans-IntRect__IRF9540__1__1.png?raw=true) 
 

@@ -15,7 +15,7 @@ PNP, matched, -40V, -200mA, 200mW
 ## DMN3018SSS
 MOSFET, N-channel enhancement, four drain, three source pins
 
-![DMN3018SSS__1__1](/images/semi-trans-DiodesInc__DMN3018SSS__1__1.png?raw=true) 
+![DMN3018SSS__1__1](/images/_semi__NMOS-4D-3S__1__1.png?raw=true) 
 
 ## DMN63D8LV
 NMOS-enh, dual, 30V 160mA logic
@@ -26,10 +26,10 @@ NMOS-enh, dual, 30V 160mA logic
 ## DMP3098L
 MOSFET, P-enh, -30V, -3A, Rds approx 120m
 
-![DMP3098L__1__1](/images/semi-trans-IXYS__IXTH24P20__1__1.png?raw=true) 
+![DMP3098L__1__1](/images/semi-trans-IntRect__IRF9540__1__1.png?raw=true) 
 
 ## DMP4051LK3
 MOSFET, P-enh, -40V, -8.4A, Rds approx 85m
 
-![DMP4051LK3__1__1](/images/semi-trans-IXYS__IXTH24P20__1__1.png?raw=true) 
+![DMP4051LK3__1__1](/images/semi-trans-IntRect__IRF9540__1__1.png?raw=true) 
 
