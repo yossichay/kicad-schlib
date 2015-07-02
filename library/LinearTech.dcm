@@ -45,11 +45,11 @@ D Reg LDO 150mA [TSOT-23]
 $ENDCMP
 #
 $CMP LTC2053CDD
-D InAmp 200kHz RRIO FlyingCap VLowVos LowIB Chopper [DFN-8]
+D InAmp 200kHz RRI RRO FlyingCap VLowVos LowIB Chopper [DFN-8]
 $ENDCMP
 #
 $CMP LTC2053CMS8
-D InAmp 200kHz RRIO FlyingCap VLowVos LowIB Chopper [MSOP-8]
+D InAmp 200kHz RRI RRO FlyingCap VLowVos LowIB Chopper [MSOP-8]
 $ENDCMP
 #
 $CMP LTC2492CDE

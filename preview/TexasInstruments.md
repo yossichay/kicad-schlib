@@ -386,7 +386,7 @@ OpAmp.2 1MHz RRO LowIB [TSSOP-8]
 ![LMV358IPW__3__1](/images/LinearTech__LT1813CS8__3__1.png?raw=true) 
 
 ## LMV712MMX
-OpAmp 5MHz RRIO CMOS VLowIB [MSOP-10]
+OpAmp 5MHz RRI RRO CMOS VLowIB [MSOP-10]
 
 ![LMV712MMX__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
 ![LMV712MMX__2__1](/images/TexasInstruments__LMV712MMX__2__1.png?raw=true) 

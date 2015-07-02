@@ -82,21 +82,21 @@ InAmp 15MHz VLowVos LowIB LowNoise [SOIC-8]
 ![AD8429BRZ__2__1](/images/AnalogDevices__AD8429ARZ__2__1.png?raw=true) 
 
 ## AD8552ARUZ
-OpAmp.2 1.5MHz RRIO CMOS VLowVos VLowIB [TSSOP-8]
+OpAmp.2 1.5MHz RRI RRO CMOS VLowVos VLowIB [TSSOP-8]
 
 ![AD8552ARUZ__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
 ![AD8552ARUZ__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
 ![AD8552ARUZ__3__1](/images/LinearTech__LT1813CS8__3__1.png?raw=true) 
 
 ## AD8552ARZ
-OpAmp.2 1.5MHz RRIO CMOS VLowVos VLowIB [SOIC-8]
+OpAmp.2 1.5MHz RRI RRO CMOS VLowVos VLowIB [SOIC-8]
 
 ![AD8552ARZ__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
 ![AD8552ARZ__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
 ![AD8552ARZ__3__1](/images/LinearTech__LT1813CS8__3__1.png?raw=true) 
 
 ## AD8554ARUZ
-OpAmp.4 1.5MHz RRIO CMOS VLowVos VLowIB [TSSOP-14]
+OpAmp.4 1.5MHz RRI RRO CMOS VLowVos VLowIB [TSSOP-14]
 
 ![AD8554ARUZ__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
 ![AD8554ARUZ__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
@@ -105,7 +105,7 @@ OpAmp.4 1.5MHz RRIO CMOS VLowVos VLowIB [TSSOP-14]
 ![AD8554ARUZ__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
 ## AD8554ARZ
-OpAmp.4 1.5MHz RRIO CMOS VLowVos VLowIB [SOIC-14]
+OpAmp.4 1.5MHz RRI RRO CMOS VLowVos VLowIB [SOIC-14]
 
 ![AD8554ARZ__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
 ![AD8554ARZ__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
@@ -127,41 +127,41 @@ OpAmp.2 10MHz VLowVos LowIB LowNoise [SOIC-8]
 ![AD8599ARZ__3__1](/images/LinearTech__LT1813CS8__3__1.png?raw=true) 
 
 ## AD8601ARTZ
-OpAmp 8MHz RRIO CMOS LowVos VLowIB [SOT-23-5]
+OpAmp 8MHz RRI RRO CMOS LowVos VLowIB [SOT-23-5]
 
 ![AD8601ARTZ__1__1](/images/LinearTech__LT1395CS5__1__1.png?raw=true) 
 ![AD8601ARTZ__2__1](/images/LinearTech__LT1395CS5__2__1.png?raw=true) 
 
 ## AD8602ARMZ
-OpAmp.2 8MHz RRIO CMOS LowVos VLowIB [MSOP-8]
+OpAmp.2 8MHz RRI RRO CMOS LowVos VLowIB [MSOP-8]
 
 ![AD8602ARMZ__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
 ![AD8602ARMZ__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
 ![AD8602ARMZ__3__1](/images/LinearTech__LT1813CS8__3__1.png?raw=true) 
 
 ## AD8602ARZ
-OpAmp.2 8MHz RRIO CMOS LowVos VLowIB [SOIC-8]
+OpAmp.2 8MHz RRI RRO CMOS LowVos VLowIB [SOIC-8]
 
 ![AD8602ARZ__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
 ![AD8602ARZ__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
 ![AD8602ARZ__3__1](/images/LinearTech__LT1813CS8__3__1.png?raw=true) 
 
 ## AD8602DRMZ
-OpAmp.2 8MHz RRIO CMOS VLowIB [MSOP-8]
+OpAmp.2 8MHz RRI RRO CMOS VLowIB [MSOP-8]
 
 ![AD8602DRMZ__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
 ![AD8602DRMZ__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
 ![AD8602DRMZ__3__1](/images/LinearTech__LT1813CS8__3__1.png?raw=true) 
 
 ## AD8602DRZ
-OpAmp.2 8MHz RRIO CMOS VLowIB [SOIC-8]
+OpAmp.2 8MHz RRI RRO CMOS VLowIB [SOIC-8]
 
 ![AD8602DRZ__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
 ![AD8602DRZ__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
 ![AD8602DRZ__3__1](/images/LinearTech__LT1813CS8__3__1.png?raw=true) 
 
 ## AD8604ARUZ
-OpAmp.4 8MHz RRIO CMOS LowVos VLowIB [TSSOP-14]
+OpAmp.4 8MHz RRI RRO CMOS LowVos VLowIB [TSSOP-14]
 
 ![AD8604ARUZ__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
 ![AD8604ARUZ__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
@@ -170,7 +170,7 @@ OpAmp.4 8MHz RRIO CMOS LowVos VLowIB [TSSOP-14]
 ![AD8604ARUZ__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
 ## AD8604ARZ
-OpAmp.4 8MHz RRIO CMOS LowVos VLowIB [SOIC-14]
+OpAmp.4 8MHz RRI RRO CMOS LowVos VLowIB [SOIC-14]
 
 ![AD8604ARZ__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
 ![AD8604ARZ__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
@@ -179,7 +179,7 @@ OpAmp.4 8MHz RRIO CMOS LowVos VLowIB [SOIC-14]
 ![AD8604ARZ__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
 ## AD8604DRUZ
-OpAmp.4 8MHz RRIO CMOS VLowIB [TSSOP-14]
+OpAmp.4 8MHz RRI RRO CMOS VLowIB [TSSOP-14]
 
 ![AD8604DRUZ__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
 ![AD8604DRUZ__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 
@@ -188,7 +188,7 @@ OpAmp.4 8MHz RRIO CMOS VLowIB [TSSOP-14]
 ![AD8604DRUZ__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
 ## AD8604DRZ
-OpAmp.4 8MHz RRIO CMOS VLowIB [SOIC-14]
+OpAmp.4 8MHz RRI RRO CMOS VLowIB [SOIC-14]
 
 ![AD8604DRZ__1__1](/images/LinearTech__LT1813CS8__1__1.png?raw=true) 
 ![AD8604DRZ__2__1](/images/LinearTech__LT1813CS8__2__1.png?raw=true) 

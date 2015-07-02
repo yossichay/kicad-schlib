@@ -51,7 +51,7 @@ DAC 12bit 4.5µs SPI INL:12 [SOIC-8]
 ![MCP4921-E/SN__1__1](/images/Microchip__MCP4921-E-SN__1__1.png?raw=true) 
 
 ## MCP6V06-E/SN
-OpAmp 1.3MHz RRIO CMOS VLowVos VLowIB Chopper [SOIC-8]
+OpAmp 1.3MHz RRI RRO CMOS VLowVos VLowIB Chopper [SOIC-8]
 
 ![MCP6V06-E/SN__1__1](/images/AnalogDevices__AD8597ARZ__1__1.png?raw=true) 
 ![MCP6V06-E/SN__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 

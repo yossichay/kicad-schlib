@@ -65,12 +65,12 @@ Reg LDO 150mA [TSOT-23]
 ![LTC1844ES5-v.v__1__1](/images/LinearTech__LTC1844ES5-v.v__1__1.png?raw=true) 
 
 ## LTC2053CDD
-InAmp 200kHz RRIO FlyingCap VLowVos LowIB Chopper [DFN-8]
+InAmp 200kHz RRI RRO FlyingCap VLowVos LowIB Chopper [DFN-8]
 
 ![LTC2053CDD__1__1](/images/LinearTech__LTC2053CDD__1__1.png?raw=true) 
 
 ## LTC2053CMS8
-InAmp 200kHz RRIO FlyingCap VLowVos LowIB Chopper [MSOP-8]
+InAmp 200kHz RRI RRO FlyingCap VLowVos LowIB Chopper [MSOP-8]
 
 ![LTC2053CMS8__1__1](/images/LinearTech__LTC2053CMS8__1__1.png?raw=true) 
 
