@@ -36,6 +36,10 @@ $CMP DPIN
 D Diode PIN voltage current [footprint]
 $ENDCMP
 #
+$CMP IGBT
+D IGBT voltage current (power) [footprint]
+$ENDCMP
+#
 $CMP LED
 D LED color wavelength voltage current [footprint]
 $ENDCMP
@@ -106,6 +110,10 @@ $ENDCMP
 #
 $CMP NPNDARL-FULL
 D NPN Darl (semi) voltage current (power) (ft) [footprint]
+$ENDCMP
+#
+$CMP NPNDARL2
+D NPN (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP NPNDUAL
