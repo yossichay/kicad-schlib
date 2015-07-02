@@ -12,7 +12,7 @@ PMOS.2 -20V -600mA 520mR -900mVth [SOT-363]
 ![AO7801__2__1](/images/semi-trans-IntRect__IRF9540__1__1.png?raw=true) 
 
 ## AOD417
-PMOS, -30V, -25A
+PMOS -30V -25A 34mR -3Vth [TO-252]
 
 ![AOD417__1__1](/images/semi-trans-IntRect__IRF9540__1__1.png?raw=true) 
 
@@ -20,6 +20,11 @@ PMOS, -30V, -25A
 PMOS -40V -28A 29mR -1.9Vth [TO-252]
 
 ![AOD4189__1__1](/images/semi-trans-IntRect__IRF9540__1__1.png?raw=true) 
+
+## AOD514
+NMOS 30V 17A 12mR 2Vth [TO-252]
+
+![AOD514__1__1](/images/semi-trans-IntRect__IRF510__1__1.png?raw=true) 
 
 ## AOD5T40P
 NMOS 400V 2.5A 1.45R 4.2Vth [TO-252]

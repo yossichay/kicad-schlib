@@ -446,6 +446,11 @@ Reg Buck in:36V AdjV 1.5A Module [SMD]
 
 ![PTN78000WAZ__1__1](/images/TexasInstruments__PTN78000WAH__1__1.png?raw=true) 
 
+## PTN78020WAH
+Reg Buck in:36V AdjV 6A Module [PTH]
+
+![PTN78020WAH__1__1](/images/TexasInstruments__PTN78020WAH__1__1.png?raw=true) 
+
 ## SN74LVC1G3157DBV
 AnSwitch SPDT CMOS [SOT-23-6]
 
@@ -547,6 +552,12 @@ OpAmp.4 12MHz RRO [SOIC-14]
 ![TL974ID__4__1](/images/AnalogDevices__AD8554ARUZ__4__1.png?raw=true) 
 ![TL974ID__5__1](/images/AnalogDevices__AD8554ARUZ__5__1.png?raw=true) 
 
+## TLC2652AC
+DESCR OpAmp 1.9MHz CMOS VLowVos VLowIB Chopper [SOIC-8]
+
+![TLC2652AC__1__1](/images/TexasInstruments__TLC2652AC__1__1.png?raw=true) 
+![TLC2652AC__2__1](/images/AnalogDevices__AD8597ARZ__2__1.png?raw=true) 
+
 ## TLC5926IDW
 Driver LED 16ch Linear 120mA SPI [SOIC-24]
 
@@ -622,6 +633,11 @@ RegCtrlr in:30V AdjV UVLO:8.4V 500kHz [SOIC-8]
 NPN.8 Darl 50V 500mA WithBiasRes [SOIC-16]
 
 ![ULN2003AD__1__1](/images/TexasInstruments__ULN2003AD__1__1.png?raw=true) 
+
+## ULN2003AN
+NPN.8 Darl 50V 500mA WithBiasRes [DIP-16]
+
+![ULN2003AN__1__1](/images/TexasInstruments__ULN2003AD__1__1.png?raw=true) 
 
 ## VCA821IDGS
 OpAmpVGA 710MHz VoltageCtrl 40dB [VSSOP-10]

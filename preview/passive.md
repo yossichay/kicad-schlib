@@ -56,6 +56,15 @@ Incandescent lamp
 
 ![LAMP__1__1](/images/passive__LAMP__1__1.png?raw=true) 
 
+## LCURVE
+![LCURVE__1__1](/images/passive__LCURVE__1__1.png?raw=true) 
+
+## LCURVEDOT
+![LCURVEDOT__1__1](/images/passive__LCURVEDOT__1__1.png?raw=true) 
+
+## LDOT
+![LDOT__1__1](/images/passive__LDOT__1__1.png?raw=true) 
+
 ## LFERR
 Inductor, ferrite core
 

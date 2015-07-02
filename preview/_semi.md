@@ -45,6 +45,11 @@ Diode PIN voltage current [footprint]
 
 ![DPIN__1__1](/images/_semi__DPIN__1__1.png?raw=true) 
 
+## IGBT
+IGBT voltage current (power) [footprint]
+
+![IGBT__1__1](/images/_semi__IGBT__1__1.png?raw=true) 
+
 ## LED
 LED color wavelength voltage current [footprint]
 
@@ -134,6 +139,11 @@ NPN Darl (semi) voltage current (power) (ft) [footprint]
 NPN Darl (semi) voltage current (power) (ft) [footprint]
 
 ![NPNDARL-FULL__1__1](/images/_semi__NPNDARL-FULL__1__1.png?raw=true) 
+
+## NPNDARL2
+NPN (semi) voltage current (power) (ft) [footprint]
+
+![NPNDARL2__1__1](/images/_semi__NPNDARL2__1__1.png?raw=true) 
 
 ## NPNDUAL
 NPN.2 (semi) voltage current (power) (ft) [footprint]

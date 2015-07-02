@@ -293,7 +293,7 @@ D Reg Buck in:36V AdjV 1.5A Module [SMD]
 $ENDCMP
 #
 $CMP PTN78020WAH
-D Reg Buck in:36V AdjV 6A Module [PTH]
+D Reg Buck in:36V AdjV 1.5A Module [PTH]
 $ENDCMP
 #
 $CMP SN74LVC1G3157DBV
