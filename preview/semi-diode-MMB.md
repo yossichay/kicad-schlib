@@ -23,7 +23,7 @@ Diode, dual CC, 200mA, 75V
 ## MMBD4148SE
 Diode, dual series, 200mA, 75V
 
-![MMBD4148SE__1__1](/images/semi-diode-NXP__BAP50-04W__1__1.png?raw=true) 
+![MMBD4148SE__1__1](/images/semi-diode-BA__BAV199__1__1.png?raw=true) 
 
 ## MMBD914
 Diode, 200mA, 75V

@@ -9,7 +9,7 @@ D PNP, matched, -40V, -200mA, 200mW
 $ENDCMP
 #
 $CMP DMN3018SSS
-D MOSFET, N-channel enhancement, four drain, three source pins
+D NMOS 30V 5.5A 35mR 1.7Vth [SOIC-8]
 F mod_pdf/TO-*
 $ENDCMP
 #

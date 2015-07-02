@@ -1,59 +1,59 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP BC546
-D NPN amplifier, 65V, 100mA, 625mW
+D NPN 65V 100mA 500mW [TO-92]
 $ENDCMP
 #
 $CMP BC547
-D NPN amplifier, 45V, 100mA, 625mW
+D NPN 45V 100mA 500mW [TO-92]
 $ENDCMP
 #
 $CMP BC548
-D NPN amplifier, 30V, 100mA, 625mW
+D NPN 30V 100mA 500mW [TO-92]
 $ENDCMP
 #
 $CMP BC549
-D NPN amplifier, 30V, 100mA, 625mW, lower noise
+D NPN 30V 100mA 500mW LowNoise [TO-92]
 $ENDCMP
 #
 $CMP BC550
-D NPN amplifier, 45V, 100mA, 625mW, lower noise
+D NPN 45V 100mA 500mW LowNoise [TO-92]
 $ENDCMP
 #
 $CMP BC556
-D PNP amplifier, -65V, -100mA, 625mW
+D PNP 65V 100mA 500mW [TO-92]
 $ENDCMP
 #
 $CMP BC557
-D PNP amplifier, -45V, -100mA, 625mW
+D PNP 45V 100mA 500mW [TO-92]
 $ENDCMP
 #
 $CMP BC558
-D PNP amplifier, -30V, -100mA, 625mW
+D PNP 30V 100mA 500mW [TO-92]
 $ENDCMP
 #
 $CMP BC559
-D PNP amplifier, -30V, -100mA, 625mW, lower noise
+D PNP 30V 100mA 500mW LowNoise [TO-92]
 $ENDCMP
 #
 $CMP BC560
-D PNP amplifier, -45V, -100mA, 625mW, lower noise
+D PNP 45V 100mA 500mW LowNoise [TO-92]
 $ENDCMP
 #
 $CMP BC846
-D NPN amplifier, 65V, 100mA, 310mW
+D NPN 65V 100mA 250mW [SOT-23]
 $ENDCMP
 #
 $CMP BC847
-D NPN amplifier, 45V, 100mA, 310mW
+D NPN 45V 100mA 250mW [SOT-23]
 $ENDCMP
 #
 $CMP BC848
-D NPN amplifier, 30V, 100mA, 310mW
+D NPN 30V 100mA 250mW [SOT-23]
 $ENDCMP
 #
 $CMP BC849
-D NPN amplifier, 30V, 100mA, 310mW, lower noise
+D NPN 30V 100mA 250mW LowNoise [SOT-23]
 $ENDCMP
 #
 $CMP BC850
