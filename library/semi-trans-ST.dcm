@@ -1,17 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP D44H11
-D NPN power transistor, 10A, 80V
-$ENDCMP
-#
-$CMP D45H11
-D PNP power transistor, 10A, 80V
-$ENDCMP
-#
-$CMP MJD31C
-D NPN GP amplifier, 3A, 100V
-$ENDCMP
-#
 $CMP P0102XN
 D SCR, 400V, 800mA / 8A surge, SOT-223
 $ENDCMP

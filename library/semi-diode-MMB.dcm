@@ -5,23 +5,23 @@ D Diode, Zener, 300mW, 5mA
 $ENDCMP
 #
 $CMP MMBD4148
-D Diode, 200mA, 75V
+D Diode 75V 200mA [SOT-23]
 $ENDCMP
 #
 $CMP MMBD4148CA
-D Diode, dual CA, 200mA, 75V
+D Diode.2 CommonAnode 75V 200mA [SOT-23]
 $ENDCMP
 #
 $CMP MMBD4148CC
-D Diode, dual CC, 200mA, 75V
+D Diode.2 CommonCath 75V 200mA [SOT-23]
 $ENDCMP
 #
 $CMP MMBD4148SE
-D Diode, dual series, 200mA, 75V
+D Diode.2 Series 75V 200mA [SOT-23]
 $ENDCMP
 #
 $CMP MMBD914
-D Diode, 200mA, 75V
+D Diode 75V 200mA [SOT-23]
 $ENDCMP
 #
 $CMP MMSZ52XXB

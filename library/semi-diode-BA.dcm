@@ -5,43 +5,43 @@ D Diode, 200mA, 75V
 $ENDCMP
 #
 $CMP BAS70H
-D Diode, Schottky, 70V, 70mA, 0.41VF
+D Schottky 70V 70mA [SOD-123]
 $ENDCMP
 #
 $CMP BAT54
-D Diode, Schottky, 30V, 200mA
+D Schottky 30V 200mA [SOT-23]
 $ENDCMP
 #
 $CMP BAT54A
-D Diode, Schottky, 30V, 200mA, dual common anode
+D Schottky.2 CommonAnode 30V 200mA [SOT-23]
 $ENDCMP
 #
 $CMP BAT54AWT
-D Diode, Schottky, 30V, 200mA, dual common anode SOT-323
+D Schottky.2 CommonAnode 30V 200mA [SOT-323]
 $ENDCMP
 #
 $CMP BAT54C
-D Diode, Schottky, 30V, 200mA, dual common cathode
+D Schottky.2 CommonCath 30V 200mA [SOT-23]
 $ENDCMP
 #
 $CMP BAT54CWT
-D Diode, Schottky, 30V, 200mA, dual common cathode, SOT-323
+D Schottky.2 CommonCath 30V 200mA [SOT-323]
 $ENDCMP
 #
 $CMP BAT54S
-D Diode, Schottky, 30V, 200mA, dual series
+D Schottky.2 Series 30V 200mA [SOT-23]
 $ENDCMP
 #
 $CMP BAT54SWT
-D Diode, Schottky, 30V, 200mA, dual series, SOT-323
+D Schottky.2 Series 30V 200mA [SOT-323]
 $ENDCMP
 #
 $CMP BAT85S
-D Diode, Schottky, 200mA, 30V
+D Schottky 30V 200mA [DO-35]
 $ENDCMP
 #
 $CMP BAV199
-D Diode, 75V, 140mA, low leakage, dual series
+D Diode.2 Series 70V 140mA [SOT-23]
 $ENDCMP
 #
 $CMP BAV99
@@ -49,11 +49,11 @@ D Diode, 100V, 125mA, dual series
 $ENDCMP
 #
 $CMP BAV99DW
-D Diode, 100V, 125mA, dual-dual series, SOT-363
+D Diode.4 DualSeries 75V 150mA [SOT-363]
 $ENDCMP
 #
 $CMP BAV99W
-D Diode.2 70V 150mA [SC-70]
+D Diode.2 Series 75V 150mA [SC-70]
 $ENDCMP
 #
 $CMP BZX79

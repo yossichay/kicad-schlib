@@ -5,6 +5,12 @@
 import shlex
 import sys
 
+def printerr(s):
+    """Print to stderr"""
+    sys.stderr.write(s)
+    sys.stderr.write('\n')
+    sys.stderr.flush()
+
 def read_bomlines(libfile):
     """Parse a kicad library file, returning a dict of part name to BOM line.
 
@@ -73,6 +79,8 @@ def filter_dcmfile(bomlines, descriptions, infile, outfile):
             outfile.write(line)
         elif line.startswith("D "):
             bomline = bomlines.get(this_component)
+            if bomline is None:
+                printerr("No BOM line for part %s" % this_component)
             description = descriptions.get(bomline)
             if description is not None:
                 outfile.write("D %s\n" % description)

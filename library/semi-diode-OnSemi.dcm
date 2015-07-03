@@ -17,15 +17,19 @@ D Diode, Schottky, 0.5A, 40V
 $ENDCMP
 #
 $CMP MBR1635G
-D Diode, Schottky, 16A, 35V
+D Schottky 35V 16A [TO-220-2]
 $ENDCMP
 #
 $CMP MBRS360
-D Diode, Schottky, 3A, 60V
+D Schottky 60V 3A [SMC]
 $ENDCMP
 #
 $CMP MBRS360B
-D Diode, Schottky, 3A, 60V
+D Schottky 60V 3A [SMB]
+$ENDCMP
+#
+$CMP MJD31C
+D NPN 100V 3A 1.5W [TO-252]
 $ENDCMP
 #
 #End Doc Library
