@@ -6,70 +6,73 @@ Diode, 200mA, 75V
 ![BAS16__1__1](/images/_semi__DIODE__1__1.png?raw=true) 
 
 ## BAS70H
-Diode, Schottky, 70V, 70mA, 0.41VF
+Schottky 70V 70mA [SOD-123]
 
-![BAS70H__1__1](/images/semi-diode-MCC__SS1150-L__1__1.png?raw=true) 
+![BAS70H__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
 
 ## BAT54
-Diode, Schottky, 30V, 200mA
+Schottky 30V 200mA [SOT-23]
 
-![BAT54__1__1](/images/semi-diode-MCC__SS1150-L__1__1.png?raw=true) 
+![BAT54__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
 
 ## BAT54A
-Diode, Schottky, 30V, 200mA, dual common anode
+Schottky.2 CommonAnode 30V 200mA [SOT-23]
 
 ![BAT54A__1__1](/images/_semi__SCHOTTKY-CA__1__1.png?raw=true) 
 
 ## BAT54AWT
-Diode, Schottky, 30V, 200mA, dual common anode SOT-323
+Schottky.2 CommonAnode 30V 200mA [SOT-323]
 
 ![BAT54AWT__1__1](/images/_semi__SCHOTTKY-CA__1__1.png?raw=true) 
 
 ## BAT54C
-Diode, Schottky, 30V, 200mA, dual common cathode
+Schottky.2 CommonCath 30V 200mA [SOT-23]
 
 ![BAT54C__1__1](/images/_semi__SCHOTTKY-CK__1__1.png?raw=true) 
 
 ## BAT54CWT
-Diode, Schottky, 30V, 200mA, dual common cathode, SOT-323
+Schottky.2 CommonCath 30V 200mA [SOT-323]
 
 ![BAT54CWT__1__1](/images/_semi__SCHOTTKY-CK__1__1.png?raw=true) 
 
 ## BAT54S
-Diode, Schottky, 30V, 200mA, dual series
+Schottky.2 Series 30V 200mA [SOT-23]
 
 ![BAT54S__1__1](/images/_semi__SCHOTTKY-SERIES__1__1.png?raw=true) 
 
 ## BAT54SWT
-Diode, Schottky, 30V, 200mA, dual series, SOT-323
+Schottky.2 Series 30V 200mA [SOT-323]
 
 ![BAT54SWT__1__1](/images/_semi__SCHOTTKY-SERIES__1__1.png?raw=true) 
 
 ## BAT85S
-Diode, Schottky, 200mA, 30V
+Schottky 30V 200mA [DO-35]
 
-![BAT85S__1__1](/images/semi-diode-MCC__SS1150-L__1__1.png?raw=true) 
+![BAT85S__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
 
 ## BAV199
-Diode, 75V, 140mA, low leakage, dual series
+Diode.2 Series 70V 140mA [SOT-23]
 
-![BAV199__1__1](/images/semi-diode-BA__BAV199__1__1.png?raw=true) 
+![BAV199__1__1](/images/_semi__DIODE-SERIES__1__1.png?raw=true) 
+![BAV199__1__2](/images/_semi__DIODE-SERIES__1__2.png?raw=true) 
 
 ## BAV99
-Diode, 100V, 125mA, dual series
+Diode.2 Series 75V 150mA [SOT-23]
 
-![BAV99__1__1](/images/semi-diode-BA__BAV199__1__1.png?raw=true) 
+![BAV99__1__1](/images/_semi__DIODE-SERIES__1__1.png?raw=true) 
+![BAV99__1__2](/images/_semi__DIODE-SERIES__1__2.png?raw=true) 
 
 ## BAV99DW
-Diode, 100V, 125mA, dual-dual series, SOT-363
+Diode.4 DualSeries 75V 150mA [SOT-363]
 
-![BAV99DW__1__1](/images/semi-diode-BA__BAV199__1__1.png?raw=true) 
-![BAV99DW__2__1](/images/semi-diode-BA__BAV199__1__1.png?raw=true) 
+![BAV99DW__1__1](/images/semi-diode-NXP__BAP50-04W__1__1.png?raw=true) 
+![BAV99DW__2__1](/images/semi-diode-NXP__BAP50-04W__1__1.png?raw=true) 
 
 ## BAV99W
-Diode.2 70V 150mA [SC-70]
+Diode.2 Series 75V 150mA [SC-70]
 
-![BAV99W__1__1](/images/semi-diode-BA__BAV199__1__1.png?raw=true) 
+![BAV99W__1__1](/images/_semi__DIODE-SERIES__1__1.png?raw=true) 
+![BAV99W__1__2](/images/_semi__DIODE-SERIES__1__2.png?raw=true) 
 
 ## BZX79
 Diode, Zener, 500mW, 5mA, 2.4-56V

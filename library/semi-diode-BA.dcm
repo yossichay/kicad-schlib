@@ -45,7 +45,7 @@ D Diode.2 Series 70V 140mA [SOT-23]
 $ENDCMP
 #
 $CMP BAV99
-D Diode, 100V, 125mA, dual series
+D Diode.2 Series 75V 150mA [SOT-23]
 $ENDCMP
 #
 $CMP BAV99DW

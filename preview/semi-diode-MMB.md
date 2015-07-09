@@ -6,27 +6,30 @@ Diode, Zener, 300mW, 5mA
 ![MM3ZxxxT1G__1__1](/images/_semi__ZENER__1__1.png?raw=true) 
 
 ## MMBD4148
-Diode, 200mA, 75V
+Diode 75V 200mA [SOT-23]
 
 ![MMBD4148__1__1](/images/_semi__DIODE__1__1.png?raw=true) 
 
 ## MMBD4148CA
-Diode, dual CA, 200mA, 75V
+Diode.2 CommonAnode 75V 200mA [SOT-23]
 
-![MMBD4148CA__1__1](/images/semi-diode-MMB__MMBD4148CA__1__1.png?raw=true) 
+![MMBD4148CA__1__1](/images/_semi__DIODE-CA__1__1.png?raw=true) 
+![MMBD4148CA__1__2](/images/_semi__DIODE-CA__1__2.png?raw=true) 
 
 ## MMBD4148CC
-Diode, dual CC, 200mA, 75V
+Diode.2 CommonCath 75V 200mA [SOT-23]
 
-![MMBD4148CC__1__1](/images/semi-diode-MMB__MMBD4148CC__1__1.png?raw=true) 
+![MMBD4148CC__1__1](/images/_semi__DIODE-CK__1__1.png?raw=true) 
+![MMBD4148CC__1__2](/images/_semi__DIODE-CK__1__2.png?raw=true) 
 
 ## MMBD4148SE
-Diode, dual series, 200mA, 75V
+Diode.2 Series 75V 200mA [SOT-23]
 
-![MMBD4148SE__1__1](/images/semi-diode-BA__BAV199__1__1.png?raw=true) 
+![MMBD4148SE__1__1](/images/_semi__DIODE-SERIES__1__1.png?raw=true) 
+![MMBD4148SE__1__2](/images/_semi__DIODE-SERIES__1__2.png?raw=true) 
 
 ## MMBD914
-Diode, 200mA, 75V
+Diode 75V 200mA [SOT-23]
 
 ![MMBD914__1__1](/images/_semi__DIODE__1__1.png?raw=true) 
 

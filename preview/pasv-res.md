@@ -81,6 +81,11 @@ Chip thermistor, EIA 0603, metric 1608
 
 ![THERM-0603__1__1](/images/pasv-res__THERM-0603__1__1.png?raw=true) 
 
+## THERM-0805
+Chip thermistor, EIA 0805, metric 2012
+
+![THERM-0805__1__1](/images/pasv-res__THERM-0603__1__1.png?raw=true) 
+
 ## THERM-1206
 Chip thermistor, EIA 0603, metric 1608
 

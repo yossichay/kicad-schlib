@@ -426,6 +426,11 @@ D NPN.8 Darl 50V 500mA WithBiasRes [DIP-16]
 F mod_pdf/TO-*
 $ENDCMP
 #
+$CMP ULN2003APWR
+D NPN.8 Darl 50V 500mA WithBiasRes [TSSOP-16]
+F mod_pdf/TO-*
+$ENDCMP
+#
 $CMP VCA821IDGS
 D OpAmpVGA 710MHz VoltageCtrl 40dB [VSSOP-10]
 $ENDCMP
