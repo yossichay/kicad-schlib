@@ -5,7 +5,7 @@ D ModDemod 300MHz Gilbert [SOIC-14]
 $ENDCMP
 #
 $CMP MC33078D
-D OpAmp.2 16MHz LowVos LowIB LowNoise [DIP-8]
+D OpAmp.2 16MHz LowVos LowIB LowNoise [SOIC-8]
 $ENDCMP
 #
 $CMP MC33078P
