@@ -8,4 +8,8 @@ $CMP SI2333DDS
 D MOSFET, P-enh, -12V, 8Vgs, -6A, Rds ~ 28m
 $ENDCMP
 #
+$CMP Si3932DV
+D NMOS.2 30V 3.3A 73mR 2.2Vth [SOT-23-6]
+$ENDCMP
+#
 #End Doc Library
