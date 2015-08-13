@@ -27,6 +27,9 @@
 ## +1.2PLL
 ![+1.2PLL__1__1](/images/power__+1.2PLL__1__1.png?raw=true) 
 
+## +1.2SW
+![+1.2SW__1__1](/images/power__+1.2SW__1__1.png?raw=true) 
+
 ## +1.5
 ![+1.5__1__1](/images/power__+1.5__1__1.png?raw=true) 
 
@@ -35,6 +38,9 @@
 
 ## +1.8A
 ![+1.8A__1__1](/images/power__+1.8A__1__1.png?raw=true) 
+
+## +1.8SW
+![+1.8SW__1__1](/images/power__+1.8SW__1__1.png?raw=true) 
 
 ## +10
 ![+10__1__1](/images/power__+10__1__1.png?raw=true) 
@@ -51,14 +57,23 @@
 ## +2.5
 ![+2.5__1__1](/images/power__+2.5__1__1.png?raw=true) 
 
+## +2.5SW
+![+2.5SW__1__1](/images/power__+2.5SW__1__1.png?raw=true) 
+
 ## +24
 ![+24__1__1](/images/power__+24__1__1.png?raw=true) 
 
 ## +3.3
 ![+3.3__1__1](/images/power__+3.3__1__1.png?raw=true) 
 
+## +3.3A
+![+3.3A__1__1](/images/power__+3.3A__1__1.png?raw=true) 
+
 ## +3.3SB
 ![+3.3SB__1__1](/images/power__+3.3SB__1__1.png?raw=true) 
+
+## +3.3SW
+![+3.3SW__1__1](/images/power__+3.3SW__1__1.png?raw=true) 
 
 ## +30
 ![+30__1__1](/images/power__+30__1__1.png?raw=true) 
@@ -144,6 +159,9 @@ Earth ground
 
 ## ISOGND
 ![ISOGND__1__1](/images/power__ISOGND__1__1.png?raw=true) 
+
+## PWRGND
+![PWRGND__1__1](/images/power__PWRGND__1__1.png?raw=true) 
 
 ## PWR_FLAG
 Flags a net as powered, for ERC

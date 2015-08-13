@@ -88,32 +88,32 @@ Diode, 3A, 1kV
 ## 1N5817
 Diode, Schottky, 1A, 20V
 
-![1N5817__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
+![1N5817__1__1](/images/semi-diode-MCC__SS1150-L__1__1.png?raw=true) 
 
 ## 1N5818
 Diode, Schottky, 1A, 30V
 
-![1N5818__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
+![1N5818__1__1](/images/semi-diode-MCC__SS1150-L__1__1.png?raw=true) 
 
 ## 1N5819
 Diode, Schottky, 1A, 40V
 
-![1N5819__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
+![1N5819__1__1](/images/semi-diode-MCC__SS1150-L__1__1.png?raw=true) 
 
 ## 1N5820
 Diode, Schottky, 3A, 20V
 
-![1N5820__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
+![1N5820__1__1](/images/semi-diode-MCC__SS1150-L__1__1.png?raw=true) 
 
 ## 1N5821
 Diode, Schottky, 3A, 30V
 
-![1N5821__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
+![1N5821__1__1](/images/semi-diode-MCC__SS1150-L__1__1.png?raw=true) 
 
 ## 1N5822
 Diode, Schottky, 3A, 40V
 
-![1N5822__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
+![1N5822__1__1](/images/semi-diode-MCC__SS1150-L__1__1.png?raw=true) 
 
 ## 1N914
 Diode, 150mA, 75V, 4ns

@@ -68,7 +68,7 @@ Incandescent lamp
 ## LFERR
 Inductor, ferrite core
 
-![LFERR__1__1](/images/pasv-ind__L-MURATA-LQH3NP_J0__1__1.png?raw=true) 
+![LFERR__1__1](/images/pasv-Bourns__L-BOURNS-RLB0914__1__1.png?raw=true) 
 
 ## NEON
 Neon lamp
@@ -89,7 +89,7 @@ Resistor
 ## POT-TRIM
 Resistor
 
-![POT-TRIM__1__1](/images/passive__POT-TRIM__1__1.png?raw=true) 
+![POT-TRIM__1__1](/images/pasv-Bourns__POT-BOURNS-3296W__1__1.png?raw=true) 
 
 ## R
 Resistor (template)
@@ -129,7 +129,7 @@ Resistor
 ## THERM
 Thermistor
 
-![THERM__1__1](/images/passive__THERM__1__1.png?raw=true) 
+![THERM__1__1](/images/Littelfuse__POLYFUSE-16R400G__1__1.png?raw=true) 
 
 ## THERMOCOUP
 Thermocouple
@@ -139,8 +139,8 @@ Thermocouple
 ## TRANS-2
 Transformer
 
-![TRANS-2__1__1](/images/passive__TRANS-2__1__1.png?raw=true) 
-![TRANS-2__2__1](/images/passive__TRANS-2__1__1.png?raw=true) 
+![TRANS-2__1__1](/images/pasv-Bourns__L-BOURNS-PM3604__1__1.png?raw=true) 
+![TRANS-2__2__1](/images/pasv-Bourns__L-BOURNS-PM3604__1__1.png?raw=true) 
 
 ## TRANS-2CT
 Transformer
@@ -151,24 +151,24 @@ Transformer
 ## TRANS-3
 Transformer
 
-![TRANS-3__1__1](/images/passive__TRANS-2__1__1.png?raw=true) 
-![TRANS-3__2__1](/images/passive__TRANS-2__1__1.png?raw=true) 
-![TRANS-3__3__1](/images/passive__TRANS-2__1__1.png?raw=true) 
+![TRANS-3__1__1](/images/pasv-Bourns__L-BOURNS-PM3604__1__1.png?raw=true) 
+![TRANS-3__2__1](/images/pasv-Bourns__L-BOURNS-PM3604__1__1.png?raw=true) 
+![TRANS-3__3__1](/images/pasv-Bourns__L-BOURNS-PM3604__1__1.png?raw=true) 
 
 ## TRANS-3-1CT
 Transformer
 
-![TRANS-3-1CT__1__1](/images/passive__TRANS-2__1__1.png?raw=true) 
+![TRANS-3-1CT__1__1](/images/pasv-Bourns__L-BOURNS-PM3604__1__1.png?raw=true) 
 ![TRANS-3-1CT__2__1](/images/passive__TRANS-3-1CT__2__1.png?raw=true) 
-![TRANS-3-1CT__3__1](/images/passive__TRANS-2__1__1.png?raw=true) 
+![TRANS-3-1CT__3__1](/images/pasv-Bourns__L-BOURNS-PM3604__1__1.png?raw=true) 
 
 ## TRANS-4
 Transformer
 
-![TRANS-4__1__1](/images/passive__TRANS-2__1__1.png?raw=true) 
-![TRANS-4__2__1](/images/passive__TRANS-2__1__1.png?raw=true) 
-![TRANS-4__3__1](/images/passive__TRANS-2__1__1.png?raw=true) 
-![TRANS-4__4__1](/images/passive__TRANS-2__1__1.png?raw=true) 
+![TRANS-4__1__1](/images/pasv-Bourns__L-BOURNS-PM3604__1__1.png?raw=true) 
+![TRANS-4__2__1](/images/pasv-Bourns__L-BOURNS-PM3604__1__1.png?raw=true) 
+![TRANS-4__3__1](/images/pasv-Bourns__L-BOURNS-PM3604__1__1.png?raw=true) 
+![TRANS-4__4__1](/images/pasv-Bourns__L-BOURNS-PM3604__1__1.png?raw=true) 
 
 ## TWISTEDPAIR
 Twisted pair

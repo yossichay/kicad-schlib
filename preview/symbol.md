@@ -97,6 +97,15 @@ Op amp symbol
 ## OPENCOLL-LARGE
 ![OPENCOLL-LARGE__1__1](/images/symbol__OPENCOLL-LARGE__1__1.png?raw=true) 
 
+## OSHW-SCHEM
+![OSHW-SCHEM__1__1](/images/symbol__OSHW-SCHEM__1__1.png?raw=true) 
+
+## OSHW-SCHEM-PCB10mm
+![OSHW-SCHEM-PCB10mm__1__1](/images/symbol__OSHW-SCHEM__1__1.png?raw=true) 
+
+## OSHW-SCHEM-PCB6mm
+![OSHW-SCHEM-PCB6mm__1__1](/images/symbol__OSHW-SCHEM__1__1.png?raw=true) 
+
 ## PRESET
 ![PRESET__1__1](/images/symbol__PRESET__1__1.png?raw=true) 
 
