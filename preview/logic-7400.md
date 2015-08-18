@@ -215,7 +215,7 @@ Octal bus transciever
 ## 742G14-SOT363
 Hex inverting Schmitt trigger
 
-![742G14-SOT363__1__1](/images/logic-7400__742G14-SOT363__1__1.png?raw=true) 
+![742G14-SOT363__1__1](/images/TexasInstruments__SN74LVC2G14DBV__1__1.png?raw=true) 
 ![742G14-SOT363__2__1](/images/logic-4000__40106-SO__2__1.png?raw=true) 
 ![742G14-SOT363__3__1](/images/logic-7400__742G14-SOT363__3__1.png?raw=true) 
 

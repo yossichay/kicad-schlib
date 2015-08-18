@@ -12,3 +12,6 @@
 ![LPDDR-SDRAM-60VFBGA__1__1](/images/Micron__LPDDR-SDRAM-60VFBGA__1__1.png?raw=true) 
 ![LPDDR-SDRAM-60VFBGA__2__1](/images/Micron__LPDDR-SDRAM-60VFBGA__2__1.png?raw=true) 
 
+## M25PX80-VMN6TP
+![M25PX80-VMN6TP__1__1](/images/Micron__M25PX80-VMN6TP__1__1.png?raw=true) 
+
