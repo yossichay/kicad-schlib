@@ -141,6 +141,10 @@ high RF comes out as a DC power level.
 
 - pulse: 8/20µs peak pulse
 
+## Optocouplers
+
+`Optocoup NPN+base isoV fwdcurrentA vvvVceo [footprint]`
+
 ## Microcontrollers
 
 `MCU nbit/arch ROM:nKB RAM:nKB _extras_ [footprint]`

@@ -80,6 +80,14 @@ $CMP 2N7002
 D NMOS 60V 115mA [SOT-23]
 $ENDCMP
 #
+$CMP 4N35
+D OPTONPN voltage current [footprint]
+$ENDCMP
+#
+$CMP 4N35S
+D OPTONPN voltage current [footprint]
+$ENDCMP
+#
 $CMP PN2222
 D [obs] NPN 40V 600mA 600mW [TO-92]
 $ENDCMP
