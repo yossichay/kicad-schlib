@@ -81,11 +81,11 @@ D NMOS 60V 115mA [SOT-23]
 $ENDCMP
 #
 $CMP 4N35
-D OPTONPN voltage current [footprint]
+D Optocoup NPN+base 3kV 60mA 30Vceo [DIP-6]
 $ENDCMP
 #
 $CMP 4N35S
-D OPTONPN voltage current [footprint]
+D Optocoup NPN+base 3kV 60mA 30Vceo [DIP-6]
 $ENDCMP
 #
 $CMP PN2222

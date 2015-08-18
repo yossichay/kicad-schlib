@@ -6,7 +6,7 @@ ModDemod 300MHz Gilbert [SOIC-14]
 ![MC1496D__1__1](/images/onsemi__MC1496D__1__1.png?raw=true) 
 
 ## MC33078D
-OpAmp.2 16MHz LowVos LowIB LowNoise [SOIC-8]
+OpAmp.2 16MHz LowVos LowIB LowNoise [DIP-8]
 
 ![MC33078D__1__1](/images/AnalogDevices__AD8552ARUZ__1__1.png?raw=true) 
 ![MC33078D__2__1](/images/AnalogDevices__AD8552ARUZ__2__1.png?raw=true) 
@@ -50,5 +50,5 @@ Reg Multi in:40V AdjV 1.5A 100kHz [DIP-8]
 ## MC79MvvCDT
 Reg Lin -500mA [TO-252]
 
-![MC79MvvCDT__1__1](/images/TexasInstruments__LM1117T-v.v__1__1.png?raw=true) 
+![MC79MvvCDT__1__1](/images/ST__L79vvCD2T__1__1.png?raw=true) 
 

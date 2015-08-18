@@ -13,30 +13,30 @@ TVS 5V 1A <500fF [SOD-923]
 ## MBR0520
 Diode, Schottky, 0.5A, 20V
 
-![MBR0520__1__1](/images/semi-diode-MCC__SS1150-L__1__1.png?raw=true) 
+![MBR0520__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
 
 ## MBR0540
 Diode, Schottky, 0.5A, 40V
 
-![MBR0540__1__1](/images/semi-diode-MCC__SS1150-L__1__1.png?raw=true) 
+![MBR0540__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
 
 ## MBR1635G
 Schottky 35V 16A [TO-220-2]
 
-![MBR1635G__1__1](/images/semi-diode-MCC__SS1150-L__1__1.png?raw=true) 
+![MBR1635G__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
 
 ## MBRS360
 Schottky 60V 3A [SMC]
 
-![MBRS360__1__1](/images/semi-diode-MCC__SS1150-L__1__1.png?raw=true) 
+![MBRS360__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
 
 ## MBRS360B
 Schottky 60V 3A [SMB]
 
-![MBRS360B__1__1](/images/semi-diode-MCC__SS1150-L__1__1.png?raw=true) 
+![MBRS360B__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
 
 ## MJD31C
 NPN 100V 3A 1.5W [TO-252]
 
-![MJD31C__1__1](/images/semi-trans-NXP__BFR540__1__1.png?raw=true) 
+![MJD31C__1__1](/images/semi-trans-MPS__MPSA42__1__1.png?raw=true) 
 

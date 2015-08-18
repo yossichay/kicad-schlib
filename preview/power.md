@@ -75,6 +75,9 @@
 ## +3.3SW
 ![+3.3SW__1__1](/images/power__+3.3SW__1__1.png?raw=true) 
 
+## +3.6
+![+3.6__1__1](/images/power__+3.6__1__1.png?raw=true) 
+
 ## +30
 ![+30__1__1](/images/power__+30__1__1.png?raw=true) 
 
