@@ -106,6 +106,13 @@ DIST DIGIKEY 160-1127-ND
 DIST DIGIKEY 754-1264-ND
 END
 
+LED GREEN [5mm]
+DESCR LED Green [5mm]
+DIST DIGIKEY 160-1131-ND
+DIST DIGIKEY 160-1852-ND
+DIST DIGIKEY 1125-1184-ND
+END
+
 # SMD LED WARNING
 # When finding part numbers, verify that they are marked sanely
 # (dot/die on the cathode side)!!
