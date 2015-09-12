@@ -11,12 +11,12 @@ PNP switch, -600mA, -40V, 1W
 ![PZT2907A__1__1](/images/_semi__PNP-2C__1__1.png?raw=true) 
 
 ## PZT3904
-NPN amplifier, 200mA, 40V, 1W
+NPN 40V 200mA 1W [SOT-223]
 
 ![PZT3904__1__1](/images/_semi__NPN-2C__1__1.png?raw=true) 
 
 ## PZT3906
-PNP amplifier, -200mA, -40V, 1W
+PNP -40V -200mA 1W [SOT-223]
 
 ![PZT3906__1__1](/images/_semi__PNP-2C__1__1.png?raw=true) 
 

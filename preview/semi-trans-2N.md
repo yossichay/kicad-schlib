@@ -101,13 +101,13 @@ NMOS 60V 115mA [SOT-23]
 ![2N7002__1__1](/images/semi-trans-IntRect__IRF510__1__1.png?raw=true) 
 
 ## 4N35
-OPTONPN voltage current [footprint]
+Optocoup NPN+base 3kV 60mA 30Vceo [DIP-6]
 
 ![4N35__1__1](/images/semi-trans-2N__4N35__1__1.png?raw=true) 
 ![4N35__2__1](/images/semi-trans-2N__4N35__2__1.png?raw=true) 
 
 ## 4N35S
-OPTONPN voltage current [footprint]
+Optocoup NPN+base 3kV 60mA 30Vceo [DIP-6]
 
 ![4N35S__1__1](/images/semi-trans-2N__4N35__1__1.png?raw=true) 
 ![4N35S__2__1](/images/semi-trans-2N__4N35__2__1.png?raw=true) 

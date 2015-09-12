@@ -25,6 +25,13 @@ Reg Lin -1.5A [TO-220]
 
 ![L79vvCV__1__1](/images/ST__L79vvCV__1__1.png?raw=true) 
 
+## ST490ABDR
+Driver RS422 25Mbps FullDuplex [SOIC-8]
+
+![ST490ABDR__1__1](/images/ST__ST490ABDR__1__1.png?raw=true) 
+![ST490ABDR__2__1](/images/ST__ST490ABDR__2__1.png?raw=true) 
+![ST490ABDR__3__1](/images/ST__ST490ABDR__3__1.png?raw=true) 
+
 ## STM32F042K6T
 MCU 32bit/ARM-M0 ROM:32KB RAM:6KB USB DFU [LQFP-32]
 

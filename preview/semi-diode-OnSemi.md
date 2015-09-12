@@ -11,12 +11,17 @@ TVS 5V 1A <500fF [SOD-923]
 ![ESD9L5.0ST5G__1__1](/images/_semi__ZENER__1__1.png?raw=true) 
 
 ## MBR0520
-Diode, Schottky, 0.5A, 20V
+Schottky 20V 500mA [SOD-123]
 
 ![MBR0520__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
 
+## MBR0530
+Schottky 30V 500mA [SOD-123]
+
+![MBR0530__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
+
 ## MBR0540
-Diode, Schottky, 0.5A, 40V
+Schottky 40V 500mA [SOD-123]
 
 ![MBR0540__1__1](/images/_semi__SCHOTTKY__1__1.png?raw=true) 
 
