@@ -1,4 +1,3 @@
-Add BOM lines for new parts supported by bomtool
 Make sure PNP, PMOS use negative ratings
 Footprint for CONN-PJ1-021
 Add ESWITCH-TL1105
@@ -15,3 +14,5 @@ Add D-BRIDGE-{GBU,KBU,WOG}
 Three DiodesInc libs?
 Three OnSemi libs?
 Three ST libs?
+Invalid template BOM lines to avoid accidents
+Remove or automate footprint filters (error-prone)
