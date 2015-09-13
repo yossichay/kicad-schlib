@@ -48,6 +48,14 @@ $CMP R-AX-QW
 D Axial resistor, 1/4 W
 $ENDCMP
 #
+$CMP R-KOASPEER-MOS-2W
+D Axial resistor, 2 W
+$ENDCMP
+#
+$CMP R-KOASPEER-MOS-3W
+D Axial resistor, 2 W
+$ENDCMP
+#
 $CMP RESPACK-4X0603-CONC
 D Resistor pack, 4x0603 (1206) concave
 $ENDCMP
