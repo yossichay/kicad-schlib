@@ -1,4 +1,3 @@
-Add HAMLIN-HE3600
 Add HAMMOND-164G
 Add KOASPEER-MOS-{2,3}W
 Add MURATA-{1200LRS,3200,786J,PV36P}
@@ -13,3 +12,4 @@ Three OnSemi libs?
 Three ST libs?
 Invalid template BOM lines to avoid accidents
 Remove or automate footprint filters (error-prone)
+Remove Documentation File Name
