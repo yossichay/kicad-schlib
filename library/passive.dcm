@@ -12,9 +12,12 @@ $CMP C
 D Capacitor
 $ENDCMP
 #
+$CMP CMBEAD
+D Common-mode ferrite bead
+$ENDCMP
+#
 $CMP CMCHOKE
-D Inductor
-F mod_pdf/SMCHIP-*
+D Common-mode choke
 $ENDCMP
 #
 $CMP CPOL
