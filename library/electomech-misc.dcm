@@ -12,4 +12,8 @@ $CMP TACT-ESWITCH-TL1105
 D Switch, SPST tactile
 $ENDCMP
 #
+$CMP TACT-TE-FSMSM
+D Switch Tactile SPST [SMD]
+$ENDCMP
+#
 #End Doc Library
