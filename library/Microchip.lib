@@ -146,8 +146,8 @@ ENDDEF
 DEF MCP23008-E/SO U 0 40 Y Y 1 F N
 F0 "U" 0 650 60 H V C CNN
 F1 "MCP23008-E/SO" 0 550 60 H V C CNN
-F2 "IPC7351-Nominal:SOIC127P1034X267-18" 0 600 60 H V C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf" 0 600 60 H V C CNN
+F2 "IPC7351-Nominal:SOIC127P1034X267-18" 0 600 60 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf" 0 600 60 H I C CNN
 DRAW
 S -350 500 300 -500 1 1 0 f
 X SCL 1 -500 300 150 R 50 50 1 1 I
@@ -246,8 +246,8 @@ ENDDEF
 DEF MCP4728A0-E/UN U 0 40 Y Y 1 F N
 F0 "U" 0 450 50 H V C CNN
 F1 "MCP4728A0-E/UN" 0 350 50 H V C CNN
-F2 "IPC7351-Nominal:SOP50P490X110-10" 0 -50 60 H V C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf" 0 -50 60 H V C CNN
+F2 "IPC7351-Nominal:SOP50P490X110-10" 0 -50 60 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf" 0 -50 60 H I C CNN
 DRAW
 S -300 300 300 -400 1 1 0 f
 X V+ 1 -450 200 150 R 50 50 1 1 W
@@ -317,8 +317,8 @@ ENDDEF
 DEF MCP7940M-I/SN U 0 40 Y Y 1 F N
 F0 "U" 0 400 60 H V C CNN
 F1 "MCP7940M-I/SN" 0 300 60 H V C CNN
-F2 "IPC7351-Nominal:SOIC127P600X175-8" 0 0 60 H V C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20002292B.pdf" 0 0 60 H V C CNN
+F2 "IPC7351-Nominal:SOIC127P600X175-8" 0 0 60 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20002292B.pdf" 0 0 60 H I C CNN
 DRAW
 S -300 250 300 -250 1 1 0 f
 X X1 1 -450 50 150 R 50 50 1 1 I

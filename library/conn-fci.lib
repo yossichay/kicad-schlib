@@ -425,8 +425,8 @@ ENDDEF
 DEF FCI_10067847-001RLF J 0 40 Y Y 1 F N
 F0 "J" 0 675 60 H V C CNN
 F1 "FCI_10067847-001RLF" 0 775 60 H V C CNN
-F2 "conn-fci:10067847-001RLF" -25 475 60 H V C CNN
-F3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" -25 475 60 H V C CNN
+F2 "conn-fci:10067847-001RLF" -25 475 60 H I C CNN
+F3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" -25 475 60 H I C CNN
 DRAW
 P 3 0 1 0  25 -425  50 -450  25 -475 N
 P 3 0 1 0  25 -325  50 -350  25 -375 N

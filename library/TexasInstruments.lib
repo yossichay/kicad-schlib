@@ -6,8 +6,8 @@ EESchema-LIBRARY Version 2.3
 DEF ADS1115IDGSR U 0 40 Y Y 1 F N
 F0 "U" -300 450 60 H V C CNN
 F1 "ADS1115IDGSR" -50 350 60 H V C CNN
-F2 "IPC7351-Nominal:SOP50P490X110-10" -50 0 60 H V C CNN
-F3 "http://www.ti.com/lit/ds/symlink/ads1113.pdf" -50 0 60 H V C CNN
+F2 "IPC7351-Nominal:SOP50P490X110-10" -50 0 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/ads1113.pdf" -50 0 60 H I C CNN
 DRAW
 S -350 300 300 -400 0 1 0 f
 X ADDR 1 -550 -100 200 R 50 50 1 1 I
@@ -200,7 +200,7 @@ DEF ISO1541DR U 0 40 Y Y 2 L N
 F0 "U" 0 400 50 H V C CNN
 F1 "ISO1541DR" 0 300 50 H V C CNN
 F2 "IPC7351-Nominal:SOIC127P600X175-8" 0 -300 50 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/ads1113.pdf" 0 0 60 H V C CNN
+F3 "http://www.ti.com/lit/ds/symlink/ads1113.pdf" 0 0 60 H I C CNN
 $FPLIST
  SOIC127P600X175-8
 $ENDFPLIST
@@ -469,7 +469,7 @@ DEF LM1086IT-v.v U 0 40 Y Y 1 F N
 F0 "U" 0 250 50 H V C CNN
 F1 "LM1086IT-v.v" 0 150 50 H V C CNN
 F2 "pth-semi:TO-220" 0 -300 50 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/lm1086.pdf" 0 0 60 H V C CNN
+F3 "http://www.ti.com/lit/ds/symlink/lm1086.pdf" 0 0 60 H I C CNN
 $FPLIST
  TO-220
 $ENDFPLIST

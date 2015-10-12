@@ -7,7 +7,7 @@ DEF 2N7002K Q 0 0 N Y 1 F N
 F0 "Q" 300 50 50 H V C CNN
 F1 "2N7002K" 300 -50 50 H V C CNN
 F2 "pth-semi:TO-220" 0 0 50 H I C CNN
-F3 "http://www.nxp.com/documents/data_sheet/BUK954R8-60E.pdf" 0 0 60 H V C CNN
+F3 "http://www.nxp.com/documents/data_sheet/BUK954R8-60E.pdf" 0 0 60 H I C CNN
 $FPLIST
  SOT-23
 $ENDFPLIST

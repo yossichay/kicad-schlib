@@ -190,7 +190,7 @@ DEF AOD516 Q 0 0 N Y 1 F N
 F0 "Q" 200 50 50 H V C CNN
 F1 "AOD516" 200 -50 50 H V C CNN
 F2 "smd-semi:TO-252" 100 -50 60 H I C CNN
-F3 "http://aosmd.com/res/data_sheets/AOD516.pdf" 0 0 60 H V C CNN
+F3 "http://aosmd.com/res/data_sheets/AOD516.pdf" 0 0 60 H I C CNN
 DRAW
 C 50 -60 10 0 1 0 F
 P 2 0 1 0  -20 50  -20 -50 N

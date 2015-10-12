@@ -1955,8 +1955,8 @@ ENDDEF
 DEF ATXMEGAnD3-AU U 0 40 Y Y 8 L N
 F0 "U" 0 400 60 H V C CNN
 F1 "ATXMEGAnD3-AU" 0 300 60 H V C CNN
-F2 "IPC7351-Nominal:QFP80P1600X1600X120-64" 400 -650 60 H V C CNN
-F3 "http://www.atmel.com/Images/Atmel-8134-8-16-bit-Atmel-XMEGA-D3-Microcontroller_Datasheet.pdf" 400 -650 60 H V C CNN
+F2 "IPC7351-Nominal:QFP80P1600X1600X120-64" 400 -650 60 H I C CNN
+F3 "http://www.atmel.com/Images/Atmel-8134-8-16-bit-Atmel-XMEGA-D3-Microcontroller_Datasheet.pdf" 400 -650 60 H I C CNN
 DRAW
 S 550 250 -600 -650 1 1 0 f
 X ADC3/AC2/PA3 1 700 -150 150 L 50 50 1 1 B
@@ -2039,7 +2039,7 @@ DEF ATXMEGAnD4-AU U 0 40 Y Y 7 L N
 F0 "U" 0 400 60 H V C CNN
 F1 "ATXMEGAnD4-AU" 0 300 60 H V C CNN
 F2 "IPC7351-Nominal:QFP80P1200X1200X120-44" 0 -1950 50 H I C CNN
-F3 "http://www.atmel.com/Images/Atmel-8135-8-and-16-bit-AVR-microcontroller-ATxmega16D4-32D4-64D4-128D4_datasheet.pdf" 400 -650 60 H V C CNN
+F3 "http://www.atmel.com/Images/Atmel-8135-8-and-16-bit-AVR-microcontroller-ATxmega16D4-32D4-64D4-128D4_datasheet.pdf" 400 -650 60 H I C CNN
 DRAW
 S 550 250 -600 -650 1 1 0 f
 X ADC5/AC5/PA5 1 700 -350 150 L 50 50 1 1 B
