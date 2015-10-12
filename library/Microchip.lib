@@ -337,8 +337,8 @@ ENDDEF
 DEF MCP7940N-I/SN U 0 40 Y Y 1 F N
 F0 "U" 0 400 60 H V C CNN
 F1 "MCP7940N-I/SN" 0 300 60 H V C CNN
-F2 "IPC7351-Nominal:SOIC127P600X175-8" 0 0 60 H V C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf" 0 0 60 H V C CNN
+F2 "IPC7351-Nominal:SOIC127P600X175-8" 0 0 60 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf" 0 0 60 H I C CNN
 DRAW
 S -300 250 300 -250 1 1 0 f
 X X1 1 -450 50 150 R 50 50 1 1 I
