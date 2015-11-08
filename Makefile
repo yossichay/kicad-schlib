@@ -2,7 +2,7 @@ LIBFILES=$(wildcard library/*.lib)
 DCMFILES=$(patsubst %.lib,%.dcm,${LIBFILES})
 PVFILES=$(addprefix preview/,$(patsubst %.lib,%.md,$(notdir ${LIBFILES})))
 IMAGECACHE:=$(shell mktemp)
-DBFILES=$(wildcard bomtool-db/*)
+DBFILES=$(shell find bomtool-db -type f)
 
 TMPDIR := $(shell mktemp -d)
 
@@ -19,8 +19,9 @@ all: ${PVFILES} ${DCMFILES}
 dcmfiles: ${DCMFILES}
 
 preview/%.md: library/%.lib
+	mkdir -p preview/images
 	if [ -f $(patsubst %.lib,%.dcm,$<) ]; then \
-		./scripts/schlib-render.py images /images ${IMAGECACHE} $< $(patsubst %.lib,%.dcm,$<) > $@; \
+		./scripts/schlib-render.py preview/images /images ${IMAGECACHE} $< $(patsubst %.lib,%.dcm,$<) > $@; \
 	else \
-		./scripts/schlib-render.py images /images ${IMAGECACHE} $< > $@; \
+		./scripts/schlib-render.py preview/images /images ${IMAGECACHE} $< > $@; \
 	fi

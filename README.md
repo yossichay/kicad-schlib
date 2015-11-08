@@ -6,6 +6,8 @@ kicad-schlib
 These are my KiCad schematic libraries, meant to be used with my PCB
 libraries:
 
-https://github.com/cpavlin1/kicad-pcblib
+https://github.com/cpavlina/kicad-pcblib
 
-Look in 'preview-docs' for some previews.
+For preview renders, look here:
+
+https://github.com/cpavlina/kicad-schlib-preview
