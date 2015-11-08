@@ -16,4 +16,8 @@ $CMP LED-5MM
 D LED Red [5mm]
 $ENDCMP
 #
+$CMP LED-LITEON-C155GEKT
+D LED Red [0603]
+$ENDCMP
+#
 #End Doc Library
