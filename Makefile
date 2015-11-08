@@ -9,8 +9,9 @@ TMPDIR := $(shell mktemp -d)
 .PHONY: all dcmfiles
 
 %.dcm: %.lib ${DBFILES}
-	./scripts/import-descrs.py $^ <$@ >${TMPDIR}/$$(basename $@)
-	mv ${TMPDIR}/$$(basename $@) $@
+	@echo $<
+	@./scripts/import-descrs.py $^ <$@ >${TMPDIR}/$$(basename $@)
+	@mv ${TMPDIR}/$$(basename $@) $@
 
 all: ${PVFILES} ${DCMFILES}
 	rm -f ${IMAGECACHE}
