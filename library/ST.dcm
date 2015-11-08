@@ -40,4 +40,8 @@ $CMP TSC101C
 D CSAmp 450kHz 30V Gain=100V/V [SOT-23-5]
 $ENDCMP
 #
+$CMP TSZ124
+D OpAmp.4 400kHz RRI RRO ZeroDrift [TSSOP-14]
+$ENDCMP
+#
 #End Doc Library

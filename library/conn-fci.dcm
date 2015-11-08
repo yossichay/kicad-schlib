@@ -8,4 +8,8 @@ $CMP CONN-61729-USB-B
 D USB-B
 $ENDCMP
 #
+$CMP FCI_10067847-001RLF
+D SD Card Push/push CD WP
+$ENDCMP
+#
 #End Doc Library
