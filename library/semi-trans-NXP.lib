@@ -171,8 +171,9 @@ ENDDEF
 DEF BUK954R8-60E Q 0 0 N Y 1 F N
 F0 "Q" 300 50 50 H V C CNN
 F1 "BUK954R8-60E" 300 -50 50 H V C CNN
-F2 "pth-semi:TO-220" 0 0 50 H I C CNN
-F3 "http://www.nxp.com/documents/data_sheet/BUK954R8-60E.pdf" 0 0 60 H I C CNN
+F2 "pth-semi:TO-220" 0 -150 50 H I C CNN
+F3 "http://www.nxp.com/documents/data_sheet/BUK954R8-60E.pdf" 0 -250 50 H I C CNN
+F4 "NMOS NXP BUK954R8-60E" 0 -350 50 H I C CNN "BOM"
 $FPLIST
  TO-220
 $ENDFPLIST
