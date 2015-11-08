@@ -5,6 +5,14 @@ D Crystal, grounded
 F mod_pdf/XTAL-G-*
 $ENDCMP
 #
+$CMP RESON-MURATA-CSTCE
+D Resonator Ceramic 8-20MHz [SMD]
+$ENDCMP
+#
+$CMP RESON-MURATA-CSTCR
+D Resonator Ceramic 4-7.99MHz [SMD]
+$ENDCMP
+#
 $CMP XTAL-ABRACON-ABM8G
 D Crystal, grounded
 F mod_pdf/XTAL-G-*
