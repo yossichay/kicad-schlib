@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN-GSB3211311WEU
+D USB-B 3.0 Recepticle
+$ENDCMP
+#
+$CMP CONN-GSB443133HR
+D USB micro-B 3.0 Receptacle
+$ENDCMP
+#
+#End Doc Library
