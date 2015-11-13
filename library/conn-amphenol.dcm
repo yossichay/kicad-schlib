@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP CONN-GSB3211311WEU
-D USB-B 3.0 Recepticle
+D USB-B 3.0 Receptacle
 $ENDCMP
 #
 $CMP CONN-GSB443133HR
