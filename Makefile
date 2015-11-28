@@ -6,7 +6,9 @@ DBFILES=$(shell find bomtool-db -type f)
 
 TMPDIR := $(shell mktemp -d)
 
-.PHONY: all dcmfiles
+BOMTOOL ?= $$(which bomtool)
+
+.PHONY: all dcmfiles bom_check
 
 %.dcm: %.lib ${DBFILES}
 	@echo $<
@@ -18,6 +20,11 @@ all: ${PVFILES} ${DCMFILES}
 	@#./scripts/cleanup.py images
 
 dcmfiles: ${DCMFILES}
+
+bom_check: ${LIBFILES}
+	for f in ${LIBFILES}; do \
+		./scripts/libfile_tool.py bom_check $$f $$(which bomtool); \
+	done
 
 preview/%.md: library/%.lib
 	mkdir -p preview/images
