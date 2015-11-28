@@ -10,7 +10,7 @@ TMPDIR := $(shell mktemp -d)
 
 %.dcm: %.lib ${DBFILES}
 	@echo $<
-	@./scripts/import-descrs.py $^ <$@ >${TMPDIR}/$$(basename $@)
+	@./scripts/libfile_tool.py import_descrs $^ <$@ >${TMPDIR}/$$(basename $@)
 	@mv ${TMPDIR}/$$(basename $@) $@
 
 all: ${PVFILES} ${DCMFILES}

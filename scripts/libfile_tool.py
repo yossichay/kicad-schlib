@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# usage: import-descrs.py LIBFILE.lib BOMTOOL_DB_FILES... <original.dcm >new.dcm
+# usage: libfile_tool.py import_descrs LIBFILE.lib BOMTOOL_DB_FILES... <original.dcm >new.dcm
 
 import shlex
 import sys
@@ -96,7 +96,7 @@ def filter_dcmfile(bomlines, descriptions, infile, outfile):
         else:
             outfile.write(line)
 
-def main(argv):
+def import_descrs_main(argv):
     # usage: import-descrs.py LIBFILE.lib BOMTOOL_DB_FILES... <original.dcm >new.dcm
     lib_filename = argv[1]
     db_filenames = argv[2:]
@@ -114,4 +114,15 @@ def main(argv):
     filter_dcmfile(bomlines, descriptions, sys.stdin, sys.stdout)
 
 if __name__ == "__main__":
-    main(sys.argv)
+    if len(sys.argv) < 2:
+        toolname = "help"
+    else:
+        toolname = sys.argv[1]
+
+    if toolname == "import_descrs":
+        import_descrs_main(sys.argv[1:])
+
+    else:
+        print("usage: libfile-tool.py TOOL")
+        print("tools:")
+        print("  import_descrs")
