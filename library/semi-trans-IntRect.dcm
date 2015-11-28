@@ -37,7 +37,7 @@ D NMOS 20V 1.2A 0.7Vth [SOT-23]
 $ENDCMP
 #
 $CMP IRLML6402
-D MOSFET, P-enh, -20V,-3.7A, Rds ~ 65m
+D PMOS -20V -2.2A -1.2Vth [SOT-23]
 $ENDCMP
 #
 #End Doc Library

@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP STPS10L25G
-D Diode, Schottky, 25V, 10A
+D Schottky 25V 10A [TO-263]
 F mod_pdf/DO-*
 $ENDCMP
 #
