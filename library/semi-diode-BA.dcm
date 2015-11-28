@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP BAS16
-D Diode, 200mA, 75V
+D Diode 75V 200mA [SOT-23]
 $ENDCMP
 #
 $CMP BAS70H
@@ -45,7 +45,7 @@ D Diode.2 Series 70V 140mA [SOT-23]
 $ENDCMP
 #
 $CMP BAV99
-D Diode.2 Series 75V 150mA [SOT-23]
+D Diode.2 Series 70V 150mA [SOT-23]
 $ENDCMP
 #
 $CMP BAV99DW

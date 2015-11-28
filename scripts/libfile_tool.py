@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-# usage: import-descrs.py LIBFILE.lib BOMTOOL_DB_FILES... <original.dcm >new.dcm
+# usage: libfile_tool.py import_descrs LIBFILE.lib BOMTOOL_DB_FILES... <original.dcm >new.dcm
 
+import subprocess
 import shlex
 import sys
 
@@ -28,7 +29,7 @@ def read_bomlines(libfile):
         if line.startswith("F1"):
             this_cmp = cols[1]
         elif line.startswith("F") and cols[-1] == "BOM":
-            bomline = tuple(i.upper() for i in cols[1].split())
+            bomline = tuple(cols[1].split())
         elif line == "ENDDEF":
             assert this_cmp is not None
             if bomline is not None:
@@ -51,7 +52,7 @@ def read_descriptions(dbfile):
         if line.startswith("#") or not line:
             continue
         if this_bomline is None:
-            this_bomline = tuple(i.upper() for i in line.split())
+            this_bomline = tuple(line.split())
             continue
 
         head, space, tail = line.partition(" ")
@@ -96,8 +97,8 @@ def filter_dcmfile(bomlines, descriptions, infile, outfile):
         else:
             outfile.write(line)
 
-def main(argv):
-    # usage: import-descrs.py LIBFILE.lib BOMTOOL_DB_FILES... <original.dcm >new.dcm
+def import_descrs_main(argv):
+    # usage: import_descrs LIBFILE.lib BOMTOOL_DB_FILES... <original.dcm >new.dcm
     lib_filename = argv[1]
     db_filenames = argv[2:]
 
@@ -113,5 +114,38 @@ def main(argv):
 
     filter_dcmfile(bomlines, descriptions, sys.stdin, sys.stdout)
 
+def bom_check_main(argv):
+    # usage: bom_check LIBFILE.lib PATH_TO_BOMTOOL
+    lib_filename = argv[1]
+    bomtool_path = argv[2]
+
+    with open(lib_filename) as f:
+        bomlines = read_bomlines(f)
+
+    for key in bomlines:
+        bt = subprocess.Popen([bomtool_path, '-t', 'ascii'], stdout=subprocess.PIPE, stdin=subprocess.PIPE)
+        bt.stdin.write((' '.join(bomlines[key]) + '\n').encode('utf8'))
+        bt.stdin.close()
+        rc = bt.wait()
+        bt.stdout.read()
+        if rc == 0:
+            print(key)
+        else:
+            print("%s: bad BOM line: %s" % (key, ' '.join(bomlines[key])), file=sys.stderr)
+
 if __name__ == "__main__":
-    main(sys.argv)
+    if len(sys.argv) < 2:
+        toolname = "help"
+    else:
+        toolname = sys.argv[1]
+
+    if toolname == "import_descrs":
+        import_descrs_main(sys.argv[1:])
+
+    elif toolname == "bom_check":
+        bom_check_main(sys.argv[1:])
+
+    else:
+        print("usage: libfile-tool.py TOOL")
+        print("tools:")
+        print("  import_descrs")
