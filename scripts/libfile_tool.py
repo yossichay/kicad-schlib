@@ -73,10 +73,13 @@ def filter_dcmfile(bomlines, descriptions, infile, outfile):
     """Read a DCM file, and use the given component->bomline and bomline->description
     dicts to substitute in new description lines."""
 
+    components_unseen = set(bomlines)
+
     this_component = None
     for line in infile:
         if line.startswith("$CMP "):
             this_component = line.strip().partition(" ")[2]
+            components_unseen.discard(this_component)
             outfile.write(line)
         elif line.startswith("D "):
             bomline = bomlines.get(this_component)
@@ -93,6 +96,18 @@ def filter_dcmfile(bomlines, descriptions, infile, outfile):
             pass
         elif line.strip() == "$ENDCMP":
             this_component = None
+            outfile.write(line)
+        elif line.strip() == "#End Doc Library":
+            # Emit new blocks for the components we haven't seen yet.
+            for i in components_unseen:
+                bomline = bomlines.get(i)
+                description = descriptions.get(bomline)
+                if description is None:
+                    continue
+                outfile.write("$CMP %s\n" % i)
+                outfile.write("D %s\n" % description)
+                outfile.write("$ENDCMP\n")
+                outfile.write("#\n")
             outfile.write(line)
         else:
             outfile.write(line)
