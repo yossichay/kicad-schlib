@@ -136,6 +136,10 @@ $CMP LM311N
 D Comp OpenColl [DIP-8]
 $ENDCMP
 #
+$CMP LM3150
+D Wide-Vin Synchronous Buck SMPS Controller
+$ENDCMP
+#
 $CMP LM317AEMP
 D Reg Lin AdjV 1A [SOT-223]
 $ENDCMP
