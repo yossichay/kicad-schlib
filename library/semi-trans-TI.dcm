@@ -10,4 +10,14 @@ D MOSFET, N-channel enhancement, four drain, three source pins
 F mod_pdf/TO-*
 $ENDCMP
 #
+$CMP CSD18563Q5A
+D NMOS Enhancement 60V 100A (5.7mΩ Rdson) (2.0V Vgsth) [8-SON (5x6)]
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP CSD19534Q5A
+D NMOS Enhancement 100V 50A (12.6mΩ Rdson) (2.8V Vgsth) [8-SON (5x6)]
+F mod_pdf/TO-*
+$ENDCMP
+#
 #End Doc Library
