@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1SS381
+D Diode PIN 1.2pF 0.9ohm 30V [SOD-523]
+$ENDCMP
+#
+$CMP 1SV305
+D Varicap C1=18pF C4=6pF [SOD-523]
+$ENDCMP
+#
+#End Doc Library
