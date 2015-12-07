@@ -499,4 +499,8 @@ $CMP VCA821IDGS
 D OpAmpVGA 710MHz VoltageCtrl 40dB [VSSOP-10]
 $ENDCMP
 #
+$CMP LM7705
+D Reg SwCap in:5V -230mV 26mA 92kHz [VSSOP-8]
+$ENDCMP
+#
 #End Doc Library
