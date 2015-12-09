@@ -8,10 +8,6 @@ $CMP BRIDGE-SCH
 D Schottky.4 Bridge voltage current [footprint]
 $ENDCMP
 #
-$CMP BRIDGE2
-D Diode.4 Bridge voltage current [footprint]
-$ENDCMP
-#
 $CMP DIAC
 D DIAC [footprint]
 $ENDCMP
@@ -110,10 +106,6 @@ $ENDCMP
 #
 $CMP NPNDARL-FULL
 D NPN Darl (semi) voltage current (power) (ft) [footprint]
-$ENDCMP
-#
-$CMP NPNDARL2
-D NPN (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP NPNDUAL
