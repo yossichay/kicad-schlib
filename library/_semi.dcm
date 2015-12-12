@@ -25,7 +25,7 @@ D Diode.2 CK voltage current [footprint]
 $ENDCMP
 #
 $CMP DIODE-SERIES
-D Diode.2 CK voltage current [footprint]
+D Diode.2 Series voltage current [footprint]
 $ENDCMP
 #
 $CMP DPIN
