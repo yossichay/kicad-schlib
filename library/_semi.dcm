@@ -104,10 +104,6 @@ $CMP NPNDARL-2C
 D NPN Darl (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
-$CMP NPNDARL-FULL
-D NPN Darl (semi) voltage current (power) (ft) [footprint]
-$ENDCMP
-#
 $CMP NPNDUAL
 D NPN.2 (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
@@ -171,10 +167,6 @@ $ENDCMP
 #
 $CMP PNPDARL-2C
 D PNP (semi) voltage current (power) (ft) [footprint]
-$ENDCMP
-#
-$CMP PNPDARL-FULL
-D PNP Darl (semi) voltage current (power) (ft) [footprint]
 $ENDCMP
 #
 $CMP PNPDUAL
