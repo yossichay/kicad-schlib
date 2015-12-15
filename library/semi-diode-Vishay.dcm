@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1N4148W
+D Diode 75V 150mA [SOD-123]
+$ENDCMP
+#
 $CMP S1A
 D Diode, 1A, 50V
 $ENDCMP
