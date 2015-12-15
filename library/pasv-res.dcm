@@ -56,6 +56,14 @@ $CMP R-KOASPEER-MOS-3W
 D Axial resistor, 2 W
 $ENDCMP
 #
+$CMP R-VISHAY-WSL3637-LARGE
+D Resistor (template)
+$ENDCMP
+#
+$CMP R-VISHAY-WSL3637-SMALL
+D Resistor (template)
+$ENDCMP
+#
 $CMP RESPACK-4X0603-CONC
 D Resistor pack, 4x0603 (1206) concave
 $ENDCMP
