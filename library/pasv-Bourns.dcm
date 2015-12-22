@@ -28,6 +28,10 @@ $CMP L-BOURNS-SRR1210
 D Inductor, power (to 11A), shielded
 $ENDCMP
 #
+$CMP LCM-BOURNS-SRF2012A
+D Common-mode choke
+$ENDCMP
+#
 $CMP POT-BOURNS-3296W
 D Pot Trim 25turn 100ppm/K [PTH]
 $ENDCMP
