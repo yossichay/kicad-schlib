@@ -1,29 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP DMMT3904W
-D NPN, matched, 40V, 200mA, 200mW
+D NPN.2 40V 200mA 200mW Matched [SOT-363]
 $ENDCMP
 #
 $CMP DMMT3906W
-D PNP, matched, -40V, -200mA, 200mW
+D PNP.2 -40V -200mA 200mW Matched [SOT-363]
 $ENDCMP
 #
 $CMP DMN3018SSS
 D NMOS 30V 5.5A 35mR 1.7Vth [SOIC-8]
-F mod_pdf/TO-*
 $ENDCMP
 #
 $CMP DMN63D8LV
-D NMOS-enh, dual, 30V 160mA logic
-F mod_pdf/TO-*
+D NMOS.2 30V 200mA 4.2R 1.5Vth [SOT-563]
 $ENDCMP
 #
 $CMP DMP3098L
-D MOSFET, P-enh, -30V, -3A, Rds approx 120m
+D PMOS -30V -3A 120mR -1.8Vth [SOT-23]
 $ENDCMP
 #
 $CMP DMP4051LK3
-D MOSFET, P-enh, -40V, -8.4A, Rds approx 85m
+D PMOS -40V -8.4A 85mR -3Vth [TO-252]
 $ENDCMP
 #
 #End Doc Library
