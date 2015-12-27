@@ -1,23 +1,19 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP CSD18503Q5A
-D MOSFET, N-channel enhancement, four drain, three source pins
-F mod_pdf/TO-*
+D NMOS 40V 19A 3.4mR 2.3Vth [SON-8]
 $ENDCMP
 #
 $CMP CSD18504Q5A
-D MOSFET, N-channel enhancement, four drain, three source pins
-F mod_pdf/TO-*
+D NMOS 40V 15A 5.3mR 2.4Vth [SON-8]
 $ENDCMP
 #
 $CMP CSD18563Q5A
-D NMOS Enhancement 60V 100A (5.7mΩ Rdson) (2.0V Vgsth) [8-SON (5x6)]
-F mod_pdf/TO-*
+D NMOS 60V 15A 5.7mR 2.4Vth [SON-8]
 $ENDCMP
 #
 $CMP CSD19534Q5A
-D NMOS Enhancement 100V 50A (12.6mΩ Rdson) (2.8V Vgsth) [8-SON (5x6)]
-F mod_pdf/TO-*
+D NMOS 100V 10A 12.6mR 3.4Vth [SON-8]
 $ENDCMP
 #
 #End Doc Library
