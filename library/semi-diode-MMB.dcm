@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP MM3ZxxxT1G
-D Diode, Zener, 300mW, 5mA
+D Zener 300mW [SOD-323]
 $ENDCMP
 #
 $CMP MMBD4148
@@ -25,7 +25,7 @@ D Diode 75V 200mA [SOT-23]
 $ENDCMP
 #
 $CMP MMSZ52XXB
-D Diode, Zener, 500mW, 20mA, MMSZN5226B-MMSZN5257B
+D Zener 500mW [SOD-123] (MMSZN5226B-MMSZN5257B)
 $ENDCMP
 #
 #End Doc Library
