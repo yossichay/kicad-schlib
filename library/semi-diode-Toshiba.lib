@@ -3,24 +3,24 @@ EESchema-LIBRARY Version 2.3
 #
 # 1SS381
 #
-DEF 1SS381 D 0 0 N Y 1 F N
+DEF 1SS381 D 0 0 Y N 1 F N
 F0 "D" 200 50 50 H V C CNN
 F1 "1SS381" 200 -50 50 H V C CNN
-F2 "smd-semi:SOD-523" 0 -250 60 H I C CNN
-F3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=2711&prodName=1SS381" 0 -150 60 H I C CNN
-F4 "DIODE TOSHIBA 1SS381" 0 -350 60 H I C CNN "BOM"
+F2 "smd-semi:SOD-523" 0 -300 60 H I C CNN
+F3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=2711&prodName=1SS381" 0 -200 60 H I C CNN
+F4 "DIODE TOSHIBA 1SS381" 0 -400 60 H I C CNN "BOM"
 DRAW
-S -50 -60 50 -70 0 1 10 F
-S -50 -20 50 -60 0 1 10 N
-P 4 0 1 10  0 -20  -40 70  40 70  0 -20 F
-X K 1 0 -100 30 U 50 0 1 1 P
-X A 2 0 100 50 D 50 0 1 1 P
+S -50 -85 50 -95 0 1 10 F
+S -50 -45 50 -85 0 1 10 N
+P 4 0 1 10  0 -45  -40 45  40 45  0 -45 F
+X K 1 0 -150 50 U 40 50 1 1 P
+X A 2 0 100 50 D 40 50 1 1 P
 ENDDRAW
 ENDDEF
 #
 # 1SV305
 #
-DEF 1SV305 D 0 0 N Y 1 F N
+DEF 1SV305 D 0 0 Y N 1 F N
 F0 "D" 250 50 50 H V C CNN
 F1 "1SV305" 250 -50 50 H V C CNN
 F2 "smd-semi:SOD-523" 0 -300 60 H I C CNN
@@ -31,8 +31,8 @@ A 0 -170 112 634 1166 0 1 10 N 50 -70 -50 -70
 P 2 0 1 10  -50 -40  50 -40 N
 P 2 0 1 0  0 -70  0 -40 N
 P 4 0 1 10  0 -40  -40 50  40 50  0 -40 F
-X K 1 0 -100 30 U 50 0 1 1 P
-X A 2 0 100 50 D 50 0 1 1 P
+X K 1 0 -100 30 U 40 50 1 1 P
+X A 2 0 100 50 D 40 50 1 1 P
 ENDDRAW
 ENDDEF
 #
