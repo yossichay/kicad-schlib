@@ -1,11 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP SS1150-L
-D Diode, Schottky, 1A, 150V
+D Schottky 150V 1A [SMA]
 $ENDCMP
 #
 $CMP SS1200-L
-D Diode, Schottky, 1A, 200V
+D Schottky 200V 1A [SMA]
 $ENDCMP
 #
 #End Doc Library
