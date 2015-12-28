@@ -1,99 +1,107 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 1N4001
-D Diode, 1A, 50V
+D Diode 50V 1A [DO-41]
 $ENDCMP
 #
 $CMP 1N4002
-D Diode, 1A, 100V
+D Diode 100V 1A [DO-41]
 $ENDCMP
 #
 $CMP 1N4003
-D Diode, 1A, 200V
+D Diode 200V 1A [DO-41]
 $ENDCMP
 #
 $CMP 1N4004
-D Diode, 1A, 400V
+D Diode 400V 1A [DO-41]
 $ENDCMP
 #
 $CMP 1N4005
-D Diode, 1A, 600V
+D Diode 600V 1A [DO-41]
 $ENDCMP
 #
 $CMP 1N4006
-D Diode, 1A, 800V
+D Diode 800V 1A [DO-41]
 $ENDCMP
 #
 $CMP 1N4007
-D Diode, 1A, 1kV
+D Diode 1kV 1A [DO-41]
 $ENDCMP
 #
 $CMP 1N4148
-D Diode, 150mA, 75V, 4ns
+D Diode 75V 200mA 4ns [DO-35]
 $ENDCMP
 #
 $CMP 1N4448
-D Diode, 150mA, 75V, 4ns, leakage < 3uA
+D Diode 75V 200mA 4ns 3uArev [DO-35]
 $ENDCMP
 #
 $CMP 1N52XXB
-D Diode, Zener, 500mW, 20mA, 1N5221B-1N5263B
+D Zener 20mA 500mW [DO-35] (1N5221B-1N5263B)
 $ENDCMP
 #
 $CMP 1N5400
-D Diode, 3A, 50V
+D Diode 50V 3A [DO-201]
 $ENDCMP
 #
 $CMP 1N5401
-D Diode, 3A, 100V
+D Diode 100V 3A [DO-201]
 $ENDCMP
 #
 $CMP 1N5402
-D Diode, 3A, 200V
+D Diode 200V 3A [DO-201]
+$ENDCMP
+#
+$CMP 1N5403
+D [NRND] Diode 300V 3A [DO-201]
 $ENDCMP
 #
 $CMP 1N5404
-D Diode, 3A, 400V
+D Diode 400V 3A [DO-201]
+$ENDCMP
+#
+$CMP 1N5405
+D [obs] Diode 500V 3A [DO-201]
 $ENDCMP
 #
 $CMP 1N5406
-D Diode, 3A, 600V
+D Diode 600V 3A [DO-201]
 $ENDCMP
 #
 $CMP 1N5407
-D Diode, 3A, 800V
+D Diode 800V 3A [DO-201]
 $ENDCMP
 #
 $CMP 1N5408
-D Diode, 3A, 1kV
+D Diode 1kV 3A [DO-201]
 $ENDCMP
 #
 $CMP 1N5817
-D Diode, Schottky, 1A, 20V
+D Schottky 20V 1A [DO-41]
 $ENDCMP
 #
 $CMP 1N5818
-D Diode, Schottky, 1A, 30V
+D Schottky 30V 1A [DO-41]
 $ENDCMP
 #
 $CMP 1N5819
-D Diode, Schottky, 1A, 40V
+D Schottky 40V 1A [DO-41]
 $ENDCMP
 #
 $CMP 1N5820
-D Diode, Schottky, 3A, 20V
+D Schottky 20V 3A [DO-201]
 $ENDCMP
 #
 $CMP 1N5821
-D Diode, Schottky, 3A, 30V
+D Schottky 30V 3A [DO-201]
 $ENDCMP
 #
 $CMP 1N5822
-D Diode, Schottky, 3A, 40V
+D Schottky 40V 3A [DO-201]
 $ENDCMP
 #
 $CMP 1N914
-D Diode, 150mA, 75V, 4ns
+D Diode 75V 200mA 4ns [DO-35]
 $ENDCMP
 #
 #End Doc Library
