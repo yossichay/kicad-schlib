@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 1SMA59xxBT3G
-D Diode, Zener, 1.5W
+D Zener 1.5W [SMA]
 $ENDCMP
 #
 $CMP ESD9L5.0ST5G
@@ -30,10 +30,6 @@ $ENDCMP
 #
 $CMP MBRS360B
 D Schottky 60V 3A [SMB]
-$ENDCMP
-#
-$CMP MJD31C
-D NPN 100V 3A 1.5W [TO-252]
 $ENDCMP
 #
 #End Doc Library
