@@ -1,83 +1,83 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP TIP120
-D NPN-D amplifier, 5A, 60V, 2-65W
+D NPN Darl 60V 5A [TO-220]
 $ENDCMP
 #
 $CMP TIP121
-D NPN-D amplifier, 5A, 80V, 2-65W
+D NPN Darl 80V 5A [TO-220]
 $ENDCMP
 #
 $CMP TIP122
-D NPN-D amplifier, 5A, 100V, 2-65W
+D NPN Darl 100V 5A [TO-220]
 $ENDCMP
 #
 $CMP TIP125
-D PNP-D amplifier, -5A, -60V, 2-65W
+D PNP Darl 60V 5A [TO-220]
 $ENDCMP
 #
 $CMP TIP126
-D PNP-D amplifier, -5A, -80V, 2-65W
+D PNP Darl 80V 5A [TO-220]
 $ENDCMP
 #
 $CMP TIP127
-D PNP-D amplifier, -5A, -100V, 2-65W
+D PNP Darl 100V 5A [TO-220]
 $ENDCMP
 #
 $CMP TIP140
-D NPN-D amplifier, 10A, 60V, 125W, with resistors and diode
+D NPN Darl 60V 10A [TO-247]
 $ENDCMP
 #
 $CMP TIP141
-D NPN-D amplifier, 10A, 80V, 125W, with resistors and diode
+D NPN Darl 80V 10A [TO-247]
 $ENDCMP
 #
 $CMP TIP142
-D NPN-D amplifier, 10A, 100V, 125W, with resistors and diode
+D NPN Darl 100V 10A [TO-247]
 $ENDCMP
 #
 $CMP TIP145
-D PNP-D amplifier, -10A, -60V, 125W, with resistors and diode
+D [obs] PNP Darl 60V 10A [TO-247]
 $ENDCMP
 #
 $CMP TIP146
-D PNP-D amplifier, -10A, -80V, 125W, with resistors and diode
+D [obs] PNP Darl 80V 10A [TO-247]
 $ENDCMP
 #
 $CMP TIP147
-D PNP-D amplifier, -10A, -100V, 125W, with resistors and diode
+D [obs] PNP Darl 100V 10A [TO-247]
 $ENDCMP
 #
 $CMP TIP31A
-D NPN amplifier, 3A, 60V, 40W
+D NPN 60V 3A [TO-220]
 $ENDCMP
 #
 $CMP TIP31C
-D NPN amplifier, 3A, 100V, 40W
+D NPN 100V 3A [TO-220]
 $ENDCMP
 #
 $CMP TIP35A
-D NPN amplifier, 25A, 60V, 125W
+D [NRND] NPN 60V 25A [TO-247]
 $ENDCMP
 #
 $CMP TIP35B
-D NPN amplifier, 25A, 80V, 125W
+D [obs] NPN 80V 25A [TO-247]
 $ENDCMP
 #
 $CMP TIP35C
-D NPN amplifier, 25A, 100V, 125W
+D NPN 100V 25A [TO-247]
 $ENDCMP
 #
 $CMP TIP36A
-D PNP amplifier, -25A, -60V, 125mW
+D [NRND] PNP 60V 25A [TO-247]
 $ENDCMP
 #
 $CMP TIP36B
-D PNP amplifier, -25A, -80V, 125mW
+D [obs] PNP 80V 25A [TO-247]
 $ENDCMP
 #
 $CMP TIP36C
-D PNP amplifier, -25A, -100V, 125mW
+D PNP 100V 25A [TO-247]
 $ENDCMP
 #
 #End Doc Library
