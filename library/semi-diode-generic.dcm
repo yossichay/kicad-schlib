@@ -205,71 +205,55 @@ D Zener 500mW [SOD-123] (MMSZN5226B-MMSZN5257B)
 $ENDCMP
 #
 $CMP S1A
-D Diode, 1A, 50V
+D Diode 50V 1A [SMA]
 $ENDCMP
 #
 $CMP S1B
-D Diode, 1A, 100V
+D Diode 100V 1A [SMA]
 $ENDCMP
 #
 $CMP S1D
-D Diode, 1A, 200V
+D Diode 200V 1A [SMA]
 $ENDCMP
 #
 $CMP S1G
-D Diode, 1A, 400V
+D Diode 400V 1A [SMA]
 $ENDCMP
 #
 $CMP S1J
-D Diode, 1A, 600V
+D Diode 600V 1A [SMA]
 $ENDCMP
 #
 $CMP S1K
-D Diode, 1A, 800V
+D Diode 800V 1A [SMA]
 $ENDCMP
 #
 $CMP S1M
-D Diode, 1A, 1kV
+D Diode 1kV 1A [SMA]
 $ENDCMP
 #
 $CMP SS12
-D Diode, Schottky, 1A, 20V
-$ENDCMP
-#
-$CMP SS13
-D Diode, Schottky, 1A, 30V
+D Schottky 20V 1A [SMA]
 $ENDCMP
 #
 $CMP SS14
-D Diode, Schottky, 1A, 40V
-$ENDCMP
-#
-$CMP SS15
-D Diode, Schottky, 1A, 50V
+D Schottky 40V 1A [SMA]
 $ENDCMP
 #
 $CMP SS16
-D Diode, Schottky, 1A, 60V
+D Schottky 60V 1A [SMA]
 $ENDCMP
 #
 $CMP SS32
-D Diode, Schottky, 3A, 20V
-$ENDCMP
-#
-$CMP SS33
-D Diode, Schottky, 3A, 30V
+D Schottky 20V 3A [SMC]
 $ENDCMP
 #
 $CMP SS34
-D Diode, Schottky, 3A, 40V
-$ENDCMP
-#
-$CMP SS35
-D Diode, Schottky, 3A, 50V
+D Schottky 40V 3A [SMC]
 $ENDCMP
 #
 $CMP SS36
-D Diode, Schottky, 3A, 60V
+D Schottky 60V 3A [SMC]
 $ENDCMP
 #
 #End Doc Library
