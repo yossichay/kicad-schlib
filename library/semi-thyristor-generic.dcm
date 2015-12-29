@@ -4,4 +4,8 @@ $CMP 2N5060
 D SCR 30V 800mA [TO-92]
 $ENDCMP
 #
+$CMP 2N6028
+D [obs] PUT 40V [TO-92]
+$ENDCMP
+#
 #End Doc Library
