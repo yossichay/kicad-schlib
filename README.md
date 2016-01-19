@@ -36,7 +36,7 @@ Why submodules?
 ---------------
 
 Yeah, I know a lot of people don't like submods, but I find them just about
-perfect for this application, for the following very import (IMHO) reason:
+perfect for this application, for the following very important (IMHO) reason:
 
 *Submodules link to a specific commit.* This is important when building a PCB.
 KiCad does not version libraries, so without doing this, the libraries could
