@@ -25,7 +25,7 @@ It will:
 
 1. Create a directory called `project_name`
 1. `git init` if not already in a git repository
-1. Add `cpavlina/kicad-schlib` and `cpavlina/kicad-pcblib` as submodules
+1. Add `cpavlina/kicad-schlib` and `cpavlina/kicad-pcblib` as submodules, shallow-cloned to save space
 1. Create the basic project files with all the libraries preloaded
 
 The script doesn't depend on any other files in the repository, so you can

@@ -5,6 +5,8 @@ PCBLIB_URL="${PCBLIB_URL:-https://github.com/cpavlina/kicad-pcblib}"
 
 BN="$(basename "$0")"
 
+set -e
+
 function tagline() {
     echo
     echo "$BN: create a new KiCad project using these libraries"
@@ -64,8 +66,8 @@ function main() {
 }
 
 function install_submodules() {
-    git submodule add "$SCHLIB_URL" schlib
-    git submodule add "$PCBLIB_URL" pcblib
+    git submodule add --depth 1 "$SCHLIB_URL" schlib
+    git submodule add --depth 1 "$PCBLIB_URL" pcblib
 }
 
 function make_fp_lib_table() {
