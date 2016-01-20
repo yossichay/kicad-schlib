@@ -8,6 +8,10 @@ $CMP BATTERY-SHORT
 D Battery, few cells
 $ENDCMP
 #
+$CMP BEAD
+D Ferrite bead
+$ENDCMP
+#
 $CMP C
 D Capacitor
 $ENDCMP
@@ -26,34 +30,42 @@ $ENDCMP
 #
 $CMP CRYSTAL
 D Crystal
-F mod_pdf/XTAL-*
 $ENDCMP
 #
 $CMP CRYSTALG
 D Crystal, grounded
-F mod_pdf/XTAL-G-*
 $ENDCMP
 #
 $CMP CVAR
-D Capacitor
-$ENDCMP
-#
-$CMP DELAY_MATCH
-D Matched delay line
+D Capacitor, variable
 $ENDCMP
 #
 $CMP FUSE
 D Fuse
-F mod_pdf/F-*
 $ENDCMP
 #
 $CMP GDT
 D Gas discharge tube
 $ENDCMP
 #
+$CMP L
+D Inductor
+$ENDCMP
+#
 $CMP LAMP
 D Incandescent lamp
-F mod_pdf/NEON-*
+$ENDCMP
+#
+$CMP LCURVE
+D Inductor, curved style
+$ENDCMP
+#
+$CMP LCURVEDOT
+D Inductor, curved style w/dot
+$ENDCMP
+#
+$CMP LDOT
+D Inductor, w/dot
 $ENDCMP
 #
 $CMP LFERR
@@ -62,51 +74,30 @@ $ENDCMP
 #
 $CMP NEON
 D Neon lamp
-F mod_pdf/NEON-*
 $ENDCMP
 #
 $CMP POT
-D Resistor
-F mod_pdf/R-*
+D Potentiometer
 $ENDCMP
 #
 $CMP POT-DUAL
-D Resistor
-F mod_pdf/R-*
+D Potentiometer, dual
 $ENDCMP
 #
 $CMP POT-TRIM
-D Resistor
-F mod_pdf/R-*
+D Potentiometer, preset/trim
 $ENDCMP
 #
 $CMP R
-D Resistor (template)
-$ENDCMP
-#
-$CMP RESNET8
 D Resistor
-F mod_pdf/R-*
-$ENDCMP
-#
-$CMP RESPAK4
-D Resistor network, four isolated
-F mod_pdf/RN-*
-$ENDCMP
-#
-$CMP RESPAK8
-D Resistor network, eight isolated
-F mod_pdf/RN-*
 $ENDCMP
 #
 $CMP RHEO
-D Resistor
-F mod_pdf/R-*
+D Rheostat
 $ENDCMP
 #
-$CMP THERM
+$CMP THERMISTOR
 D Thermistor
-F mod_pdf/R-THERM-*
 $ENDCMP
 #
 $CMP THERMOCOUP
@@ -114,46 +105,23 @@ D Thermocouple
 $ENDCMP
 #
 $CMP TRANS-2
-D Transformer
-F mod_pdf/TRANS-*
+D Transformer, two windings
 $ENDCMP
 #
 $CMP TRANS-2CT
-D Transformer
-F mod_pdf/TRANS-*
+D Transformer, two windings, both tapped
 $ENDCMP
 #
 $CMP TRANS-3
-D Transformer
-F mod_pdf/TRANS-*
+D Transformer, three windings
 $ENDCMP
 #
 $CMP TRANS-3-1CT
-D Transformer
-F mod_pdf/TRANS-*
+D Transformer, three windings, one tapped
 $ENDCMP
 #
 $CMP TRANS-4
-D Transformer
-F mod_pdf/TRANS-*
-$ENDCMP
-#
-$CMP TWISTEDPAIR
-D Twisted pair
-$ENDCMP
-#
-$CMP TWISTEDPAIR_SHIELDED
-D Twisted pair
-$ENDCMP
-#
-$CMP XTAL
-D Crystal
-F mod_pdf/XTAL-*
-$ENDCMP
-#
-$CMP XTALG
-D Crystal, grounded
-F mod_pdf/XTAL-G-*
+D Transformer, four windings
 $ENDCMP
 #
 #End Doc Library
