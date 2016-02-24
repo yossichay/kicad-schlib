@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP FIDUCIAL-1.5mm
+D Fiducial, 1.5mm copper, 3mm mask
+$ENDCMP
+#
 $CMP JUMPER
 D Two-pin jumper
 $ENDCMP
