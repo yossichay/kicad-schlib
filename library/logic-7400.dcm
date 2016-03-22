@@ -100,6 +100,22 @@ $CMP 74245-TSSOP
 D Octal bus transciever
 $ENDCMP
 #
+$CMP 74273-DIP
+D Logic Register 8bit [DIP-20]
+$ENDCMP
+#
+$CMP 74273-SO
+D Logic Register 8bit [SOIC-20]
+$ENDCMP
+#
+$CMP 74273-SSOP
+D Logic Register 8bit [SSOP-20]
+$ENDCMP
+#
+$CMP 74273-TSSOP
+D Logic Register 8bit [TSSOP-20]
+$ENDCMP
+#
 $CMP 742G14-SOT363
 D Hex inverting Schmitt trigger
 $ENDCMP
