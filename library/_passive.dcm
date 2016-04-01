@@ -126,7 +126,6 @@ $ENDCMP
 #
 $CMP VARISTOR
 D Varistor
-K MOV VDR varistor
 $ENDCMP
 #
 #End Doc Library
