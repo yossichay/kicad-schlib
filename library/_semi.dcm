@@ -229,6 +229,10 @@ $CMP TVS_BI
 D TVS Bidi voltage (pulse) (Cj) [footprint]
 $ENDCMP
 #
+$CMP TVS_THY
+D TVS voltage power Iz:zenertestcurrent Thyristor [footprint]
+$ENDCMP
+#
 $CMP UJT
 D UJT voltage power [footprint]
 $ENDCMP
