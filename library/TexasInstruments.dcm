@@ -480,6 +480,10 @@ $CMP TPS2111A
 D PowerSwitch Mux2:1 Auto 1.25A [TSSOP-8]
 $ENDCMP
 #
+$CMP TPS5430DDA
+D Reg Buck in:36V AdjV 3A 500kHz [SO-8-PP]
+$ENDCMP
+#
 $CMP TPS61045DRB
 D Reg Boost in:6V AdjV 20mA 1MHz DigitalAdj [SON-8]
 $ENDCMP
