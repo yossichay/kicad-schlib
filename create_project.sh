@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SCHLIB_URL="${SCHLIB_URL:-https://github.com/cpavlina/kicad-schlib}"
-PCBLIB_URL="${PCBLIB_URL:-https://github.com/cpavlina/kicad-pcblib}"
+SCHLIB_URL="${SCHLIB_URL:-git@github.com:cpavlina/kicad-schlib}"
+PCBLIB_URL="${PCBLIB_URL:-git@github.com:cpavlina/kicad-pcblib}"
 
 BN="$(basename "$0")"
 
