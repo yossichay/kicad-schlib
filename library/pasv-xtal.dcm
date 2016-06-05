@@ -13,6 +13,10 @@ $CMP RESON-MURATA-CSTCR
 D Resonator Ceramic 4-7.99MHz [SMD]
 $ENDCMP
 #
+$CMP XTAL-ABRACON-ABM2
+D Crystal, SMD HC-49/US
+$ENDCMP
+#
 $CMP XTAL-ABRACON-ABM8G
 D Crystal, grounded
 F mod_pdf/XTAL-G-*
