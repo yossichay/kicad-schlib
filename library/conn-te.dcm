@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CONN-5145154-1-PCI
+D Connector, PCI 32-bit
+$ENDCMP
+#
 $CMP CONN-BNC-1-1337543-0
 D BNC, female, right angle, panel mount, through hole
 $ENDCMP
