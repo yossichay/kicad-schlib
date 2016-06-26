@@ -68,6 +68,22 @@ $CMP 74165-TSSOP
 D PI, SO 8-bit latching shift register
 $ENDCMP
 #
+$CMP 741G00-SC70
+D Single NAND gate
+$ENDCMP
+#
+$CMP 741G00-SOT23
+D Single NAND gate
+$ENDCMP
+#
+$CMP 741G02-SC70
+D Single NOR gate
+$ENDCMP
+#
+$CMP 741G02-SOT23
+D Single NOR gate
+$ENDCMP
+#
 $CMP 741G04-SC70
 D Single inverter
 $ENDCMP
@@ -77,11 +93,11 @@ D Single inverter
 $ENDCMP
 #
 $CMP 741G08-SC70
-D Quad NAND gate
+D Single AND gate
 $ENDCMP
 #
 $CMP 741G08-SOT23
-D Quad NAND gate
+D Single AND gate
 $ENDCMP
 #
 $CMP 74245-DIP
