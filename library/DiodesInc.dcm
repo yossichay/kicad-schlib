@@ -12,6 +12,14 @@ $CMP AP3211
 D Reg Buck in:18V AdjV 1.5A 1.4MHz [SOT-23-6]
 $ENDCMP
 #
+$CMP AP3429
+D Reg Buck in:5.5V AdjV 2A 1MHz Sync LatchOnOvercurrent [SOT-23-5]
+$ENDCMP
+#
+$CMP AP3429A
+D Reg Buck in:5.5V AdjV 2A 1MHz Sync [SOT-23-5]
+$ENDCMP
+#
 $CMP ZXCT1107
 D CSAmp 650kHz 2% gm=4mS [SOT-23 Alt1]
 $ENDCMP
