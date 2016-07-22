@@ -20,6 +20,10 @@ $CMP BEAD-1210
 D Chip ferrite, EIA 1210, metric 3225
 $ENDCMP
 #
+$CMP BEAD-1812
+D Chip ferrite, EIA 1210, metric 3225
+$ENDCMP
+#
 $CMP BEAD-EMC-MCZ1210
 D Common-mode filter
 $ENDCMP
