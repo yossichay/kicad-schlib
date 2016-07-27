@@ -40,6 +40,10 @@ $CMP INA3221
 D PowerMonitor 3chan I2C [QFN-16]
 $ENDCMP
 #
+$CMP INA827
+D InAmp 600kHz LowVos [VSSOP-8]
+$ENDCMP
+#
 $CMP ISO1541DR
 D Logic Isolator I2C 3V-5.5V 1MHz 2.5kV [SOIC-8]
 $ENDCMP
