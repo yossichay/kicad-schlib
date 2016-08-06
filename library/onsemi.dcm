@@ -33,7 +33,7 @@ D Reg Lin -500mA [TO-252]
 $ENDCMP
 #
 $CMP NUF2042XV6
-D InputProt RC+TVS USB [SOT-563]
+D InputProt RC+TVS 22ohm 42pF USB [SOT-563]
 $ENDCMP
 #
 #End Doc Library
