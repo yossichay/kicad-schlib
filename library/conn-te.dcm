@@ -16,4 +16,8 @@ $CMP CONN-TE-1-1337543-0
 D CONN BNC JACK R/A 50 OHM
 $ENDCMP
 #
+$CMP CONN-TE-CT-2-292173-8-SMD-RT-M-8
+D Conn, 8 pos, 2mm pitch, SMD, CT series
+$ENDCMP
+#
 #End Doc Library

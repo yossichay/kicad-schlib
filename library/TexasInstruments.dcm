@@ -200,6 +200,10 @@ $CMP LM339PW
 D Comp.4 OpenColl [TSSOP-14]
 $ENDCMP
 #
+$CMP LM3404
+D Reg Buck 1.5A Vin:6-42V Constant Current
+$ENDCMP
+#
 $CMP LM34DM
 D Sensor Temp -50-212F ±1F Analog [SOIC-8]
 $ENDCMP
@@ -222,6 +226,10 @@ $ENDCMP
 #
 $CMP LM35DM
 D Sensor Temp -55-150C ±0.5C Analog [SOIC-8]
+$ENDCMP
+#
+$CMP LM3674
+D Reg Buck Vin:2.7-5.5 Vout:1-3.3V 600mA [SOT-23-5]
 $ENDCMP
 #
 $CMP LM393M
@@ -506,6 +514,14 @@ $ENDCMP
 #
 $CMP TPS62080DSGT
 D Reg Buck in:6V AdjV 1.2A 2MHz Sync [WSON-8]
+$ENDCMP
+#
+$CMP TPS62177
+D Reg Buck 500mA Vin:4.7-28V Vout:3.3V
+$ENDCMP
+#
+$CMP TPS63050
+D Reg Buck-Boost in:2.5-5.5V AdjV 1A 2.5MHz [VQFN-12]
 $ENDCMP
 #
 $CMP TPS64200DBV
