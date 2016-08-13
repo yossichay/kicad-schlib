@@ -17,6 +17,11 @@ $CMP XTAL-ABRACON-ABM2
 D Crystal, SMD HC-49/US
 $ENDCMP
 #
+$CMP XTAL-ABRACON-ABM3B
+D Crystal, grounded
+F mod_pdf/XTAL-G-*
+$ENDCMP
+#
 $CMP XTAL-ABRACON-ABM8G
 D Crystal, grounded
 F mod_pdf/XTAL-G-*
@@ -24,6 +29,10 @@ $ENDCMP
 #
 $CMP XTAL-CITIZEN-CM130
 D Watch crystal
+$ENDCMP
+#
+$CMP XTAL-FOX-FX135A
+D Crystal, SMD HC-49/US
 $ENDCMP
 #
 $CMP XTAL-HC49US-SMD
