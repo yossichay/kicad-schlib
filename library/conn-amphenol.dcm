@@ -12,4 +12,8 @@ $CMP CONN-GSB443133HR
 D USB micro-B 3.0 Receptacle
 $ENDCMP
 #
+$CMP CONN-UE27AC54100
+D USB-A
+$ENDCMP
+#
 #End Doc Library
