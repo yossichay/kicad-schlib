@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ANTENNA
+D Generic Antenna
+$ENDCMP
+#
 $CMP BATTERY-LONG
 D Battery, many cells
 $ENDCMP
