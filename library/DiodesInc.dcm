@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AP2210N
+D Reg LDO 300mA [SOT23-5]
+$ENDCMP
+#
 $CMP AP3012
 D Reg Boost in:16V AdjV 500mA 1.5MHz [SOT-23-5]
 $ENDCMP
