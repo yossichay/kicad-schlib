@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP C-0201
+D Chip capacitor, EIA 0402, metric 1005
+$ENDCMP
+#
 $CMP C-0306
 D Chip capacitor, EIA 0306, metric 0816
 $ENDCMP

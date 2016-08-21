@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP R-0201
+D Chip resistor, EIA 0402, metric 1005
+$ENDCMP
+#
 $CMP R-0402
 D Chip resistor, EIA 0402, metric 1005
 $ENDCMP
