@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF MAX-M8 U 0 40 Y Y 1 F N
 F0 "U" 0 1300 60 H V C CNN
 F1 "MAX-M8" 0 1200 60 H V C CNN
-F2 "manuf:UBLOX_MAX-M8" -100 1200 60 H I C CNN
+F2 "manuf:U-BLOX_MAX" -100 1200 60 H I C CNN
 F3 "https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf" 0 1300 60 H I C CNN
 F4 "IC U-BLOX MAX-M8" 100 1400 60 H I C CNN "BOM"
 DRAW

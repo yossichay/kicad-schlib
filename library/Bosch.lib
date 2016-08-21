@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF BMP280 U 0 40 Y Y 1 F N
 F0 "U" 0 600 60 H V C CNN
 F1 "BMP280" 0 500 60 H V C CNN
-F2 "manuf:BOSCH_LGA-8" -100 500 60 H I C CNN
+F2 "manuf:BOSCH_BMP280" -100 500 60 H I C CNN
 F3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001-12.pdf" 0 600 60 H I C CNN
 F4 "IC BOSCH BMP280" 100 700 60 H I C CNN "BOM"
 DRAW
