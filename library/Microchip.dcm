@@ -64,6 +64,10 @@ $CMP MCP6V06-E/SN
 D OpAmp 1.3MHz RRI RRO CMOS VLowVos VLowIB Chopper [SOIC-8]
 $ENDCMP
 #
+$CMP MCP73831T-2ACI/OT
+D Battery Charge Controller, Single Cell [SOT-23-5]
+$ENDCMP
+#
 $CMP MCP73871
 D Battery Charge Controller, 4.4-6V, 1A, 1 Cell
 $ENDCMP
