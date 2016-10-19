@@ -1,6 +1,6 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP SISPO_Shift-8bit-TrisLatch-Chain
+$CMP SISPO_Shift-8bit-TrisLatch
 D Logic Shift-SISPO-8bit TrisLatch
 $ENDCMP
 #
