@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SIPO_Shift-8bit-InputAND
+D Logic Shift-SIPO-8bit
+$ENDCMP
+#
 $CMP SISPO_Shift-8bit-TrisLatch
 D Logic Shift-SISPO-8bit TrisLatch
 $ENDCMP
