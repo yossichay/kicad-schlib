@@ -1,11 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AND_Quad
+D Logic AND.4
+$ENDCMP
+#
+$CMP NAND_Quad
+D Logic NAND.4
+$ENDCMP
+#
+$CMP OR_Quad
+D Logic OR.4
+$ENDCMP
+#
 $CMP SIPO_Shift-8bit-InputAND
 D Logic Shift-SIPO-8bit
 $ENDCMP
 #
 $CMP SISPO_Shift-8bit-TrisLatch
 D Logic Shift-SISPO-8bit TrisLatch
+$ENDCMP
+#
+$CMP SPISO_Shift-8bit-ClockEn
+D Logic Shift-SPISO-8bit
 $ENDCMP
 #
 #End Doc Library
