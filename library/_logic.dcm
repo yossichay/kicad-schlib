@@ -1,27 +1,75 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP AND_Quad
+$CMP AND-Quad
 D Logic AND.4
 $ENDCMP
 #
-$CMP NAND_Quad
+$CMP AND3-Triple
+D Logic AND3.3
+$ENDCMP
+#
+$CMP BUF-Hex
+D Logic BUF.6
+$ENDCMP
+#
+$CMP BUF-OpenColl-Hex
+D Logic BUF.6 OpenColl
+$ENDCMP
+#
+$CMP BUF-Schmitt-Hex
+D Logic BUF.6 Schmitt
+$ENDCMP
+#
+$CMP NAND-Quad
 D Logic NAND.4
 $ENDCMP
 #
-$CMP OR_Quad
+$CMP NAND3-Triple
+D Logic NAND3.3
+$ENDCMP
+#
+$CMP NOR-Quad
 D Logic OR.4
 $ENDCMP
 #
-$CMP SIPO_Shift-8bit-InputAND
+$CMP NOT-Hex
+D Logic NOT.6
+$ENDCMP
+#
+$CMP NOT-OpenColl-7
+D Logic NOT.7 OpenColl
+$ENDCMP
+#
+$CMP NOT-OpenColl-Hex
+D Logic NOT.6 OpenColl
+$ENDCMP
+#
+$CMP NOT-Schmitt-Hex
+D Logic NOT.6 Schmitt
+$ENDCMP
+#
+$CMP OR-Quad
+D Logic OR.4
+$ENDCMP
+#
+$CMP Shift-SIPO-8bit-InputAND
 D Logic Shift-SIPO-8bit
 $ENDCMP
 #
-$CMP SISPO_Shift-8bit-TrisLatch
+$CMP Shift-SISPO-8bit-TrisLatch
 D Logic Shift-SISPO-8bit TrisLatch
 $ENDCMP
 #
-$CMP SPISO_Shift-8bit-ClockEn
+$CMP Shift-SPISO-8bit-ClockEn
 D Logic Shift-SPISO-8bit
+$ENDCMP
+#
+$CMP XNOR-Quad
+D Logic XNOR.4
+$ENDCMP
+#
+$CMP XOR-Quad
+D Logic XOR.4
 $ENDCMP
 #
 #End Doc Library
