@@ -20,6 +20,26 @@ $CMP BUF-Schmitt-Hex
 D Logic BUF.6 Schmitt
 $ENDCMP
 #
+$CMP Flipflop-D-SchmittClock-Dual
+D Logic DFF.2 SchmittClock
+$ENDCMP
+#
+$CMP Flipflop-JK-Dual
+D Logic JKFF.2
+$ENDCMP
+#
+$CMP Flipflop-JK-InvClock-Dual
+D Logic JKFF.2 InvClock
+$ENDCMP
+#
+$CMP Flipflop-JK-SchmittClock-Dual
+D Logic JKFF.2 SchmittClock
+$ENDCMP
+#
+$CMP MagComp-4bit-Expand
+D Logic MagComp 4bit Expandable
+$ENDCMP
+#
 $CMP NAND-Quad
 D Logic NAND.4
 $ENDCMP
