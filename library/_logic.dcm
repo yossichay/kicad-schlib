@@ -40,6 +40,10 @@ $CMP MagComp-4bit-Expand
 D Logic MagComp 4bit Expandable
 $ENDCMP
 #
+$CMP Mux-4bit-DualGanged
+D Logic Mux 4bit-2gang
+$ENDCMP
+#
 $CMP NAND-Quad
 D Logic NAND.4
 $ENDCMP
