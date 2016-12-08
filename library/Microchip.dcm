@@ -8,6 +8,10 @@ $CMP 93LC46BT-I/OT
 D Mem EEPROM 1Kbit Microwire 2MHz [SOT-23-6]
 $ENDCMP
 #
+$CMP CL520K4-G
+D Linear Fixed Constant Current LED Driver [TO-252]
+$ENDCMP
+#
 $CMP MCP1700T-vv02E/MB
 D Reg LDO 250mA [SOT-89]
 $ENDCMP
