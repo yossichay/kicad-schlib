@@ -9,7 +9,7 @@ D Varicap C1=18pF C4=6pF [SOD-523]
 $ENDCMP
 #
 $CMP CUS10S30
-D Schottky 150V 1A [SMA]
+D Schottky 30V 1A [SOD-323]
 $ENDCMP
 #
 #End Doc Library

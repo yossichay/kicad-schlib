@@ -575,4 +575,8 @@ $CMP VCA821IDGS
 D OpAmpVGA 710MHz VoltageCtrl 40dB [VSSOP-10]
 $ENDCMP
 #
+$CMP MAX3232PW
+D LevelShift RS232 [TSSOP-16]
+$ENDCMP
+#
 #End Doc Library
