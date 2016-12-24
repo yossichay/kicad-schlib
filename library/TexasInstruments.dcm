@@ -492,6 +492,10 @@ $CMP TLV702vvDSE
 D Reg LDO 300mA [WSON-6]
 $ENDCMP
 #
+$CMP TPD7S019-15DBQR
+D CableDriver VGA TVS+Buffer+LevelShift [SSOP-16]
+$ENDCMP
+#
 $CMP TPIC6B595DW
 D Logic ShiftReg Latched Power [SOIC-20]
 $ENDCMP
