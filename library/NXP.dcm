@@ -44,4 +44,8 @@ $CMP PCF8575
 D IOExpander 16bit OpenDrainWithPullup I2C [TSSOP-24]
 $ENDCMP
 #
+$CMP PTN3363
+D LevelShift TMDS DVI/HDMI [QFN-32]
+$ENDCMP
+#
 #End Doc Library
