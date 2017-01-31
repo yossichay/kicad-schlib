@@ -2,10 +2,34 @@
 
 This manual is currently a work in progress.
 
+## Component properties
+
+Component descriptions are specified (see [DESCR.md](DESCR.md)). This
+standardization ensures a consistency which facilitates search with the
+component selector.
+
+Do not use the "keywords" and "documentation file name" properties. These
+are deprecated in favor of standardized description tokens and the Datasheet
+field, and should both be left blank.
+
+Aliases are acceptable for components with multiple similar variants, for
+example fixed voltage regulators available in multiple variants. The main
+component should be a generic part covering the entire set, not just an
+arbitrary member of the set.
+
+The footprint filter list should only be used for parts with an arbitrary
+number of possible footprints, like generic connectors (WIP: the connector
+library rewrite has not begun yet, and this is not yet fully standardized).
+Leave it *blank* for single-footprint parts, with the single footprint in the
+Footprint field instead. This avoids duplication of data.
+
 ## Fields
 
 All fields should have a text size of 50 mil. Note that this is different
-from the KiCad default. The following fields must be present:
+from the KiCad default. Both Reference and Value should be visible, and
+the rest should be hidden. Hidden fields should be arranged sensibly in
+the library editor for quick reading while editing parts; do not leave them
+in the pile KiCad puts them in. The following fields must be present:
 
 **Reference.** See [REFERENCE\_FIELD.md](REFERENCE_FIELD.md).
 
