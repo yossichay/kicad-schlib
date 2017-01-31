@@ -147,9 +147,9 @@ high RF comes out as a DC power level.
 
 ## Microcontrollers
 
-`MCU nbit/arch ROM:nKB RAM:nKB _extras_ [footprint]`
+`MCU arch ROM:nKB RAM:nKB _extras_ [footprint]`
 
-- arch: for ARM, use such as ARM-M4
+- arch: e.g. AVR, Cortex-M4, ...
 - extras: list features not including the usuals like SPI/I2C/UART.
 
 ## Passives
