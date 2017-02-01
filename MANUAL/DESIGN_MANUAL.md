@@ -131,3 +131,5 @@ active-low signal; this is double-inversion and leads to ambiguity.
 
 **3.9. Pin orientation:** Avoid vertically oriented pins in *block ICs*.
 
+**3.10. Pin arrangement** should be logical rather than phyical, in all cases.
+These are schematic symbols, not footprints.
