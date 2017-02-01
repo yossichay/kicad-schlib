@@ -114,8 +114,8 @@ and outputs. For example, the three pins of an opamp are `IN+`, `IN-`, and
 | -------- | ------- |
 | Input             | Must be driven by a signal |
 | Output            | *Always* emits a signal |
-| Bidirectional     | May operate as an input or an output; e.g. microcontroller and FPGA IOs, SPI slave outputs |
-| Tristate          | *Will* operate as both an input and an output; e.g. memory IC data pins |
+| Bidirectional     | May operate as an input or an output; e.g. microcontroller and FPGA IOs |
+| Tristate          | *Will* operate as both an input and an output; e.g. memory IC data pins, SPI slave outputs |
 | Passive           | Pins on passive components and discrete semiconductors, or any other pin with a function not easily mapping to the input/output model |
 | Open collector    | Open collector or open drain; can pull a signal in only one direction. NOT for collectors and drains of discrete semis. |
 | Power input       | Must be supplied with power. Do NOT make these hidden, as hidden power input pins have side effects in KiCad. |
