@@ -2,26 +2,26 @@
 
 This manual is currently a work in progress.
 
-## Component properties
+## 1. Component properties
 
-Component descriptions are specified (see [DESCR.md](DESCR.md)). This
-standardization ensures a consistency which facilitates search with the
-component selector.
+**1.1.** Component descriptions should follow the format specified in
+[DESCR.md](DESCR.md).
 
-Do not use the "keywords" and "documentation file name" properties. These
-are deprecated in favor of standardized description tokens and the Datasheet
-field, and should both be left blank.
+**1.2.** The "Keywords" and "Documentation File Name" properties must be
+left blank; these are deprecated in favor of [standardized description
+tokens](#1.-component-properties) and the Datasheet field, and should be left
+blank.
 
-Aliases are acceptable for components with multiple similar variants, for
-example fixed voltage regulators available in multiple variants. The main
+**1.3.** Use aliases only for components with multiple similar variants, for
+example fixed voltage regulators available in multiple voltages. The main
 component should be a generic part covering the entire set, not just an
 arbitrary member of the set.
 
-The footprint filter list should only be used for parts with an arbitrary
-number of possible footprints, like generic connectors (WIP: the connector
-library rewrite has not begun yet, and this is not yet fully standardized).
-Leave it *blank* for single-footprint parts, with the single footprint in the
-Footprint field instead. This avoids duplication of data.
+**1.4.** The footprint filter list is only for parts with an unlimited number
+of possible footprints, like generic connectors (WIP: the connector library
+rewrite has not begun yet, and this is not yet fully standardized). Leave it
+*blank* for single-footprint parts, with the single footprint in the Footprint
+field.
 
 ## Fields
 
