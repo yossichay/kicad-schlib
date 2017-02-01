@@ -97,3 +97,19 @@ indicate logic polarity in the pin names.
 be called `IN` and `OUT`, with `+` and `-` suffixes for differential inputs
 and outputs. For example, the three pins of an opamp are `IN+`, `IN-`, and
 `OUT`.
+
+**3.7. Pin types** should be assigned as follows:
+
+| Pin type | Purpose |
+| -------- | ------- |
+| Input             | Must be driven by a signal |
+| Output            | *Always* emits a signal |
+| Bidirectional     | May operate as an input or an output; e.g. microcontroller and FPGA IOs |
+| Tristate          | *Will* operate as both an input and an output; e.g. memory IC data pins |
+| Passive           | Pins on passive components and discrete semiconductors, or any other pin with a function not easily mapping to the input/output model |
+| Open collector    | Open collector or open drain; can pull a signal in only one direction. NOT for collectors and drains of discrete semis. |
+| Power input       | Must be supplied with power. Do NOT make these hidden, as hidden power input pins have side effects in KiCad. |
+| Power output      | Can supply power to Power Input pins. NOT for "power sources" that cannot be used directly, like outputs of switching DC-DC converter ICs. |
+| No connection     | Only for pins that *must not* be connected. For pins that are not connected internally but may be grounded, use Passive. For pins that are not connected internally but are strongly recommended to be grounded, use Power Input. |
+
+The following pin types are not to be used: unspecified, open emitter.
