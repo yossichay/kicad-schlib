@@ -2,6 +2,11 @@
 
 This manual is currently a work in progress.
 
+## 0. Definitions
+
+**Block IC:** an integrated circuit symbol drawn as a simple block with named
+pins inside. Typical examples are microcontrollers and FPGAs.
+
 ## 1. Component properties
 
 **1.1. Component name** should be as close as reasonably possible to a full
@@ -113,3 +118,5 @@ and outputs. For example, the three pins of an opamp are `IN+`, `IN-`, and
 | No connection     | Only for pins that *must not* be connected. For pins that are not connected internally but may be grounded, use Passive. For pins that are not connected internally but are strongly recommended to be grounded, use Power Input. |
 
 The following pin types are not to be used: unspecified, open emitter.
+
+**3.8. Pin orientation:** Avoid vertically oriented pins in *block ICs*.
