@@ -57,3 +57,43 @@ Atmel parts get "Microchip" here.
 to an actual ordering code as possible, though omitting a packaging suffix
 (reel/tray/etc) is acceptable. Placeholders for options should be formatted
 as `{name}` where *name* is a short descriptor (vout for regulators, etc).
+
+## 3. Pins
+
+**3.1. Hidden Power Input pins**, except on actual power symbols, are strictly
+forbidden and will be dealt with by tarring and feathering.
+
+**3.2. Grid:** pins *must* be aligned to the 50 mil grid; pins on ICs *should*
+be aligned to the 100 mil grid.
+
+**3.3. Pin length:** IC pins must be at least 150 mil long, preferred
+200mil. Pins on other components (discrete semiconductors, passives, etc) can
+have any reasonable length; shorter is preferred.
+
+**3.4. Pin text size:** Pins must have 50 mil text size, with the exception
+that 0 mil size can be used to hide pin names when illustrating the pin function
+graphically instead.
+
+**3.5. Pin numbering:** Omit pin numbers for passives, discrete semiconductors,
+etc., unless the part has more than three pins. Integrated circuits must always
+have numbered pins.
+
+**3.6. Pin naming:** All pins must be named, even when that name is hidden due
+to graphical illustration of the pin function. Use the pin names used in
+the part's datasheet, with the following exceptions:
+
+**3.6.1. Power supply pins** for analog components supplied by only a single
+rail and ground should be called `V+` and `GND`; for analog components supplied
+by a single bipolar rail, use `V+` and `V-`.
+
+**3.6.2. Active-low signals** should be indicated with an overbar (tilde `~`
+prefix in KiCad) rather than any of the other conventions. In particular,
+active-low signals *should be indicated*, period. Some datasheets do not
+indicate logic polarity in the pin names.
+
+**3.6.3. Anodes and cathodes** should be called `A` and `K`, respectively.
+
+**3.6.4. Analog inputs and outputs** on simple amplifiers like opamps should
+be called `IN` and `OUT`, with `+` and `-` suffixes for differential inputs
+and outputs. For example, the three pins of an opamp are `IN+`, `IN-`, and
+`OUT`.
