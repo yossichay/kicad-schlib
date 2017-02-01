@@ -124,4 +124,10 @@ and outputs. For example, the three pins of an opamp are `IN+`, `IN-`, and
 
 The following pin types are not to be used: unspecified, open emitter.
 
-**3.8. Pin orientation:** Avoid vertically oriented pins in *block ICs*.
+**3.8. Pin style:** for all pins with visible names, the "line" pin style should
+be used. When names are hidden, other pin styles may be used to illustrate pin
+functions. **NEVER** use both "inverted" pin style and an overbar on an
+active-low signal; this is double-inversion and leads to ambiguity.
+
+**3.9. Pin orientation:** Avoid vertically oriented pins in *block ICs*.
+
