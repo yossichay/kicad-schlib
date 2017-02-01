@@ -4,57 +4,56 @@ This manual is currently a work in progress.
 
 ## 1. Component properties
 
-**1.1. Description** should follow the format specified in [DESCR.md](DESCR.md).
+**1.1. Component name** should be as close as reasonably possible to a full
+part number. For generic parts, use short, simple names like `R` (resistor)
+and `NMOS` (N-channel MOSFET).
 
-**1.2. Keywords and Documentation File Name** are deprecated and must be
+**1.2. Description** should follow the format specified in [DESCR.md](DESCR.md).
+
+**1.3. Keywords and Documentation File Name** are deprecated and must be
 left blank.
 
-**1.3. Aliases** are only for components with multiple similar variants, for
+**1.4. Aliases** are only for components with multiple similar variants, for
 example fixed voltage regulators available in multiple voltages. The main
 component should be a generic part covering the entire set, not just an
 arbitrary member of the set.
 
-**1.4. Footprint filter list** is only for parts with an unlimited number
+**1.5. Footprint filter list** is only for parts with an unlimited number
 of possible footprints, like generic connectors (WIP: the connector library
 rewrite has not begun yet, and this is not yet fully standardized). Leave it
 *blank* for single-footprint parts, with the single footprint in the Footprint
 field.
 
-## Fields
+## 2. Fields
 
-All fields should have a text size of 50 mil. Note that this is different
-from the KiCad default. Both Reference and Value should be visible, and
-the rest should be hidden. Hidden fields should be arranged sensibly in
-the library editor for quick reading while editing parts; do not leave them
-in the pile KiCad puts them in. The following fields must be present:
+**2.1. Text size** must be 50 mil.
 
-**Reference.** See [REFERENCE\_FIELD.md](REFERENCE_FIELD.md).
+**2.2. Visible fields** include *only* Reference and Value. All others must be
+hidden.
 
-**Value.** The value field contains the name of the component itself (as KiCad
-requires).  For specific parts, this should be as close as reasonably possible
-to a full part number. Lowercase letters can be used as placeholders when one
-symbol represents multiple similar part numbers. For generic parts, use short,
-simple names like `R` (resistor), `NMOS` (N-channel MOSFET), etc.
+**2.3. Hidden fields** must be arranged clearly; do not leave these in the pile
+KiCad puts them in.
 
-**Footprint.** KiCad allows a default footprint to be specified in the
-footprint field, rather than requiring the user to select one later. *Do this*
-for any parts where it is sensible. For parts available in multiple footprints
-(integrated circuits made in DIP, SOIC, and QFN, etc), it is strongly
-encouraged to make multiple symbols, one per footprint, with the footprint
-permanently assigned in this field.
+**2.4. Reference** designators should follow
+[REFERENCE\_FIELD.md](REFERENCE_FIELD.md).
 
-**Datasheet.** For specific parts, the datasheet field should contain a URL to
-a publicly accessible datasheet, preferably in PDF format.
+**2.5. Footprint** field should be set for all single-footprint parts. For parts
+available in multiple footprints (e.g. integrated circuits made in DIP, SOIC,
+and QFN), it is strongle encouraged to make multiple symbols, one per footprint,
+with the footprint permanently assigned in this field.
 
-**BOM.** See [BOM\_FIELD.md](BOM_FIELD.md). For ICs, a quick summary is that
-this should contain the manufacturer and the part number separated by a
-space.
+**2.6. Datasheet** should contain a URL to a publicly accessible datasheet,
+preferably in PDF format.
 
-**Manuf.** Manufacturer's name. This can be abbreviated. Use the actual
-manufacturer - for example, Atmel was acquired by Microchip, so Atmel parts get
-"Microchip" here.
+**2.7. BOM** contains a BOM line or BOM line template, per
+[BOM\_FIELD.md](BOM_FIELD.md). For ICs, a quick summary is that this should
+contain the contents of the Manuf and MPN fields separated by a space.
 
-**MPN.** Manufacturer's part number. This should be as close to an actual
-ordering code as possible, though omitting a packaging suffix (reel/tray/etc)
-is acceptable. Placeholders for options should be formatted as `{name}` where
-*name* is a short descriptor (vout for regulators, etc).
+**2.8. Manuf** contains the manufacturer's name. This can be abbreviated.
+Use the actual manufacturer; for example, Atmel was acquired by Microchip, so
+Atmel parts get "Microchip" here.
+
+**2.9. MPN** contains the manufacturer's part number. This should be as close
+to an actual ordering code as possible, though omitting a packaging suffix
+(reel/tray/etc) is acceptable. Placeholders for options should be formatted
+as `{name}` where *name* is a short descriptor (vout for regulators, etc).
