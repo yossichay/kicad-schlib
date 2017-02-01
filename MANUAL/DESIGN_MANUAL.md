@@ -9,7 +9,7 @@ This manual is currently a work in progress.
 
 **1.2.** The "Keywords" and "Documentation File Name" properties must be
 left blank; these are deprecated in favor of [standardized description
-tokens](#1.-component-properties) and the Datasheet field, and should be left
+tokens](#1-component-properties) and the Datasheet field, and should be left
 blank.
 
 **1.3.** Use aliases only for components with multiple similar variants, for
