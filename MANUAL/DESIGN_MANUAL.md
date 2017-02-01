@@ -82,18 +82,18 @@ have numbered pins.
 to graphical illustration of the pin function. Use the pin names used in
 the part's datasheet, with the following exceptions:
 
-**3.6.1. Power supply pins** for analog components supplied by only a single
+*3.6.1. Power supply pins* for analog components supplied by only a single
 rail and ground should be called `V+` and `GND`; for analog components supplied
 by a single bipolar rail, use `V+` and `V-`.
 
-**3.6.2. Active-low signals** should be indicated with an overbar (tilde `~`
+*3.6.2. Active-low signals* should be indicated with an overbar (tilde `~`
 prefix in KiCad) rather than any of the other conventions. In particular,
 active-low signals *should be indicated*, period. Some datasheets do not
 indicate logic polarity in the pin names.
 
-**3.6.3. Anodes and cathodes** should be called `A` and `K`, respectively.
+*3.6.3. Anodes and cathodes* should be called `A` and `K`, respectively.
 
-**3.6.4. Analog inputs and outputs** on simple amplifiers like opamps should
+*3.6.4. Analog inputs and outputs* on simple amplifiers like opamps should
 be called `IN` and `OUT`, with `+` and `-` suffixes for differential inputs
 and outputs. For example, the three pins of an opamp are `IN+`, `IN-`, and
 `OUT`.
