@@ -2,6 +2,11 @@
 
 This manual is currently a work in progress.
 
+- [0. Definitions](#0-definitions)
+- [1. Component properties](#1-component-properties)
+- [2. Fields](#2-fields)
+- [3. Pins](#3-pins)
+
 ## 0. Definitions
 
 **Block IC:** an integrated circuit symbol drawn as a simple block with named
