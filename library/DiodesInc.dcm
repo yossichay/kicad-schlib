@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AP2210K
-D Reg LDO 300mA [SOT23-5]
+D Reg LDO 300mA [SOT-23-5]
 $ENDCMP
 #
 $CMP AP3012
