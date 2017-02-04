@@ -10,7 +10,6 @@ $ENDCMP
 #
 $CMP SP0503BAHT
 D TVS.3 5.5V 8.5Vclamp [SOT-143]
-F mod_pdf/DO-*
 $ENDCMP
 #
 #End Doc Library
