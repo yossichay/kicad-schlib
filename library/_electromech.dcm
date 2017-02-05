@@ -12,6 +12,10 @@ $CMP DPST
 D Switch, DPST
 $ENDCMP
 #
+$CMP MOTOR
+D DC Motor
+$ENDCMP
+#
 $CMP MVOLTMETER
 D Millivoltmeter
 $ENDCMP
