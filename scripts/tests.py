@@ -1,5 +1,8 @@
+#!/usr/bin/env python3
+
 import os
 import sys
+import argparse
 import kicad_schlib
 
 PCBLIB_PATH = "../../pcblib" # Path relative to the library directory in a mock project
@@ -12,15 +15,15 @@ def register(f):
 
 @register
 def fields_50mil(part):
-    """field text size must be 50mil"""
+    """Field text size must be 50mil"""
     for i in part.fields:
         if i.visible and i.value != "" and not part.is_power:
             assert i.size == 50, "field name: %r, value: %r" % (i.name, i.value)
 
 
 @register
-def footprint_exists(part):
-    """Footprint must either be blank or valid and existent"""
+def footprint_check(part):
+    """Footprint check"""
     fp = part.footprint.split(":")
     assert not part.footprint or len(fp) == 2, "Invalid footprint '%s'" % part.footprint
     if part.footprint:
@@ -30,23 +33,14 @@ def footprint_exists(part):
         assert os.path.isfile(fppath), "Footprint file '%s' does not exist" % fppath
 
 
-def main(argv):
-    global PCBLIB_PATH
-    if len(argv) == 2:
-        path = argv[1]
-    elif len(argv) == 1:
-        path = '.'
-    else:
-        print("usage: test.py [path]", file=sys.stderr)
-        return 1
+def main(args):
+    retcode = 0
 
-    PCBLIB_PATH = os.path.join(path, PCBLIB_PATH)
-
-    for fn in os.listdir(path):
+    for fn in os.listdir(args.path):
         if not fn.endswith(".lib"):
             continue
 
-        full_fn = os.path.join(path, fn)
+        full_fn = os.path.join(args.path, fn)
 
         with open(full_fn) as f:
             reader = kicad_schlib.FileReader(f)
@@ -65,8 +59,7 @@ def main(argv):
                         each_fxn(each_part)
                     except Exception as e:
                         print("[    ][FAIL] %s / %s" % (full_fn, each_part.name))
-                        print(each_fxn.__doc__)
-                        print(str(e))
+                        print(each_fxn.__doc__ + ": " + str(e))
                         success = False
                         break
 
@@ -74,6 +67,20 @@ def main(argv):
                 print("[PASS][    ] %s" % full_fn)
             else:
                 print("[FAIL][    ] %s" % full_fn)
+                retcode = 2
+                if not args.keep_going: return(retcode)
+    return(retcode)
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-k","--keep-going", action="store_true", help="Keep testing even if failed")
+    parser.add_argument("--pcblib-path", type=str, help="Path to the PCB library")
+    parser.add_argument("path", help="Path where the schematic libraries are stored")
+    args = parser.parse_args()
+
+    if args.pcblib_path:
+        PCBLIB_PATH = args.pcblib_path
+    else:
+        PCBLIB_PATH = os.path.join(args.path, PCBLIB_PATH)
+
+    sys.exit(main(args))
