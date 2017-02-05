@@ -8,9 +8,14 @@ import kicad_schlib
 PCBLIB_PATH = "../../pcblib" # Path relative to the library directory in a mock project
 
 test_functions = []
+test_notpl_functions = []
 
 def register(f):
     test_functions.append(f)
+    return f
+
+def register_notpl(f):
+    test_notpl_functions.append(f)
     return f
 
 @register
@@ -21,7 +26,7 @@ def fields_50mil(part):
             assert i.size == 50, "field name: %r, value: %r" % (i.name, i.value)
 
 
-@register
+@register_notpl
 def footprint_check(part):
     """Footprint check"""
     fp = part.footprint.split(":")
@@ -53,8 +58,9 @@ def main(args):
                 continue
 
             success = True
+            tests = test_functions + test_notpl_functions if not fn.startswith("_") else []
             for each_part in lib.parts:
-                for each_fxn in test_functions:
+                for each_fxn in tests:
                     try:
                         each_fxn(each_part)
                     except Exception as e:
