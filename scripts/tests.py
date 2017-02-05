@@ -2,6 +2,8 @@ import os
 import sys
 import kicad_schlib
 
+PCBLIB_PATH = "../../pcblib" # Path relative to the library directory in a mock project
+
 test_functions = []
 
 def register(f):
@@ -16,7 +18,20 @@ def fields_50mil(part):
             assert i.size == 50, "field name: %r, value: %r" % (i.name, i.value)
 
 
+@register
+def footprint_exists(part):
+    """Footprint must either be blank or valid and existent"""
+    fp = part.footprint.split(":")
+    assert not part.footprint or len(fp) == 2, "Invalid footprint '%s'" % part.footprint
+    if part.footprint:
+        libname = fp[0] + ".pretty"
+        fpname = fp[1] + ".kicad_mod"
+        fppath = os.path.join(PCBLIB_PATH, libname, fpname)
+        assert os.path.isfile(fppath), "Footprint file '%s' does not exist" % fppath
+
+
 def main(argv):
+    global PCBLIB_PATH
     if len(argv) == 2:
         path = argv[1]
     elif len(argv) == 1:
@@ -24,6 +39,8 @@ def main(argv):
     else:
         print("usage: test.py [path]", file=sys.stderr)
         return 1
+
+    PCBLIB_PATH = os.path.join(path, PCBLIB_PATH)
 
     for fn in os.listdir(path):
         if not fn.endswith(".lib"):
