@@ -40,10 +40,10 @@ ENDDEF
 # TSOP38338
 #
 DEF TSOP38338 U 0 40 Y Y 1 F N
-F0 "U" 300 450 60 H V C CNN
-F1 "TSOP38338" 300 350 60 H V C CNN
-F2 "pth-semi:TO-220" 0 -600 60 H I C CNN
-F3 "http://www.vishay.com/docs/81743/tsop381.pdf" 0 -700 60 H I C CNN
+F0 "U" 300 450 50 H V C CNN
+F1 "TSOP38338" 300 350 50 H V C CNN
+F2 "pth-semi:TO-220" 0 -600 50 H I C CNN
+F3 "http://www.vishay.com/docs/81743/tsop381.pdf" 0 -700 50 H I C CNN
 DRAW
 S -250 -300 250 300 0 1 0 f
 P 2 0 1 0 -200 -25 -100 -25 N
