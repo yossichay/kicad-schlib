@@ -20,6 +20,10 @@ $CMP C
 D Capacitor
 $ENDCMP
 #
+$CMP CELL
+D Battery, few cells
+$ENDCMP
+#
 $CMP CMBEAD
 D Common-mode ferrite bead
 $ENDCMP
