@@ -4,4 +4,8 @@ $CMP ABRACON-ASDMB
 D Osc Silicon [SMT-2.5x2mm]
 $ENDCMP
 #
+$CMP ABRACON-ASFL1
+D Osc Silicon [SMT-5x3.2mm]
+$ENDCMP
+#
 #End Doc Library

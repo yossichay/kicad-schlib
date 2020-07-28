@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP OKX-T_5-W5N-C
-D Reg Buck in:5.5V AdjV 5A Module
+$CMP A3910
+D Dual half bridge motor driver [SON-9]
 $ENDCMP
 #
 #End Doc Library

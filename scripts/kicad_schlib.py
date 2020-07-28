@@ -44,8 +44,9 @@ class Library(object):
         line = reader.readline()
         if not line.startswith("EESchema-LIBRARY Version "):
             raise KiSyntaxError(reader.line_number, "Expected \"EESchema-LIBRARY\"")
-        if not line.startswith("EESchema-LIBRARY Version 2.3"):
-            raise KiSyntaxError(reader.line_number, "Expected file format version 2.3")
+        version = line.split()[2]
+        if not version in ("2.3", "2.4"):
+            raise KiSyntaxError(reader.line_number, "Expected file format version 2.3 or 2.4")
 
         line = reader.readline()
         if not line.startswith("#encoding "):
@@ -288,12 +289,14 @@ class Text(Drawing):
         self.posx = int(data[2])
         self.posy = int(data[3])
         self.size = int(data[4])
+        self.hidden = (int(data[5]) == 1)
         self.unit = int(data[6])
         self.convert = int(data[7])
         self.text = data[8]
         self.italic = (data[9] == "Italic")
-        self.hjustify = data[10]
-        self.vjustify = data[11]
+        self.bold = (int(data[10]) == 1)
+        self.hjustify = data[11]
+        self.vjustify = data[12]
         return self
 
 class Pin(Drawing):

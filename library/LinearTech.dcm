@@ -60,6 +60,14 @@ $CMP LTC2492CDE
 D ADC 24bit SPI INL:2 [DFN-14]
 $ENDCMP
 #
+$CMP LTC3204
+D Reg ChPump LowNoise
+$ENDCMP
+#
+$CMP LTC3226
+D Supercap Charge Controller, 2 Cell, LDO [QFN-16]
+$ENDCMP
+#
 $CMP LTC6101AIS5
 D InAmp CurrentSense 140kHz LowVos [TSOT-23-5]
 $ENDCMP

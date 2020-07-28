@@ -8,6 +8,10 @@ $CMP CP2105
 D Interface USB UART [QFN-24]
 $ENDCMP
 #
+$CMP CP2114
+D USB Audio to I2S Bridge with UART [QFN-32]
+$ENDCMP
+#
 $CMP CP2130
 D Interface USB SPI [QFN-24]
 $ENDCMP
@@ -19,6 +23,10 @@ $ENDCMP
 $CMP Si501-PKG-B
 D 4-pin oscillator module
 F mod_pdf/OSC-4PIN-*
+$ENDCMP
+#
+$CMP Si5351A
+D I2C-programmable CMOS clock generator [MSOP-10]
 $ENDCMP
 #
 #End Doc Library

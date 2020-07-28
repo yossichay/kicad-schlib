@@ -188,6 +188,10 @@ $CMP 7493-TSSOP
 D 4-bit binary ripple counter
 $ENDCMP
 #
+$CMP 74HC4050
+D Logic BUF.6 Level Shifting
+$ENDCMP
+#
 $CMP SN74LVCC3245A-SOIC
 D Octal level-shifting bus transciever
 $ENDCMP

@@ -4,6 +4,10 @@ $CMP ESD8104
 D TVS.4 3.3V 8.5Vclamp [UDFN-10]
 $ENDCMP
 #
+$CMP FST3253
+D Dual 4:1 Multiplexer/Demultiplexer Bus Switch [SOIC-16]
+$ENDCMP
+#
 $CMP MC1496D
 D ModDemod 300MHz Gilbert [SOIC-14]
 $ENDCMP
@@ -42,6 +46,10 @@ $ENDCMP
 #
 $CMP NUF2042XV6
 D InputProt RC+TVS 22ohm 42pF USB [SOT-563]
+$ENDCMP
+#
+$CMP NUF6401MNT1G
+D InputProt RC+TVS 100ohm 17pF [DFN-12]
 $ENDCMP
 #
 #End Doc Library

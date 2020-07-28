@@ -60,8 +60,10 @@ function main() {
     fi
 
     install_submodules
+    make_gitignore
 
     make_fp_lib_table "fp-lib-table"
+    make_sym_lib_table "sym-lib-table"
     make_project "$PROJECT_NAME" "${PROJECT_NAME}.pro"
 }
 
@@ -81,7 +83,19 @@ function make_fp_lib_table() {
         filename="$(basename "$i")"
         libname="${filename/%.pretty/}"
 
-        echo "  (lib (name "$libname")(type KiCad)(uri \"\$(KIPRJMOD)/$i\")(options \"\")(descr \"\"))" >>"$1"
+        echo "  (lib (name \"$libname\")(type KiCad)(uri \"\$(KIPRJMOD)/$i\")(options \"\")(descr \"\"))" >>"$1"
+    done
+    echo ")" >>"$1"
+}
+
+function make_sym_lib_table() {
+    echo "(sym_lib_table" > "$1"
+    find schlib/library -maxdepth 1 -name '*.lib' -type f -print0 | sort -zfV |
+    while read -r -d $'\0' i; do
+        filename="$(basename "$i")"
+        libname="${filename/%.lib/}"
+
+        echo "  (lib (name \"$libname\")(type Legacy)(uri \"\$(KIPRJMOD)/$i\")(options \"\")(descr \"\"))" >>"$1"
     done
     echo ")" >>"$1"
 }
@@ -142,6 +156,25 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+EOF
+}
+
+function make_gitignore () {
+    cat >> ".gitignore" <<EOF
+# KiCAD temporary files
+*.cmp
+*.net
+# KiCAD backups and autosaves
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.v4
+_saved_*
+_autosave-*
+# Editor backups and autosaves
+*~
+\#*\#
+.\#*
 EOF
 }
 

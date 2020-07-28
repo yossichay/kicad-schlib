@@ -92,6 +92,14 @@ $CMP 4059-SO
 D Programmable divide-by-n counter
 $ENDCMP
 #
+$CMP 4060-SO
+D 14-stage binary ripple counter with oscillator
+$ENDCMP
+#
+$CMP 4060-TSSOP
+D 14-stage binary ripple counter with oscillator
+$ENDCMP
+#
 $CMP 4066-DIP
 D Quad analog switch
 $ENDCMP

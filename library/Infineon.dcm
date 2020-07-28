@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BGS18GA14
+D SP8T Diversity Antenna Switch with GPIO Interface
+K RF Switch
+$ENDCMP
+#
 $CMP TLE4906L
 D Sensor Hall Switch -15.5mT/-5mT [PG-SSO-3-2]
 $ENDCMP

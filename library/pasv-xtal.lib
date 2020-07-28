@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
 # RESON-MURATA-CSTCE
@@ -136,7 +136,7 @@ DEF XTAL-FOX-FX135A X 0 0 N Y 1 L N
 F0 "X" 200 50 50 H V C CNN
 F1 "XTAL-FOX-FX135A" 200 -50 50 H V C CNN
 F2 "manuf:FOX-FX135A" 100 -50 60 H I C CNN
-F3 "http://www.foxonline.com/pdfs/FX135.pdf" 200 50 60 H I C CNN
+F3 "https://www.foxonline.com/pdfs/K135.pdf" 200 50 60 H I C CNN
 $FPLIST
  XTAL1200X480X460
 $ENDFPLIST

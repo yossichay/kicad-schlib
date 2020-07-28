@@ -40,6 +40,10 @@ $CMP LED
 D LED color wavelength voltage current [footprint]
 $ENDCMP
 #
+$CMP LED_RAGB
+D LED color wavelength voltage current [footprint]
+$ENDCMP
+#
 $CMP NJF
 D NJF (semi) voltage Idss [footprint]
 $ENDCMP
