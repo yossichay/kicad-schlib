@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC5321
+D LDO, Dual, 150mA - MLF-6, 1.6x1.6mm
+K LDO, Dual, 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5321.pdf
+$ENDCMP
+#
+#End Doc Library
